@@ -1,10 +1,4 @@
-﻿using Microsoft.AspNetCore.Http.HttpResults;
-using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Xml.Linq;
-
-name: Build & Release FOSS APK with Metadata
+﻿name: Build & Release FOSS APK with Metadata
 
 on:
   workflow_dispatch:
