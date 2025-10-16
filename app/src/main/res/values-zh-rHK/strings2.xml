@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="prompt_passphrase_activity__graphene_is_locked">Graphene 已鎖定</string>
+</resources>

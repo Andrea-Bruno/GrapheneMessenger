@@ -1,0 +1,30 @@
+name: Sync Upstream
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  sync:
+    name: Sync
+    if: "github.repository_owner == 'grapheneim'"
+    runs-on: ubuntu-22.04
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: upstream
+          fetch-depth: 0
+          token: ${{ secrets.PUBLISH_PAT || secrets.GITHUB_TOKEN }}
+
+      - name: Fetch and merge upstream
+        run: |
+          git remote add upstream https://github.com/signalapp/Signal-Android.git
+          git fetch upstream
+          git merge --ff-only upstream/main
+
+      - name: Push changes
+        run: |
+          git push origin upstream
+          git tag | grep -xP 'v\d+(?:\.\d+){2,3}' | xargs -r git push origin
