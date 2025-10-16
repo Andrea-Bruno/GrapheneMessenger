@@ -9,4 +9,3 @@ echo Pushing to origin main...
 git push origin main
 
 echo Update completed.
-pause

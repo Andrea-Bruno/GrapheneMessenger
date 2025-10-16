@@ -4,73 +4,73 @@ on:
   workflow_dispatch:
 
 jobs:
-build - release:
-    runs - on: ubuntu - latest
+  build-release:
+    runs-on: ubuntu-latest
 
     steps:
--name: Checkout code
-      uses: actions / checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Set up JDK 17
-      uses: actions / setup - java@v3
-      with:
-        java - version: '17'
-        distribution: 'temurin'
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
 
-    - name: Build FOSS APK
-      run: ./ gradlew :app: assembleProdFossWebsiteRelease
+      - name: Build FOSS APK
+        run: ./gradlew :app:assembleProdFossWebsiteRelease
 
-    - name: Find APK Path
-      id: apk_path
-      run: |
-        APK_PATH =$(find app / build / outputs / apk / prodFossWebsite / release / -name "*.apk" | head - n 1)
-        echo "apk_path=$APK_PATH" >> $GITHUB_OUTPUT
+      - name: Find APK Path
+        id: apk_path
+        run: |
+          APK_PATH=$(find app/build/outputs/apk/prodFossWebsite/release/ -name "*.apk" | head -n 1)
+          echo "apk_path=$APK_PATH" >> $GITHUB_OUTPUT
 
-    - name: Get Version Name from Gradle
-      id: version_name
-      run: |
-        VERSION_NAME =$(./ gradlew - q :app: printProdFossWebsiteReleaseVersionName)
-        echo "version_name=$VERSION_NAME" >> $GITHUB_OUTPUT
-        echo "release_tag=v$VERSION_NAME" >> $GITHUB_OUTPUT
+      - name: Get Version Name from Gradle
+        id: version_name
+        run: |
+          VERSION_NAME=$(./gradlew -q :app:printProdFossWebsiteReleaseVersionName)
+          echo "version_name=$VERSION_NAME" >> $GITHUB_OUTPUT
+          echo "release_tag=v$VERSION_NAME" >> $GITHUB_OUTPUT
 
-    - name: Get Version Code from Gradle
-      id: version_code
-      run: |
-        VERSION_CODE =$(./ gradlew - q :app: printProdFossWebsiteReleaseVersionCode)
-        echo "version_code=$VERSION_CODE" >> $GITHUB_OUTPUT
+      - name: Get Version Code from Gradle
+        id: version_code
+        run: |
+          VERSION_CODE=$(./gradlew -q :app:printProdFossWebsiteReleaseVersionCode)
+          echo "version_code=$VERSION_CODE" >> $GITHUB_OUTPUT
 
-    - name: Compute SHA256 of APK
-      id: apkhash
-      run: |
-        HASH =$(sha256sum "${{ steps.apk_path.outputs.apk_path }}" | awk '{print $1}')
-        echo "apk_hash=$HASH" >> $GITHUB_OUTPUT
+      - name: Compute SHA256 of APK
+        id: apkhash
+        run: |
+          HASH=$(sha256sum "${{ steps.apk_path.outputs.apk_path }}" | awk '{print $1}')
+          echo "apk_hash=$HASH" >> $GITHUB_OUTPUT
 
-    - name: Generate JSON Metadata
-      run: |
-        APK_FILENAME =$(basename "${{ steps.apk_path.outputs.apk_path }}")
-        RELEASE_URL = "https://github.com/${{ github.repository }}/releases/download/${{ steps.version_name.outputs.release_tag }}/$APK_FILENAME"
-        cat << EOF > index - v1.json
-{
-    "packages": {
-        "${{ steps.package.outputs.package_name }}": [
+      - name: Generate JSON Metadata
+        run: |
+          APK_FILENAME=$(basename "${{ steps.apk_path.outputs.apk_path }}")
+          RELEASE_URL="https://github.com/${{ github.repository }}/releases/download/${{ steps.version_name.outputs.release_tag }}/$APK_FILENAME"
+          cat <<EOF > index-v1.json
           {
-            "versionName": "${{ steps.version_name.outputs.version_name }}",
-        "versionCode": ${ { steps.version_code.outputs.version_code } },
-        "apkName": "$APK_FILENAME",
-        "apkSha256": "${{ steps.apkhash.outputs.apk_hash }}"
+            "packages": {
+              "${{ steps.package.outputs.package_name }}": [
+                {
+                  "versionName": "${{ steps.version_name.outputs.version_name }}",
+                  "versionCode": ${{ steps.version_code.outputs.version_code }},
+                  "apkName": "$APK_FILENAME",
+                  "apkSha256": "${{ steps.apkhash.outputs.apk_hash }}"
+                }
+              ]
+            }
           }
-    ]
-  }
-}
-EOF
+          EOF
 
-    - name: Create GitHub Release with APK and Metadata
-      uses: softprops / action - gh - release@v1
-      with:
-        tag_name: ${ { steps.version_name.outputs.release_tag } }
-name: Release ${ { steps.version_name.outputs.version_name } }
-files: |
-          ${ { steps.apk_path.outputs.apk_path } }
-index - v1.json
-      env:
-GITHUB_TOKEN: ${ { secrets.GITHUB_TOKEN } }
+      - name: Create GitHub Release with APK and Metadata
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.version_name.outputs.release_tag }}
+          name: Release ${{ steps.version_name.outputs.version_name }}
+          files: |
+            ${{ steps.apk_path.outputs.apk_path }}
+            index-v1.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
