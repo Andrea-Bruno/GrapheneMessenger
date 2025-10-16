@@ -174,52 +174,52 @@ android {
 
     applicationId = basePackageId
 
-    buildConfigField("String", "SIGNAL_PACKAGE_NAME", "\"org.thoughtcrime.securesms\"")
-    buildConfigField("String", "SIGNAL_CANONICAL_VERSION_NAME", "\"$canonicalVersionName\"")
+    buildConfigField("String", "SIGNAL_PACKAGE_NAME", "https://molly.im/fdroid/repo\"org.thoughtcrime.securesmshttps://molly.im/fdroid/repo\"")
+    buildConfigField("String", "SIGNAL_CANONICAL_VERSION_NAME", "https://molly.im/fdroid/repo\"$canonicalVersionNamehttps://molly.im/fdroid/repo\"")
     buildConfigField("int", "SIGNAL_CANONICAL_VERSION_CODE", "$canonicalVersionCode")
-    buildConfigField("String", "BACKUP_FILENAME", "\"${baseAppFileName.lowercase()}\"")
+    buildConfigField("String", "BACKUP_FILENAME", "https://molly.im/fdroid/repo\"${baseAppFileName.lowercase()}https://molly.im/fdroid/repo\"")
     buildConfigField("boolean", "FORCE_INTERNAL_USER_FLAG", forceInternalUserFlag)
 
     vectorDrawables.useSupportLibrary = true
 
     // GRAPHENE: BUILD_TIMESTAMP may be zero in debug builds.
     buildConfigField("long", "BUILD_OR_ZERO_TIMESTAMP", getLastCommitTimestamp() + "L")
-    buildConfigField("String", "GIT_HASH", "\"${getGitHash()}\"")
+    buildConfigField("String", "GIT_HASH", "https://molly.im/fdroid/repo\"${getGitHash()}https://molly.im/fdroid/repo\"")
     // GRAPHENE: Ensure to add any new URLs to SignalServiceNetworkAccess.HOSTNAMES list
-    buildConfigField("String", "SIGNAL_URL", "\"https://chat.signal.org\"")
-    buildConfigField("String", "STORAGE_URL", "\"https://storage.signal.org\"")
-    buildConfigField("String", "SIGNAL_CDN_URL", "\"https://cdn.signal.org\"")
-    buildConfigField("String", "SIGNAL_CDN2_URL", "\"https://cdn2.signal.org\"")
-    buildConfigField("String", "SIGNAL_CDN3_URL", "\"https://cdn3.signal.org\"")
-    buildConfigField("String", "SIGNAL_CDSI_URL", "\"https://cdsi.signal.org\"")
-    buildConfigField("String", "SIGNAL_SERVICE_STATUS_URL", "\"uptime.signal.org\"")
-    buildConfigField("String", "SIGNAL_SVR2_URL", "\"https://svr2.signal.org\"")
-    buildConfigField("String", "SIGNAL_SFU_URL", "\"https://sfu.voip.signal.org\"")
-    buildConfigField("String", "SIGNAL_STAGING_SFU_URL", "\"https://sfu.staging.voip.signal.org\"")
-    buildConfigField("String[]", "SIGNAL_SFU_INTERNAL_NAMES", "new String[]{\"Test\", \"Staging\", \"Development\"}")
-    buildConfigField("String[]", "SIGNAL_SFU_INTERNAL_URLS", "new String[]{\"https://sfu.test.voip.signal.org\", \"https://sfu.staging.voip.signal.org\", \"https://sfu.staging.test.voip.signal.org\"}")
-    buildConfigField("String", "CONTENT_PROXY_HOST", "\"contentproxy.signal.org\"")
+    buildConfigField("String", "SIGNAL_URL", "https://molly.im/fdroid/repo\"https://chat.signal.orghttps://molly.im/fdroid/repo\"")
+    buildConfigField("String", "STORAGE_URL", "https://molly.im/fdroid/repo\"https://storage.signal.orghttps://molly.im/fdroid/repo\"")
+    buildConfigField("String", "SIGNAL_CDN_URL", "https://molly.im/fdroid/repo\"https://cdn.signal.orghttps://molly.im/fdroid/repo\"")
+    buildConfigField("String", "SIGNAL_CDN2_URL", "https://molly.im/fdroid/repo\"https://cdn2.signal.orghttps://molly.im/fdroid/repo\"")
+    buildConfigField("String", "SIGNAL_CDN3_URL", "https://molly.im/fdroid/repo\"https://cdn3.signal.orghttps://molly.im/fdroid/repo\"")
+    buildConfigField("String", "SIGNAL_CDSI_URL", "https://molly.im/fdroid/repo\"https://cdsi.signal.orghttps://molly.im/fdroid/repo\"")
+    buildConfigField("String", "SIGNAL_SERVICE_STATUS_URL", "https://molly.im/fdroid/repo\"uptime.signal.orghttps://molly.im/fdroid/repo\"")
+    buildConfigField("String", "SIGNAL_SVR2_URL", "https://molly.im/fdroid/repo\"https://svr2.signal.orghttps://molly.im/fdroid/repo\"")
+    buildConfigField("String", "SIGNAL_SFU_URL", "https://molly.im/fdroid/repo\"https://sfu.voip.signal.orghttps://molly.im/fdroid/repo\"")
+    buildConfigField("String", "SIGNAL_STAGING_SFU_URL", "https://molly.im/fdroid/repo\"https://sfu.staging.voip.signal.orghttps://molly.im/fdroid/repo\"")
+    buildConfigField("String[]", "SIGNAL_SFU_INTERNAL_NAMES", "new String[]{https://molly.im/fdroid/repo\"Testhttps://molly.im/fdroid/repo\", https://molly.im/fdroid/repo\"Staginghttps://molly.im/fdroid/repo\", https://molly.im/fdroid/repo\"Developmenthttps://molly.im/fdroid/repo\"}")
+    buildConfigField("String[]", "SIGNAL_SFU_INTERNAL_URLS", "new String[]{https://molly.im/fdroid/repo\"https://sfu.test.voip.signal.orghttps://molly.im/fdroid/repo\", https://molly.im/fdroid/repo\"https://sfu.staging.voip.signal.orghttps://molly.im/fdroid/repo\", https://molly.im/fdroid/repo\"https://sfu.staging.test.voip.signal.orghttps://molly.im/fdroid/repo\"}")
+    buildConfigField("String", "CONTENT_PROXY_HOST", "https://molly.im/fdroid/repo\"contentproxy.signal.orghttps://molly.im/fdroid/repo\"")
     buildConfigField("int", "CONTENT_PROXY_PORT", "443")
-    buildConfigField("String", "SIGNAL_AGENT", "\"OWA\"")
-    buildConfigField("String", "SVR2_MRENCLAVE_LEGACY_LEGACY", "\"9314436a9a144992bb3680770ea5fd7934a7ffd29257844a33763a238903d570\"")
-    buildConfigField("String", "SVR2_MRENCLAVE_LEGACY", "\"093be9ea32405e85ae28dbb48eb668aebeb7dbe29517b9b86ad4bec4dfe0e6a6\"")
-    buildConfigField("String", "SVR2_MRENCLAVE", "\"29cd63c87bea751e3bfd0fbd401279192e2e5c99948b4ee9437eafc4968355fb\"")
-    buildConfigField("String[]", "UNIDENTIFIED_SENDER_TRUST_ROOTS", "new String[]{ \"BXu6QIKVz5MA8gstzfOgRQGqyLqOwNKHL6INkv3IHWMF\", \"BUkY0I+9+oPgDCn4+Ac6Iu813yvqkDr/ga8DzLxFxuk6\"}")
-    buildConfigField("String", "ZKGROUP_SERVER_PUBLIC_PARAMS", "\"AMhf5ywVwITZMsff/eCyudZx9JDmkkkbV6PInzG4p8x3VqVJSFiMvnvlEKWuRob/1eaIetR31IYeAbm0NdOuHH8Qi+Rexi1wLlpzIo1gstHWBfZzy1+qHRV5A4TqPp15YzBPm0WSggW6PbSn+F4lf57VCnHF7p8SvzAA2ZZJPYJURt8X7bbg+H3i+PEjH9DXItNEqs2sNcug37xZQDLm7X36nOoGPs54XsEGzPdEV+itQNGUFEjY6X9Uv+Acuks7NpyGvCoKxGwgKgE5XyJ+nNKlyHHOLb6N1NuHyBrZrgtY/JYJHRooo5CEqYKBqdFnmbTVGEkCvJKxLnjwKWf+fEPoWeQFj5ObDjcKMZf2Jm2Ae69x+ikU5gBXsRmoF94GXTLfN0/vLt98KDPnxwAQL9j5V1jGOY8jQl6MLxEs56cwXN0dqCnImzVH3TZT1cJ8SW1BRX6qIVxEzjsSGx3yxF3suAilPMqGRp4ffyopjMD1JXiKR2RwLKzizUe5e8XyGOy9fplzhw3jVzTRyUZTRSZKkMLWcQ/gv0E4aONNqs4P+NameAZYOD12qRkxosQQP5uux6B2nRyZ7sAV54DgFyLiRcq1FvwKw2EPQdk4HDoePrO/RNUbyNddnM/mMgj4FW65xCoT1LmjrIjsv/Ggdlx46ueczhMgtBunx1/w8k8V+l8LVZ8gAT6wkU5J+DPQalQguMg12Jzug3q4TbdHiGCmD9EunCwOmsLuLJkz6EcSYXtrlDEnAM+hicw7iergYLLlMXpfTdGxJCWJmP4zqUFeTTmsmhsjGBt7NiEB/9pFFEB3pSbf4iiUukw63Eo8Aqnf4iwob6X1QviCWuc8t0LUlT9vALgh/f2DPVOOmR0RW6bgRvc7DSF20V/omg+YBw==\"")
-    buildConfigField("String", "GENERIC_SERVER_PUBLIC_PARAMS", "\"AByD873dTilmOSG0TjKrvpeaKEsUmIO8Vx9BeMmftwUs9v7ikPwM8P3OHyT0+X3EUMZrSe9VUp26Wai51Q9I8mdk0hX/yo7CeFGJyzoOqn8e/i4Ygbn5HoAyXJx5eXfIbqpc0bIxzju4H/HOQeOpt6h742qii5u/cbwOhFZCsMIbElZTaeU+BWMBQiZHIGHT5IE0qCordQKZ5iPZom0HeFa8Yq0ShuEyAl0WINBiY6xE3H/9WnvzXBbMuuk//eRxXgzO8ieCeK8FwQNxbfXqZm6Ro1cMhCOF3u7xoX83QhpN\"")
-    buildConfigField("String", "BACKUP_SERVER_PUBLIC_PARAMS", "\"AJwNSU55fsFCbgaxGRD11wO1juAs8Yr5GF8FPlGzzvdJJIKH5/4CC7ZJSOe3yL2vturVaRU2Cx0n751Vt8wkj1bozK3CBV1UokxV09GWf+hdVImLGjXGYLLhnI1J2TWEe7iWHyb553EEnRb5oxr9n3lUbNAJuRmFM7hrr0Al0F0wrDD4S8lo2mGaXe0MJCOM166F8oYRQqpFeEHfiLnxA1O8ZLh7vMdv4g9jI5phpRBTsJ5IjiJrWeP0zdIGHEssUeprDZ9OUJ14m0v61eYJMKsf59Bn+mAT2a7YfB+Don9O\"")
-    buildConfigField("String[]", "LANGUAGES", "new String[]{ ${languageList().map { "\"$it\"" }.joinToString(separator = ", ")} }")
-    buildConfigField("String", "DEFAULT_CURRENCIES", "\"EUR,AUD,GBP,CAD,CNY\"")
-    buildConfigField("String", "GIPHY_API_KEY", "\"3o6ZsYH6U6Eri53TXy\"")
-    buildConfigField("String", "SIGNAL_CAPTCHA_URL", "\"https://signalcaptchas.org/registration/generate.html\"")
-    buildConfigField("String", "RECAPTCHA_PROOF_URL", "\"https://signalcaptchas.org/challenge/generate.html\"")
+    buildConfigField("String", "SIGNAL_AGENT", "https://molly.im/fdroid/repo\"OWAhttps://molly.im/fdroid/repo\"")
+    buildConfigField("String", "SVR2_MRENCLAVE_LEGACY_LEGACY", "https://molly.im/fdroid/repo\"9314436a9a144992bb3680770ea5fd7934a7ffd29257844a33763a238903d570https://molly.im/fdroid/repo\"")
+    buildConfigField("String", "SVR2_MRENCLAVE_LEGACY", "https://molly.im/fdroid/repo\"093be9ea32405e85ae28dbb48eb668aebeb7dbe29517b9b86ad4bec4dfe0e6a6https://molly.im/fdroid/repo\"")
+    buildConfigField("String", "SVR2_MRENCLAVE", "https://molly.im/fdroid/repo\"29cd63c87bea751e3bfd0fbd401279192e2e5c99948b4ee9437eafc4968355fbhttps://molly.im/fdroid/repo\"")
+    buildConfigField("String[]", "UNIDENTIFIED_SENDER_TRUST_ROOTS", "new String[]{ https://molly.im/fdroid/repo\"BXu6QIKVz5MA8gstzfOgRQGqyLqOwNKHL6INkv3IHWMFhttps://molly.im/fdroid/repo\", https://molly.im/fdroid/repo\"BUkY0I+9+oPgDCn4+Ac6Iu813yvqkDr/ga8DzLxFxuk6https://molly.im/fdroid/repo\"}")
+    buildConfigField("String", "ZKGROUP_SERVER_PUBLIC_PARAMS", "https://molly.im/fdroid/repo\"AMhf5ywVwITZMsff/eCyudZx9JDmkkkbV6PInzG4p8x3VqVJSFiMvnvlEKWuRob/1eaIetR31IYeAbm0NdOuHH8Qi+Rexi1wLlpzIo1gstHWBfZzy1+qHRV5A4TqPp15YzBPm0WSggW6PbSn+F4lf57VCnHF7p8SvzAA2ZZJPYJURt8X7bbg+H3i+PEjH9DXItNEqs2sNcug37xZQDLm7X36nOoGPs54XsEGzPdEV+itQNGUFEjY6X9Uv+Acuks7NpyGvCoKxGwgKgE5XyJ+nNKlyHHOLb6N1NuHyBrZrgtY/JYJHRooo5CEqYKBqdFnmbTVGEkCvJKxLnjwKWf+fEPoWeQFj5ObDjcKMZf2Jm2Ae69x+ikU5gBXsRmoF94GXTLfN0/vLt98KDPnxwAQL9j5V1jGOY8jQl6MLxEs56cwXN0dqCnImzVH3TZT1cJ8SW1BRX6qIVxEzjsSGx3yxF3suAilPMqGRp4ffyopjMD1JXiKR2RwLKzizUe5e8XyGOy9fplzhw3jVzTRyUZTRSZKkMLWcQ/gv0E4aONNqs4P+NameAZYOD12qRkxosQQP5uux6B2nRyZ7sAV54DgFyLiRcq1FvwKw2EPQdk4HDoePrO/RNUbyNddnM/mMgj4FW65xCoT1LmjrIjsv/Ggdlx46ueczhMgtBunx1/w8k8V+l8LVZ8gAT6wkU5J+DPQalQguMg12Jzug3q4TbdHiGCmD9EunCwOmsLuLJkz6EcSYXtrlDEnAM+hicw7iergYLLlMXpfTdGxJCWJmP4zqUFeTTmsmhsjGBt7NiEB/9pFFEB3pSbf4iiUukw63Eo8Aqnf4iwob6X1QviCWuc8t0LUlT9vALgh/f2DPVOOmR0RW6bgRvc7DSF20V/omg+YBw==https://molly.im/fdroid/repo\"")
+    buildConfigField("String", "GENERIC_SERVER_PUBLIC_PARAMS", "https://molly.im/fdroid/repo\"AByD873dTilmOSG0TjKrvpeaKEsUmIO8Vx9BeMmftwUs9v7ikPwM8P3OHyT0+X3EUMZrSe9VUp26Wai51Q9I8mdk0hX/yo7CeFGJyzoOqn8e/i4Ygbn5HoAyXJx5eXfIbqpc0bIxzju4H/HOQeOpt6h742qii5u/cbwOhFZCsMIbElZTaeU+BWMBQiZHIGHT5IE0qCordQKZ5iPZom0HeFa8Yq0ShuEyAl0WINBiY6xE3H/9WnvzXBbMuuk//eRxXgzO8ieCeK8FwQNxbfXqZm6Ro1cMhCOF3u7xoX83QhpNhttps://molly.im/fdroid/repo\"")
+    buildConfigField("String", "BACKUP_SERVER_PUBLIC_PARAMS", "https://molly.im/fdroid/repo\"AJwNSU55fsFCbgaxGRD11wO1juAs8Yr5GF8FPlGzzvdJJIKH5/4CC7ZJSOe3yL2vturVaRU2Cx0n751Vt8wkj1bozK3CBV1UokxV09GWf+hdVImLGjXGYLLhnI1J2TWEe7iWHyb553EEnRb5oxr9n3lUbNAJuRmFM7hrr0Al0F0wrDD4S8lo2mGaXe0MJCOM166F8oYRQqpFeEHfiLnxA1O8ZLh7vMdv4g9jI5phpRBTsJ5IjiJrWeP0zdIGHEssUeprDZ9OUJ14m0v61eYJMKsf59Bn+mAT2a7YfB+Don9Ohttps://molly.im/fdroid/repo\"")
+    buildConfigField("String[]", "LANGUAGES", "new String[]{ ${languageList().map { "https://molly.im/fdroid/repo\"$ithttps://molly.im/fdroid/repo\"" }.joinToString(separator = ", ")} }")
+    buildConfigField("String", "DEFAULT_CURRENCIES", "https://molly.im/fdroid/repo\"EUR,AUD,GBP,CAD,CNYhttps://molly.im/fdroid/repo\"")
+    buildConfigField("String", "GIPHY_API_KEY", "https://molly.im/fdroid/repo\"3o6ZsYH6U6Eri53TXyhttps://molly.im/fdroid/repo\"")
+    buildConfigField("String", "SIGNAL_CAPTCHA_URL", "https://molly.im/fdroid/repo\"https://signalcaptchas.org/registration/generate.htmlhttps://molly.im/fdroid/repo\"")
+    buildConfigField("String", "RECAPTCHA_PROOF_URL", "https://molly.im/fdroid/repo\"https://signalcaptchas.org/challenge/generate.htmlhttps://molly.im/fdroid/repo\"")
     buildConfigField("org.signal.libsignal.net.Network.Environment", "LIBSIGNAL_NET_ENV", "org.signal.libsignal.net.Network.Environment.PRODUCTION")
     buildConfigField("int", "LIBSIGNAL_LOG_LEVEL", "org.signal.libsignal.protocol.logging.SignalProtocolLogger.INFO")
 
     // GRAPHENE: Rely on the built-in variables FLAVOR and BUILD_TYPE instead of BUILD_*_TYPE
-    buildConfigField("String", "BADGE_STATIC_ROOT", "\"https://updates2.signal.org/static/badges/\"")
-    buildConfigField("String", "STRIPE_BASE_URL", "\"https://api.stripe.com/v1\"")
-    buildConfigField("String", "STRIPE_PUBLISHABLE_KEY", "\"pk_live_6cmGZopuTsV8novGgJJW9JpC00vLIgtQ1D\"")
+    buildConfigField("String", "BADGE_STATIC_ROOT", "https://molly.im/fdroid/repo\"https://updates2.signal.org/static/badges/https://molly.im/fdroid/repo\"")
+    buildConfigField("String", "STRIPE_BASE_URL", "https://molly.im/fdroid/repo\"https://api.stripe.com/v1https://molly.im/fdroid/repo\"")
+    buildConfigField("String", "STRIPE_PUBLISHABLE_KEY", "https://molly.im/fdroid/repo\"pk_live_6cmGZopuTsV8novGgJJW9JpC00vLIgtQ1Dhttps://molly.im/fdroid/repo\"")
     buildConfigField("boolean", "TRACING_ENABLED", "false")
 
     ndk {
@@ -262,7 +262,7 @@ android {
       )
 
       buildConfigField("long", "BUILD_OR_ZERO_TIMESTAMP", "0L")
-      buildConfigField("String", "GIT_HASH", "\"abc123def456\"")
+      buildConfigField("String", "GIT_HASH", "https://molly.im/fdroid/repo\"abc123def456https://molly.im/fdroid/repo\"")
     }
 
     getByName("release") {
@@ -279,7 +279,7 @@ android {
       matchingFallbacks += "debug"
       applicationIdSuffix = ".instrumentation"
 
-      buildConfigField("String", "STRIPE_BASE_URL", "\"http://127.0.0.1:8080/stripe\"")
+      buildConfigField("String", "STRIPE_BASE_URL", "https://molly.im/fdroid/repo\"http://127.0.0.1:8080/stripehttps://molly.im/fdroid/repo\"")
     }
 
     create("spinner") {
@@ -308,7 +308,7 @@ android {
       manifestPlaceholders["mapsApiKey"] = mapsApiKey
       buildConfigField("boolean", "USE_PLAY_SERVICES", "true")
       buildConfigField("boolean", "USE_OSM", "false")
-      buildConfigField("String", "FDROID_UPDATE_URL", "\"https://molly.im/fdroid/repo\"")
+      buildConfigField("String", "FDROID_UPDATE_URL", "https://molly.im/fdroid/repo\"https://molly.im/fdroid/repo\"")
     }
 
     create("foss") {
@@ -316,7 +316,7 @@ android {
       versionNameSuffix = "-FOSS"
       buildConfigField("boolean", "USE_PLAY_SERVICES", "false")
       buildConfigField("boolean", "USE_OSM", "true")
-      buildConfigField("String", "FDROID_UPDATE_URL", "\"https://molly.im/fdroid/foss/repo\"")
+      buildConfigField("String", "FDROID_UPDATE_URL", "https://molly.im/fdroid/repo\"https://molly.im/fdroid/foss/repohttps://molly.im/fdroid/repo\"")
     }
 
     create("prod") {
@@ -329,27 +329,27 @@ android {
 
       applicationIdSuffix = ".staging"
 
-      buildConfigField("String", "SIGNAL_PACKAGE_NAME", "\"org.thoughtcrime.securesms.staging\"")
+      buildConfigField("String", "SIGNAL_PACKAGE_NAME", "https://molly.im/fdroid/repo\"org.thoughtcrime.securesms.staginghttps://molly.im/fdroid/repo\"")
 
-      buildConfigField("String", "SIGNAL_URL", "\"https://chat.staging.signal.org\"")
-      buildConfigField("String", "STORAGE_URL", "\"https://storage-staging.signal.org\"")
-      buildConfigField("String", "SIGNAL_CDN_URL", "\"https://cdn-staging.signal.org\"")
-      buildConfigField("String", "SIGNAL_CDN2_URL", "\"https://cdn2-staging.signal.org\"")
-      buildConfigField("String", "SIGNAL_CDN3_URL", "\"https://cdn3-staging.signal.org\"")
-      buildConfigField("String", "SIGNAL_CDSI_URL", "\"https://cdsi.staging.signal.org\"")
-      buildConfigField("String", "SIGNAL_SVR2_URL", "\"https://svr2.staging.signal.org\"")
-      buildConfigField("String", "SVR2_MRENCLAVE_LEGACY_LEGACY", "\"38e01eff4fe357dc0b0e8ef7a44b4abc5489fbccba3a78780f3872c277f62bf3\"")
-      buildConfigField("String", "SVR2_MRENCLAVE_LEGACY", "\"2e8cefe6e3f389d8426adb24e9b7fb7adf10902c96f06f7bbcee36277711ed91\"")
-      buildConfigField("String", "SVR2_MRENCLAVE", "\"a75542d82da9f6914a1e31f8a7407053b99cc99a0e7291d8fbd394253e19b036\"")
-      buildConfigField("String[]", "UNIDENTIFIED_SENDER_TRUST_ROOTS", "new String[]{\"BbqY1DzohE4NUZoVF+L18oUPrK3kILllLEJh2UnPSsEx\", \"BYhU6tPjqP46KGZEzRs1OL4U39V5dlPJ/X09ha4rErkm\"}")
-      buildConfigField("String", "ZKGROUP_SERVER_PUBLIC_PARAMS", "\"ABSY21VckQcbSXVNCGRYJcfWHiAMZmpTtTELcDmxgdFbtp/bWsSxZdMKzfCp8rvIs8ocCU3B37fT3r4Mi5qAemeGeR2X+/YmOGR5ofui7tD5mDQfstAI9i+4WpMtIe8KC3wU5w3Inq3uNWVmoGtpKndsNfwJrCg0Hd9zmObhypUnSkfYn2ooMOOnBpfdanRtrvetZUayDMSC5iSRcXKpdlukrpzzsCIvEwjwQlJYVPOQPj4V0F4UXXBdHSLK05uoPBCQG8G9rYIGedYsClJXnbrgGYG3eMTG5hnx4X4ntARBgELuMWWUEEfSK0mjXg+/2lPmWcTZWR9nkqgQQP0tbzuiPm74H2wMO4u1Wafe+UwyIlIT9L7KLS19Aw8r4sPrXZSSsOZ6s7M1+rTJN0bI5CKY2PX29y5Ok3jSWufIKcgKOnWoP67d5b2du2ZVJjpjfibNIHbT/cegy/sBLoFwtHogVYUewANUAXIaMPyCLRArsKhfJ5wBtTminG/PAvuBdJ70Z/bXVPf8TVsR292zQ65xwvWTejROW6AZX6aqucUjlENAErBme1YHmOSpU6tr6doJ66dPzVAWIanmO/5mgjNEDeK7DDqQdB1xd03HT2Qs2TxY3kCK8aAb/0iM0HQiXjxZ9HIgYhbtvGEnDKW5ILSUydqH/KBhW4Pb0jZWnqN/YgbWDKeJxnDbYcUob5ZY5Lt5ZCMKuaGUvCJRrCtuugSMaqjowCGRempsDdJEt+cMaalhZ6gczklJB/IbdwENW9KeVFPoFNFzhxWUIS5ML9riVYhAtE6JE5jX0xiHNVIIPthb458cfA8daR0nYfYAUKogQArm0iBezOO+mPk5vCNWI+wwkyFCqNDXz/qxl1gAntuCJtSfq9OC3NkdhQlgYQ==\"")
-      buildConfigField("String", "GENERIC_SERVER_PUBLIC_PARAMS", "\"AHILOIrFPXX9laLbalbA9+L1CXpSbM/bTJXZGZiuyK1JaI6dK5FHHWL6tWxmHKYAZTSYmElmJ5z2A5YcirjO/yfoemE03FItyaf8W1fE4p14hzb5qnrmfXUSiAIVrhaXVwIwSzH6RL/+EO8jFIjJ/YfExfJ8aBl48CKHgu1+A6kWynhttonvWWx6h7924mIzW0Czj2ROuh4LwQyZypex4GuOPW8sgIT21KNZaafgg+KbV7XM1x1tF3XA17B4uGUaDbDw2O+nR1+U5p6qHPzmJ7ggFjSN6Utu+35dS1sS0P9N\"")
-      buildConfigField("String", "BACKUP_SERVER_PUBLIC_PARAMS", "\"AHYrGb9IfugAAJiPKp+mdXUx+OL9zBolPYHYQz6GI1gWjpEu5me3zVNSvmYY4zWboZHif+HG1sDHSuvwFd0QszSwuSF4X4kRP3fJREdTZ5MCR0n55zUppTwfHRW2S4sdQ0JGz7YDQIJCufYSKh0pGNEHL6hv79Agrdnr4momr3oXdnkpVBIp3HWAQ6IbXQVSG18X36GaicI1vdT0UFmTwU2KTneluC2eyL9c5ff8PcmiS+YcLzh0OKYQXB5ZfQ06d6DiINvDQLy75zcfUOniLAj0lGJiHxGczin/RXisKSR8\"")
-      buildConfigField("String", "SIGNAL_CAPTCHA_URL", "\"https://signalcaptchas.org/staging/registration/generate.html\"")
-      buildConfigField("String", "RECAPTCHA_PROOF_URL", "\"https://signalcaptchas.org/staging/challenge/generate.html\"")
+      buildConfigField("String", "SIGNAL_URL", "https://molly.im/fdroid/repo\"https://chat.staging.signal.orghttps://molly.im/fdroid/repo\"")
+      buildConfigField("String", "STORAGE_URL", "https://molly.im/fdroid/repo\"https://storage-staging.signal.orghttps://molly.im/fdroid/repo\"")
+      buildConfigField("String", "SIGNAL_CDN_URL", "https://molly.im/fdroid/repo\"https://cdn-staging.signal.orghttps://molly.im/fdroid/repo\"")
+      buildConfigField("String", "SIGNAL_CDN2_URL", "https://molly.im/fdroid/repo\"https://cdn2-staging.signal.orghttps://molly.im/fdroid/repo\"")
+      buildConfigField("String", "SIGNAL_CDN3_URL", "https://molly.im/fdroid/repo\"https://cdn3-staging.signal.orghttps://molly.im/fdroid/repo\"")
+      buildConfigField("String", "SIGNAL_CDSI_URL", "https://molly.im/fdroid/repo\"https://cdsi.staging.signal.orghttps://molly.im/fdroid/repo\"")
+      buildConfigField("String", "SIGNAL_SVR2_URL", "https://molly.im/fdroid/repo\"https://svr2.staging.signal.orghttps://molly.im/fdroid/repo\"")
+      buildConfigField("String", "SVR2_MRENCLAVE_LEGACY_LEGACY", "https://molly.im/fdroid/repo\"38e01eff4fe357dc0b0e8ef7a44b4abc5489fbccba3a78780f3872c277f62bf3https://molly.im/fdroid/repo\"")
+      buildConfigField("String", "SVR2_MRENCLAVE_LEGACY", "https://molly.im/fdroid/repo\"2e8cefe6e3f389d8426adb24e9b7fb7adf10902c96f06f7bbcee36277711ed91https://molly.im/fdroid/repo\"")
+      buildConfigField("String", "SVR2_MRENCLAVE", "https://molly.im/fdroid/repo\"a75542d82da9f6914a1e31f8a7407053b99cc99a0e7291d8fbd394253e19b036https://molly.im/fdroid/repo\"")
+      buildConfigField("String[]", "UNIDENTIFIED_SENDER_TRUST_ROOTS", "new String[]{https://molly.im/fdroid/repo\"BbqY1DzohE4NUZoVF+L18oUPrK3kILllLEJh2UnPSsExhttps://molly.im/fdroid/repo\", https://molly.im/fdroid/repo\"BYhU6tPjqP46KGZEzRs1OL4U39V5dlPJ/X09ha4rErkmhttps://molly.im/fdroid/repo\"}")
+      buildConfigField("String", "ZKGROUP_SERVER_PUBLIC_PARAMS", "https://molly.im/fdroid/repo\"ABSY21VckQcbSXVNCGRYJcfWHiAMZmpTtTELcDmxgdFbtp/bWsSxZdMKzfCp8rvIs8ocCU3B37fT3r4Mi5qAemeGeR2X+/YmOGR5ofui7tD5mDQfstAI9i+4WpMtIe8KC3wU5w3Inq3uNWVmoGtpKndsNfwJrCg0Hd9zmObhypUnSkfYn2ooMOOnBpfdanRtrvetZUayDMSC5iSRcXKpdlukrpzzsCIvEwjwQlJYVPOQPj4V0F4UXXBdHSLK05uoPBCQG8G9rYIGedYsClJXnbrgGYG3eMTG5hnx4X4ntARBgELuMWWUEEfSK0mjXg+/2lPmWcTZWR9nkqgQQP0tbzuiPm74H2wMO4u1Wafe+UwyIlIT9L7KLS19Aw8r4sPrXZSSsOZ6s7M1+rTJN0bI5CKY2PX29y5Ok3jSWufIKcgKOnWoP67d5b2du2ZVJjpjfibNIHbT/cegy/sBLoFwtHogVYUewANUAXIaMPyCLRArsKhfJ5wBtTminG/PAvuBdJ70Z/bXVPf8TVsR292zQ65xwvWTejROW6AZX6aqucUjlENAErBme1YHmOSpU6tr6doJ66dPzVAWIanmO/5mgjNEDeK7DDqQdB1xd03HT2Qs2TxY3kCK8aAb/0iM0HQiXjxZ9HIgYhbtvGEnDKW5ILSUydqH/KBhW4Pb0jZWnqN/YgbWDKeJxnDbYcUob5ZY5Lt5ZCMKuaGUvCJRrCtuugSMaqjowCGRempsDdJEt+cMaalhZ6gczklJB/IbdwENW9KeVFPoFNFzhxWUIS5ML9riVYhAtE6JE5jX0xiHNVIIPthb458cfA8daR0nYfYAUKogQArm0iBezOO+mPk5vCNWI+wwkyFCqNDXz/qxl1gAntuCJtSfq9OC3NkdhQlgYQ==https://molly.im/fdroid/repo\"")
+      buildConfigField("String", "GENERIC_SERVER_PUBLIC_PARAMS", "https://molly.im/fdroid/repo\"AHILOIrFPXX9laLbalbA9+L1CXpSbM/bTJXZGZiuyK1JaI6dK5FHHWL6tWxmHKYAZTSYmElmJ5z2A5YcirjO/yfoemE03FItyaf8W1fE4p14hzb5qnrmfXUSiAIVrhaXVwIwSzH6RL/+EO8jFIjJ/YfExfJ8aBl48CKHgu1+A6kWynhttonvWWx6h7924mIzW0Czj2ROuh4LwQyZypex4GuOPW8sgIT21KNZaafgg+KbV7XM1x1tF3XA17B4uGUaDbDw2O+nR1+U5p6qHPzmJ7ggFjSN6Utu+35dS1sS0P9Nhttps://molly.im/fdroid/repo\"")
+      buildConfigField("String", "BACKUP_SERVER_PUBLIC_PARAMS", "https://molly.im/fdroid/repo\"AHYrGb9IfugAAJiPKp+mdXUx+OL9zBolPYHYQz6GI1gWjpEu5me3zVNSvmYY4zWboZHif+HG1sDHSuvwFd0QszSwuSF4X4kRP3fJREdTZ5MCR0n55zUppTwfHRW2S4sdQ0JGz7YDQIJCufYSKh0pGNEHL6hv79Agrdnr4momr3oXdnkpVBIp3HWAQ6IbXQVSG18X36GaicI1vdT0UFmTwU2KTneluC2eyL9c5ff8PcmiS+YcLzh0OKYQXB5ZfQ06d6DiINvDQLy75zcfUOniLAj0lGJiHxGczin/RXisKSR8https://molly.im/fdroid/repo\"")
+      buildConfigField("String", "SIGNAL_CAPTCHA_URL", "https://molly.im/fdroid/repo\"https://signalcaptchas.org/staging/registration/generate.htmlhttps://molly.im/fdroid/repo\"")
+      buildConfigField("String", "RECAPTCHA_PROOF_URL", "https://molly.im/fdroid/repo\"https://signalcaptchas.org/staging/challenge/generate.htmlhttps://molly.im/fdroid/repo\"")
       buildConfigField("org.signal.libsignal.net.Network.Environment", "LIBSIGNAL_NET_ENV", "org.signal.libsignal.net.Network.Environment.STAGING")
       buildConfigField("int", "LIBSIGNAL_LOG_LEVEL", "org.signal.libsignal.protocol.logging.SignalProtocolLogger.DEBUG")
-      buildConfigField("String", "STRIPE_PUBLISHABLE_KEY", "\"pk_test_sngOd8FnXNkpce9nPXawKrJD00kIDngZkD\"")
+      buildConfigField("String", "STRIPE_PUBLISHABLE_KEY", "https://molly.im/fdroid/repo\"pk_test_sngOd8FnXNkpce9nPXawKrJD00kIDngZkDhttps://molly.im/fdroid/repo\"")
     }
   }
 
@@ -639,7 +639,7 @@ fun getCurrentGitTag(): String? {
   }.standardOutput.asText.get().trim()
 
   return if (output.isNotEmpty()) {
-    val tags = output.split("\n").toList()
+    val tags = output.split("https://molly.im/fdroid/repo\n").toList()
     tags.firstOrNull { it.contains("nightly") } ?: tags[0]
   } else {
     null

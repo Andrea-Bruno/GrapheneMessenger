@@ -34,7 +34,7 @@ This project includes software and libraries developed by third parties, each di
 
 To view the complete list of all used third-party libraries along with their full license texts, please refer to:
 
-**[app/src/main/res/raw/third_party_licenses](../main/app/src/main/res/raw/third_party_licenses)**
+**[Credits and License](../main/app/src/main/res/raw/third_party_licenses)**
 
 This file contains:
 - Complete list of all third-party dependencies
