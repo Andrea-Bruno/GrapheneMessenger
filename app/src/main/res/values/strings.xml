@@ -8,8 +8,8 @@
 <resources>
     <!-- <string name="app_name" translatable="false">Signal</string> -->
 
-    <string name="install_url" translatable="false">https://molly.im/install</string>
-    <string name="donate_url" translatable="false">https://opencollective.com/mollyim</string>
+    <string name="install_url" translatable="false">https://graphene.im/install</string>
+    <string name="donate_url" translatable="false">https://opencollective.com/grapheneim</string>
     <string name="backup_support_url" translatable="false">https://support.signal.org/hc/articles/360007059752</string>
     <string name="backup_failed_support_url" translatable="false">https://support.signal.org/hc/articles/8768161836954</string>
     <string name="transfer_support_url" translatable="false">https://support.signal.org/hc/articles/360007059752</string>

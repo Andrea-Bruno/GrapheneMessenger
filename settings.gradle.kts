@@ -23,13 +23,13 @@ dependencyResolutionManagement {
       }
     }
     maven {
-      url = uri("https://dl.cloudsmith.io/public/mollyim/ringrtc/maven/")
+      url = uri("https://dl.cloudsmith.io/public/grapheneim/ringrtc/maven/")
       content {
         includeModule("im.molly", "ringrtc-android")
       }
     }
     maven {
-      url = uri("https://dl.cloudsmith.io/public/mollyim/libsignal/maven/")
+      url = uri("https://dl.cloudsmith.io/public/grapheneim/libsignal/maven/")
       content {
         includeModule("im.molly", "libsignal-client")
         includeModule("im.molly", "libsignal-android")

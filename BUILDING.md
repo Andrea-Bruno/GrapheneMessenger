@@ -34,7 +34,7 @@ You can build Graphene using GitHub Actions, either with GitHub-hosted public ru
 
 ### Steps
 
-1. **Fork the Repository**: Fork the [Graphene repository](https://github.com/mollyim/mollyim-android) in GitHub. You can keep your fork private if preferred, but public repositories get GitHub Actions for free, while private repositories have limited free storage and minutes. For details, refer to [GitHub's billing information](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
+1. **Fork the Repository**: Fork the [Graphene repository](https://github.com/grapheneim/grapheneim-android) in GitHub. You can keep your fork private if preferred, but public repositories get GitHub Actions for free, while private repositories have limited free storage and minutes. For details, refer to [GitHub's billing information](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
 
 2. **Configure Repository Variables**: Customize your build via `Settings > Secrets and Variables > Actions > Variables > Repository variables`. Check the table below for available options.
 
@@ -63,7 +63,7 @@ If you prefer building Graphene locally on your computer, you can follow these s
 export VERSION=v7.8.1-2
 
 # Clone the source code repository
-git clone https://github.com/mollyim/mollyim-android.git
+git clone https://github.com/grapheneim/grapheneim-android.git
 
 # Navigate to the reproducible builds directory
 cd grapheneim-android/reproducible-builds

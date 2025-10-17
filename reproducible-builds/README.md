@@ -1,6 +1,6 @@
 # Reproducible Builds
 
-[![Reproducible build](https://github.com/mollyim/mollyim-android/actions/workflows/reprocheck.yml/badge.svg)](https://github.com/mollyim/mollyim-android/actions/workflows/reprocheck.yml)
+[![Reproducible build](https://github.com/grapheneim/grapheneim-android/actions/workflows/reprocheck.yml/badge.svg)](https://github.com/grapheneim/grapheneim-android/actions/workflows/reprocheck.yml)
 
 Follow these instructions to verify that this source code is exactly the same code that was used to compile the APK distributed on the website.
 
@@ -21,7 +21,7 @@ You can compile you own release of Graphene inside a Docker container and compar
 export VERSION=v5.42.8-2
 
 # Clone the source code repository
-git clone https://github.com/mollyim/mollyim-android.git
+git clone https://github.com/grapheneim/grapheneim-android.git
 
 # Go to this directory
 cd grapheneim-android/reproducible-builds
@@ -36,10 +36,10 @@ git checkout $VERSION
 docker compose up --build
 
 # Download the official APK
-wget https://github.com/mollyim/mollyim-android/releases/download/$VERSION/Molly-$VERSION.apk
+wget https://github.com/grapheneim/grapheneim-android/releases/download/$VERSION/Graphene-$VERSION.apk
 
 # Download the official APK (FOSS)
-wget https://github.com/mollyim/mollyim-android/releases/download/$VERSION/Molly-$VERSION-FOSS.apk
+wget https://github.com/grapheneim/grapheneim-android/releases/download/$VERSION/Graphene-$VERSION-FOSS.apk
 
 # Run the diff script to compare the APKs
 python apkdiff/apkdiff.py Graphene-$VERSION.apk outputs/apk/prodGmsWebsite/release/Graphene-unsigned-$VERSION.apk
@@ -53,4 +53,4 @@ docker compose down
 
 If you get `APKs match`, you have **successfully verified** that the official release matches with your own self-built version of Graphene. Congratulations!
 
-If you get `APKs don't match`, please [report the issue](https://github.com/mollyim/mollyim-android/issues).
+If you get `APKs don't match`, please [report the issue](https://github.com/grapheneim/grapheneim-android/issues).

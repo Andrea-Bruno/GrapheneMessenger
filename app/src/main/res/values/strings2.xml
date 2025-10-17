@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="website_url" translatable="false">https://molly.im</string>
-    <string name="graphenesocket_setup_url" translatable="false">https://github.com/mollyim/mollysocket</string>
+    <string name="website_url" translatable="false">https://graphene.im</string>
+    <string name="graphenesocket_setup_url" translatable="false">https://github.com/grapheneim/graphenesocket</string>
     <string name="app_icon_label_zen">Zen</string>
     <string name="app_icon_label_moon">Moon</string>
     <string name="app_icon_label_music">Music</string>

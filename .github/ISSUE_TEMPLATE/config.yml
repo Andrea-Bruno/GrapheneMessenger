@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: ❓ Question
-    url: https://matrix.to/#/#mollyim:matrix.org
+    url: https://matrix.to/#/#grapheneim:matrix.org
     about: Please ask and answer questions in our chat room.
   - name: 📚 Translation Feedback
-    url: https://hosted.weblate.org/projects/molly-instant-messenger/
+    url: https://hosted.weblate.org/projects/graphene-instant-messenger/
     about: Share feedback on translations.
