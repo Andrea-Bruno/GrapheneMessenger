@@ -9,9 +9,9 @@ plugins {
   id("graphene")
 }
 
-val canonicalVersionCode = 1596
-val canonicalVersionName = "7.59.2"
-val currentHotfixVersion = 1
+val canonicalVersionCode = 1602
+val canonicalVersionName = "7.61.2"
+val currentHotfixVersion = 0
 val maxHotfixVersions = 100
 val grapheneRevision = 1
 
@@ -308,7 +308,7 @@ android {
       manifestPlaceholders["mapsApiKey"] = mapsApiKey
       buildConfigField("boolean", "USE_PLAY_SERVICES", "true")
       buildConfigField("boolean", "USE_OSM", "false")
-      buildConfigField("String", "FDROID_UPDATE_URL", "\"https://graphene.im/fdroid/repo\"")
+      buildConfigField("String", "FDROID_UPDATE_URL", "\"https://molly.im/fdroid/repo\"")
     }
 
     create("foss") {
@@ -316,7 +316,7 @@ android {
       versionNameSuffix = "-FOSS"
       buildConfigField("boolean", "USE_PLAY_SERVICES", "false")
       buildConfigField("boolean", "USE_OSM", "true")
-      buildConfigField("String", "FDROID_UPDATE_URL", "\"https://graphene.im/fdroid/foss/repo\"")
+      buildConfigField("String", "FDROID_UPDATE_URL", "\"https://molly.im/fdroid/foss/repo\"")
     }
 
     create("prod") {
@@ -433,7 +433,6 @@ dependencies {
   implementation(project(":core-ui"))
 
   implementation(libs.androidx.fragment.ktx)
-  implementation(libs.androidx.fragment.compose)
   implementation(libs.androidx.appcompat) {
     version {
       strictly("1.6.1")

@@ -8,7 +8,7 @@ body:
       label: "Guidelines"
       description: |
         Please search for similar requests to avoid duplicates. If you find a similar one, comment there instead.
-        [Search existing requests](https://github.com/grapheneim/grapheneim-android/issues?q=is%3Aissue+type%3AFeature).
+        [Search existing requests](https://github.com/mollyim/mollyim-android/issues?q=is%3Aissue+type%3AFeature).
       options:
         - label: "Yes, I have searched the existing requests"
           required: true

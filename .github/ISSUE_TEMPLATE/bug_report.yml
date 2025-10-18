@@ -7,7 +7,7 @@ body:
       label: "Guidelines"
       description: |
         Please check whether this issue has already been reported to avoid duplicates.
-        [Search existing issues](https://github.com/grapheneim/grapheneim-android/issues?q=is%3Aissue+-type%3AFeature).
+        [Search existing issues](https://github.com/mollyim/mollyim-android/issues?q=is%3Aissue+-type%3AFeature).
       options:
         - label: "Yes, I have searched for existing issues"
           required: true
