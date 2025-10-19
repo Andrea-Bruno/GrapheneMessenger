@@ -63,6 +63,9 @@ jobs:
               run: |
                   echo "${{ secrets.KEYSTORE_B64 }}" | base64 -d > my-release-key.jks
 
+            - name: Install apksigner and zipalign
+              run: sudo apt-get update && sudo apt-get install -y apksigner zipalign
+
             - name: Sign APK
               id: signed_apk
               run: |
