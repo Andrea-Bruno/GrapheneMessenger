@@ -132,3 +132,20 @@ jobs:
             index-v1.json
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+
+      # Step 13: Confirm the release was created successfully
+      - name: Verify GitHub Release was created
+        run: |
+          TAG=${{ steps.apk_info.outputs.release_tag }}
+          RELEASE_INFO=$(gh release view "$TAG" --json assets --jq '.assets[].name')
+               echo "🔍 Assets found in release $TAG:"
+          echo "$RELEASE_INFO"
+                     if echo "$RELEASE_INFO" | grep -q "${{ steps.apk_info.outputs.apk_path }}" && echo "$RELEASE_INFO" | grep -q "index-v1.json"; then
+            echo "✅ Release $TAG verified successfully with expected assets."
+          else
+            echo "❌ Release $TAG is missing expected assets."
+            exit 1
+          fi
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+
