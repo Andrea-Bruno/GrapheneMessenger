@@ -119,7 +119,7 @@ jobs:
           gh auth status
           gh release list
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
       # Step 12: Create a GitHub release and upload APK and metadata
       - name: Create GitHub Release with APK and Metadata
@@ -131,4 +131,4 @@ jobs:
             ${{ steps.apk_info.outputs.apk_path }}
             index-v1.json
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
