@@ -1,18 +1,18 @@
 ﻿name: Build & Release FOSS APK with Metadata
 
-# Trigger the workflow manually or automatically on push to the 'main' branch
+# Trigger manually or on push to the 'main' branch
 on:
-  workflow_dispatch:  # Allows manual execution from the GitHub Actions UI
-  push:               # Automatically runs when code is pushed
+  workflow_dispatch:  # Manual trigger from GitHub UI
+  push:               # Automatic trigger on push
     branches:
-      - main          # Only triggers on pushes to the 'main' branch
+      - main
 
 jobs:
   build-release:
-    runs-on: ubuntu-latest  # Use the latest Ubuntu environment
+    runs-on: ubuntu-latest  # Use latest Ubuntu runner
 
     steps:
-      # Step 1: Check out the repository code
+      # Step 1: Checkout the repository code
       - name: Checkout code
         uses: actions/checkout@v3
 
@@ -27,43 +27,54 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x ./gradlew
 
-      # Step 4: Build the APK using the specified Gradle task
+      # Step 4: Build the APK using Gradle
       - name: Build FOSS APK
         run: ./gradlew :app:assembleProdFossWebsiteRelease
 
-      # Step 5: Output the contents of the AndroidManifest.xml for debugging
-      - name: Debug manifest content
-        run: cat app/build/intermediates/merged_manifests/prodFossWebsiteRelease/AndroidManifest.xml
+      # Step 5: List all generated manifest files for debugging
+      - name: List available manifests
+        run: find app/build/intermediates/merged_manifests/ -name "AndroidManifest.xml"
 
-      # Step 6: Extract APK path, version name/code, and package name from the manifest
+      # Step 6: Locate APK and extract version info from manifest dynamically
       - name: Find APK and Extract Version/Package Info
         id: apk_info
         run: |
-          APK_PATH=$(find app/build/outputs/apk/prodFossWebsite/release/ -name "*.apk" | head -n 1)
-          MANIFEST="app/build/intermediates/merged_manifests/prodFossWebsiteRelease/AndroidManifest.xml"
+          # Find the APK file
+          APK_PATH=$(find app/build/outputs/apk/ -name "*.apk" | head -n 1)
 
-          VERSION_NAME=$(grep "android:versionName=" $MANIFEST | sed 's/.*versionName="//;s/".*//')
-          VERSION_CODE=$(grep "android:versionCode=" $MANIFEST | sed 's/.*versionCode="//;s/".*//')
-          PACKAGE_NAME=$(grep "package=" $MANIFEST | sed 's/.*package="//;s/".*//')
+          # Find the first available AndroidManifest.xml
+          MANIFEST=$(find app/build/intermediates/merged_manifests/ -name "AndroidManifest.xml" | head -n 1)
 
-          # Stop the workflow if version info is missing
+          # Stop if manifest is not found
+          if [ -z "$MANIFEST" ]; then
+            echo "❌ AndroidManifest.xml not found"
+            exit 1
+          fi
+
+          # Extract version and package info
+          VERSION_NAME=$(grep "android:versionName=" "$MANIFEST" | sed 's/.*versionName="//;s/".*//')
+          VERSION_CODE=$(grep "android:versionCode=" "$MANIFEST" | sed 's/.*versionCode="//;s/".*//')
+          PACKAGE_NAME=$(grep "package=" "$MANIFEST" | sed 's/.*package="//;s/".*//')
+
+          # Stop if version info is missing
           if [ -z "$VERSION_NAME" ] || [ -z "$VERSION_CODE" ]; then
             echo "❌ Version info not found in manifest"
             exit 1
           fi
 
-          # Set outputs for use in later steps
+          # Set outputs for later steps
           echo "apk_path=$APK_PATH" >> $GITHUB_OUTPUT
           echo "version_name=$VERSION_NAME" >> $GITHUB_OUTPUT
           echo "version_code=$VERSION_CODE" >> $GITHUB_OUTPUT
           echo "package_name=$PACKAGE_NAME" >> $GITHUB_OUTPUT
           echo "release_tag=v$VERSION_NAME" >> $GITHUB_OUTPUT
 
-          # Print extracted values for debugging
-          echo "Found APK at $APK_PATH"
-          echo "Version Name: $VERSION_NAME"
-          echo "Version Code: $VERSION_CODE"
-          echo "Package Name: $PACKAGE_NAME"
+          # Print values for debugging
+          echo "✅ APK path: $APK_PATH"
+          echo "✅ Manifest: $MANIFEST"
+          echo "✅ Version Name: $VERSION_NAME"
+          echo "✅ Version Code: $VERSION_CODE"
+          echo "✅ Package Name: $PACKAGE_NAME"
 
       # Step 7: Print APK path and release tag for verification
       - name: Debug APK path and release tag
@@ -71,14 +82,14 @@ jobs:
           echo "APK path: ${{ steps.apk_info.outputs.apk_path }}"
           echo "Release tag: ${{ steps.apk_info.outputs.release_tag }}"
 
-      # Step 8: Compute the SHA256 hash of the APK file
+      # Step 8: Compute SHA256 hash of the APK file
       - name: Compute SHA256 of APK
         id: apkhash
         run: |
           HASH=$(sha256sum "${{ steps.apk_info.outputs.apk_path }}" | awk '{print $1}')
           echo "apk_hash=$HASH" >> $GITHUB_OUTPUT
 
-      # Step 9: Generate a JSON metadata file with APK details
+      # Step 9: Generate JSON metadata file for the APK
       - name: Generate JSON Metadata
         run: |
           APK_FILENAME=$(basename "${{ steps.apk_info.outputs.apk_path }}")
@@ -110,7 +121,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Step 12: Create a GitHub release and upload the APK and metadata
+      # Step 12: Create a GitHub release and upload APK and metadata
       - name: Create GitHub Release with APK and Metadata
         uses: softprops/action-gh-release@v1
         with:
