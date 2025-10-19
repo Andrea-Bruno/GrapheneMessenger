@@ -69,6 +69,14 @@ jobs:
           }
           EOF
 
+      - name: Debug GitHub Token - Test release access
+        run:
+          echo "Testing GITHUB_TOKEN access..."
+          gh auth status
+          gh release list
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Create GitHub Release with APK and Metadata
         uses: softprops/action-gh-release@v1
         with:
