@@ -1,151 +1,150 @@
 ﻿name: Build & Release FOSS APK with Metadata
 
-# Trigger manually or on push to the 'main' branch
 on:
-  workflow_dispatch:  # Manual trigger from GitHub UI
-  push:               # Automatic trigger on push
-    branches:
-      - main
+    workflow_dispatch:
+    push:
+        branches:
+            - main
 
 jobs:
-  build-release:
-    runs-on: ubuntu-latest  # Use latest Ubuntu runner
+    build-release:
+        runs-on: ubuntu-latest
 
-    steps:
-      # Step 1: Checkout the repository code
-      - name: Checkout code
-        uses: actions/checkout@v3
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v3
 
-      # Step 2: Set up Java Development Kit version 17
-      - name: Set up JDK 17
-        uses: actions/setup-java@v3
-        with:
-          java-version: '17'
-          distribution: 'temurin'
+            - name: Verify GH_PAT secret is set
+              run: |
+                  if [ -z "${{ secrets.GH_PAT }}" ]; then
+                      echo "❌ GitHub token 'GH_PAT' is missing."
+                      echo ""
+                      echo "To fix this:"
+                      echo "1. Go to your repository → Settings → Secrets → Actions"
+                      echo "2. Click 'New repository secret' and name it 'GH_PAT'"
+                      echo "3. Paste a GitHub personal access token (PAT) with the following scopes:"
+                      echo "   - repo"
+                      echo "   - workflow"
+                      echo "   - write:packages (optional, if using GitHub Packages)"
+                      echo ""
+                      echo "Generate your token at: https://github.com/settings/tokens"
+                      exit 1
+                  else
+                      echo "✅ GitHub token 'GH_PAT' is set."
+                  fi
 
-      # Step 3: Make the Gradle wrapper executable
-      - name: Make gradlew executable
-        run: chmod +x ./gradlew
+            - name: Set up JDK 17
+              uses: actions/setup-java@v3
+              with:
+                  java-version: '17'
+                  distribution: 'temurin'
 
-      # Step 4: Build the APK using Gradle
-      - name: Build FOSS APK
-        run: ./gradlew :app:assembleProdFossWebsiteRelease
+            - name: Make Gradle wrapper executable
+              run: chmod +x ./gradlew
 
-      # Step 5: List all generated manifest files for debugging
-      - name: List available manifests
-        run: find app/build/intermediates/merged_manifests/ -name "AndroidManifest.xml"
+            - name: Build APK with Gradle
+              run: ./gradlew :app:assembleProdFossWebsiteRelease
 
-      # Step 6: Locate APK and extract version info from manifest dynamically
-      - name: Find APK and Extract Version/Package Info
-        id: apk_info
-        run: |
-          # Find the APK file
-          APK_PATH=$(find app/build/outputs/apk/ -name "*.apk" | head -n 1)
+            - name: List merged manifest files
+              run: find app/build/intermediates/merged_manifests/ -name "AndroidManifest.xml"
 
-          # Find the first available AndroidManifest.xml
-          MANIFEST=$(find app/build/intermediates/merged_manifests/ -name "AndroidManifest.xml" | head -n 1)
+            - name: Extract APK and manifest metadata
+              id: apk_info
+              run: |
+                  APK_PATH=$(find app/build/outputs/apk/ -name "*.apk" | head -n 1)
+                  MANIFEST=$(find app/build/intermediates/merged_manifests/ -name "AndroidManifest.xml" | head -n 1)
 
-          # Stop if manifest is not found
-          if [ -z "$MANIFEST" ]; then
-            echo "❌ AndroidManifest.xml not found"
-            exit 1
-          fi
+                  if [ -z "$MANIFEST" ]; then
+                      echo "❌ AndroidManifest.xml not found"
+                      exit 1
+                  fi
 
-          # Extract version and package info
-          VERSION_NAME=$(grep "android:versionName=" "$MANIFEST" | sed 's/.*versionName="//;s/".*//')
-          VERSION_CODE=$(grep "android:versionCode=" "$MANIFEST" | sed 's/.*versionCode="//;s/".*//')
-          PACKAGE_NAME=$(grep "package=" "$MANIFEST" | sed 's/.*package="//;s/".*//')
+                  VERSION_NAME=$(grep "android:versionName=" "$MANIFEST" | sed 's/.*versionName="//;s/".*//')
+                  VERSION_CODE=$(grep "android:versionCode=" "$MANIFEST" | sed 's/.*versionCode="//;s/".*//')
+                  PACKAGE_NAME=$(grep "package=" "$MANIFEST" | sed 's/.*package="//;s/".*//')
 
-          # Stop if version info is missing
-          if [ -z "$VERSION_NAME" ] || [ -z "$VERSION_CODE" ]; then
-            echo "❌ Version info not found in manifest"
-            exit 1
-          fi
+                  if [ -z "$VERSION_NAME" ] || [ -z "$VERSION_CODE" ]; then
+                      echo "❌ Version info not found in manifest"
+                      exit 1
+                  fi
 
-          # Set outputs for later steps
-          echo "apk_path=$APK_PATH" >> $GITHUB_OUTPUT
-          echo "version_name=$VERSION_NAME" >> $GITHUB_OUTPUT
-          echo "version_code=$VERSION_CODE" >> $GITHUB_OUTPUT
-          echo "package_name=$PACKAGE_NAME" >> $GITHUB_OUTPUT
-          echo "release_tag=v$VERSION_NAME" >> $GITHUB_OUTPUT
+                  echo "apk_path=$APK_PATH" >> $GITHUB_OUTPUT
+                  echo "version_name=$VERSION_NAME" >> $GITHUB_OUTPUT
+                  echo "version_code=$VERSION_CODE" >> $GITHUB_OUTPUT
+                  echo "package_name=$PACKAGE_NAME" >> $GITHUB_OUTPUT
+                  echo "release_tag=v$VERSION_NAME" >> $GITHUB_OUTPUT
 
-          # Print values for debugging
-          echo "✅ APK path: $APK_PATH"
-          echo "✅ Manifest: $MANIFEST"
-          echo "✅ Version Name: $VERSION_NAME"
-          echo "✅ Version Code: $VERSION_CODE"
-          echo "✅ Package Name: $PACKAGE_NAME"
+                  echo "✅ APK path: $APK_PATH"
+                  echo "✅ Manifest: $MANIFEST"
+                  echo "✅ Version Name: $VERSION_NAME"
+                  echo "✅ Version Code: $VERSION_CODE"
+                  echo "✅ Package Name: $PACKAGE_NAME"
 
-      # Step 7: Print APK path and release tag for verification
-      - name: Debug APK path and release tag
-        run: |
-          echo "APK path: ${{ steps.apk_info.outputs.apk_path }}"
-          echo "Release tag: ${{ steps.apk_info.outputs.release_tag }}"
+            - name: Show APK path and release tag
+              run: |
+                  echo "APK path: ${{ steps.apk_info.outputs.apk_path }}"
+                  echo "Release tag: ${{ steps.apk_info.outputs.release_tag }}"
 
-      # Step 8: Compute SHA256 hash of the APK file
-      - name: Compute SHA256 of APK
-        id: apkhash
-        run: |
-          HASH=$(sha256sum "${{ steps.apk_info.outputs.apk_path }}" | awk '{print $1}')
-          echo "apk_hash=$HASH" >> $GITHUB_OUTPUT
+            - name: Compute SHA256 hash of APK
+              id: apkhash
+              run: |
+                  HASH=$(sha256sum "${{ steps.apk_info.outputs.apk_path }}" | awk '{print $1}')
+                  echo "apk_hash=$HASH" >> $GITHUB_OUTPUT
 
-      # Step 9: Generate JSON metadata file for the APK
-      - name: Generate JSON Metadata
-        run: |
-          APK_FILENAME=$(basename "${{ steps.apk_info.outputs.apk_path }}")
-          cat <<EOF > index-v1.json
-          {
-            "packages": {
-              "${{ steps.apk_info.outputs.package_name }}": [
-                {
-                  "versionName": "${{ steps.apk_info.outputs.version_name }}",
-                  "versionCode": ${{ steps.apk_info.outputs.version_code }},
-                  "apkName": "$APK_FILENAME",
-                  "apkSha256": "${{ steps.apkhash.outputs.apk_hash }}"
-                }
-              ]
-            }
-          }
-          EOF
+            - name: Generate APK metadata JSON
+              run: |
+                  APK_FILENAME=$(basename "${{ steps.apk_info.outputs.apk_path }}")
+                  cat <<EOF > index-v1.json
+                  {
+                    "packages": {
+                      "${{ steps.apk_info.outputs.package_name }}": [
+                        {
+                          "versionName": "${{ steps.apk_info.outputs.version_name }}",
+                          "versionCode": ${{ steps.apk_info.outputs.version_code }},
+                          "apkName": "$APK_FILENAME",
+                          "apkSha256": "${{ steps.apkhash.outputs.apk_hash }}"
+                        }
+                      ]
+                    }
+                  }
+                  EOF
 
-      # Step 10: Print the generated JSON metadata for debugging
-      - name: Debug JSON Metadata
-        run: cat index-v1.json
+            - name: Show generated metadata
+              run: cat index-v1.json
 
-      # Step 11: Test GitHub token access using GitHub CLI
-      - name: Debug GitHub Token - Test release access
-        run: |
-          echo "${{ secrets.GH_PAT }}" | gh auth login --with-token
-          gh auth status
-          gh release list
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+            - name: Authenticate GitHub CLI and list releases
+              run: |
+                  echo "${{ secrets.GH_PAT }}" | gh auth login --with-token
+                  gh auth status
+                  gh release list
+              env:
+                  GH_PAT: ${{ secrets.GH_PAT }}
 
-      # Step 12: Create a GitHub release and upload APK and metadata
-      - name: Create GitHub Release with APK and Metadata
-        uses: softprops/action-gh-release@v1
-        with:
-          tag_name: ${{ steps.apk_info.outputs.release_tag }}
-          name: Release ${{ steps.apk_info.outputs.version_name }}
-          files: |
-            ${{ steps.apk_info.outputs.apk_path }}
-            index-v1.json
-        env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+            - name: Create GitHub release with APK and metadata
+              uses: softprops/action-gh-release@v1
+              with:
+                  tag_name: ${{ steps.apk_info.outputs.release_tag }}
+                  name: Release ${{ steps.apk_info.outputs.version_name }}
+                  files: |
+                      ${{ steps.apk_info.outputs.apk_path }}
+                      index-v1.json
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GH_PAT }}
 
-      # Step 13: Confirm the release was created successfully
-      - name: Verify GitHub Release was created
-        run: |
-          TAG=${{ steps.apk_info.outputs.release_tag }}
-          RELEASE_INFO=$(gh release view "$TAG" --json assets --jq '.assets[].name')
-               echo "🔍 Assets found in release $TAG:"
-          echo "$RELEASE_INFO"
-                     if echo "$RELEASE_INFO" | grep -q "${{ steps.apk_info.outputs.apk_path }}" && echo "$RELEASE_INFO" | grep -q "index-v1.json"; then
-            echo "✅ Release $TAG verified successfully with expected assets."
-          else
-            echo "❌ Release $TAG is missing expected assets."
-            exit 1
-          fi
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
+            - name: Verify release and assets
+              run: |
+                  TAG=${{ steps.apk_info.outputs.release_tag }}
+                  APK_NAME=$(basename "${{ steps.apk_info.outputs.apk_path }}")
+                  RELEASE_INFO=$(gh release view "$TAG" --json assets --jq '.assets[].name')
 
+                  echo "🔍 Assets found in release $TAG:"
+                  echo "$RELEASE_INFO"
+
+                  if echo "$RELEASE_INFO" | grep -q "$APK_NAME" && echo "$RELEASE_INFO" | grep -q "index-v1.json"; then
+                      echo "✅ Release $TAG verified successfully with expected assets."
+                  else
+                      echo "❌ Release $TAG is missing expected assets."
+                      exit 1
+                  fi
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GH_PAT }}
