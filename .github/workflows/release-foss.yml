@@ -115,11 +115,11 @@ jobs:
       # Step 11: Test GitHub token access using GitHub CLI
       - name: Debug GitHub Token - Test release access
         run: |
-          echo "Testing GITHUB_TOKEN access..."
+          echo "${{ secrets.GH_PAT }}" | gh auth login --with-token
           gh auth status
           gh release list
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GH_PAT: ${{ secrets.GH_PAT }}
 
       # Step 12: Create a GitHub release and upload APK and metadata
       - name: Create GitHub Release with APK and Metadata
