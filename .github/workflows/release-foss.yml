@@ -1,56 +1,72 @@
 ﻿name: Build & Release FOSS APK with Metadata
 
+# Trigger the workflow manually and on push to the 'main' branch
 on:
-  workflow_dispatch:
+  workflow_dispatch:  # Manual trigger via GitHub UI
+  push:               # Automatic trigger on code push
+    branches:
+      - main          # Only when pushing to the 'main' branch
 
 jobs:
   build-release:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # Use the latest Ubuntu runner
+
     steps:
+      # Step 1: Checkout the repository code
       - name: Checkout code
         uses: actions/checkout@v3
 
+      # Step 2: Set up Java Development Kit version 17
       - name: Set up JDK 17
         uses: actions/setup-java@v3
         with:
           java-version: '17'
           distribution: 'temurin'
 
+      # Step 3: Make the Gradle wrapper executable
       - name: Make gradlew executable
         run: chmod +x ./gradlew
 
+      # Step 4: Build the FOSS APK using Gradle
       - name: Build FOSS APK
         run: ./gradlew :app:assembleProdFossWebsiteRelease
 
+      # Step 5: Locate the APK and extract version and package info from AndroidManifest.xml
       - name: Find APK and Extract Version/Package Info
         id: apk_info
         run: |
           APK_PATH=$(find app/build/outputs/apk/prodFossWebsite/release/ -name "*.apk" | head -n 1)
           MANIFEST="app/build/intermediates/merged_manifests/prodFossWebsiteRelease/AndroidManifest.xml"
-          
-          # Estrae i valori dall'AndroidManifest.xml generato dalla build
+
           VERSION_NAME=$(grep "android:versionName=" $MANIFEST | sed 's/.*versionName="//;s/".*//')
           VERSION_CODE=$(grep "android:versionCode=" $MANIFEST | sed 's/.*versionCode="//;s/".*//')
           PACKAGE_NAME=$(grep "package=" $MANIFEST | sed 's/.*package="//;s/".*//')
 
-          # Imposta gli output per gli step successivi
           echo "apk_path=$APK_PATH" >> $GITHUB_OUTPUT
           echo "version_name=$VERSION_NAME" >> $GITHUB_OUTPUT
           echo "version_code=$VERSION_CODE" >> $GITHUB_OUTPUT
           echo "package_name=$PACKAGE_NAME" >> $GITHUB_OUTPUT
           echo "release_tag=v$VERSION_NAME" >> $GITHUB_OUTPUT
-          
+
           echo "Found APK at $APK_PATH"
           echo "Version Name: $VERSION_NAME"
           echo "Version Code: $VERSION_CODE"
           echo "Package Name: $PACKAGE_NAME"
 
+      # Step 6: Debug output values for APK path and release tag
+      - name: Debug APK path and release tag
+        run: |
+          echo "APK path: ${{ steps.apk_info.outputs.apk_path }}"
+          echo "Release tag: ${{ steps.apk_info.outputs.release_tag }}"
+
+      # Step 7: Compute SHA256 hash of the APK file
       - name: Compute SHA256 of APK
         id: apkhash
         run: |
           HASH=$(sha256sum "${{ steps.apk_info.outputs.apk_path }}" | awk '{print $1}')
           echo "apk_hash=$HASH" >> $GITHUB_OUTPUT
 
+      # Step 8: Generate JSON metadata file for the APK
       - name: Generate JSON Metadata
         run: |
           APK_FILENAME=$(basename "${{ steps.apk_info.outputs.apk_path }}")
@@ -69,14 +85,20 @@ jobs:
           }
           EOF
 
+      # Step 9: Debug the generated JSON metadata
+      - name: Debug JSON Metadata
+        run: cat index-v1.json
+
+      # Step 10: Test GitHub token access using GitHub CLI
       - name: Debug GitHub Token - Test release access
-        run:
+        run: |
           echo "Testing GITHUB_TOKEN access..."
           gh auth status
           gh release list
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # Step 11: Create a GitHub release and upload APK and metadata
       - name: Create GitHub Release with APK and Metadata
         uses: softprops/action-gh-release@v1
         with:
