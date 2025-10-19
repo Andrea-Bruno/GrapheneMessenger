@@ -18,17 +18,6 @@ jobs:
               run: |
                   if [ -z "${{ secrets.GH_PAT }}" ]; then
                       echo "❌ GitHub token 'GH_PAT' is missing."
-                      echo ""
-                      echo "To fix this:"
-                      echo "1. Go to your repository → Settings → Secrets → Actions"
-                      echo "2. Click 'New repository secret' and name it 'GH_PAT'"
-                      echo "3. Paste a GitHub personal access token (PAT) with the following scopes:"
-                      echo "   - repo"
-                      echo "   - workflow"
-                      echo "   - read:org"
-                      echo "   - write:packages (optional)"
-                      echo ""
-                      echo "Generate your token at: https://github.com/settings/tokens"
                       exit 1
                   else
                       echo "✅ GitHub token 'GH_PAT' is set."
@@ -55,19 +44,9 @@ jobs:
                   APK_PATH=$(find app/build/outputs/apk/ -name "*.apk" | head -n 1)
                   MANIFEST=$(find app/build/intermediates/merged_manifests/ -name "AndroidManifest.xml" | head -n 1)
 
-                  if [ -z "$MANIFEST" ]; then
-                      echo "❌ AndroidManifest.xml not found"
-                      exit 1
-                  fi
-
                   VERSION_NAME=$(grep "android:versionName=" "$MANIFEST" | sed 's/.*versionName="//;s/".*//')
                   VERSION_CODE=$(grep "android:versionCode=" "$MANIFEST" | sed 's/.*versionCode="//;s/".*//')
                   PACKAGE_NAME=$(grep "package=" "$MANIFEST" | sed 's/.*package="//;s/".*//')
-
-                  if [ -z "$VERSION_NAME" ] || [ -z "$VERSION_CODE" ]; then
-                      echo "❌ Version info not found in manifest"
-                      exit 1
-                  fi
 
                   echo "apk_path=$APK_PATH" >> $GITHUB_OUTPUT
                   echo "version_name=$VERSION_NAME" >> $GITHUB_OUTPUT
@@ -75,38 +54,48 @@ jobs:
                   echo "package_name=$PACKAGE_NAME" >> $GITHUB_OUTPUT
                   echo "release_tag=v$VERSION_NAME" >> $GITHUB_OUTPUT
 
-                  echo "✅ APK path: $APK_PATH"
-                  echo "✅ Manifest: $MANIFEST"
-                  echo "✅ Version Name: $VERSION_NAME"
-                  echo "✅ Version Code: $VERSION_CODE"
-                  echo "✅ Package Name: $PACKAGE_NAME"
-
             - name: Show APK path and release tag
               run: |
                   echo "APK path: ${{ steps.apk_info.outputs.apk_path }}"
                   echo "Release tag: ${{ steps.apk_info.outputs.release_tag }}"
 
-            - name: Compute SHA256 hash of APK
+            - name: Decode keystore from secret
+              run: |
+                  echo "${{ secrets.KEYSTORE_B64 }}" | base64 -d > my-release-key.jks
+
+            - name: Sign APK
+              id: signed_apk
+              run: |
+                  SIGNED_APK_NAME=$(basename "${{ steps.apk_info.outputs.apk_path }}" .apk)-signed.apk
+                  apksigner sign \
+                      --ks my-release-key.jks \
+                      --ks-key-alias ${{ secrets.KEY_ALIAS }} \
+                      --ks-pass pass:${{ secrets.KEYSTORE_PASSWORD }} \
+                      --key-pass pass:${{ secrets.KEY_PASSWORD }} \
+                      --out "$SIGNED_APK_NAME" "${{ steps.apk_info.outputs.apk_path }}"
+                  echo "apk_path=$SIGNED_APK_NAME" >> $GITHUB_OUTPUT
+
+            - name: Compute SHA256 hash of signed APK
               id: apkhash
               run: |
-                  HASH=$(sha256sum "${{ steps.apk_info.outputs.apk_path }}" | awk '{print $1}')
+                  HASH=$(sha256sum "${{ steps.signed_apk.outputs.apk_path }}" | awk '{print $1}')
                   echo "apk_hash=$HASH" >> $GITHUB_OUTPUT
 
             - name: Generate APK metadata JSON
               run: |
-                  APK_FILENAME=$(basename "${{ steps.apk_info.outputs.apk_path }}")
+                  APK_FILENAME=$(basename "${{ steps.signed_apk.outputs.apk_path }}")
                   cat <<EOF > index-v1.json
                   {
-                    "packages": {
-                      "${{ steps.apk_info.outputs.package_name }}": [
-                        {
-                          "versionName": "${{ steps.apk_info.outputs.version_name }}",
-                          "versionCode": ${{ steps.apk_info.outputs.version_code }},
-                          "apkName": "$APK_FILENAME",
-                          "apkSha256": "${{ steps.apkhash.outputs.apk_hash }}"
-                        }
-                      ]
-                    }
+                      "packages": {
+                          "${{ steps.apk_info.outputs.package_name }}": [
+                              {
+                                  "versionName": "${{ steps.apk_info.outputs.version_name }}",
+                                  "versionCode": ${{ steps.apk_info.outputs.version_code }},
+                                  "apkName": "$APK_FILENAME",
+                                  "apkSha256": "${{ steps.apkhash.outputs.apk_hash }}"
+                              }
+                          ]
+                      }
                   }
                   EOF
 
@@ -127,7 +116,7 @@ jobs:
                   tag_name: ${{ steps.apk_info.outputs.release_tag }}
                   name: Release ${{ steps.apk_info.outputs.version_name }}
                   files: |
-                      ${{ steps.apk_info.outputs.apk_path }}
+                      ${{ steps.signed_apk.outputs.apk_path }}
                       index-v1.json
               env:
                   GITHUB_TOKEN: ${{ secrets.GH_PAT }}
@@ -135,7 +124,7 @@ jobs:
             - name: Verify release and assets
               run: |
                   TAG=${{ steps.apk_info.outputs.release_tag }}
-                  APK_NAME=$(basename "${{ steps.apk_info.outputs.apk_path }}")
+                  APK_NAME=$(basename "${{ steps.signed_apk.outputs.apk_path }}")
                   RELEASE_INFO=$(gh release view "$TAG" --json assets --jq '.assets[].name')
 
                   echo "🔍 Assets found in release $TAG:"
