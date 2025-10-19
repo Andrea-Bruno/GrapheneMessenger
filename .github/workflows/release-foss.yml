@@ -14,7 +14,7 @@ jobs:
             - name: Checkout repository
               uses: actions/checkout@v3
 
-            - name: Verify GH_PAT secret is set
+            - name: Verify GitHub token (GH_PAT) is set
               run: |
                   if [ -z "${{ secrets.GH_PAT }}" ]; then
                       echo "❌ GitHub token 'GH_PAT' is missing."
@@ -25,7 +25,8 @@ jobs:
                       echo "3. Paste a GitHub personal access token (PAT) with the following scopes:"
                       echo "   - repo"
                       echo "   - workflow"
-                      echo "   - write:packages (optional, if using GitHub Packages)"
+                      echo "   - read:org"
+                      echo "   - write:packages (optional)"
                       echo ""
                       echo "Generate your token at: https://github.com/settings/tokens"
                       exit 1
@@ -112,7 +113,7 @@ jobs:
             - name: Show generated metadata
               run: cat index-v1.json
 
-            - name: Authenticate GitHub CLI and list releases
+            - name: Debug GitHub token and release access
               run: |
                   echo "${{ secrets.GH_PAT }}" | gh auth login --with-token
                   gh auth status
