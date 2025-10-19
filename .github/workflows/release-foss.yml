@@ -28,22 +28,25 @@ jobs:
           APK_PATH=$(find app/build/outputs/apk/prodFossWebsite/release/ -name "*.apk" | head -n 1)
           MANIFEST="app/build/intermediates/merged_manifests/prodFossWebsiteRelease/AndroidManifest.xml"
           
-          # Estrae i valori dall'AndroidManifest.xml generato dalla build
           VERSION_NAME=$(grep "android:versionName=" $MANIFEST | sed 's/.*versionName="//;s/".*//')
           VERSION_CODE=$(grep "android:versionCode=" $MANIFEST | sed 's/.*versionCode="//;s/".*//')
           PACKAGE_NAME=$(grep "package=" $MANIFEST | sed 's/.*package="//;s/".*//')
 
-          # Imposta gli output per gli step successivi
           echo "apk_path=$APK_PATH" >> $GITHUB_OUTPUT
           echo "version_name=$VERSION_NAME" >> $GITHUB_OUTPUT
           echo "version_code=$VERSION_CODE" >> $GITHUB_OUTPUT
           echo "package_name=$PACKAGE_NAME" >> $GITHUB_OUTPUT
           echo "release_tag=v$VERSION_NAME" >> $GITHUB_OUTPUT
-          
+
           echo "Found APK at $APK_PATH"
           echo "Version Name: $VERSION_NAME"
           echo "Version Code: $VERSION_CODE"
           echo "Package Name: $PACKAGE_NAME"
+
+      - name: Debug APK path and release tag
+        run: |
+          echo "APK path: ${{ steps.apk_info.outputs.apk_path }}"
+          echo "Release tag: ${{ steps.apk_info.outputs.release_tag }}"
 
       - name: Compute SHA256 of APK
         id: apkhash
@@ -69,8 +72,11 @@ jobs:
           }
           EOF
 
+      - name: Debug JSON Metadata
+        run: cat index-v1.json
+
       - name: Debug GitHub Token - Test release access
-        run:
+        run: |
           echo "Testing GITHUB_TOKEN access..."
           gh auth status
           gh release list
