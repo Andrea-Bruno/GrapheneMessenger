@@ -1,7 +1,7 @@
-package im.graphene.unifiedpush.components.settings.app.notifications
+package im.molly.unifiedpush.components.settings.app.notifications
 
-import im.graphene.unifiedpush.model.GrapheneSocketDevice
-import im.graphene.unifiedpush.model.RegistrationStatus
+import im.molly.unifiedpush.model.GrapheneSocketDevice
+import im.molly.unifiedpush.model.RegistrationStatus
 
 data class Distributor(
   val applicationId: String,

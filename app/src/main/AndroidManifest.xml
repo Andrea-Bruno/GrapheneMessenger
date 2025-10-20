@@ -112,13 +112,13 @@
     <!-- GRAPHENE: GMS and Google Maps stuff moved to gms/AndroidManifest.xml -->
 
     <activity
-        android:name="im.graphene.unifiedpush.components.settings.app.notifications.GrapheneSocketQrScannerActivity"
+        android:name="im.molly.unifiedpush.components.settings.app.notifications.GrapheneSocketQrScannerActivity"
         android:configChanges="touchscreen|keyboard|keyboardHidden|orientation|screenLayout|screenSize"
         android:theme="@style/Theme.Signal.DayNight.NoActionBar"
         android:exported="false" />
 
     <activity
-        android:name="im.graphene.unifiedpush.UnifiedPushDefaultDistributorLinkActivity"
+        android:name="im.molly.unifiedpush.UnifiedPushDefaultDistributorLinkActivity"
         android:theme="@style/TextSecure.DialogActivity"
         android:exported="false" />
 
@@ -1347,7 +1347,7 @@
     </receiver>
 
     <receiver
-        android:name="im.graphene.unifiedpush.receiver.UnifiedPushReceiver"
+        android:name="im.molly.unifiedpush.receiver.UnifiedPushReceiver"
         android:enabled="true"
         android:exported="true">
         <intent-filter>

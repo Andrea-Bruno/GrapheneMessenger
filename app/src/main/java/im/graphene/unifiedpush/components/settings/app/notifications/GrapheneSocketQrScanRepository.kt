@@ -1,11 +1,11 @@
-package im.graphene.unifiedpush.components.settings.app.notifications
+package im.molly.unifiedpush.components.settings.app.notifications
 
 import android.content.Context
 import android.net.Uri
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.DecodeFormat
-import im.graphene.unifiedpush.GrapheneSocketRepository
-import im.graphene.unifiedpush.model.GrapheneSocket
+import im.molly.unifiedpush.GrapheneSocketRepository
+import im.molly.unifiedpush.model.GrapheneSocket
 import io.reactivex.rxjava3.core.Single
 import io.reactivex.rxjava3.schedulers.Schedulers
 import okhttp3.HttpUrl.Companion.toHttpUrl

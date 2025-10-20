@@ -1,4 +1,4 @@
-package im.graphene.unifiedpush.components.settings.app.notifications
+package im.molly.unifiedpush.components.settings.app.notifications
 
 import android.content.Context
 import android.net.Uri

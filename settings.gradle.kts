@@ -18,21 +18,21 @@ dependencyResolutionManagement {
     }
     mavenLocal {
       content {
-        includeGroup("im.graphene")
+        includeGroup("im.molly")
         includeGroup("org.signal")
       }
     }
     maven {
       url = uri("https://dl.cloudsmith.io/public/mollyim/ringrtc/maven/")
       content {
-        includeModule("im.graphene", "ringrtc-android")
+        includeModule("im.molly", "ringrtc-android")
       }
     }
     maven {
       url = uri("https://dl.cloudsmith.io/public/mollyim/libsignal/maven/")
       content {
-        includeModule("im.graphene", "libsignal-client")
-        includeModule("im.graphene", "libsignal-android")
+        includeModule("im.molly", "libsignal-client")
+        includeModule("im.molly", "libsignal-android")
       }
     }
     maven {
@@ -66,8 +66,8 @@ if (libsignalClientPath is String) {
   includeBuild(rootDir.resolve(libsignalClientPath + "/java")) {
     name = "libsignal-client"
     dependencySubstitution {
-      substitute(module("im.graphene:libsignal-client")).using(project(":client"))
-      substitute(module("im.graphene:libsignal-android")).using(project(":android"))
+      substitute(module("im.molly:libsignal-client")).using(project(":client"))
+      substitute(module("im.molly:libsignal-android")).using(project(":android"))
     }
   }
 }

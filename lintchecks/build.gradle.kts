@@ -29,7 +29,7 @@ dependencies {
 tasks.jar {
   manifest {
     attributes(
-      "Lint-Registry-v2" to "im.graphene.lint.checks.Registry"
+      "Lint-Registry-v2" to "im.molly.lint.checks.Registry"
     )
   }
 }

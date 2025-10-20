@@ -1,4 +1,4 @@
-package im.graphene.unifiedpush
+package im.molly.unifiedpush
 
 import android.content.Context
 import android.content.Intent

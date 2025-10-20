@@ -5,8 +5,8 @@ import android.net.Uri
 import android.os.Build
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import im.graphene.unifiedpush.UnifiedPushDistributor
-import im.graphene.unifiedpush.model.GrapheneSocket
+import im.molly.unifiedpush.UnifiedPushDistributor
+import im.molly.unifiedpush.model.GrapheneSocket
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.update

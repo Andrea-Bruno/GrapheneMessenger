@@ -1,9 +1,9 @@
-package im.graphene.unifiedpush.receiver
+package im.molly.unifiedpush.receiver
 
 import android.content.Context
 import androidx.core.os.bundleOf
 import com.google.firebase.messaging.RemoteMessage
-import im.graphene.unifiedpush.UnifiedPushNotificationBuilder
+import im.molly.unifiedpush.UnifiedPushNotificationBuilder
 import org.signal.core.util.concurrent.SignalExecutors
 import org.signal.core.util.logging.Log
 import org.thoughtcrime.securesms.dependencies.AppDependencies
