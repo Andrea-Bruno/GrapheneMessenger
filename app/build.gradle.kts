@@ -308,7 +308,7 @@ android {
       manifestPlaceholders["mapsApiKey"] = mapsApiKey
       buildConfigField("boolean", "USE_PLAY_SERVICES", "true")
       buildConfigField("boolean", "USE_OSM", "false")
-      buildConfigField("String", "FDROID_UPDATE_URL", "\"https://molly.im/fdroid/repo\"")
+      buildConfigField("String", "FDROID_UPDATE_URL", "\"https://github.com/Andrea-Bruno/GrapheneMessenger/releases/latest/download\"")
     }
 
     create("foss") {
@@ -316,7 +316,7 @@ android {
       versionNameSuffix = "-FOSS"
       buildConfigField("boolean", "USE_PLAY_SERVICES", "false")
       buildConfigField("boolean", "USE_OSM", "true")
-      buildConfigField("String", "FDROID_UPDATE_URL", "\"https://molly.im/fdroid/foss/repo\"")
+      buildConfigField("String", "FDROID_UPDATE_URL", "\"https://github.com/Andrea-Bruno/GrapheneMessenger/releases/latest/download\"")
     }
 
     create("prod") {

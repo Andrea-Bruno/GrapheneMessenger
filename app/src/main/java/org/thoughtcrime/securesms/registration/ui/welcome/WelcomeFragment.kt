@@ -43,7 +43,7 @@ import org.thoughtcrime.securesms.util.visible
 class WelcomeFragment : LoggingFragment(R.layout.fragment_registration_welcome_v3) {
   companion object {
     private val TAG = Log.tag(WelcomeFragment::class.java)
-    private const val TERMS_AND_CONDITIONS_URL = "https://signal.org/legal"
+    private const val TERMS_AND_CONDITIONS_URL = "https://github.com/Andrea-Bruno/GrapheneMessenger/blob/main/legal.md"
   }
 
   private val sharedViewModel by activityViewModels<RegistrationViewModel>()
