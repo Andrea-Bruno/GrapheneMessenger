@@ -3,7 +3,15 @@
     android:viewportHeight="1890"
     android:width="1890dp"
     android:height="1890dp">
-  <group android:scaleX="0.7" android:scaleY="0.7" android:translateX="153.6" android:translateY="153.6">
+
+  <!-- Set background color -->
+  <!--<path
+      android:fillColor="#000000"
+      android:pathData="M0,0h1890v1890h-1890z" />-->
+  
+  <!-- Outer group to apply proportional margin -->
+  <group android:scaleX="0.7" android:scaleY="0.7" android:translateX="283.5" android:translateY="283.5">
+    <!-- Original content starts here -->
     <path
     android:pathData="M809 407L1650 407L1650 1355L976.5 1355L812.5 1519L812 1355L240 1355L240 571L808.5 571L809 570.5L809 407ZM809 572L809 736L405 736L405 1190L812 1190L813 1354L977 1190L1485 1190L1485 572L809 572Z"
     android:fillColor="#FFFFFF"
