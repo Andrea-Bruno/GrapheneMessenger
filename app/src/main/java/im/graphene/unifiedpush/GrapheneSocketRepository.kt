@@ -1,12 +1,12 @@
-package im.molly.unifiedpush
+package im.graphene.unifiedpush
 
 import com.fasterxml.jackson.core.JsonParseException
 import com.fasterxml.jackson.core.JsonProcessingException
 import com.fasterxml.jackson.databind.JsonMappingException
-import im.molly.unifiedpush.model.ConnectionRequest
-import im.molly.unifiedpush.model.ConnectionResult
-import im.molly.unifiedpush.model.GrapheneSocketDevice
-import im.molly.unifiedpush.model.Response
+import im.graphene.unifiedpush.model.ConnectionRequest
+import im.graphene.unifiedpush.model.ConnectionResult
+import im.graphene.unifiedpush.model.GrapheneSocketDevice
+import im.graphene.unifiedpush.model.Response
 import okhttp3.HttpUrl
 import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.Request

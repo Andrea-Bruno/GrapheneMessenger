@@ -1,4 +1,4 @@
-package im.molly.unifiedpush.components.settings.app.notifications
+package im.graphene.unifiedpush.components.settings.app.notifications
 
 sealed class QrScanResult {
   class Success(val data: String) : QrScanResult()

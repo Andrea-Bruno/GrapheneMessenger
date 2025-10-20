@@ -69,13 +69,17 @@ jobs:
             - name: Sign APK
               id: signed_apk
               run: |
-                  SIGNED_APK_NAME=$(basename "${{ steps.apk_info.outputs.apk_path }}" .apk)-signed.apk
+                  ORIGINAL_APK="${{ steps.apk_info.outputs.apk_path }}"
+                  CLEAN_NAME=$(basename "$ORIGINAL_APK" | sed 's/-unsigned//')
+                  SIGNED_APK_NAME="${CLEAN_NAME%.apk}-signed.apk"
+
                   apksigner sign \
                       --ks my-release-key.jks \
                       --ks-key-alias ${{ secrets.KEY_ALIAS }} \
                       --ks-pass pass:${{ secrets.KEYSTORE_PASSWORD }} \
                       --key-pass pass:${{ secrets.KEY_PASSWORD }} \
-                      --out "$SIGNED_APK_NAME" "${{ steps.apk_info.outputs.apk_path }}"
+                      --out "$SIGNED_APK_NAME" "$ORIGINAL_APK"
+
                   echo "apk_path=$SIGNED_APK_NAME" >> $GITHUB_OUTPUT
 
             - name: Compute SHA256 hash of signed APK

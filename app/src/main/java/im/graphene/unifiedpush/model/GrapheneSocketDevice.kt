@@ -1,4 +1,4 @@
-package im.molly.unifiedpush.model
+package im.graphene.unifiedpush.model
 
 data class GrapheneSocketDevice(
   val deviceId: Int,

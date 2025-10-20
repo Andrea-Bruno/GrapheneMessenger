@@ -1,11 +1,11 @@
-package im.molly.unifiedpush.components.settings.app.notifications
+package im.graphene.unifiedpush.components.settings.app.notifications
 
 import android.widget.Toast
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.launch
 import androidx.annotation.StringRes
 import androidx.lifecycle.ViewModelProvider
-import im.molly.unifiedpush.model.RegistrationStatus
+import im.graphene.unifiedpush.model.RegistrationStatus
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode

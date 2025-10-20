@@ -7,7 +7,7 @@ package org.thoughtcrime.securesms.notifications
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
-import im.molly.unifiedpush.UnifiedPushDistributor
+import im.graphene.unifiedpush.UnifiedPushDistributor
 import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.core.Observable
 import io.reactivex.rxjava3.core.Single

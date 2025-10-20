@@ -979,7 +979,7 @@
     <!-- UnifiedPush -->
     <fragment
         android:id="@+id/notificationUnifiedPushFragment"
-        android:name="im.molly.unifiedpush.components.settings.app.notifications.UnifiedPushSettingsFragment" />
+        android:name="im.graphene.unifiedpush.components.settings.app.notifications.UnifiedPushSettingsFragment" />
 
     <fragment
         android:id="@+id/editNotificationProfileFragment"

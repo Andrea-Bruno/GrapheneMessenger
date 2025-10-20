@@ -1,4 +1,4 @@
-package im.molly.unifiedpush.components.settings.app.notifications
+package im.graphene.unifiedpush.components.settings.app.notifications
 
 import android.app.Application
 import android.content.pm.PackageManager
@@ -7,7 +7,7 @@ import android.widget.Toast
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import im.molly.unifiedpush.model.GrapheneSocket
+import im.graphene.unifiedpush.model.GrapheneSocket
 import org.signal.core.util.ThreadUtil
 import org.thoughtcrime.securesms.R
 import org.thoughtcrime.securesms.dependencies.AppDependencies

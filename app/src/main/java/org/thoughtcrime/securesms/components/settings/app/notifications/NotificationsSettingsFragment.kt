@@ -47,8 +47,8 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.google.android.gms.common.ConnectionResult
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import im.molly.unifiedpush.UnifiedPushDefaultDistributorLinkActivity
-import im.molly.unifiedpush.components.settings.app.notifications.GrapheneSocketQrScannerActivity
+import im.graphene.unifiedpush.UnifiedPushDefaultDistributorLinkActivity
+import im.graphene.unifiedpush.components.settings.app.notifications.GrapheneSocketQrScannerActivity
 import kotlinx.coroutines.launch
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe

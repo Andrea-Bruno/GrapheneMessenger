@@ -1,4 +1,4 @@
-package im.molly.lint.checks
+package im.graphene.lint.checks
 
 import com.android.tools.lint.detector.api.Category
 import com.android.tools.lint.detector.api.Detector

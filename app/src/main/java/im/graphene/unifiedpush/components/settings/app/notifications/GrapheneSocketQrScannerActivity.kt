@@ -1,6 +1,6 @@
 @file:OptIn(ExperimentalPermissionsApi::class)
 
-package im.molly.unifiedpush.components.settings.app.notifications
+package im.graphene.unifiedpush.components.settings.app.notifications
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -32,7 +32,7 @@ import com.google.accompanist.permissions.PermissionState
 import com.google.accompanist.permissions.isGranted
 import com.google.accompanist.permissions.rememberMultiplePermissionsState
 import com.google.accompanist.permissions.rememberPermissionState
-import im.molly.unifiedpush.model.GrapheneSocket
+import im.graphene.unifiedpush.model.GrapheneSocket
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import org.signal.core.ui.compose.Dialogs
 import org.signal.core.ui.compose.theme.SignalTheme

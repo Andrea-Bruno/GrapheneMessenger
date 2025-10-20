@@ -1,7 +1,7 @@
 package org.thoughtcrime.securesms.keyvalue
 
-import im.molly.unifiedpush.model.GrapheneSocketDevice
-import im.molly.unifiedpush.model.RegistrationStatus
+import im.graphene.unifiedpush.model.GrapheneSocketDevice
+import im.graphene.unifiedpush.model.RegistrationStatus
 import org.signal.core.util.logging.Log
 
 class UnifiedPushValues(store: KeyValueStore) : SignalStoreValues(store) {

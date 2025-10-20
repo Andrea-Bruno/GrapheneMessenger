@@ -73,14 +73,14 @@ git checkout $VERSION
 
 # Customize your build by exporting environment variables if needed
 export CI_APP_TITLE="Graphene"
-export CI_PACKAGE_ID="im.molly.app"
+export CI_PACKAGE_ID="im.graphene.app"
 
 # Build the APK using Docker environment
 docker compose up --build
 
 # Optionally, save environment variables in a .env file for future builds
 echo "CI_APP_TITLE=Graphene" >> .env
-echo "CI_PACKAGE_ID=im.molly.app" >> .env
+echo "CI_PACKAGE_ID=im.graphene.app" >> .env
 
 # Shut down the Docker environment after use
 docker compose down
@@ -94,7 +94,7 @@ The built APKs will be available in the `output/apk` directory. Make sure to [si
 |-----------------------|---------------------|--------------------------------------------------|
 | `CI_APP_TITLE`        | Graphene               | App title as shown in the UI                     |
 | `CI_APP_FILENAME`     | Graphene               | Base filename for APKs and backups               |
-| `CI_PACKAGE_ID`       | im.molly.app        | Application ID (change as needed)                |
+| `CI_PACKAGE_ID`       | im.graphene.app        | Application ID (change as needed)                |
 | `CI_BUILD_VARIANTS`   | prod(Gms\|Foss)     | Regex pattern for building different flavors (must match one of the build flavors) |
 | `CI_FORCE_INTERNAL_USER_FLAG` | false       | Enable internal testing extensions               |
 | `CI_MAPS_API_KEY`     | AIza...ftB4         | Google Maps API key (use your own)               |

@@ -1,4 +1,4 @@
-package im.molly.unifiedpush
+package im.graphene.unifiedpush
 
 import android.Manifest
 import android.app.Notification

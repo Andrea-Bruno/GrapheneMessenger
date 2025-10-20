@@ -1,4 +1,4 @@
-package im.molly.unifiedpush.model
+package im.graphene.unifiedpush.model
 
 import com.fasterxml.jackson.annotation.JsonProperty
 

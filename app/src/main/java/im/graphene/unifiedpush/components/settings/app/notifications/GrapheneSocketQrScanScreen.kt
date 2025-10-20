@@ -1,4 +1,4 @@
-package im.molly.unifiedpush.components.settings.app.notifications
+package im.graphene.unifiedpush.components.settings.app.notifications
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
