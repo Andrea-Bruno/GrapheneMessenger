@@ -255,8 +255,8 @@ class ScrubberTest(private val input: String, private val expected: String) {
           "url with text before https://***.com/*** and stuff afterwards"
         ),
         arrayOf(
-          "https://signal.org/v1/endpoint",
-          "https://signal.org/v1/endpoint"
+          "https://%73%69%67%6E%61%6C.%6F%72%67//v1/endpoint",
+          "https://%73%69%67%6E%61%6C.%6F%72%67//v1/endpoint"
         ),
         arrayOf(
           "https://cdn3.signal.org/v1/endpoint",

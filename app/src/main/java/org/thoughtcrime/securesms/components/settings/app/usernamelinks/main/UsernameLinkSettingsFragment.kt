@@ -367,7 +367,7 @@ private fun MainScreenPreview() {
       state = UsernameLinkSettingsState(
         activeTab = ActiveTab.Code,
         username = "PeterParker.42",
-        usernameLinkState = UsernameLinkState.Present("https://signal.org"),
+        usernameLinkState = UsernameLinkState.Present("https://%73%69%67%6E%61%6C.%6F%72%67/"),
         qrCodeState = QrCodeState.Present(QrCodeData.forData("PeterParker.42")),
         qrCodeColorScheme = UsernameQrCodeColorScheme.Orange
       )

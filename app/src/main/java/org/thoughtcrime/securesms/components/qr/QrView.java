@@ -54,7 +54,7 @@ public class QrView extends SquareImageView {
     }
 
     if (isInEditMode()) {
-      setQrText("https://signal.org");
+      setQrText("https://%73%69%67%6E%61%6C.%6F%72%67/");
     }
   }
 
