@@ -9,8 +9,8 @@ plugins {
   id("graphene")
 }
 
-val canonicalVersionCode = 1602
-val canonicalVersionName = "25.10.21" // alias: "7.61.2"
+val canonicalVersionCode = 1603
+val canonicalVersionName = "25.10.21" // alias: "7.61.3"
 val currentHotfixVersion = 0
 val maxHotfixVersions = 100
 val grapheneRevision = 1
