@@ -68,8 +68,8 @@
   <string name="preferences__beta_versions_are_intended_for_testing_purposes_and_may_contain_bugs">Las versiones beta están destinadas a las pruebas y pueden contener errores</string>
   <string name="preferences__include_beta_updates">Incluir actualizaciones beta</string>
   <string name="DeviceAddFragment__link_without_scanning">Enlazar sin escanear</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene necesita el permiso de los contactos para ayudarte a encontrar a tus amigos. Tus contactos se cargan utilizando el descubrimiento de contactos privados de Signal, lo que significa que están cifrados de extremo a extremo y nunca son visibles para el servicio de Signal.</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene necesita los permisos de contactos y almacenamiento para ayudarte a encontrar a tus amigos y enviar mensajes. Tus contactos se cargan utilizando el descubrimiento de contactos privados de Signal, lo que significa que están cifrados de extremo a extremo y nunca son visibles para el servicio de Signal.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene necesita el permiso de los contactos para ayudarte a encontrar a tus amigos. Tus contactos se cargan utilizando el descubrimiento de contactos privados de Graphene, lo que significa que están cifrados de extremo a extremo y nunca son visibles para el servicio de Graphene.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene necesita los permisos de contactos y almacenamiento para ayudarte a encontrar a tus amigos y enviar mensajes. Tus contactos se cargan utilizando el descubrimiento de contactos privados de Graphene, lo que significa que están cifrados de extremo a extremo y nunca son visibles para el servicio de Graphene.</string>
   <string name="BiometricDialogFragment__biometric_verification">Verificación biométrica</string>
   <string name="PrivacySettingsFragment__lock_graphene_access_with_fingerprint_or_face_recognition">Bloquear el acceso de Graphene con huella dactilar o reconocimiento facial</string>
   <string name="PrivacySettingsFragment__no_biometric_features_available_on_this_device">No hay funciones biométricas disponibles en este dispositivo</string>
@@ -86,7 +86,7 @@
   <string name="EnableAppUpdatesMegaphone_check_for_updates_automatically">¿Recibir actualizaciones automáticamente\?</string>
   <string name="EnableAppUpdatesMegaphone_check_for_updates">Comprobar si hay actualizaciones</string>
   <string name="EnableAppUpdatesMegaphone_you_will_be_notified_when_updates_are_available">Se le notificará cuando haya actualizaciones disponibles</string>
-  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s no está registrado/a en Signal</string>
+  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s no está registrado/a en Graphene</string>
   <string name="TimeDurationPickerDialog_single_letter_second_abbreviation">s</string>
   <string name="RegistrationActivity_device_name_description">Nombre del dispositivo</string>
   <string name="DeviceListItem_primary">Primario</string>
@@ -116,7 +116,7 @@
   <string name="LinkDeviceFragment__graphene_on_another_device">Graphene en otro dispositivo</string>
   <string name="LinkDeviceFragment__messaging_is_private_on_all_linked_devices">La mensajería es privada en todos los dispositivos vinculados.</string>
   <string name="LinkDeviceFragment__once_linked_new_messages_sync_across_devices">Una vez vinculados, los mensajes nuevos se sincronizan entre los dispositivos, pero el historial de mensajes anteriores no se transfiere.</string>
-  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene permite enlazar con otros dispositivos Android que ejecuten Graphene, así como con ordenadores de sobremesa e iPads que ejecuten Signal.</string>
+  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene permite enlazar con otros dispositivos Android que ejecuten Graphene, así como con ordenadores de sobremesa e iPads que ejecuten Graphene.</string>
   <string name="LinkDeviceFragment__for_android_devices_visit_s_to_install_graphene">Para dispositivos Android: Visita %s para instalar Graphene.</string>
   <string name="NotificationsSettingsFragment__delivery_service">Servicio de entrega</string>
   <string name="DozeReminder_allow_graphene_to_deliver_timely_notifications">Permite que Graphene envíe notificaciones de forma oportuna, incluso cuando el dispositivo está en espera.</string>
@@ -128,7 +128,7 @@
   <string name="IncomingMessageObserver_websocket_service">Servicio de WebSocket</string>
   <string name="NotificationsSettingsFragment__an_error_occurred_while_registering_for_push_notifications_s">Se ha producido un error al registrarse para recibir notificaciones push. %s</string>
   <string name="NotificationsSettingsFragment__please_check_if_google_play_services_is_installed_and_enabled">Por favor, comprueba si Google Play Services está instalado y activado, o cambia a un servicio push alternativo.</string>
-  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Para utilizar UnifiedPush, necesita acceso a un servidor GrapheneSocket para vincular su cuenta de Signal.\n\nComience escaneando el código QR proporcionado por su servidor.</string>
+  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Para utilizar UnifiedPush, necesita acceso a un servidor GrapheneSocket para vincular su cuenta de Graphene.\n\nComience escaneando el código QR proporcionado por su servidor.</string>
   <string name="UnifiedPushSettingsFragment__status_summary_air_gapped_pending">Esperando confirmación del servidor GrapheneSocket</string>
   <string name="UnifiedPushSettingsFragment__status_summary_forbidden_endpoint">El punto de acceso fue vetado por el servidor</string>
   <string name="UnifiedPushSettingsFragment__status_summary_forbidden_uuid">El servidor rechazó el ID de la cuenta</string>

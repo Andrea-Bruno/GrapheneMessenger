@@ -70,8 +70,8 @@
   <string name="DeviceAddFragment__link_without_scanning">Прив’язати без сканування</string>
   <string name="enter_device_link_dialog__if_your_phone_cant_scan_the_qr_code_you_can_manually_enter_the_link_encoded_in_the_qr_code">Якщо ваш пристрій не може зчитати QR-код, можете ввести закодоване у QR-коді посилання.</string>
   <string name="HelpSettingsFragment_disable_and_delete_debug_log">Видалити й вимкнути ведення журналу налагодження?</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene потрібен доступ до контактів і медіа, щоб допомагати вам знаходити ваших друзів та надсилати повідомлення. Ваші контакти завантажуються за допомогою приватного виявлення контактів Signal, що означає наскрізьне їх шифрування, а також невидимість для сервісу Signal.</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene потрібен доступ до контактів, щоб допомагати вам знаходити ваших друзів. Ваші контакти завантажуються за допомогою приватного виявлення контактів Signal, що означає наскрізьне їх шифрування, а також невидимість для сервісу Signal.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene потрібен доступ до контактів і медіа, щоб допомагати вам знаходити ваших друзів та надсилати повідомлення. Ваші контакти завантажуються за допомогою приватного виявлення контактів Graphene, що означає наскрізьне їх шифрування, а також невидимість для сервісу Graphene.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene потрібен доступ до контактів, щоб допомагати вам знаходити ваших друзів. Ваші контакти завантажуються за допомогою приватного виявлення контактів Graphene, що означає наскрізьне їх шифрування, а також невидимість для сервісу Graphene.</string>
   <string name="BiometricDialogFragment__biometric_verification">Біометрична верифікація</string>
   <string name="BiometricDialogFragment__please_confirm_it_is_really_you_to_access_graphene">Будь ласка, підтвердьте, що це справді ви використовуєте Моллі</string>
   <string name="PrivacySettingsFragment__lock_graphene_access_with_fingerprint_or_face_recognition">Заблокувати доступ до Моллі за допомогою відбитка пальця або розпізнавання обличчя</string>
@@ -93,7 +93,7 @@
   <string name="HelpSettingsFragment_for_updates_please_check_your_app_store">Для оновлення, будь ласка, перевірте ваш магазин застосунків. Ця версія застосунку не містить вбудованого оновлювача.</string>
   <string name="EnableAppUpdatesMegaphone_check_for_updates">Перевіряти наявність оновлень</string>
   <string name="EnableAppUpdatesMegaphone_graphene_can_periodically_check_for_new_releases_and_ask_you_to_install_them">Graphene може періодично перевіряти наявність нових випусків і просити вас встановити їх.</string>
-  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s не зареєстрований у Signal</string>
+  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s не зареєстрований у Graphene</string>
   <string name="TimeDurationPickerDialog_single_letter_second_abbreviation">с</string>
   <string name="AccountSettingsFragment_pin_settings_cannot_be_changed_from_a_linked_device">Налаштування PIN не можна змінити з прив\'язаного пристрою</string>
   <string name="DeviceListItem_device_d">Пристрій №%d</string>
@@ -120,7 +120,7 @@
   <string name="LinkDeviceFragment__use_graphene_on_another_devices">Використовуйте Graphene на іншому пристрої. Ваші повідомлення синхронізуються до привʼязаних пристроїв.</string>
   <string name="LinkDeviceFragment__messaging_is_private_on_all_linked_devices">Обмін повідомленнями є приватним на всіх повʼязаних пристроях.</string>
   <string name="LinkDeviceFragment__once_linked_new_messages_sync_across_devices">Після привʼязки нові повідомлення синхронізуються між пристроями, але історія попередніх повідомлень не передається.</string>
-  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene підтримує зв\'язок з іншими Android-пристроями, на яких працює Graphene, а також з настільними комп\'ютерами та iPad на яких встановлено Signal.</string>
+  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene підтримує зв\'язок з іншими Android-пристроями, на яких працює Graphene, а також з настільними комп\'ютерами та iPad на яких встановлено Graphene.</string>
   <string name="DozeReminder_allow_graphene_to_deliver_timely_notifications">Дозвольте Моллі надсилати своєчасні сповіщення, навіть коли ваш пристрій у режимі очікування.</string>
   <string name="DozeReminder_disable_battery_restrictions">Вимкніть обмеження батареї</string>
   <string name="GcmRefreshJob_unable_to_register_with_Google_Play_Services">Не вдалося зареєструватися в сервісах Play</string>
@@ -146,7 +146,7 @@
   <string name="UnifiedPushSettingsFragment__graphenesocket_server_air_gapped">Повітряний проміжок</string>
   <string name="NotificationsSettingsFragment__configure_unifiedpush">Налаштувати UnifiedPush</string>
   <string name="NotificationsSettingsFragment__not_selected">Не вибрано</string>
-  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Щоб використовувати UnifiedPush, вам потрібен доступ до сервера GrapheneSocket, щоб зв’язати обліковий запис Signal.\n\nПочніть зі сканування QR-коду, наданого вашим сервером.</string>
+  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Щоб використовувати UnifiedPush, вам потрібен доступ до сервера GrapheneSocket, щоб зв’язати обліковий запис Graphene.\n\nПочніть зі сканування QR-коду, наданого вашим сервером.</string>
   <string name="UnifiedPushSettingsFragment__server_parameters">Параметри сервера</string>
   <string name="UnifiedPushSettingsFragment__account_id">Обліковий запис ID</string>
   <string name="NotificationsSettingsFragment__graphenesocket_server">Сервер GrapheneSocket</string>

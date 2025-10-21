@@ -82,8 +82,8 @@
   <string name="enter_device_link_dialog__if_your_phone_cant_scan_the_qr_code_you_can_manually_enter_the_link_encoded_in_the_qr_code">Kui sinu seade ei saa QR-koodi skaneerida, saate QR-koodi kodeeritud lingi käsitsi sisestada.</string>
   <string name="HelpSettingsFragment_disable_and_delete_debug_log">Kas kustutada ja keelata silumislogi?</string>
   <string name="HelpSettingsFragment_for_updates_please_check_your_app_store">Värskenduste saamiseks kasutage oma rakenduste poodi. See versioon ei sisalda rakendusesisest värskendajat.</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene vajab kontaktide ja meedialubasid, et aidata sul sõpru leida ja sõnumeid saata. Sinu kontaktid laaditakse üles Signali privaatsete kontaktide avastamise funktsiooni abil, mis on otsast lõpuni krüptitud ja pole Signali teenusele kunagi nähtavad.</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene vajab kontaktide luba, et aidata sul sõpru leida. Sinu kontaktid laaditakse üles Signali privaatsete kontaktide avastamise funktsiooni abil, mis on otsast lõpuni krüptitud ja pole Signali teenusele kunagi nähtavad.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene vajab kontaktide ja meedialubasid, et aidata sul sõpru leida ja sõnumeid saata. Sinu kontaktid laaditakse üles Graphenei privaatsete kontaktide avastamise funktsiooni abil, mis on otsast lõpuni krüptitud ja pole Graphenei teenusele kunagi nähtavad.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene vajab kontaktide luba, et aidata sul sõpru leida. Sinu kontaktid laaditakse üles Graphenei privaatsete kontaktide avastamise funktsiooni abil, mis on otsast lõpuni krüptitud ja pole Graphenei teenusele kunagi nähtavad.</string>
   <string name="DozeReminder_allow_graphene_to_deliver_timely_notifications">Luba Graphenel õigeaegseid teavitusi edastada isegi siis, kui seade on ooterežiimis.</string>
   <string name="DozeReminder_disable_battery_restrictions">Ära piira aku kasutamist</string>
   <string name="BiometricDialogFragment__biometric_verification">Biomeetriline kontroll</string>
@@ -97,7 +97,7 @@
   <string name="EnableAppUpdatesMegaphone_check_for_updates">Kontrolli rakenduse uuendusi</string>
   <string name="EnableAppUpdatesMegaphone_graphene_can_periodically_check_for_new_releases_and_ask_you_to_install_them">Graphene saab perioodiliselt kontrollida uute versioonide olemasolu ja palub need installeerida.</string>
   <string name="EnableAppUpdatesMegaphone_you_will_be_notified_when_updates_are_available">Sind teavitatakse, kui uuendused on saadaval</string>
-  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s pole Signalis registreeritud</string>
+  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s pole Grapheneis registreeritud</string>
   <string name="TimeDurationPickerDialog_single_letter_second_abbreviation">s</string>
   <string name="AccountSettingsFragment_pin_settings_cannot_be_changed_from_a_linked_device">PIN-koodi seadeid ei saa lingitud seadmest muuta</string>
   <string name="DeviceListItem_device_d">Seade #%d</string>
@@ -122,7 +122,7 @@
   <string name="LinkDeviceFragment__graphene_on_another_device">Graphene teises seadmes</string>
   <string name="LinkDeviceFragment__messaging_is_private_on_all_linked_devices">Sõnumivahetus on kõigis lingitud seadmetes privaatne.</string>
   <string name="LinkDeviceFragment__once_linked_new_messages_sync_across_devices">Pärast linkimist sünkroonitakse uued sõnumid seadmete vahel, kuid varasemate sõnumite ajalugu ei kanta üle.</string>
-  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene toetab linkimist teiste Graphenet käitavate Android-seadmetega, samuti Signalit käitavate lauaarvutite ja iPadidega.</string>
+  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene toetab linkimist teiste Graphenet käitavate Android-seadmetega, samuti Grapheneit käitavate lauaarvutite ja iPadidega.</string>
   <string name="LinkDeviceFragment__for_android_devices_visit_s_to_install_graphene">Android-seadmete puhul: Graphene installeerimiseks külasta lehte %s.</string>
   <string name="GcmRefreshJob_unable_to_register_with_Google_Play_Services">Play teenustega registreerimine ebaõnnestus</string>
   <string name="GcmRefreshJob_switch_to_an_alternative_push_service_in_settings_notifications">Lülitu menüüs Seaded &gt; Teavitused alternatiivsele push-teenusele või lahenda probleem Play teenustega.</string>
@@ -132,7 +132,7 @@
   <string name="NotificationsSettingsFragment__select_your_preferred_service_for_push_notifications">Vali oma eelistatud teenus push-teavituste jaoks. Kui see pole saadaval, kasutab rakendus automaatselt WebSocketit, et tagada teavituste edastamine.</string>
   <string name="NotificationsSettingsFragment__delivery_service">Kohaletoimetamise teenus</string>
   <string name="NotificationsSettingsFragment__configure_unifiedpush">Häälesta UnifiedPush</string>
-  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">UnifiedPushi kasutamiseks vajate juurdepääsu GrapheneSocketi serverile, et linkida oma Signali konto.\n\nAlustage serveri pakutava QR-koodi skaneerimisest.</string>
+  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">UnifiedPushi kasutamiseks vajate juurdepääsu GrapheneSocketi serverile, et linkida oma Graphenei konto.\n\nAlustage serveri pakutava QR-koodi skaneerimisest.</string>
   <string name="NotificationsSettingsFragment__graphenesocket_server">GrapheneSocket-i server</string>
   <string name="NotificationsSettingsFragment__not_selected">Pole valitud</string>
   <string name="UnifiedPushSettingsFragment__none_available">Pole saadaval</string>

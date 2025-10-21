@@ -68,8 +68,8 @@
   <string name="preferences__include_beta_updates">Uwzględnij aktualizacje beta</string>
   <string name="preferences__beta_versions_are_intended_for_testing_purposes_and_may_contain_bugs">Wersje beta zostały stworzone do testowania i migą zawierać błędy</string>
   <string name="DeviceAddFragment__link_without_scanning">Połącz bez skanowania</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene musi mieć dostęp do kontaktów i mediów, aby pomóc Ci znaleźć znajomych i wysyłać wiadomości. Twoje kontakty są przesyłane przy użyciu prywatnego odkrywania kontaktów Signal, co oznacza, że są one szyfrowane end-to-end i nigdy nie są widoczne dla usługi Signal.</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene musi mieć dostęp do kontaktów, aby pomóc Ci znaleźć znajomych. Twoje kontakty są przesyłane przy użyciu prywatnego odkrywania kontaktów Signal, co oznacza, że są one szyfrowane end-to-end i nigdy nie są widoczne dla usługi Signal.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene musi mieć dostęp do kontaktów i mediów, aby pomóc Ci znaleźć znajomych i wysyłać wiadomości. Twoje kontakty są przesyłane przy użyciu prywatnego odkrywania kontaktów Graphene, co oznacza, że są one szyfrowane end-to-end i nigdy nie są widoczne dla usługi Graphene.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene musi mieć dostęp do kontaktów, aby pomóc Ci znaleźć znajomych. Twoje kontakty są przesyłane przy użyciu prywatnego odkrywania kontaktów Graphene, co oznacza, że są one szyfrowane end-to-end i nigdy nie są widoczne dla usługi Graphene.</string>
   <string name="RegistrationActivity_device_name_description">Nazwa urządzenia</string>
   <string name="BiometricDialogFragment__please_confirm_it_is_really_you_to_access_graphene">Potwierdź, że to naprawdę ty używasz Graphene</string>
   <string name="DeviceListItem_primary">Główne</string>
@@ -105,7 +105,7 @@
   <string name="RegistrationActivity_link_timeout">Oczekiwanie na urządzenie główne przekroczyło limit czasu. Przygotuj urządzenie do zeskanowania kodu QR, a następnie spróbuj ponownie</string>
   <string name="RegistrationActivity_enter_a_name_for_this_device">Wprowadź nazwę dla tego urządzenia</string>
   <string name="RegistrationActivity_copied_to_clipboard">Skopiowane do schowka</string>
-  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s nie jest zarejestrowany w usłudze Signal</string>
+  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s nie jest zarejestrowany w usłudze Graphene</string>
   <string name="DeviceListItem_this_device">To urządzenie</string>
   <string name="preferences_appearance__navigation_bar">Pasek nawigacji</string>
   <string name="preferences_appearance__show_calls">Pokaż połączenia</string>
@@ -118,14 +118,14 @@
   <string name="LinkDeviceFragment__messaging_is_private_on_all_linked_devices">Rozmowy pozostają bezpieczne na wszystkich połączonych urządzeniach.</string>
   <string name="LinkDeviceFragment__for_android_devices_visit_s_to_install_graphene">Dla urządzeń z Androidem: odwiedź %s, aby zainstalować Graphene.</string>
   <string name="GcmRefreshJob_switch_to_an_alternative_push_service_in_settings_notifications">Przełącz się na alternatywną usługę push w Ustawienia &gt; Powiadomienia lub rozwiąż problem za pomocą Usług Play.</string>
-  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Aby korzystać z UnifiedPush, potrzebujesz dostępu do serwera GrapheneSocket, aby połączyć swoje konto Signal.\n\nZacznij od zeskanowania kodu QR dostarczonego przez serwer.</string>
+  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Aby korzystać z UnifiedPush, potrzebujesz dostępu do serwera GrapheneSocket, aby połączyć swoje konto Graphene.\n\nZacznij od zeskanowania kodu QR dostarczonego przez serwer.</string>
   <string name="LinkDeviceFragment__once_linked_new_messages_sync_across_devices">Po połączeniu nowe wiadomości będą synchronizowane między urządzeniami, ale historia poprzednich wiadomości nie zostanie przeniesiona.</string>
   <string name="NotificationsSettingsFragment__push_notifications">Powiadomienia push</string>
   <string name="NotificationsSettingsFragment__configure_unifiedpush">Konfiguracja UnifiedPush</string>
   <string name="NotificationsSettingsFragment__graphenesocket_server">Serwer GrapheneSocket</string>
   <string name="NotificationsSettingsFragment__not_selected">Nie wybrano</string>
   <string name="UnifiedPushSettingsFragment__none_available">Brak dostępnych</string>
-  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene obsługuje łączenie z innymi urządzeniami z systemem Android, na których działa Graphene, a także komputerami stacjonarnymi oraz iPadami z zainstalowanym Signal.</string>
+  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene obsługuje łączenie z innymi urządzeniami z systemem Android, na których działa Graphene, a także komputerami stacjonarnymi oraz iPadami z zainstalowanym Graphene.</string>
   <string name="NotificationsSettingsFragment__an_error_occurred_while_registering_for_push_notifications_s">Wystąpił błąd podczas rejestracji powiadomień push. %s</string>
   <string name="NotificationsSettingsFragment__please_check_if_google_play_services_is_installed_and_enabled">Sprawdź, czy Usługi Google Play są zainstalowane i włączone lub przełącz się na alternatywną usługę push.</string>
   <string name="DozeReminder_allow_graphene_to_deliver_timely_notifications">Pozwól Graphene dostarczać powiadomienia na czas, nawet gdy urządzenie jest w trybie gotowości.</string>

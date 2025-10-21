@@ -66,8 +66,8 @@
   <string name="enter_device_link_dialog__if_your_phone_cant_scan_the_qr_code_you_can_manually_enter_the_link_encoded_in_the_qr_code">Wenn dein Gerät den QR-Code nicht scannen kann, kannst du den im QR-Code verschlüsselten Link manuell eingeben.</string>
   <string name="HelpSettingsFragment_disable_and_delete_debug_log">Diagnoseprotokoll löschen und Diagnose deaktivieren?</string>
   <string name="DeviceAddFragment__link_without_scanning">Koppeln ohne zu scannen</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene benötigt die Berechtigung für deine Kontakte, um dir beim Finden deiner Freunde zu helfen. Deine Kontakte werden über die private Kontaktsuche von Signal hochgeladen, d. h. sie sind Ende-zu-Ende verschlüsselt und sind für den Signal-Dienst zu keiner Zeit lesbar.</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene benötigt Berechtigungen für Kontakte und Medien, damit du deine Freunde finden und Nachrichten senden kannst. Deine Kontakte werden über die private Kontaktsuche von Signal hochgeladen, d. h. sie sind Ende-zu-Ende verschlüsselt und sind für den Signal-Dienst zu keiner Zeit lesbar.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene benötigt die Berechtigung für deine Kontakte, um dir beim Finden deiner Freunde zu helfen. Deine Kontakte werden über die private Kontaktsuche von Graphene hochgeladen, d. h. sie sind Ende-zu-Ende verschlüsselt und sind für den Graphene-Dienst zu keiner Zeit lesbar.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene benötigt Berechtigungen für Kontakte und Medien, damit du deine Freunde finden und Nachrichten senden kannst. Deine Kontakte werden über die private Kontaktsuche von Graphene hochgeladen, d. h. sie sind Ende-zu-Ende verschlüsselt und sind für den Graphene-Dienst zu keiner Zeit lesbar.</string>
   <string name="preferences__include_beta_updates">Beta-Aktualisierungen einbeziehen</string>
   <string name="preferences__beta_versions_are_intended_for_testing_purposes_and_may_contain_bugs">Beta-Versionen sind für Testzwecke bestimmt und können Fehler enthalten</string>
   <string name="PrivacySettingsFragment__lock_graphene_access_with_fingerprint_or_face_recognition">Graphene-Zugang mit Fingerabdruck oder Gesichtserkennung sperren</string>
@@ -85,7 +85,7 @@
   <string name="EnableAppUpdatesMegaphone_check_for_updates">Nach Aktualisierungen suchen</string>
   <string name="EnableAppUpdatesMegaphone_graphene_can_periodically_check_for_new_releases_and_ask_you_to_install_them">Graphene kann in regelmäßigen Abständen nach neuen Versionen suchen und dich zur Installation auffordern.</string>
   <string name="EnableAppUpdatesMegaphone_you_will_be_notified_when_updates_are_available">Du wirst benachrichtigt, wenn neue Versionen verfügbar sind</string>
-  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s ist nicht bei Signal registriert</string>
+  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s ist nicht bei Graphene registriert</string>
   <string name="TimeDurationPickerDialog_single_letter_second_abbreviation">Sek.</string>
   <string name="RegistrationActivity_device_name_description">Gerätname</string>
   <string name="DeviceListItem_primary">Primär</string>
@@ -117,7 +117,7 @@
   <string name="NotificationsSettingsFragment__please_check_if_google_play_services_is_installed_and_enabled">Bitte überprüfe, ob Google Play Services installiert und aktiviert sind oder nutze einen alternativen Push-Dienst.</string>
   <string name="NotificationsSettingsFragment__select_your_preferred_service_for_push_notifications">Bevorzugten Dienst für Push-Benachrichtigungen auswählen. Falls dieser nicht verfügbar ist, wird die App automatisch WebSocket für Benachrichtigungen nutzen.</string>
   <string name="NotificationsSettingsFragment__configure_unifiedpush">UnifiedPush konfigurieren</string>
-  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Um UnifiedPush zu nutzen, musst du Zugriff auf einen GrapheneSocket-Server haben, um dein Signal-Konto mit diesem verbinden zu können.\n\nScanne den QR-Code, der von deinem Server bereitgestellt wird, um zu beginnen.</string>
+  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Um UnifiedPush zu nutzen, musst du Zugriff auf einen GrapheneSocket-Server haben, um dein Graphene-Konto mit diesem verbinden zu können.\n\nScanne den QR-Code, der von deinem Server bereitgestellt wird, um zu beginnen.</string>
   <string name="NotificationsSettingsFragment__graphenesocket_server">GrapheneSocket-Server</string>
   <string name="NotificationsSettingsFragment__not_selected">Nicht ausgewählt</string>
   <string name="UnifiedPushSettingsFragment__none_available">Keiner verfügbar</string>
@@ -151,7 +151,7 @@
   <string name="UnifiedPushSettingsFragment__graphenesocket_server">GrapheneSocket-Server</string>
   <string name="UnifiedPushSettingsFragment__graphenesocket_server_air_gapped">Physisch getrennt</string>
   <string name="LinkDeviceFragment__graphene_on_another_device">Graphene auf einem anderen Gerät</string>
-  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene unterstützt das Koppeln mit Graphene auf anderen Android-Geräten, sowie mit Signal auf Computern und iPads.</string>
+  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene unterstützt das Koppeln mit Graphene auf anderen Android-Geräten, sowie mit Graphene auf Computern und iPads.</string>
   <string name="LinkDeviceFragment__for_android_devices_visit_s_to_install_graphene">Für Android-Geräte bitte %s besuchen, um Graphene zu installieren.</string>
   <string name="LinkDeviceFragment__once_linked_new_messages_sync_across_devices">Nach dem Koppeln werden neue Nachrichten zwischen den Geräten synchronisiert. Frühere Nachrichten werden nicht übertragen.</string>
   <string name="DozeReminder_disable_battery_restrictions">Akkueinschränkungen aufheben</string>

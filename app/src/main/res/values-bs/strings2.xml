@@ -48,7 +48,7 @@
   <string name="NetworkPreferenceFragment_a_valid_port_number_is_between_0_and_65535">Ispravan je broj priključka između 0 i 65535</string>
   <string name="arrays__weekly">Sedmično</string>
   <string name="BackupsPreferenceFragment__schedule">Raspored</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene treba dopuštenje za pristup kontaktima kako bi Vam pomogla pronaći prijatelje. Vaši kontakti prenose se putem Signalovog privatnog pronalaska kontakata, što znači da su šifrirani s kraja na kraj i da ih Signal nikad ne može vidjeti.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene treba dopuštenje za pristup kontaktima kako bi Vam pomogla pronaći prijatelje. Vaši kontakti prenose se putem Grapheneovog privatnog pronalaska kontakata, što znači da su šifrirani s kraja na kraj i da ih Graphene nikad ne može vidjeti.</string>
   <string name="PrivacySettingsFragment__please_first_setup_your_biometrics_in_android_settings">Prvo postavite biometrijske funkcije u podešavanjima Androida</string>
   <string name="preferences_network__tunnels_network_traffic">Mrežni promet usmjerava kroz tunel</string>
   <string name="arrays__none">Ništa</string>
@@ -75,7 +75,7 @@
   <string name="PassphraseCreateActivity_turn_on_database_encryption">Aktiviraj šifriranje baze podataka</string>
   <string name="ConversationSettingsFragment__add_to_your_phones_contacts">Uvrsti među kontakte na svom uređaju</string>
   <string name="enter_device_link_dialog__if_your_phone_cant_scan_the_qr_code_you_can_manually_enter_the_link_encoded_in_the_qr_code">Ako Vaš uređaj ne može skenirati QR-kōd, možete upisati link kreiranog QR-kōda.</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene treba dopuštenje za pristup kontaktima i medijima kako bi Vam pomogla pronaći prijatelje i slati poruke. Vaši kontakti prenose se putem Signalovog privatnog pronalaska kontakata, što znači da su šifrirani s kraja na kraj i da ih Signal nikad ne može vidjeti.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene treba dopuštenje za pristup kontaktima i medijima kako bi Vam pomogla pronaći prijatelje i slati poruke. Vaši kontakti prenose se putem Grapheneovog privatnog pronalaska kontakata, što znači da su šifrirani s kraja na kraj i da ih Graphene nikad ne može vidjeti.</string>
   <string name="BiometricDialogFragment__biometric_verification">Biometrijska potvrda</string>
   <string name="BiometricDialogFragment__please_confirm_it_is_really_you_to_access_graphene">Da biste koristili Graphene, potvrdite da ste to Vi</string>
   <string name="PrivacySettingsFragment__lock_graphene_access_with_fingerprint_or_face_recognition">Zaključaj Graphene otiskom prsta ili prepoznavanjem lica</string>
@@ -85,7 +85,7 @@
   <string name="EnableAppUpdatesMegaphone_check_for_updates">Provjeri ažuriranja</string>
   <string name="EnableAppUpdatesMegaphone_graphene_can_periodically_check_for_new_releases_and_ask_you_to_install_them">Graphene može povremeno provjeriti ima li novih verzija i upitati Vas da ih instalira.</string>
   <string name="EnableAppUpdatesMegaphone_you_will_be_notified_when_updates_are_available">Bit ćete obaviješteni kad ažuriranja budu dostupna</string>
-  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s nije registrovan/a na Signalu</string>
+  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s nije registrovan/a na Grapheneu</string>
   <string name="TimeDurationPickerDialog_single_letter_second_abbreviation">s</string>
   <string name="AccountSettingsFragment_pin_settings_cannot_be_changed_from_a_linked_device">Postavke PIN-a se ne mogu promijeniti s povezanog uređaja</string>
   <string name="DeviceListItem_device_d">Uređaj broj %d</string>

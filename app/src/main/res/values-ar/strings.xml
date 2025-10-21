@@ -389,7 +389,7 @@
   <string name="ConversationItem_send_paused">الإرسال متوقف مؤقتًا</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">هل ترغبُ بالعودة إلى الرسائل القصيرة غير المُشفَّرة؟</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">هل ترغبُ بالعودة إلى وسائط متعددة غير مُشفَّرة؟</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">هذه الرسالة ستكون <b>غير</b> مُشفَّرة لأن المُستلِم لم يعد مُستخدِمًا ‏لسيجنال‏ .\n\nهل لديك الرغبة في إرسالها غير آمنة؟</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">هذه الرسالة ستكون غير مُشفَّرة لأن المُستلِم لم يعد مُستخدِمًا ‏لسيجنال‏ .\n\nهل لديك الرغبة في إرسالها غير آمنة؟</string>
   <string name="ConversationItem_unable_to_open_media">لم يتم العثور على تطبيق قادر على فتح الملف.</string>
   <string name="ConversationItem_copied_text">تم نسخ %1$s</string>
   <string name="ConversationItem_from_s">من %1$s</string>
@@ -3032,7 +3032,7 @@
   <string name="SubmitDebugLogActivity_submit">إرسال</string>
   <string name="SubmitDebugLogActivity_failed_to_submit_logs">فشل إرسال السجلات</string>
   <string name="SubmitDebugLogActivity_success">تمَّ بنجاح!</string>
-  <string name="SubmitDebugLogActivity_copy_this_url_and_add_it_to_your_issue">يُرجى نسخ هذا العنوان وإضافته إلى بلاغك عن مشكلة أو إلى بريد الدعم:\n\n<b>%1$s</b></string>
+  <string name="SubmitDebugLogActivity_copy_this_url_and_add_it_to_your_issue">يُرجى نسخ هذا العنوان وإضافته إلى بلاغك عن مشكلة أو إلى بريد الدعم:\n\n%1$s</string>
   <string name="SubmitDebugLogActivity_share">مشاركة</string>
   <string name="SubmitDebugLogActivity_this_log_will_be_posted_publicly_online_for_contributors">سيتمُّ نشر هذا السّجل علنًا على الانترنت حتى يتمكن المساهمون من الاطِّلاع عليه. يمكنك فحصه أو تعديله قبل تحميله.</string>
   <!-- Banner message shown while submitting debug log -->

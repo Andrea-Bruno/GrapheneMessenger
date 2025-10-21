@@ -45,7 +45,7 @@
   <string name="RegistrationActivity_network_settings">Socruithe líonra</string>
   <string name="DonateMegaphone_we_maintain_graphene_with_your_support_consider_donating_at_open_collective">Coimeádaimid Graphene le do thacaíocht! Smaoinigh ar bhronnadh ag Open Collective.</string>
   <string name="BlockUnblockDialog_block_and_delete">Bloc agus Scrios</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Teastaíonn cead teagmhála ó Graphene chun cabhrú leat do chairde a aimsiú. Uaslódáltar do theagmhálaithe trí úsáid a bhaint as fionnachtain teagmhála phríobháideach Signal, rud a chiallaíonn go bhfuil siad criptithe ó cheann ceann go ceann agus nach bhfeiceann an tseirbhís Signal iad riamh.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Teastaíonn cead teagmhála ó Graphene chun cabhrú leat do chairde a aimsiú. Uaslódáltar do theagmhálaithe trí úsáid a bhaint as fionnachtain teagmhála phríobháideach Graphene, rud a chiallaíonn go bhfuil siad criptithe ó cheann ceann go ceann agus nach bhfeiceann an tseirbhís Graphene iad riamh.</string>
   <plurals name="BioTextPreference_n_linked_devices">
     <item quantity="one">%d gléas nasctha</item>
     <item quantity="two">%d gléasanna nasctha</item>
@@ -83,7 +83,7 @@
   <string name="EnableAppUpdatesMegaphone_graphene_can_periodically_check_for_new_releases_and_ask_you_to_install_them">Is féidir le Graphene seiceáil go tréimhsiúil le haghaidh eisiúintí nua agus iarraidh ort iad a shuiteáil.</string>
   <string name="EnableAppUpdatesMegaphone_you_will_be_notified_when_updates_are_available">Cuirfear ar an eolas thú nuair a bheidh nuashonruithe ar fáil</string>
   <string name="EnableAppUpdatesMegaphone_check_for_updates_automatically">Seiceáil le haghaidh nuashonruithe go huathoibríoch?</string>
-  <string name="NewConversationActivity__s_is_not_registered_with_signal">Níl %1$s cláraithe le Signal</string>
+  <string name="NewConversationActivity__s_is_not_registered_with_signal">Níl %1$s cláraithe le Graphene</string>
   <string name="preferences__autoupdate_graphene">Graphene a nuashonrú go huathoibríoch</string>
   <string name="preferences__periodically_check_for_new_releases_and_ask_to_install_them">Seiceáil go tréimhsiúil le haghaidh eisiúintí nua agus iarr orthu iad a shuiteáil</string>
   <string name="preferences__beta_versions_are_intended_for_testing_purposes_and_may_contain_bugs">Tá leaganacha béite beartaithe chun críocha tástála agus d’fhéadfadh fabhtanna a bheith iontu</string>
@@ -97,7 +97,7 @@
   <string name="MessageRetrievalService_ready_to_receive_messages">Réidh chun teachtaireachtaí a fháil</string>
   <string name="DeviceAddFragment__link_without_scanning">Nasc gan scanadh</string>
   <string name="HelpSettingsFragment_for_updates_please_check_your_app_store">Le haghaidh nuashonruithe, seiceáil le do thoil do siopa app. Níl nuashonróir in-app san áireamh sa leagan seo.</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Teastaíonn na teagmhálaithe agus na ceadanna meán ó Graphene chun cabhrú leat do chairde a aimsiú agus teachtaireachtaí a sheoladh. Uaslódáltar do theagmhálaithe trí úsáid a bhaint as fionnachtain teagmhála phríobháideach Signal, rud a chiallaíonn go bhfuil siad criptithe ó cheann ceann go ceann agus nach bhfeiceann an tseirbhís Signal iad riamh.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Teastaíonn na teagmhálaithe agus na ceadanna meán ó Graphene chun cabhrú leat do chairde a aimsiú agus teachtaireachtaí a sheoladh. Uaslódáltar do theagmhálaithe trí úsáid a bhaint as fionnachtain teagmhála phríobháideach Graphene, rud a chiallaíonn go bhfuil siad criptithe ó cheann ceann go ceann agus nach bhfeiceann an tseirbhís Graphene iad riamh.</string>
   <string name="BiometricDialogFragment__please_confirm_it_is_really_you_to_access_graphene">Deimhnigh le do thoil gur tusa atá ann i ndáiríre a úsáideann Graphene</string>
   <string name="PrivacySettingsFragment__lock_graphene_access_with_fingerprint_or_face_recognition">Cuir glas ar rochtain Graphene le méarloirg nó aithint aghaidhe</string>
   <string name="PrivacySettingsFragment__no_biometric_features_available_on_this_device">Níl aon ghnéithe bithmhéadracha ar fáil ar an ngléas seo</string>
@@ -118,7 +118,7 @@
   <string name="LinkDeviceFragment__graphene_on_another_device">Graphene ar ghléas eile</string>
   <string name="LinkDeviceFragment__once_linked_new_messages_sync_across_devices">Nuair a bheidh siad nasctha, déantar teachtaireachtaí nua a shioncronú thar ghléasanna, ach ní aistreofar stair na dteachtaireachtaí roimhe seo.</string>
   <string name="LinkDeviceFragment__messaging_is_private_on_all_linked_devices">Tá teachtaireachtaí príobháideach ar gach gléas nasctha.</string>
-  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Tacaíonn Graphene le nascadh le gléasanna Android eile a ritheann Graphene, chomh maith le deasc agus iPad a ritheann Signal.</string>
+  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Tacaíonn Graphene le nascadh le gléasanna Android eile a ritheann Graphene, chomh maith le deasc agus iPad a ritheann Graphene.</string>
   <string name="DozeReminder_allow_graphene_to_deliver_timely_notifications">Lig do Graphene fógraí tráthúla a sheachadadh, fiú nuair a bhíonn do ghléas ar fuireachas.</string>
   <string name="NotificationsSettingsFragment__push_notifications">Fógraí a bhrú</string>
   <string name="IncomingMessageObserver_websocket_service">Seirbhís WebSocket</string>
@@ -158,7 +158,7 @@
   <string name="UnifiedPushSettingsFragment__graphenesocket_server_air_gapped">Aer bearna</string>
   <string name="UnifiedPushSettingsFragment__status_summary_linked_device_error">Ní féidir an gléas nasctha a chruthú</string>
   <string name="NotificationsSettingsFragment__configure_unifiedpush">Cumraigh UnifiedPush</string>
-  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Chun UnifiedPush a úsáid, teastaíonn rochtain uait ar fhreastalaí GrapheneSocket chun do chuntas Signal a nascadh.\n\nTosaigh tríd an gcód QR a sholáthraíonn do fhreastalaí a scanadh.</string>
+  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Chun UnifiedPush a úsáid, teastaíonn rochtain uait ar fhreastalaí GrapheneSocket chun do chuntas Graphene a nascadh.\n\nTosaigh tríd an gcód QR a sholáthraíonn do fhreastalaí a scanadh.</string>
   <string name="UnifiedPushNotificationBuilder__graphenesocket_forbidden_uuid">Dhiúltaigh an freastalaí GrapheneSocket do chuntas. Seiceáil na UUIDanna ceadaithe i gcumraíocht an fhreastalaí.</string>
   <string name="UnifiedPushNotificationBuilder__graphenesocket_device_limit_hit">Tá an teorainn de %d gléas nasctha sroichte agat. Chun do fhreastalaí GrapheneSocket a nascadh, bain gléas ar dtús.</string>
   <string name="UnifiedPushNotificationBuilder__this_is_a_test_notification">Is fógra tástála é seo ón bhfreastalaí GrapheneSocket.</string>

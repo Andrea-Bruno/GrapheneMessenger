@@ -83,8 +83,8 @@
   <string name="ChangePassphraseDialogFragment_estimated_time_to_crack_suggestion">%1$s\n\nPředpokládáný čas prolomení: %2$s\n\nNávrh: %3$s</string>
   <string name="NetworkPreferenceFragment_graphene_wont_connect_without_orbot_which_is_not_installed_on_this_device">Graphene se nebude moci připojit bez Orbotu, který není na tomto zařízení nainstalován.</string>
   <string name="BioTextPreference_no_linked_devices">Žádná propojená zařízení</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene potřebuje oprávnění ke kontaktům a médiím aby vám pomohla najít vaše přátele a odesílat zprávy. Vaše kontakty budou nahrány pomocí Signal objevování soukromých kontaktů, což znamená že budou end-to-end šifrované a nebudou nikdy viditelné službě Signal.</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene potřebuje oprávnění ke kontaktům aby vám pomohla najít vaše přátele. Vaše kontakty budou nahrány pomocí Signal objevování soukromých kontaktů, což znamená že budou end-to-end šifrované a nebudou nikdy viditelné službě Signal.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene potřebuje oprávnění ke kontaktům a médiím aby vám pomohla najít vaše přátele a odesílat zprávy. Vaše kontakty budou nahrány pomocí Graphene objevování soukromých kontaktů, což znamená že budou end-to-end šifrované a nebudou nikdy viditelné službě Graphene.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene potřebuje oprávnění ke kontaktům aby vám pomohla najít vaše přátele. Vaše kontakty budou nahrány pomocí Graphene objevování soukromých kontaktů, což znamená že budou end-to-end šifrované a nebudou nikdy viditelné službě Graphene.</string>
   <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s není registrováno na Signálu</string>
   <string name="HelpSettingsFragment_disable_and_delete_debug_log">Smazat a vypnout zaznamenáváni debugu\?</string>
   <string name="DeviceListItem_primary">Hlavní</string>
@@ -114,7 +114,7 @@
   <string name="LinkDeviceFragment__graphene_on_another_device">Graphene na dalším zařízení</string>
   <string name="LinkDeviceFragment__messaging_is_private_on_all_linked_devices">Zprávy jsou na všech připojených zařízeních soukromé.</string>
   <string name="LinkDeviceFragment__once_linked_new_messages_sync_across_devices">Až jej připojíte, nové zprávy se budou automaticky synchronizovat napříč zařízeními, ale předchozí historie zpráv nebude převedena.</string>
-  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene podporuje připojení k dalším Android zařízením s Graphene, stejně tak k počítačům a iPadům se Signalem.</string>
+  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene podporuje připojení k dalším Android zařízením s Graphene, stejně tak k počítačům a iPadům se Grapheneem.</string>
   <string name="LinkDeviceFragment__for_android_devices_visit_s_to_install_graphene">Pro Android zařízení: Navštivte %s pro instalaci Graphene.</string>
   <string name="AppUpdatesSettingsFragment__last_checked_s">Naposledy zkontrolováno: %s</string>
   <string name="DozeReminder_allow_graphene_to_deliver_timely_notifications">Povolit Graphene doručovat včasná oznámení, i když je vaše zařízení v pohotovostním režimu.</string>
@@ -127,7 +127,7 @@
   <string name="UnifiedPushSettingsFragment__status_summary_bad_response">Neplatná odpověď serveru</string>
   <string name="UnifiedPushNotificationBuilder__graphenesocket_device_limit_hit">Dosáhli jste limitu %d propojených zařízení. Pro propojení vašeho serveru GrapheneSocket nejprve prosím odstraňte zařízení.</string>
   <string name="GrapheneSocketLink_experienced_a_network_error_please_try_again">Došlo k chybě sítě. Zkuste to prosím znovu.</string>
-  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Pro použití služby UnifiedPush potřebujete přístup k serveru GrapheneSocket pro propojení vašeho účtu Signal.\n\nZačněte naskenováním QR kódu poskytnutého vaším serverem.</string>
+  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Pro použití služby UnifiedPush potřebujete přístup k serveru GrapheneSocket pro propojení vašeho účtu Graphene.\n\nZačněte naskenováním QR kódu poskytnutého vaším serverem.</string>
   <string name="UnifiedPushSettingsFragment__tap_to_copy_to_clipboard">Klepněte pro zkopírování do schránky</string>
   <string name="UnifiedPushSettingsFragment__server_parameters">Parametry serveru</string>
   <string name="UnifiedPushSettingsFragment__account_id">ID účtu</string>

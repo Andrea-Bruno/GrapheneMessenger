@@ -148,7 +148,7 @@
   <!-- Title of fragment -->
   <string name="CreditCardFragment__credit_or_debit_card">Kartu kredit atau debit</string>
   <!-- Explanation of how to fill in the form and a note about pii, displayed above the credit card text fields -->
-  <string name="CreditCardFragment__enter_your_card_details">Masukkan detail kartu Anda. Signal tidak mengumpulkan atau menyimpan informasi pribadi Anda.</string>
+  <string name="CreditCardFragment__enter_your_card_details">Masukkan detail kartu Anda. Graphene tidak mengumpulkan atau menyimpan informasi pribadi Anda.</string>
   <!-- Displayed as a hint in the card number text field -->
   <string name="CreditCardFragment__card_number">Nomor kartu</string>
   <!-- Displayed as a hint in the card expiry text field -->
@@ -197,9 +197,9 @@
   <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_call_you_or_send_you_messages">Orang yang diblokir tidak akan bisa menelepon Anda atau mengirimi Anda pesan.</string>
   <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_send_you_messages">Orang yang diblokir tidak akan bisa mengirimi Anda pesan.</string>
   <!-- Message shown on block dialog when blocking the Signal release notes recipient -->
-  <string name="BlockUnblockDialog_block_getting_signal_updates_and_news">Berhenti mendapat pembaruan dan berita Signal.</string>
+  <string name="BlockUnblockDialog_block_getting_signal_updates_and_news">Berhenti mendapat pembaruan dan berita Graphene.</string>
   <!-- Message shown on unblock dialog when unblocking the Signal release notes recipient -->
-  <string name="BlockUnblockDialog_resume_getting_signal_updates_and_news">Lanjut mendapatkan pembaruan dan berita Signal.</string>
+  <string name="BlockUnblockDialog_resume_getting_signal_updates_and_news">Lanjut mendapatkan pembaruan dan berita Graphene.</string>
   <string name="BlockUnblockDialog_unblock_s">Buka blokir %1$s?</string>
   <string name="BlockUnblockDialog_block">Blokir</string>
   <string name="BlockUnblockDialog_block_and_leave">Blokir dan Keluar</string>
@@ -210,11 +210,11 @@
   <!-- Dialog button to report as spam only -->
   <string name="BlockUnblockDialog_report_spam">Laporkan spam</string>
   <!-- Dialog message when reporting spam of an individual (1:1 conversation) -->
-  <string name="BlockUnblockDialog_report_spam_description">Signal akan diberi tahu bahwa orang ini mungkin mengirim spam. Signal tidak dapat melihat isi obrolan apa pun.</string>
+  <string name="BlockUnblockDialog_report_spam_description">Graphene akan diberi tahu bahwa orang ini mungkin mengirim spam. Graphene tidak dapat melihat isi obrolan apa pun.</string>
   <!-- Dialog message when reporting spam of a group and we can determine the group member that invited you, placeholder is a name -->
-  <string name="BlockUnblockDialog_report_spam_group_named_adder">Signal akan diberi tahu bahwa %1$s, yang mengundang Anda ke grup ini, mungkin mengirim spam. Signal tidak dapat melihat isi obrolan apa pun.</string>
+  <string name="BlockUnblockDialog_report_spam_group_named_adder">Graphene akan diberi tahu bahwa %1$s, yang mengundang Anda ke grup ini, mungkin mengirim spam. Graphene tidak dapat melihat isi obrolan apa pun.</string>
   <!-- Dialog message when reporting spam of a group and we cannot determine the group member that invited you -->
-  <string name="BlockUnblockDialog_report_spam_group_unknown_adder">Signal akan diberi tahu bahwa orang yang mengundang Anda ke grup ini mungkin mengirim spam. Signal tidak dapat melihat isi obrolan apa pun.</string>
+  <string name="BlockUnblockDialog_report_spam_group_unknown_adder">Graphene akan diberi tahu bahwa orang yang mengundang Anda ke grup ini mungkin mengirim spam. Graphene tidak dapat melihat isi obrolan apa pun.</string>
   <!-- BucketedThreadMedia -->
   <string name="BucketedThreadMedia_Today">Hari ini</string>
   <string name="BucketedThreadMedia_Yesterday">Kemarin</string>
@@ -281,15 +281,15 @@
   <string name="CameraXFragment_to_scan_qr_codes">Untuk memindai kode QR:</string>
   <!-- CameraContacts -->
   <string name="CameraContacts_recent_contacts">Kontak terbaru</string>
-  <string name="CameraContacts_signal_contacts">Kontak Signal</string>
-  <string name="CameraContacts_signal_groups">Grup Signal</string>
+  <string name="CameraContacts_signal_contacts">Kontak Graphene</string>
+  <string name="CameraContacts_signal_groups">Grup Graphene</string>
   <!-- A warning shown in a toast when  -->
   <plurals name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">
     <item quantity="other">Anda dapat berbagi dengan maksimal %1$d obrolan.</item>
   </plurals>
   <string name="CameraContacts_select_signal_recipients">Pilih penerima</string>
-  <string name="CameraContacts_no_signal_contacts">Tidak ada kontak Signal</string>
-  <string name="CameraContacts_you_can_only_use_the_camera_button">Anda hanya dapat menggunakan tombol kamera ini untuk mengirim foto ke kontak Signal. </string>
+  <string name="CameraContacts_no_signal_contacts">Tidak ada kontak Graphene</string>
+  <string name="CameraContacts_you_can_only_use_the_camera_button">Anda hanya dapat menggunakan tombol kamera ini untuk mengirim foto ke kontak Graphene. </string>
   <string name="CameraContacts_cant_find_who_youre_looking_for">Tidak menemukan kontak yang Anda cari?</string>
   <string name="CameraContacts_invite_a_contact_to_join_signal">Undang kontak untuk bergabung dengan Graphene</string>
   <string name="CameraContacts__menu_search">Pencarian</string>
@@ -297,7 +297,7 @@
   <!-- Title for an alert that shows at the bottom of the chat list letting people know that circumvention is no longer needed -->
   <string name="CensorshipCircumventionMegaphone_turn_off_censorship_circumvention">Nonaktifkan penghindaran sensor?</string>
   <!-- Body for an alert that shows at the bottom of the chat list letting people know that circumvention is no longer needed -->
-  <string name="CensorshipCircumventionMegaphone_you_can_now_connect_to_the_signal_service">Kini Anda bisa langsung menikmati layanan Signal untuk pengalaman yang lebih baik.</string>
+  <string name="CensorshipCircumventionMegaphone_you_can_now_connect_to_the_signal_service">Kini Anda bisa langsung menikmati layanan Graphene untuk pengalaman yang lebih baik.</string>
   <!-- Action to prompt the user to disable circumvention since it is no longer needed -->
   <string name="CensorshipCircumventionMegaphone_turn_off">Nonaktifkan</string>
   <!-- Action to prompt the user to dismiss the alert at the bottom of the chat list -->
@@ -317,7 +317,7 @@
   <string name="CommunicationActions_cancel">Batal</string>
   <string name="CommunicationActions_call">Panggil</string>
   <string name="CommunicationActions_insecure_call">Panggilan tidak aman</string>
-  <string name="CommunicationActions_carrier_charges_may_apply">Panggilan akan menggunakan pulsa seluler, dan tidak menggunakan internet karena nomor yang Anda hubungi belum menggunakan Signal.</string>
+  <string name="CommunicationActions_carrier_charges_may_apply">Panggilan akan menggunakan pulsa seluler, dan tidak menggunakan internet karena nomor yang Anda hubungi belum menggunakan Graphene.</string>
   <string name="CommunicationActions_cant_join_call">Tidak dapat bergabung ke panggilan</string>
   <string name="CommunicationActions_this_call_link_is_no_longer_valid">Tautan panggilan ini sudah tidak berlaku.</string>
   <!-- Title on dialog when call link url cannot be parsed -->
@@ -374,7 +374,7 @@
   <string name="ConversationItem_send_paused">Pengiriman tertunda</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">Alihkan pengiriman ke SMS tanpa enkripsi?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">Alihkan pengiriman ke MMS tanpa enkripsi?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Pesan ini <b>tidak</b> akan dienkripsi karena penerimanya sudah tidak menggunakan Signal.\n\nTetap kirim pesan tidak aman ini?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">Pesan ini tidak akan dienkripsi karena penerimanya sudah tidak menggunakan Graphene.\n\nTetap kirim pesan tidak aman ini?</string>
   <string name="ConversationItem_unable_to_open_media">Tidak bisa menemukan aplikasi untuk membuka media ini.</string>
   <string name="ConversationItem_copied_text">Disalin %1$s</string>
   <string name="ConversationItem_from_s">dari %1$s</string>
@@ -433,7 +433,7 @@
   <string name="ConversationActivity_transport_insecure_sms_with_sim">SMS tidak aman (%1$s)</string>
   <string name="ConversationActivity_transport_insecure_mms">MMS tidak aman</string>
   <!-- A title for the option to send an SMS with a placeholder to put the name of their SIM card -->
-  <string name="ConversationActivity_transport_signal">Pesan Signal</string>
+  <string name="ConversationActivity_transport_signal">Pesan Graphene</string>
   <!-- The content description for button to send a message in a conversation -->
   <string name="ConversationActivity_send_message_content_description">Kirim pesan</string>
   <string name="ConversationActivity_lets_switch_to_signal">Ayo pindah ke Graphene %1$s</string>
@@ -462,7 +462,7 @@
   <string name="ConversationActivity_to_capture_photos_and_video_allow_signal_access_to_the_camera">Izinkan Graphene untuk menggunakan kamera agar Anda dapat mengambil foto dan video.</string>
   <string name="ConversationActivity_signal_needs_the_camera_permission_to_take_photos_or_video">Anda harus mengizinkan Graphene untuk menggunakan kamera untuk dapat mengambil foto dan video. Harap buka pengaturan aplikasi, pilih \"Perizinan\", lalu izinkan Graphene mengakses \"Kamera\".</string>
   <string name="ConversationActivity_signal_needs_camera_permissions_to_take_photos_or_video">Graphene perlu mengakses kamera untuk dapat mengambil foto atau video.</string>
-  <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Izinkan Signal menggunakan mikrofon untuk mengambil video dengan suara.</string>
+  <string name="ConversationActivity_enable_the_microphone_permission_to_capture_videos_with_sound">Izinkan Graphene menggunakan mikrofon untuk mengambil video dengan suara.</string>
   <string name="ConversationActivity_signal_needs_the_recording_permissions_to_capture_video">Anda harus mengizinkan Graphene untuk menggunakan mikrofon untuk dapat merekam video. Harap buka pengaturan aplikasi Anda, pilih \"Perizinan\", lalu izinkan Graphene untuk menggunakan \"Mikrofon\" dan \"Kamera\".</string>
   <string name="ConversationActivity_signal_needs_recording_permissions_to_capture_video">Graphene perlu mengakses mikrofon untuk merekam video.</string>
   <string name="ConversationActivity_quoted_contact_message">%1$s%2$s</string>
@@ -489,9 +489,9 @@
   <string name="ConversationActivity_full">Penuh</string>
   <string name="ConversationActivity_error_sending_media">Gagal mengirim media</string>
   <!-- Message shown when opening an MMS group conversation with SMS disabled and there are no exported messages -->
-  <string name="ConversationActivity__sms_messaging_is_no_longer_supported">Pengiriman pesan SMS tidak lagi didukung di Signal.</string>
+  <string name="ConversationActivity__sms_messaging_is_no_longer_supported">Pengiriman pesan SMS tidak lagi didukung di Graphene.</string>
   <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-  <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">Pengiriman pesan SMS tidak lagi didukung di Signal. Undang %1$s ke Signal untuk menyimpan percakapan di sini.</string>
+  <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">Pengiriman pesan SMS tidak lagi didukung di Graphene. Undang %1$s ke Graphene untuk menyimpan percakapan di sini.</string>
   <!-- Message shown when opening a conversation with an unregistered user who used to be on Signal -->
   <string name="ConversationActivity__this_person_is_no_longer_using_signal">Orang ini sudah tidak menggunakan Graphene. Undang dia ke Graphene untuk melakukan percakapan di sini.</string>
   <!-- Action button shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
@@ -524,7 +524,7 @@
   <string name="ConversationFragment_dont_show_again">Jangan tampilkan lagi</string>
   <string name="ConversationFragment_pending">Tertunda…</string>
   <!-- Describes how the message was sent when looking at a message detail. Previously, messages could be through other means like SMS -->
-  <string name="ConversationFragment_push">Data (Signal)</string>
+  <string name="ConversationFragment_push">Data (Graphene)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">Menghapus</string>
@@ -537,7 +537,7 @@
   <string name="ConversationFragment_delete">Hapus</string>
   <!-- Dialog button for deleting one or more note-to-self messages on all linked devices. -->
   <string name="ConversationFragment_delete_everywhere">Hapus di semua perangkat</string>
-  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Pesan ini akan dihapus untuk semua orang yang ada dalam obrolan jika mereka menggunakan Signal versi terbaru. Mereka akan bisa melihat bahwa Anda telah menghapus sebuah pesan.</string>
+  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Pesan ini akan dihapus untuk semua orang yang ada dalam obrolan jika mereka menggunakan Graphene versi terbaru. Mereka akan bisa melihat bahwa Anda telah menghapus sebuah pesan.</string>
   <string name="ConversationFragment_quoted_message_not_found">Pesan asli tidak ditemukan</string>
   <string name="ConversationFragment_quoted_message_no_longer_available">Pesan asli tidak lagi tersedia</string>
   <string name="ConversationFragment_failed_to_open_message">Gagal membuka pesan</string>
@@ -554,7 +554,7 @@
   <string name="ConversationFragment_verify">Verifikasi</string>
   <string name="ConversationFragment_not_now">Nanti saja</string>
   <string name="ConversationFragment_your_safety_number_with_s_changed">Nomor keamanan Anda dengan %1$s berubah</string>
-  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Nomor keamanan Anda dengan %1$s berubah. Hal ini mungkin karena perangkatnya telah diganti atau Signal telah diinstal ulang. Ketuk \"Verifikasi\" untuk mengonfirmasi nomor keamanan barunya (opsional).</string>
+  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">Nomor keamanan Anda dengan %1$s berubah. Hal ini mungkin karena perangkatnya telah diganti atau Graphene telah diinstal ulang. Ketuk \"Verifikasi\" untuk mengonfirmasi nomor keamanan barunya (opsional).</string>
   <!-- Dialog title for block group link join requests -->
   <string name="ConversationFragment__block_request">Blokir permintaan?</string>
   <!-- Dialog message for block group link join requests -->
@@ -590,7 +590,7 @@
   <!-- Dialog title shown after reporting spam and tapping the conversation item -->
   <string name="ConversationFragment_reported_spam">Spam dilaporkan</string>
   <!-- Dialog message shown after reporting spam and tapping the conversation item -->
-  <string name="ConversationFragment_reported_spam_message">Signal telah diberi tahu bahwa orang ini mungkin mengirim spam. Signal tidak dapat melihat isi obrolan apa pun.</string>
+  <string name="ConversationFragment_reported_spam_message">Graphene telah diberi tahu bahwa orang ini mungkin mengirim spam. Graphene tidak dapat melihat isi obrolan apa pun.</string>
   <!-- Toast shown after reporting spam and tapping the conversation item -->
   <string name="ConversationFragment_reported_as_spam">Dilaporkan sebagai spam</string>
   <!-- Toast shown after reporting and blocking a conversation -->
@@ -640,7 +640,7 @@
   <!-- Message of tip 4 -->
   <string name="SafetyTips_tip4_message">Waspadai perusahaan atau badan pemerintahan yang menghubungi Anda. Pesan yang melibatkan agen pajak, kurir, atau lainnya bisa jadi adalah spam.</string>
   <!-- Bottom sheet text explaining that profile names are chosen by the account holder. Placeholder will be \'Profile names\' -->
-  <string name="ProfileNameBottomSheet__profile_names_on_signal">%1$s di Signal dipilih oleh pemilik akun.</string>
+  <string name="ProfileNameBottomSheet__profile_names_on_signal">%1$s di Graphene dipilih oleh pemilik akun.</string>
   <!-- Bottom sheet text explaining that profile names are not verified. -->
   <string name="ProfileNameBottomSheet__profile_names_arent_verified">Nama profil belum diverifikasi</string>
   <!-- Bottom sheet text explaining that accounts can impersonate other people and to be cautious -->
@@ -904,19 +904,19 @@
   <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Graphene menggunakan enkripsi end-to-end dan mungkin ada kalanya perlu menyegarkan sesi obrolan Anda. Ini tidak akan berdampak pada keamanan obrolan, tetapi bisa saja ada pesan yang gagal diterima dari kontak ini, dan untuk itu Anda bisa memintanya mengirim ulang.</string>
   <!-- LinkDeviceFragment -->
   <!-- Description for how Signal will work with a linked device (eg desktop, iPad) -->
-  <string name="LinkDeviceFragment__use_signal_on_desktop_ipad">Gunakan akun Signal ini di desktop atau iPad.</string>
+  <string name="LinkDeviceFragment__use_signal_on_desktop_ipad">Gunakan akun Graphene ini di desktop atau iPad.</string>
   <!-- Button prompting users to link a new device to their account -->
   <string name="LinkDeviceFragment__link_a_new_device">Hubungkan perangkat baru</string>
   <!-- Text explaining that on linked devices, messages will be encrypted where %s will be replaced with an image-->
   <string name="LinkDeviceFragment__messages_and_chat_info_are_protected">%1$s Pesan dan info obrolan dilindungi dengan enkripsi ujung-ke-ujung di semua perangkat</string>
   <!-- Bottom sheet title explaining how Signal works on a linked device -->
-  <string name="LinkDeviceFragment__signal_on_desktop_ipad">Signal di Desktop atau iPad</string>
+  <string name="LinkDeviceFragment__signal_on_desktop_ipad">Graphene di Desktop atau iPad</string>
   <!-- Bottom sheet description explaining that messages on linked devices are private -->
   <string name="LinkDeviceFragment__all_messaging_is_private">Semua pesan di perangkat terhubung bersifat privat</string>
   <!-- Bottom sheet description explaining that future messages on linked devices will be in sync with your phone but previous messages will not appear -->
-  <string name="LinkDeviceFragment__signal_messages_are_synchronized">Pesan Signal akan disinkronkan di ponsel Anda setelah terhubung. Riwayat pesan Anda sebelumnya tidak akan muncul.</string>
+  <string name="LinkDeviceFragment__signal_messages_are_synchronized">Pesan Graphene akan disinkronkan di ponsel Anda setelah terhubung. Riwayat pesan Anda sebelumnya tidak akan muncul.</string>
   <!-- Bottom sheet description explaining that for non-desktop/iPad devices, they should go to %s to download Signal where %s is Signal\'s website -->
-  <string name="LinkDeviceFragment__on_other_device_visit_signal">Di perangkat yang ingin dihubungkan, buka %1$s untuk menginstal Signal</string>
+  <string name="LinkDeviceFragment__on_other_device_visit_signal">Di perangkat yang ingin dihubungkan, buka %1$s untuk menginstal Graphene</string>
   <!-- Removed by excludeNonTranslatables <string name="LinkDeviceFragment__signal_download_url" translatable="false">signal.org/download</string> -->
   <!-- Header title listing out current linked devices -->
   <string name="LinkDeviceFragment__my_linked_devices">Perangkat terhubung saya</string>
@@ -941,7 +941,7 @@
   <!-- Title on bottom sheet explaining our usage of biometrics to link a device -->
   <string name="LinkDeviceFragment__before_linking">Sebelum menghubungkan, konfirmasi diri Anda</string>
   <!-- Body of bottom sheet explaining that users should use their device pin or biometrics and not their Signal pin -->
-  <string name="LinkDeviceFragment__tap_continue_and_enter_phone">Ketuk lanjutkan dan masukkan kunci ponsel Anda untuk mengonfirmasi. Jangan masukkan PIN Signal Anda.</string>
+  <string name="LinkDeviceFragment__tap_continue_and_enter_phone">Ketuk lanjutkan dan masukkan kunci ponsel Anda untuk mengonfirmasi. Jangan masukkan PIN Graphene Anda.</string>
   <!-- Button that dismisses the bottom sheet -->
   <string name="LinkDeviceFragment__continue">Lanjutkan</string>
   <!-- Option on button to contact support -->
@@ -1068,8 +1068,8 @@
   </plurals>
   <string name="PendingGroupJoinRequestsReminder_view">Lihat</string>
   <!-- GcmRefreshJob -->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Kegagalan komunikasi Signal permanen!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Signal tidak dapat registrasi melalui Google Play Services. Fitur seperti pesan dan panggilan telah dinonaktifkan dan harap registrasi ulang melalui Pengaturan &gt; Lanjutan.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">Kegagalan komunikasi Graphene permanen!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Graphene tidak dapat registrasi melalui Google Play Services. Fitur seperti pesan dan panggilan telah dinonaktifkan dan harap registrasi ulang melalui Pengaturan &gt; Lanjutan.</string>
   <!-- GiphyActivity -->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">Terjadi kesalahan saat mengambil file GIF dengan resolusi penuh</string>
   <!-- GiphyFragmentPageAdapter -->
@@ -1169,7 +1169,7 @@
   <string name="LinkPreviewView_this_group_link_is_not_active">Tautan grup ini tidak aktif</string>
   <string name="LinkPreviewView_domain_date">%1$s . %2$s</string>
   <!-- Description for Call Link url previews -->
-  <string name="LinkPreviewView__use_this_link_to_join_a_signal_call">Gunakan tautan ini untuk gabung di Panggilan Signal</string>
+  <string name="LinkPreviewView__use_this_link_to_join_a_signal_call">Gunakan tautan ini untuk gabung di Panggilan Graphene</string>
   <!-- LinkPreviewRepository -->
   <plurals name="LinkPreviewRepository_d_members">
     <item quantity="other">%1$d anggota</item>
@@ -1252,9 +1252,9 @@
   <string name="AddGroupDetailsFragment__sms_contact">Kontak SMS</string>
   <string name="AddGroupDetailsFragment__remove_s_from_this_group">Keluarkan %1$s dari grup ini?</string>
   <!-- Info message shown in the middle of the screen, displayed when adding group details to an MMS Group -->
-  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support">Anda memilih satu kontak yang tidak mendukung grup Signal, jadi grup ini akan menjadi grup MMS. Nama grup MMS kustom dan foto hanya terlihat oleh Anda.</string>
+  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support">Anda memilih satu kontak yang tidak mendukung grup Graphene, jadi grup ini akan menjadi grup MMS. Nama grup MMS kustom dan foto hanya terlihat oleh Anda.</string>
   <!-- Info message shown in the middle of the screen, displayed when adding group details to an MMS Group after SMS Phase 0 -->
-  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support_signal_groups_mms_removal">Anda memilih kontak yang tidak mendukung grup Signal, grup ini akan menjadi grup MMS. Foto dan nama grup MMS kustom hanya akan terlihat oleh Anda. Dukungan untuk grup MMS akan segera dihapus demi fokus pada pengiriman pesan terenkripsi.</string>
+  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support_signal_groups_mms_removal">Anda memilih kontak yang tidak mendukung grup Graphene, grup ini akan menjadi grup MMS. Foto dan nama grup MMS kustom hanya akan terlihat oleh Anda. Dukungan untuk grup MMS akan segera dihapus demi fokus pada pengiriman pesan terenkripsi.</string>
   <!-- ManageGroupActivity -->
   <string name="ManageGroupActivity_who_can_add_new_members">Siapa yang dapat menambahkan anggota baru?</string>
   <string name="ManageGroupActivity_who_can_edit_this_groups_info">Siapa yang dapat mengedit informasi grup?</string>
@@ -1262,8 +1262,8 @@
     <item quantity="other">%1$d anggota ditambahkan.</item>
   </plurals>
   <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">Anda tidak memiliki hak untuk melakukan tindakan ini</string>
-  <string name="ManageGroupActivity_not_capable">Seseorang yang Anda tambahkan belum dapat mengakses fitur grup baru dan perlu memperbarui aplikasinya ke versi Signal terbaru</string>
-  <string name="ManageGroupActivity_not_announcement_capable">Seseorang yang Anda tambahkan tidak dapat mengakses grup notifikasi dan perlu memperbarui aplikasinya ke versi Signal terbaru.</string>
+  <string name="ManageGroupActivity_not_capable">Seseorang yang Anda tambahkan belum dapat mengakses fitur grup baru dan perlu memperbarui aplikasinya ke versi Graphene terbaru</string>
+  <string name="ManageGroupActivity_not_announcement_capable">Seseorang yang Anda tambahkan tidak dapat mengakses grup notifikasi dan perlu memperbarui aplikasinya ke versi Graphene terbaru.</string>
   <string name="ManageGroupActivity_failed_to_update_the_group">Gagal memperbarui grup</string>
   <string name="ManageGroupActivity_youre_not_a_member_of_the_group">Anda bukan member grup ini</string>
   <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">Gagal memperbarui grup. Mohon coba lagi nanti</string>
@@ -1276,7 +1276,7 @@
   <string name="ManageGroupActivity_legacy_group_upgrade">Ini adalah grup lama. Untuk mengakses fitur baru seperti @mention dan admin,</string>
   <string name="ManageGroupActivity_legacy_group_too_large">Grup lama ini tidak bisa di-upgrade menjadi grup yang baru karena ukurannya terlalu besar. Ukuran maksimum grup adalah %1$d.</string>
   <string name="ManageGroupActivity_upgrade_this_group">upgrade grup ini.</string>
-  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Ini adalah Grup MMS yang tidak aman. Untuk mengobrol secara privat, undang kontak Anda ke Signal.</string>
+  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">Ini adalah Grup MMS yang tidak aman. Untuk mengobrol secara privat, undang kontak Anda ke Graphene.</string>
   <string name="ManageGroupActivity_invite_now">Undang sekarang</string>
   <string name="ManageGroupActivity_more">selengkapnya</string>
   <string name="ManageGroupActivity_add_group_description">Tambahkan deskripsi grup…</string>
@@ -1334,7 +1334,7 @@
   <!-- Dialog title -->
   <string name="RestoreActivity__no_longer_registered_title">Perangkat ini sudah tidak terdaftar</string>
   <!-- Dialog message -->
-  <string name="RestoreActivity__no_longer_registered_message">Ini mungkin terjadi karena Anda telah mendaftarkan akun Signal di perangkat yang berbeda.</string>
+  <string name="RestoreActivity__no_longer_registered_message">Ini mungkin terjadi karena Anda telah mendaftarkan akun Graphene di perangkat yang berbeda.</string>
   <!-- GroupMentionSettingDialog -->
   <string name="GroupMentionSettingDialog_notify_me_for_mentions">Beri tahu saya ketika ada yang menyebut saya</string>
   <string name="GroupMentionSettingDialog_receive_notifications_when_youre_mentioned_in_muted_chats">Terima notifikasi saat Anda disebut dalam obrolan yang dibisukan?</string>
@@ -1438,9 +1438,9 @@
     <item quantity="other">Grup · %1$d anggota</item>
   </plurals>
   <!-- GroupJoinUpdateRequiredBottomSheetDialogFragment -->
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Perbarui Signal untuk menggunakan tautan grup</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Versi Signal Anda tidak mendukung tautan grup ini. Perbarui ke versi terbaru untuk bergabung dengan grup ini.</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Perbarui Signal</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">Perbarui Graphene untuk menggunakan tautan grup</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">Versi Graphene Anda tidak mendukung tautan grup ini. Perbarui ke versi terbaru untuk bergabung dengan grup ini.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Perbarui Graphene</string>
   <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">Tautan grup tidak valid</string>
   <!-- GroupInviteLinkEnableAndShareBottomSheetDialogFragment -->
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_invite_friends">Undang teman</string>
@@ -1544,7 +1544,7 @@
   <string name="MediaOverviewActivity_this_media_is_not_sent_yet">Media ini belum dikirim.</string>
   <!-- Megaphones -->
   <string name="Megaphones_remind_me_later">Ingatkan saya nanti</string>
-  <string name="Megaphones_verify_your_signal_pin">Verifikasi PIN Signal Anda</string>
+  <string name="Megaphones_verify_your_signal_pin">Verifikasi PIN Graphene Anda</string>
   <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">Kami sesekali akan meminta Anda untuk melakukan verifikasi PIN agar Anda dapat mengingatnya.</string>
   <string name="Megaphones_verify_pin">Verifikasi PIN</string>
   <string name="Megaphones_get_started">Mulai</string>
@@ -1585,7 +1585,7 @@
   <string name="MediaRepository__camera">Kamera</string>
   <!-- MessageRecord -->
   <string name="MessageRecord_unknown">Tidak diketahui</string>
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Anda tidak dapat menerima pesan terenkripsi menggunakan Signal versi lama. Harap minta pengirim untuk memperbarui aplikasinya ke versi terbaru dan mengirim ulang pesannya.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Anda tidak dapat menerima pesan terenkripsi menggunakan Graphene versi lama. Harap minta pengirim untuk memperbarui aplikasinya ke versi terbaru dan mengirim ulang pesannya.</string>
   <string name="MessageRecord_left_group">Anda telah keluar dari grup.</string>
   <string name="MessageRecord_you_updated_group">Anda memperbarui grup.</string>
   <string name="MessageRecord_the_group_was_updated">Grup telah diperbarui.</string>
@@ -1612,7 +1612,7 @@
   <!-- Call update formatter string to place the update message next to a time stamp. e.g., \'Incoming voice call · 11:11am\' -->
   <string name="MessageRecord_call_message_with_date">%1$s . %2$s</string>
   <string name="MessageRecord_s_updated_group">%1$s memperbarui grup.</string>
-  <string name="MessageRecord_s_joined_signal">%1$s ada di Signal!</string>
+  <string name="MessageRecord_s_joined_signal">%1$s ada di Graphene!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">Anda menonaktifkan penghilangan pesan.</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s menonaktifkan penghilangan pesan.</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">Anda mengatur waktu penghilangan pesan menjadi %1$s</string>
@@ -1770,7 +1770,7 @@
   <string name="MessageRecord_a_message_from_s_couldnt_be_delivered">Sebuah pesan dari %1$s tidak dapat diterima</string>
   <string name="MessageRecord_s_changed_their_phone_number">%1$s mengubah nomor teleponnya.</string>
   <!-- Update item message shown in the release channel when someone is already a sustainer so we ask them if they want to boost. -->
-  <string name="MessageRecord_like_this_new_feature_help_support_signal_with_a_one_time_donation">Suka fitur baru ini? Dukung Signal dengan donasi satu-kali.</string>
+  <string name="MessageRecord_like_this_new_feature_help_support_signal_with_a_one_time_donation">Suka fitur baru ini? Dukung Graphene dengan donasi satu-kali.</string>
   <!-- Update item message shown when we merge two threads together. First placeholder is a name, second placeholder is a phone number. -->
   <string name="MessageRecord_your_message_history_with_s_and_their_number_s_has_been_merged">Riwayat pesan Anda dengan %1$s dan nomor %2$s telah digabungkan.</string>
   <!-- Update item message shown when we merge two threads together and we don\'t know the phone number of the other thread. The placeholder is a person\'s name. -->
@@ -1844,7 +1844,7 @@
     <item quantity="other">%1$s, %2$s, dan %3$d lainnya ada dalam panggilan grup</item>
   </plurals>
   <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
-  <string name="MessageRecord__you_will_no_longer_be_able_to_send_sms_messages_from_signal_soon">Dalam waktu dekat, Anda tidak dapat lagi mengirim pesan SMS dari Signal. Undang %1$s ke Signal untuk menyimpan percakapan di sini.</string>
+  <string name="MessageRecord__you_will_no_longer_be_able_to_send_sms_messages_from_signal_soon">Dalam waktu dekat, Anda tidak dapat lagi mengirim pesan SMS dari Graphene. Undang %1$s ke Graphene untuk menyimpan percakapan di sini.</string>
   <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
   <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">Anda tidak dapat lagi mengirim pesan SMS di Graphene. Undang %1$s ke Graphene untuk menyimpan percakapan di sini.</string>
   <!-- Body for quote when message being quoted is an in-app payment message -->
@@ -1864,7 +1864,7 @@
   <!-- Update message shown in chat after you unblock a group -->
   <string name="MessageRecord_you_unblocked_this_group">Anda membuka blokir grup ini</string>
   <!-- Update message shown when you receive a message that cannot be processed because your Signal version is too old. %1$s is the sender\'s name -->
-  <string name="MessageRecord_unsupported_feature">%1$s mengirimi Anda pesan tetapi tidak dapat diproses atau ditampilkan karena pesan tersebut menggunakan fitur baru Signal.</string>
+  <string name="MessageRecord_unsupported_feature">%1$s mengirimi Anda pesan tetapi tidak dapat diproses atau ditampilkan karena pesan tersebut menggunakan fitur baru Graphene.</string>
   <!-- Update message shown when someone ends the poll. %1$s is the person who ended the poll and %2$s is the poll question. -->
   <string name="MessageRecord_ended_the_poll">%1$s mengakhiri polling: \"%2$s\"</string>
   <!-- MessageRequestBottomView -->
@@ -1963,8 +1963,8 @@
   <!-- Toast message shown when a user has too many linked devices and needs to remove one before linking another -->
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">Maaf, terlalu banyak perangkat yang terhubung. Coba hapus beberapa perangkat tersebut</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">Maaf, ini bukan tautan perangkat kode QR yang valid.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">Hubungkan perangkat Signal?</string>
-  <string name="DeviceProvisioningActivity_to_link_a_desktop_or_ipad_to_this_signal_account">Untuk menghubungkan desktop atau iPad ke akun Signal ini, buka Perangkat Terhubung lalu ketuk \"Hubungkan Perangkat Baru\", dan pindai kode QR lagi. Pastikan Anda hanya memindai kode QR yang diperoleh langsung dari Signal.</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">Hubungkan perangkat Graphene?</string>
+  <string name="DeviceProvisioningActivity_to_link_a_desktop_or_ipad_to_this_signal_account">Untuk menghubungkan desktop atau iPad ke akun Graphene ini, buka Perangkat Terhubung lalu ketuk \"Hubungkan Perangkat Baru\", dan pindai kode QR lagi. Pastikan Anda hanya memindai kode QR yang diperoleh langsung dari Graphene.</string>
   <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">Graphene memerlukan izin Kamera untuk memindai kode QR, tetapi saat ini izin ditolak secara permanen. Silakan lanjut ke pengaturan aplikasi, pilih \"Izin\" dan aktifkan \"Kamera\".</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">Tidak bisa memindai kode QR tanpa izin Kamera</string>
   <!-- OutdatedBuildReminder -->
@@ -2001,25 +2001,25 @@
   <plurals name="PinRestoreEntryFragment_you_have_d_attempt_remaining">
     <item quantity="other">Anda memiliki %1$d percobaan tersisa. Jika kehabisan, Anda dapat membuat PIN baru. Anda dapat melakukan pendaftaran dan menggunakan akun Anda namun Anda akan kehilangan pengaturan yang disimpan seperti informasi profil.</item>
   </plurals>
-  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Pendaftaran Signal - Perlu Bantuan mengenai PIN untuk Android</string>
+  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Pendaftaran Graphene - Perlu Bantuan mengenai PIN untuk Android</string>
   <!-- PinRestoreLockedFragment -->
   <string name="PinRestoreLockedFragment_create_your_pin">Buat PIN Anda</string>
-  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Anda telah kehabisan percobaan PIN, namun Anda tetap dapat mengakses akun Signal Anda dengan membuat PIN baru. Untuk privasi dan keamanan, akun Anda akan dipulihkan tanpa informasi profil atau pengarturan yang telah disimpan.</string>
+  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Anda telah kehabisan percobaan PIN, namun Anda tetap dapat mengakses akun Graphene Anda dengan membuat PIN baru. Untuk privasi dan keamanan, akun Anda akan dipulihkan tanpa informasi profil atau pengarturan yang telah disimpan.</string>
   <string name="PinRestoreLockedFragment_create_new_pin">Buat PIN baru</string>
   <!-- Removed by excludeNonTranslatables <string name="PinRestoreLockedFragment_learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
   <!-- Dialog button text indicating user wishes to send an sms code isntead of skipping it -->
   <string name="ReRegisterWithPinFragment_send_sms_code">Kirim kode SMS</string>
   <!-- Email subject used when user contacts support about an issue with the reregister flow. -->
-  <string name="ReRegisterWithPinFragment_support_email_subject">Pendaftaran Signal - Perlu Bantuan pendaftaran ulang PIN untuk Android</string>
+  <string name="ReRegisterWithPinFragment_support_email_subject">Pendaftaran Graphene - Perlu Bantuan pendaftaran ulang PIN untuk Android</string>
   <!-- Dialog message shown in reregister flow when tapping a informational button to to learn about pins or contact support for help -->
   <string name="ReRegisterWithPinFragment_need_help_local">PIN Anda adalah %1$d+ kode digit yang Anda buat, bisa numerik atau alfanumerik.\n\nJika tidak ingat PIN Anda, Anda bisa membuat yang baru.</string>
   <!-- Dialog message shown in reregister flow when user requests to skip this flow and return to the normal flow -->
   <string name="ReRegisterWithPinFragment_skip_local">Jika tidak ingat PIN Anda, Anda bisa membuat yang baru.</string>
   <!-- Dialog message shown in reregister flow when user uses up all of their guesses for their pin and we are going to move on -->
-  <string name="ReRegisterWithPinFragment_out_of_guesses_local">Kesempatan Anda menebak PIN sudah habis, tapi Anda masih bisa mengakses akun Signal dengan membuat PIN baru.</string>
+  <string name="ReRegisterWithPinFragment_out_of_guesses_local">Kesempatan Anda menebak PIN sudah habis, tapi Anda masih bisa mengakses akun Graphene dengan membuat PIN baru.</string>
   <!-- PinOptOutDialog -->
   <string name="PinOptOutDialog_warning">Peringatan</string>
-  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Jika Anda menonaktifkan PIN, Anda akan kehilangan semua data saat Anda mendaftar ulang Signal kecuali Anda melakukan pencadangan manual dan memulihkannya. Anda tidak dapat mengaktifkan Kunci Pendaftaran jika PIN dinonaktifkan.</string>
+  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">Jika Anda menonaktifkan PIN, Anda akan kehilangan semua data saat Anda mendaftar ulang Graphene kecuali Anda melakukan pencadangan manual dan memulihkannya. Anda tidak dapat mengaktifkan Kunci Pendaftaran jika PIN dinonaktifkan.</string>
   <string name="PinOptOutDialog_disable_pin">Nonaktifkan PIN</string>
   <!-- RatingManager -->
   <string name="RatingManager_rate_this_app">Nilai aplikasi ini</string>
@@ -2154,17 +2154,17 @@
   <string name="WebRtcCallView__joining">Bergabung…</string>
   <string name="WebRtcCallView__disconnected">Terputus</string>
   <!-- Utilized in the lobby before joining a call link -->
-  <string name="WebRtcCallView__signal_call_link">Tautan panggilan Signal</string>
+  <string name="WebRtcCallView__signal_call_link">Tautan panggilan Graphene</string>
   <!-- Warning displayed when entering a call via a link and you have Phone Number Privacy disabled-->
   <string name="WebRtcCallView__anyone_who_joins_pnp_disabled">Siapa pun yang gabung dengan panggilan ini via tautan akan melihat nama, foto, dan nomor telepon Anda.</string>
   <!-- Warning displayed when entering a call via a link and you have Phone Number Privacy enabled-->
   <string name="WebRtcCallView__anyone_who_joins_pnp_enabled">Siapa pun yang bergabung dalam panggilan ini via tautan akan melihat nama dan foto Anda.</string>
   <!-- Displayed on the call screen as the status when waiting to be let into a call link by an admin -->
   <string name="WebRtcCallView__waiting_to_be_let_in">Menunggu diizinkan masuk…</string>
-  <string name="WebRtcCallView__signal_will_ring_s">Signal akan memanggil %1$s</string>
-  <string name="WebRtcCallView__signal_will_ring_s_and_s">Signal akan memanggil %1$s dan %2$s</string>
+  <string name="WebRtcCallView__signal_will_ring_s">Graphene akan memanggil %1$s</string>
+  <string name="WebRtcCallView__signal_will_ring_s_and_s">Graphene akan memanggil %1$s dan %2$s</string>
   <plurals name="WebRtcCallView__signal_will_ring_s_s_and_d_others">
-    <item quantity="other">Signal akan memanggil %1$s, %2$s, dan %3$d lainnya</item>
+    <item quantity="other">Graphene akan memanggil %1$s, %2$s, dan %3$d lainnya</item>
   </plurals>
   <string name="WebRtcCallView__s_will_be_notified">%1$s akan diberitahukan</string>
   <string name="WebRtcCallView__s_and_s_will_be_notified">%1$s dan %2$s akan diberitahukan</string>
@@ -2272,7 +2272,7 @@
   <string name="CountryCodeFragment__unknown_country">Negara tidak diketahui</string>
   <!-- AboutSheet -->
   <!-- Displayed in a sheet row and allows user to open signal connection explanation on tap -->
-  <string name="AboutSheet__signal_connection">Koneksi Signal</string>
+  <string name="AboutSheet__signal_connection">Koneksi Graphene</string>
   <!-- Displayed in a sheet row describing that the user has marked this contact as \'verified\' from within the app -->
   <string name="AboutSheet__verified">Terverifikasi</string>
   <!-- Displayed in a sheet row that tells users that profile names are not verified -->
@@ -2306,11 +2306,11 @@
     <item quantity="other">Dalam panggilan ini (%1$d)</item>
   </plurals>
   <plurals name="CallParticipantsListDialog__signal_will_ring">
-    <item quantity="other">Signal akan Menampilkan Layar Dering untuk (%1$d)</item>
+    <item quantity="other">Graphene akan Menampilkan Layar Dering untuk (%1$d)</item>
   </plurals>
   <!-- Header text shown in a bottom sheet that indicates how many people will be notified about an outgoing call -->
   <plurals name="CallParticipantsListDialog__signal_will_notify">
-    <item quantity="other">Signal akan Kirim Notifikasi ke (%1$d)</item>
+    <item quantity="other">Graphene akan Kirim Notifikasi ke (%1$d)</item>
   </plurals>
   <plurals name="CallParticipantsListDialog__raised_hands">
     <item quantity="other">Angkat tangan (%1$d)</item>
@@ -2362,14 +2362,14 @@
   <string name="RegistrationActivity_play_services_error">Play Services gagal</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google Play Services diperbarui atau untuk sementara tidak tersedia. Silahkan coba lagi.</string>
   <string name="RegistrationActivity_terms_and_privacy">Istilah &amp; Kebijakan Privasi</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal memerlukan akses ke kontak dan media agar dapat terhubung dengan teman dan mengirimkan pesan. Kontak Anda diunggah menggunakan pendeteksi kontak privat Signal, yang dienkripsi ujung-ke-ujung dan tidak akan terlihat pada layanan Signal.</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Signal memerlukan akses ke kontak agar dapat terhubung dengan teman Anda. Kontak Anda diunggah menggunakan pendeteksi kontak privat Signal, yang dienkripsi ujung-ke-ujung dan tidak akan terlihat pada layanan Signal.</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene memerlukan akses ke kontak dan media agar dapat terhubung dengan teman dan mengirimkan pesan. Kontak Anda diunggah menggunakan pendeteksi kontak privat Graphene, yang dienkripsi ujung-ke-ujung dan tidak akan terlihat pada layanan Graphene.</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene memerlukan akses ke kontak agar dapat terhubung dengan teman Anda. Kontak Anda diunggah menggunakan pendeteksi kontak privat Graphene, yang dienkripsi ujung-ke-ujung dan tidak akan terlihat pada layanan Graphene.</string>
   <string name="RegistrationActivity_rate_limited_to_service">Anda membuat terlalu banyak percobaan untuk mendaftarkan nomor ini. Mohon coba lagi nanti.</string>
   <!--    During registration, if the user attempts (and fails) to register, we display this error message with a number of minutes timer they are allowed to try again.-->
   <string name="RegistrationActivity_rate_limited_to_try_again">Anda terlalu sering mencoba mendaftar dengan nomor ini. Mohon coba lagi dalam %1$s.</string>
   <string name="RegistrationActivity_unable_to_connect_to_service">Tidak bisa terhubung ke layanan. Mohon cek koneksi jaringan dan coba lagi.</string>
   <!-- Dialog error message shown when attempting to register and the SMS provider fails to send an SMS -->
-  <string name="RegistrationActivity_sms_provider_error">Signal tidak dapat mengirim kode SMS karena ada masalah dengan penyedia SMS. Coba lagi dalam beberapa jam.</string>
+  <string name="RegistrationActivity_sms_provider_error">Graphene tidak dapat mengirim kode SMS karena ada masalah dengan penyedia SMS. Coba lagi dalam beberapa jam.</string>
   <!-- A description text for an alert dialog when the entered phone number is not eligible for a verification SMS. -->
   <string name="RegistrationActivity_we_couldnt_send_you_a_verification_code">Kami tidak dapat mengirimi Anda kode verifikasi via SMS. Coba terima kode via panggilan suara.</string>
   <!-- Generic error when the app is unable to request an SMS code for an unknown reason. -->
@@ -2418,7 +2418,7 @@
   <!-- RegistrationLockV2Dialog -->
   <string name="RegistrationLockV2Dialog_turn_on_registration_lock">Nyalakan Kunci Pendaftaran?</string>
   <string name="RegistrationLockV2Dialog_turn_off_registration_lock">Matikan Kunci Pendaftaran?</string>
-  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Jika Anda lupa PIN Signal saat melakukan pendaftaran lagi, akun Anda akan terkunci selama 7 hari.</string>
+  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Jika Anda lupa PIN Graphene saat melakukan pendaftaran lagi, akun Anda akan terkunci selama 7 hari.</string>
   <string name="RegistrationLockV2Dialog_turn_on">Nyalakan</string>
   <string name="RegistrationLockV2Dialog_turn_off">Matikan</string>
   <!-- RevealableMessageView -->
@@ -2443,12 +2443,12 @@
   <!-- SharedContactDetailsActivity -->
   <string name="SharedContactDetailsActivity_add_to_contacts">Tambahkan ke Kontak</string>
   <string name="SharedContactDetailsActivity_invite_to_signal">Undang ke Graphene</string>
-  <string name="SharedContactDetailsActivity_signal_message">Pesan Signal</string>
-  <string name="SharedContactDetailsActivity_signal_call">Panggilan Signal</string>
+  <string name="SharedContactDetailsActivity_signal_message">Pesan Graphene</string>
+  <string name="SharedContactDetailsActivity_signal_call">Panggilan Graphene</string>
   <!-- SharedContactView -->
   <string name="SharedContactView_add_to_contacts">Tambahkan ke Kontak</string>
   <string name="SharedContactView_invite_to_signal">Undang ke Graphene</string>
-  <string name="SharedContactView_message">Pesan Signal</string>
+  <string name="SharedContactView_message">Pesan Graphene</string>
   <!-- SignalBottomActionBar -->
   <!-- Text to describe a button that will show more options -->
   <string name="SignalBottomActionBar_more">Selanjutnya</string>
@@ -2459,12 +2459,12 @@
   <string name="SignalPinReminders_well_remind_you_again_in_a_week">PIN berhasil diverifikasi. Kami akan mengingatkan Anda kembali dalam seminggu.</string>
   <string name="SignalPinReminders_well_remind_you_again_in_a_couple_weeks">PIN berhasil diverifikasi. Kami akan mengingatkan Anda kembali dalam beberapa minggu.</string>
   <string name="SignalPinReminders_well_remind_you_again_in_a_month">PIN berhasil diverifikasi. Kami akan mengingatkan Anda kembali dalam sebulan.</string>
-  <string name="SignalPinReminders__well_remind_you_again_later">Signal akan mengingatkan Anda lagi nanti.</string>
-  <string name="SignalPinReminders__well_remind_you_again_tomorrow">Signal akan mengingatkan Anda lagi besok.</string>
-  <string name="SignalPinReminders__well_remind_you_again_in_a_few_days">Signal akan mengingatkan Anda lagi dalam beberapa hari.</string>
-  <string name="SignalPinReminders__well_remind_you_again_in_a_week">Signal akan mengingatkan Anda lagi dalam seminggu.</string>
-  <string name="SignalPinReminders__well_remind_you_again_in_a_couple_weeks">Signal akan mengingatkan Anda lagi dalam dua minggu.</string>
-  <string name="SignalPinReminders__well_remind_you_again_in_a_month">Signal akan mengingatkan Anda lagi dalam satu bulan.</string>
+  <string name="SignalPinReminders__well_remind_you_again_later">Graphene akan mengingatkan Anda lagi nanti.</string>
+  <string name="SignalPinReminders__well_remind_you_again_tomorrow">Graphene akan mengingatkan Anda lagi besok.</string>
+  <string name="SignalPinReminders__well_remind_you_again_in_a_few_days">Graphene akan mengingatkan Anda lagi dalam beberapa hari.</string>
+  <string name="SignalPinReminders__well_remind_you_again_in_a_week">Graphene akan mengingatkan Anda lagi dalam seminggu.</string>
+  <string name="SignalPinReminders__well_remind_you_again_in_a_couple_weeks">Graphene akan mengingatkan Anda lagi dalam dua minggu.</string>
+  <string name="SignalPinReminders__well_remind_you_again_in_a_month">Graphene akan mengingatkan Anda lagi dalam satu bulan.</string>
   <!-- Slide -->
   <string name="Slide_image">Gambar</string>
   <string name="Slide_sticker">Stiker</string>
@@ -2495,7 +2495,7 @@
   <!-- Sticker pack list section header for packs that have been received from incoming messages. -->
   <string name="StickerManagement_stickers_you_received_header">Stiker yang Anda terima</string>
   <!-- Sticker pack list section header for highlighted/"blessed" packs. -->
-  <string name="StickerManagement_signal_artist_series_header">Seri seniman Signal</string>
+  <string name="StickerManagement_signal_artist_series_header">Seri seniman Graphene</string>
   <!-- Title shown when sharing a sticker pack with another user. -->
   <string name="StickerManagement_share_sheet_title">Teruskan ke</string>
   <!-- Bottom action bar option to select all sticker packs in the list. -->
@@ -2567,7 +2567,7 @@
   <string name="SubmitDebugLogActivity_submit">Kirimkan</string>
   <string name="SubmitDebugLogActivity_failed_to_submit_logs">Gagal mengirimkan catatan</string>
   <string name="SubmitDebugLogActivity_success">Berhasil!</string>
-  <string name="SubmitDebugLogActivity_copy_this_url_and_add_it_to_your_issue">Salin URL ini dan tambahkan ke laporan masalah Anda atau kirimkan ke surel dukungan:\n\n<b>%1$s</b></string>
+  <string name="SubmitDebugLogActivity_copy_this_url_and_add_it_to_your_issue">Salin URL ini dan tambahkan ke laporan masalah Anda atau kirimkan ke surel dukungan:\n\n%1$s</string>
   <string name="SubmitDebugLogActivity_share">Bagikan</string>
   <string name="SubmitDebugLogActivity_this_log_will_be_posted_publicly_online_for_contributors">Catatan ini akan dipasang secara daring kepada publik untuk dilihat oleh kontributor. Anda dapat memeriksanya sebelum mengunggah.</string>
   <!-- Banner message shown while submitting debug log -->
@@ -2609,7 +2609,7 @@
   <string name="ThreadRecord_you_activated_payments">Anda mengaktifkan Pembayaran</string>
   <!-- Displayed in the notification when the recipient can accept payments -->
   <string name="ThreadRecord_can_accept_payments">%1$s sekarang dapat menerima Pembayaran</string>
-  <string name="ThreadRecord_s_is_on_signal">%1$s ada di Signal!</string>
+  <string name="ThreadRecord_s_is_on_signal">%1$s ada di Graphene!</string>
   <string name="ThreadRecord_disappearing_messages_disabled">Pesan menghilang dinonaktifkan</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">Waktu penghilangan pesan diatur menjadi %1$s</string>
   <string name="ThreadRecord_safety_number_changed">Nomor keamanan berubah</string>
@@ -2656,7 +2656,7 @@
   <string name="ApkUpdateNotifications_failed_general_body">Kami akan coba lagi nanti.</string>
   <string name="ApkUpdateNotifications_auto_update_success_title">Graphene berhasil diperbarui</string>
   <string name="ApkUpdateNotifications_auto_update_success_body">Aplikasi secara otomatis diperbarui ke versi %1$s.</string>
-  <string name="ApkUpdateNotifications_manual_update_success_body">Signal diperbarui ke versi %1$s.</string>
+  <string name="ApkUpdateNotifications_manual_update_success_body">Graphene diperbarui ke versi %1$s.</string>
   <!-- UntrustedSendDialog -->
   <string name="UntrustedSendDialog_send_message">Kirim pesan?</string>
   <string name="UntrustedSendDialog_send">Kirim</string>
@@ -2707,16 +2707,16 @@
   <!-- Text for a button in a dialog asking if the user would like to continue the operation of changing their username -->
   <string name="UsernameEditFragment_continue">Lanjutkan</string>
   <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
-    <item quantity="other">%1$d kontak ada di Signal!</item>
+    <item quantity="other">%1$d kontak ada di Graphene!</item>
   </plurals>
   <!-- UsernameShareBottomSheet -->
   <!-- Explanation of what the sheet enables the user to do -->
   <string name="UsernameShareBottomSheet__copy_or_share_a_username_link">Salin atau bagikan tautan nama pengguna</string>
   <!-- VerifyIdentityActivity -->
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Kontak Anda menjalankan versi Signal yang lebih baru dengan format kode QR yang tidak kompatibel. Silahkan perbarui untuk membandingkan.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">Kontak Anda menjalankan versi Graphene yang lebih baru dengan format kode QR yang tidak kompatibel. Silahkan perbarui untuk membandingkan.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">Kode QR yang dipindai bukan kode verifikasi nomor keamanan dengan format yang benar. Coba pindai lagi.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">Bagikan nomor keamanan melalui…</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">Nomor keamanan Signal kami:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">Nomor keamanan Graphene kami:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">Sepertinya Anda tidak memiliki aplikasi untuk berbagi.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">Tidak ada nomor keamanan untuk dibandingkan yang ditemukan di papan klip</string>
   <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">Graphene memerlukan izin Kamera untuk memindai kode QR, tetapi saat ini izin ditolak secara permanen. Silakan lanjut ke pengaturan aplikasi, pilih \"Izin\" dan aktifkan \"Kamera\".</string>
@@ -2794,7 +2794,7 @@
   <string name="MessageNotifier_view_once_photo">Foto satu-tayangan</string>
   <string name="MessageNotifier_view_once_video">Video satu-tayangan</string>
   <string name="MessageNotifier_reply">Balas</string>
-  <string name="MessageNotifier_signal_message">Pesan Signal</string>
+  <string name="MessageNotifier_signal_message">Pesan Graphene</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">Kontak</string>
   <string name="MessageNotifier_reacted_s_to_s">Menanggapi %1$s pada: \"%2$s\".</string>
@@ -2834,7 +2834,7 @@
   <string name="NotificationChannel_group_chats">Obrolan</string>
   <string name="NotificationChannel_missing_display_name">Tidak dikenal</string>
   <string name="NotificationChannel_voice_notes">Pesan suara</string>
-  <string name="NotificationChannel_contact_joined_signal">Kontak bergabung dengan Signal</string>
+  <string name="NotificationChannel_contact_joined_signal">Kontak bergabung dengan Graphene</string>
   <!-- Toast shown when there is no application available to open the settings -->
   <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">Tidak ada aktivitas yang tersedia untuk membuka pengaturan notifikasi saluran.</string>
   <!-- Notification channel name for showing persistent background connection on devices without push notifications -->
@@ -2929,10 +2929,10 @@
   <!-- Action in reminder banner that will take user to re-register -->
   <string name="UnauthorizedReminder_reregister_action">Daftarkan Ulang Perangkat</string>
   <!-- Push notification when the app is forcibly logged out by the server. -->
-  <string name="LoggedOutNotification_you_have_been_logged_out">Anda telah keluar dari Signal di perangkat ini.</string>
+  <string name="LoggedOutNotification_you_have_been_logged_out">Anda telah keluar dari Graphene di perangkat ini.</string>
   <!-- EnclaveFailureReminder -->
   <!-- Banner message to update app to use payments -->
-  <string name="EnclaveFailureReminder_update_signal">Perbarui Signal untuk terus menggunakan pembayaran. Saldo Anda mungkin belum diperbarui.</string>
+  <string name="EnclaveFailureReminder_update_signal">Perbarui Graphene untuk terus menggunakan pembayaran. Saldo Anda mungkin belum diperbarui.</string>
   <!-- Banner button to update now -->
   <!-- WebRtcCallActivity -->
   <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone">Untuk menjawab panggilan, berikan Graphene akses ke mikrofon Anda.</string>
@@ -2983,7 +2983,7 @@
   <!-- Row item description for refreshing contacts -->
   <string name="contact_selection_activity__missing_someone">Ada yang belum muncul? Coba segarkan</string>
   <!-- Row item title for finding people on Signal via your contacts -->
-  <string name="contact_selection_activity__find_people_you_know">Temukan orang yang Anda kenal di Signal</string>
+  <string name="contact_selection_activity__find_people_you_know">Temukan orang yang Anda kenal di Graphene</string>
   <!-- Row item description asking users for access to their contacts to find people they know -->
   <string name="contact_selection_activity__allow_access_to_contacts">Izinkan akses ke kontak Anda</string>
   <!-- Row header title for more section -->
@@ -3001,12 +3001,12 @@
   <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">Graphene memerlukan izin Kontak untuk menampilkan daftar kontak Anda, tetapi saat ini izin ditolak secara permanen. Mohon lanjutkan ke pengaturan aplikasi, pilih \"Izin\" dan aktifkan \"Kontak\".</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">Kesalahan saat mengambil kontak, periksa koneksi jaringan Anda</string>
   <string name="ContactSelectionListFragment_username_not_found">Nama pengguna tidak ditemukan</string>
-  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"\"%1$s\" bukan pengguna Signal. Cek kembali dan coba lagi."</string>
+  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"\"%1$s\" bukan pengguna Graphene. Cek kembali dan coba lagi."</string>
   <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">Anda tidak perlu menambahkan diri sendiri ke grup</string>
   <string name="ContactSelectionListFragment_maximum_group_size_reached">Batas maksimal grup sudah terpenuhi</string>
-  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Grup Signal memiliki batas maksimum %1$d anggota.</string>
+  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Grup Graphene memiliki batas maksimum %1$d anggota.</string>
   <string name="ContactSelectionListFragment_recommended_member_limit_reached">Jumlah rekomendasi anggota telah tercapai</string>
-  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Performa grup Signal akan lebih baik dengan jumlah %1$d anggota atau kurang. Menambah anggota lebih banyak akan menyebabkan pengiriman dan penerimaan pesan menjadi lambat.</string>
+  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">Performa grup Graphene akan lebih baik dengan jumlah %1$d anggota atau kurang. Menambah anggota lebih banyak akan menyebabkan pengiriman dan penerimaan pesan menjadi lambat.</string>
   <plurals name="ContactSelectionListFragment_d_members">
     <item quantity="other">%1$d anggota</item>
   </plurals>
@@ -3017,13 +3017,13 @@
   <!-- Dialog title asking users for contact permission -->
   <string name="ContactSelectionListFragment_allow_access_contacts">Izinkan akses ke kontak</string>
   <!-- Dialog description that will explain the steps needed to give contact permissions -->
-  <string name="ContactSelectionListFragment_to_find_people">Untuk menemukan orang yang Anda kenal di Signal:</string>
+  <string name="ContactSelectionListFragment_to_find_people">Untuk menemukan orang yang Anda kenal di Graphene:</string>
   <!-- Text on button prompting users to give Signal contact permissions -->
   <string name="ContactSelectionListFragment__allow_access">Izinkan akses</string>
   <!-- Text on button to dismiss Signal\'s request for contact permissions -->
   <string name="ContactSelectionListFragment__no_thanks">Tidak, terima kasih</string>
   <!-- Text asking for user\'s contact permission -->
-  <string name="ContactSelectionListFragment__allow_access_to_your_contacts_encrypted">Izinkan akses ke kontak Anda. Kontak Anda dienkripsi dan tidak terlihat oleh layanan Signal.</string>
+  <string name="ContactSelectionListFragment__allow_access_to_your_contacts_encrypted">Izinkan akses ke kontak Anda. Kontak Anda dienkripsi dan tidak terlihat oleh layanan Graphene.</string>
   <!-- contact_selection_list_fragment -->
   <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">Graphene memerlukan akses ke daftar kontak Anda supaya dapat menampilkannya.</string>
   <string name="contact_selection_list_fragment__show_contacts">Tampilkan kontak</string>
@@ -3036,7 +3036,7 @@
     <item quantity="other">%1$d penonton</item>
   </plurals>
   <!-- conversation_activity -->
-  <string name="conversation_activity__type_message_push">Pesan Signal</string>
+  <string name="conversation_activity__type_message_push">Pesan Graphene</string>
   <string name="conversation_activity__type_message_sms_insecure">SMS tanpa enkripsi</string>
   <string name="conversation_activity__type_message_mms_insecure">MMS tanpa enkripsi</string>
   <!-- Option in send button context menu to schedule the message instead of sending it directly -->
@@ -3189,9 +3189,9 @@
   <string name="IdentityUtil_unverified_banner_one">Nomor keamanan anda dengan %1$s telah berubah dan tidak lagi terverifikasi</string>
   <string name="IdentityUtil_unverified_banner_two">Nomor keamanan anda dengan %1$s dan %2$s tidak lagi terverifikasi</string>
   <string name="IdentityUtil_unverified_banner_many">Nomor keamanan anda dengan %1$s, %2$s, dan%3$s tidak lagi terverifikasi</string>
-  <string name="IdentityUtil_unverified_dialog_one">Nomor keamanan anda dengan %1$s telah berubah dan tidak lagi terverifikasi. Ini bisa disebabkan seseorang mencoba mencegat komunikasi anda, atau disebabkan%1$s telah memasang ulang Signal.</string>
-  <string name="IdentityUtil_unverified_dialog_two">Nomor keamanan anda dengan %1$s dan %2$s tidak lagi terverifikasi. Ini bisa disebabkan seseorang mencoba mencegat komunikasi anda, atau disebabkan mereka memasang ulang Signal.</string>
-  <string name="IdentityUtil_unverified_dialog_many">Nomor keamanan anda dengan %1$s, %2$s, dan %3$s tidak lagi terverifikasi. Ini bisa disebabkan seseorang mencoba mencegat komunikasi anda, atau disebabkan mereka memasang ulang Signal.</string>
+  <string name="IdentityUtil_unverified_dialog_one">Nomor keamanan anda dengan %1$s telah berubah dan tidak lagi terverifikasi. Ini bisa disebabkan seseorang mencoba mencegat komunikasi anda, atau disebabkan%1$s telah memasang ulang Graphene.</string>
+  <string name="IdentityUtil_unverified_dialog_two">Nomor keamanan anda dengan %1$s dan %2$s tidak lagi terverifikasi. Ini bisa disebabkan seseorang mencoba mencegat komunikasi anda, atau disebabkan mereka memasang ulang Graphene.</string>
+  <string name="IdentityUtil_unverified_dialog_many">Nomor keamanan anda dengan %1$s, %2$s, dan %3$s tidak lagi terverifikasi. Ini bisa disebabkan seseorang mencoba mencegat komunikasi anda, atau disebabkan mereka memasang ulang Graphene.</string>
   <string name="IdentityUtil_untrusted_dialog_one">Nomor keamanan anda dengan %1$s baru saja berubah.</string>
   <string name="IdentityUtil_untrusted_dialog_two">Nomor keamanan anda dengan %1$s dan %2$s baru saja berubah.</string>
   <string name="IdentityUtil_untrusted_dialog_many">Nomor keamanan anda dengan %1$s, %2$s, dan %3$s baru saja berubah.</string>
@@ -3221,7 +3221,7 @@
   <!-- prompt_passphrase_activity -->
   <string name="prompt_passphrase_activity__unlock">Buka Kunci</string>
   <!-- prompt_mms_activity -->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Signal memerlukan pengaturan MMS untuk mengirimkan media dan pesan grup melalui jaringan operator. Perangkat Anda tidak dapat menyediakan informasi ini, yang bisa terjadi pada perangkat terkunci dan konfigurasi terbatas lainnya.</string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">Graphene memerlukan pengaturan MMS untuk mengirimkan media dan pesan grup melalui jaringan operator. Perangkat Anda tidak dapat menyediakan informasi ini, yang bisa terjadi pada perangkat terkunci dan konfigurasi terbatas lainnya.</string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Untuk mengirim pesan media dan pesan grup, ketuk \'OK\' dan selesaikan pengaturan yang diminta. Pengaturan MMS untuk operator Anda biasanya dapat ditemukan dengan mencari \'APN operator Anda\'. Anda hanya perlu melakukan ini sekali saja.</string>
   <!-- BadDecryptLearnMoreDialog -->
   <string name="BadDecryptLearnMoreDialog_delivery_issue">Masalah Pengiriman</string>
@@ -3332,7 +3332,7 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
   <!-- Heading used within support email that lists additional information to help with debugging -->
   <string name="HelpFragment__support_info">Informasi Bantuan</string>
-  <string name="HelpFragment__signal_android_support_request">Permintaan Bantuan Signal Android</string>
+  <string name="HelpFragment__signal_android_support_request">Permintaan Bantuan Graphene Android</string>
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__debug_log" translatable="false">Debug Log:</string> -->
   <string name="HelpFragment__could_not_upload_logs">Gagal mengunggah catatan</string>
   <string name="HelpFragment__please_be_as_descriptive_as_possible">Mohon jelaskan sedeskriptif mungkin untuk membantu kami memahami permasalahannya.</string>
@@ -3344,11 +3344,11 @@
     <item>Masukan</item>
     <item>Pembayaran (MobileCoin)</item>
     <item>Donasi dan Lencana</item>
-    <item>Pencadangan Signal Android</item>
+    <item>Pencadangan Graphene Android</item>
     <item>Lainnya</item>
   </string-array>
   <!-- Subject of email when submitting debug logs to help debug slow notifications -->
-  <string name="DebugLogsPromptDialogFragment__signal_android_support_request">Pengiriman Catatan Debug Android Signal</string>
+  <string name="DebugLogsPromptDialogFragment__signal_android_support_request">Pengiriman Catatan Debug Android Graphene</string>
   <!-- Action to submit logs and take user to send an e-mail -->
   <string name="DebugLogsPromptDialogFragment__submit">Kirimkan</string>
   <!-- Action to decline to submit logs -->
@@ -3424,7 +3424,7 @@
   <string name="preferences__enable_passphrase">Aktifkan frasa sandi untuk kunci layar</string>
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">Kunci layar dan notifikasi dengan frasa sandi</string>
   <string name="preferences__screen_security">Keamanan Layar</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Otomatis mengunci Signal setelah tidak aktif selang waktu tertentu</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">Otomatis mengunci Graphene setelah tidak aktif selang waktu tertentu</string>
   <!-- Legacy preference menu item to enable locking of app after inactivity -->
   <string name="preferences__inactivity_timeout_passphrase">Frasa sandi untuk waktu habis karena tiada aktivitas</string>
   <!-- Legacy preference menu item to choose the interval of inactivity before lockout -->
@@ -3512,15 +3512,15 @@
   <string name="preferences__graphic_illustrating_where_the_replacement_app_icon_will_be_visible">Grafis yang menggambarkan tempat ikon aplikasi pengganti akan terlihat.</string>
   <string name="preferences__disable_pin">Nonaktifkan PIN</string>
   <string name="preferences__enable_pin">Aktifkan PIN</string>
-  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Jika Anda menonaktifkan PIN, Anda akan kehilangan data saat Anda mendaftar ulang Signal kecuali Anda melakukan pencadangan manual dan memulihkannya. Anda tidak dapat menyalakan Kunci Pendaftaran saat PIN dinonaktifkan.</string>
-  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN menjaga informasi yang disimpan dengan Signal terenkripsi sehingga hanya Anda yang dapat mengaksesnya. Profil Anda, pengaturan, dan kontak-kontak akan dipulihkan saat Anda memasang ulang aplikasi. Anda tidak memerlukan PIN untuk membuka aplikasinya.</string>
+  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">Jika Anda menonaktifkan PIN, Anda akan kehilangan data saat Anda mendaftar ulang Graphene kecuali Anda melakukan pencadangan manual dan memulihkannya. Anda tidak dapat menyalakan Kunci Pendaftaran saat PIN dinonaktifkan.</string>
+  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">PIN menjaga informasi yang disimpan dengan Graphene terenkripsi sehingga hanya Anda yang dapat mengaksesnya. Profil Anda, pengaturan, dan kontak-kontak akan dipulihkan saat Anda memasang ulang aplikasi. Anda tidak memerlukan PIN untuk membuka aplikasinya.</string>
   <string name="preferences__system_default">Pengaturan dasar sistem</string>
   <string name="preferences__language">Bahasa</string>
-  <string name="preferences__signal_messages_and_calls">Pesan dan panggilan Signal</string>
+  <string name="preferences__signal_messages_and_calls">Pesan dan panggilan Graphene</string>
   <string name="preferences__advanced_pin_settings">Pengaturan PIN tingkat lanjut</string>
   <!-- Title of toolbar for the advanced pin settings screen -->
   <string name="preferences__advanced_pin_settings_title">Pengaturan PIN lanjutan</string>
-  <string name="preferences__free_private_messages_and_calls">Pesan dan panggilan privat gratis ke pengguna Signal</string>
+  <string name="preferences__free_private_messages_and_calls">Pesan dan panggilan privat gratis ke pengguna Graphene</string>
   <string name="preferences__submit_debug_log">Kirim log awakutu</string>
   <string name="preferences__delete_account">Hapus akun</string>
   <string name="preferences__support_wifi_calling">Mode kompatibilitas \'Panggilan WiFi\'</string>
@@ -3572,7 +3572,7 @@
   </plurals>
   <string name="preferences_storage__custom">Spesifik</string>
   <string name="preferences_advanced__use_system_emoji">Gunakan emoji sistem</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Sampaikan semua panggilan melalui peladen Signal untuk menghindari pengungkapan alamat IP Anda ke kontak Anda. Mengaktifkannya akan mengurangi kualitas panggilan.</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">Sampaikan semua panggilan melalui peladen Graphene untuk menghindari pengungkapan alamat IP Anda ke kontak Anda. Mengaktifkannya akan mengurangi kualitas panggilan.</string>
   <string name="preferences_advanced__always_relay_calls">Selalu relay panggilan</string>
   <!-- Privacy settings payments section title -->
   <string name="preferences_app_protection__payments">Pembayaran</string>
@@ -3602,7 +3602,7 @@
   <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
   <string name="preferences_communication__censorship_circumvention_you_have_manually_disabled">Anda telah menonaktifkan pengelakan sensor secara manual.</string>
   <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the Signal service -->
-  <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">Pengelabuan penyensoran tidak diperlukan; Anda telah terhubung dengan layanan Signal.</string>
+  <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">Pengelabuan penyensoran tidak diperlukan; Anda telah terhubung dengan layanan Graphene.</string>
   <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re not connected to the internet -->
   <string name="preferences_communication__censorship_circumvention_can_only_be_activated_when_connected_to_the_internet">Penghindar penyensoran hanya dapat diaktifkan ketika terkoneksi dengan internet</string>
   <string name="preferences_communication__category_sealed_sender">Pengirim Tertutup</string>
@@ -3613,7 +3613,7 @@
   <string name="preferences_off">Mati</string>
   <string name="preferences_on">Nyala</string>
   <string name="preferences_proxy_address">Alamat proksi</string>
-  <string name="preferences_only_use_a_proxy_if">Gunakan proksi hanya ketika Anda tidak dapat tersambung ke Signal menggunakan data seluler atau Wi-Fi.</string>
+  <string name="preferences_only_use_a_proxy_if">Gunakan proksi hanya ketika Anda tidak dapat tersambung ke Graphene menggunakan data seluler atau Wi-Fi.</string>
   <string name="preferences_share">Bagikan</string>
   <string name="preferences_save">Simpan</string>
   <string name="preferences_connecting_to_proxy">Menyambung ke proksi…</string>
@@ -3715,7 +3715,7 @@
   <!-- Contacts permission row title -->
   <string name="GrantPermissionsFragment__contacts">Kontak</string>
   <!-- Contacts permission row description -->
-  <string name="GrantPermissionsFragment__find_people_you_know">Temukan orang yang Anda kenal. Kontak Anda dienkripsi dan tidak terlihat oleh layanan Signal.</string>
+  <string name="GrantPermissionsFragment__find_people_you_know">Temukan orang yang Anda kenal. Kontak Anda dienkripsi dan tidak terlihat oleh layanan Graphene.</string>
   <!-- Phone calls permission row title -->
   <string name="GrantPermissionsFragment__phone_calls">Panggilan telepon</string>
   <!-- Phone calls permission row description -->
@@ -3852,7 +3852,7 @@
   <string name="ConfirmPaymentFragment__unable_to_request_a_network_fee">Tidak dapat meminta biaya jaringan. Untuk melanjutkan pembayaran ini ketuk oke untuk mencoba lagi.</string>
   <!-- BiometricDeviceAuthentication -->
   <!-- Biometric/Device authentication prompt title -->
-  <string name="BiometricDeviceAuthentication__signal">Signal</string>
+  <string name="BiometricDeviceAuthentication__signal">Graphene</string>
   <!-- CurrencyAmountFormatter_s_at_s -->
   <string name="CurrencyAmountFormatter_s_at_s">%1$s pada %2$s</string>
   <!-- SetCurrencyFragment -->
@@ -3870,8 +3870,8 @@
   <!-- conversation_callable_insecure -->
   <string name="conversation_callable_insecure__menu_call">Panggil</string>
   <!-- conversation_callable_secure -->
-  <string name="conversation_callable_secure__menu_call">Panggilan Signal</string>
-  <string name="conversation_callable_secure__menu_video">Panggilan video Signal</string>
+  <string name="conversation_callable_secure__menu_call">Panggilan Graphene</string>
+  <string name="conversation_callable_secure__menu_video">Panggilan video Graphene</string>
   <!-- conversation_context -->
   <!-- Heading which shows how many messages are currently selected -->
   <plurals name="conversation_context__s_selected">
@@ -3980,14 +3980,14 @@
   <string name="verify_display_fragment_context_menu__copy_to_clipboard">Salin ke papan klip</string>
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">Bandingkan dengan papan klip</string>
   <!-- reminder_header -->
-  <string name="reminder_header_service_outage_text">Signal mengalami kendala teknis. Kami sedang bekerja keras untuk mengembalikan layanan secepat mungkin.</string>
+  <string name="reminder_header_service_outage_text">Graphene mengalami kendala teknis. Kami sedang bekerja keras untuk mengembalikan layanan secepat mungkin.</string>
   <string name="reminder_header_progress">%1$d%%</string>
   <!-- Body text of a banner that will show at the top of the chat list when we temporarily cannot process the user\'s contacts -->
-  <string name="reminder_cds_warning_body">Fitur penemuan kontak pribadi Signal untuk sementara tidak dapat memproses daftar kontak di ponsel Anda.</string>
+  <string name="reminder_cds_warning_body">Fitur penemuan kontak pribadi Graphene untuk sementara tidak dapat memproses daftar kontak di ponsel Anda.</string>
   <!-- Label for a button in a banner to learn more about why we temporarily can\'t process the user\'s contacts -->
   <string name="reminder_cds_warning_learn_more">Selengkapnya</string>
   <!-- Body text of a banner that will show at the top of the chat list when the user has so many contacts that we cannot ever process them -->
-  <string name="reminder_cds_permanent_error_body">Fitur penemuan kontak pribadi Signal tidak dapat memproses daftar kontak di ponsel Anda.</string>
+  <string name="reminder_cds_permanent_error_body">Fitur penemuan kontak pribadi Graphene tidak dapat memproses daftar kontak di ponsel Anda.</string>
   <!-- Label for a button in a banner to learn more about why we cannot process the user\'s contacts -->
   <string name="reminder_cds_permanent_error_learn_more">Selengkapnya</string>
   <!-- media_preview -->
@@ -4017,7 +4017,7 @@
   <string name="CreateKbsPinFragment__create_a_new_pin">Buat PIN baru</string>
   <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">Anda dapat mengganti PIN Anda selama perangkat ini terdaftar.</string>
   <string name="CreateKbsPinFragment__create_your_pin">Buat PIN Anda</string>
-  <string name="CreateKbsPinFragment__pins_can_help_you_restore_your_account">PIN dapat membantu Anda memulihkan akun dan memastikan info Anda terenkripsi di Signal. </string>
+  <string name="CreateKbsPinFragment__pins_can_help_you_restore_your_account">PIN dapat membantu Anda memulihkan akun dan memastikan info Anda terenkripsi di Graphene. </string>
   <string name="CreateKbsPinFragment__choose_a_stronger_pin">Buat PIN yang lebih kuat</string>
   <!-- ConfirmKbsPinFragment -->
   <string name="ConfirmKbsPinFragment__pins_dont_match">PIN tidak cocok. Coba lagi.</string>
@@ -4025,7 +4025,7 @@
   <string name="ConfirmKbsPinFragment__re_enter_the_pin_you_just_created">Masukkan lagi PIN yang baru saja dibuat.</string>
   <string name="ConfirmKbsPinFragment__confirm_your_pin">Konfirmasi PIN Anda.</string>
   <string name="ConfirmKbsPinFragment__pin_creation_failed">Pembuatan PIN gagal</string>
-  <string name="ConfirmKbsPinFragment__your_pin_was_not_saved">PIN Anda tidak disimpan. Signal akan meminta Anda membuat PIN lagi nanti.</string>
+  <string name="ConfirmKbsPinFragment__your_pin_was_not_saved">PIN Anda tidak disimpan. Graphene akan meminta Anda membuat PIN lagi nanti.</string>
   <string name="ConfirmKbsPinFragment__pin_created">PIN dibuat.</string>
   <string name="ConfirmKbsPinFragment__re_enter_your_pin">Masukkan ulang PIN Anda</string>
   <string name="ConfirmKbsPinFragment__creating_pin">Membuat PIN…</string>
@@ -4033,7 +4033,7 @@
   <string name="ConfirmKbsPinFragment__pin_password_manager_id">PIN SIgnal</string>
   <!-- KbsSplashFragment -->
   <string name="KbsSplashFragment__introducing_pins">Memperkenalkan PIN</string>
-  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN akan menjaga informasi yang telah diberikan kepada Signal secara enkripsi, jadi hanya kamu yang bisa mengaksesnya. Informasi profil, pengaturan, dan kontak akan dikembalikan ketika kamu menginstall kembali. Kamu tidak perlu PIN untuk membuka applikasi ini.</string>
+  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN akan menjaga informasi yang telah diberikan kepada Graphene secara enkripsi, jadi hanya kamu yang bisa mengaksesnya. Informasi profil, pengaturan, dan kontak akan dikembalikan ketika kamu menginstall kembali. Kamu tidak perlu PIN untuk membuka applikasi ini.</string>
   <string name="KbsSplashFragment__learn_more">Pelajari Lebih Lanjut</string>
   <!-- Removed by excludeNonTranslatables <string name="KbsSplashFragment__learn_more_link" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
   <string name="KbsSplashFragment__registration_lock_equals_pin">Kunci Pendaftaran = PIN</string>
@@ -4043,7 +4043,7 @@
   <string name="KbsSplashFragment__learn_more_about_pins">Pelajari lebih lanjut tentang PIN</string>
   <string name="KbsSplashFragment__disable_pin">Nonaktifkan PIN</string>
   <!-- KBS Reminder Dialog -->
-  <string name="KbsReminderDialog__enter_your_signal_pin">Masukkan PIN Signal Anda</string>
+  <string name="KbsReminderDialog__enter_your_signal_pin">Masukkan PIN Graphene Anda</string>
   <string name="KbsReminderDialog__to_help_you_memorize_your_pin">Untuk membantu Anda mengingat PIN, kami akan meminta Anda untuk memasukkannya secara berkala. Kami akan memintanya lebih jarang dari waktu ke waktu.</string>
   <string name="KbsReminderDialog__skip">Lewati</string>
   <string name="KbsReminderDialog__submit">Kirimkan</string>
@@ -4067,7 +4067,7 @@
   <string name="RegistrationLockFragment__incorrect_pin">PIN Salah</string>
   <string name="RegistrationLockFragment__forgot_your_pin">Lupa PIN Anda?</string>
   <string name="RegistrationLockFragment__not_many_tries_left">Tidak banyak percobaan tersedia!</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Pendaftaran Signal - Perlu Bantuan mengenai PIN untuk Android (v2 PIN)</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Pendaftaran Graphene - Perlu Bantuan mengenai PIN untuk Android (v2 PIN)</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="other">Demi privasi dan keamanan Anda, PIN tidak akan bisa dipulihkan. Jika Anda tidak dapat mengingat PIN Anda, Anda bisa melakukan verifikasi ulang dengan SMS setelah %1$d hari tidak aktif. Dalam kasus ini, akun Anda dan semua konten di dalamnya akan dihapus.</item>
   </plurals>
@@ -4087,12 +4087,12 @@
   <string name="CalleeMustAcceptMessageRequestDialogFragment__s_will_get_a_message_request_from_you">%1$s akan menerima permintaan pesan dari Anda. Anda dapat memanggilnya saat permintaan pesan Anda diterima.</string>
   <!-- KBS Megaphone -->
   <string name="KbsMegaphone__create_a_pin">Buat PIN</string>
-  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN menjaga informasi yang telah disimpan oleh Signal dengan enkripsi.</string>
+  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">PIN menjaga informasi yang telah disimpan oleh Graphene dengan enkripsi.</string>
   <string name="KbsMegaphone__create_pin">Buat PIN</string>
   <!-- Title for megaphone shown after registration without a pin but with aep to prompt the user to enter their pin -->
-  <string name="UpdatePinMegaphone__update_signal_pin">Perbarui PIN Signal</string>
+  <string name="UpdatePinMegaphone__update_signal_pin">Perbarui PIN Graphene</string>
   <!-- Message for megaphone shown after registration without a pin but with aep to prompt the user to enter their pin -->
-  <string name="UpdatePinMegaphone__message">Perbarui PIN Signal untuk menyelesaikan registrasi akun.</string>
+  <string name="UpdatePinMegaphone__message">Perbarui PIN Graphene untuk menyelesaikan registrasi akun.</string>
   <!-- Button text for megaphone shown after registration without a pin but with aep to prompt the user to enter their pin -->
   <string name="UpdatePinMegaphone__update_pin">Perbarui PIN</string>
   <!-- CallNotificationBuilder -->
@@ -4114,7 +4114,7 @@
   <string name="Permissions_permission_required">Izin diperlukan</string>
   <string name="Permissions_continue">Lanjutkan</string>
   <string name="Permissions_not_now">Nanti saja</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Memindahkan basis data Signal</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">Memindahkan basis data Graphene</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">Frasa sandi cadangan</string>
   <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">Cadangan akan disimpan ke penyimpanan eksternal dan terenkripsi dengan frasa di bawah. Anda mesti memiliki frasa sandi ini untuk memulihkan cadangan.</string>
   <string name="backup_enable_dialog__you_must_have_this_passphrase">Kamu harus memiliki parafrase ini ketika ingin melakukan pengembalian data dari cadangan.</string>
@@ -4134,7 +4134,7 @@
   <!-- Title for dialog to enter in the backup passphrase -->
   <string name="RegistrationActivity_enter_backup_passphrase">Masukkan frasa sandi cadangan</string>
   <string name="RegistrationActivity_restore">Pulihkan</string>
-  <string name="RegistrationActivity_backup_failure_downgrade">Tidak bisa impor cadangan dari versi lebih baru Signal</string>
+  <string name="RegistrationActivity_backup_failure_downgrade">Tidak bisa impor cadangan dari versi lebih baru Graphene</string>
   <!-- Error message indicating that we could not restore the user\'s backup. Displayed in a toast at the bottom of the screen. -->
   <string name="RegistrationActivity_backup_failure_foreign_key">Cadangan berisi data yang salah format</string>
   <string name="RegistrationActivity_incorrect_backup_passphrase">Frasa sandi cadangan tidak benar</string>
@@ -4198,21 +4198,21 @@
   <!-- Section title above two radio buttons for enabling and disabling whether users can find me by my phone number  -->
   <string name="PhoneNumberPrivacySettingsFragment_who_can_find_me_by_number_heading">Siapa bisa menemukan saya dengan nomor telepon</string>
   <!-- Subtext below radio buttons when who can find me by number is set to everyone -->
-  <string name="PhoneNumberPrivacySettingsFragment_discovery_on_description">Siapa pun yang punya nomor telepon Anda akan melihat Anda ada di Signal dan dapat memulai obrolan.</string>
+  <string name="PhoneNumberPrivacySettingsFragment_discovery_on_description">Siapa pun yang punya nomor telepon Anda akan melihat Anda ada di Graphene dan dapat memulai obrolan.</string>
   <!-- Subtext below radio buttons when who can find me by number is set to nobody -->
-  <string name="PhoneNumberPrivacySettingsFragment_discovery_off_description">Tidak seorang pun bisa melihat Anda di Signal kecuali Anda mengirimi mereka pesan atau sudah pernah mengobrol dengan mereka.</string>
+  <string name="PhoneNumberPrivacySettingsFragment_discovery_off_description">Tidak seorang pun bisa melihat Anda di Graphene kecuali Anda mengirimi mereka pesan atau sudah pernah mengobrol dengan mereka.</string>
   <!-- Snackbar text when pressing invalid radio item -->
   <string name="PhoneNumberPrivacySettingsFragment__to_change_this_setting">"Untuk mengubahnya, tetapkan pengaturan Siapa bisa melihat nomor saya ke opsi Tidak ada."</string>
   <!-- Dialog title shown when selecting "Nobody" in phone number privacy settings for who can find me by number -->
   <string name="PhoneNumberPrivacySettingsFragment__nobody_can_find_me_warning_title">Anda yakin?</string>
   <!-- Dialog warning message shown when selecting "Nobody" in phone number privacy settings for who can find me by number -->
-  <string name="PhoneNumberPrivacySettingsFragment__nobody_can_find_me_warning_message">Jika opsi \"Siapa bisa menemukan saya dengan nomor telepon\" diatur jadi \"Tidak ada\", orang akan lebih sulit menemukan Anda di Signal.</string>
+  <string name="PhoneNumberPrivacySettingsFragment__nobody_can_find_me_warning_message">Jika opsi \"Siapa bisa menemukan saya dengan nomor telepon\" diatur jadi \"Tidak ada\", orang akan lebih sulit menemukan Anda di Graphene.</string>
   <!-- Dialog button text for canceling change action -->
   <string name="PhoneNumberPrivacySettingsFragment__cancel">Batal</string>
   <string name="PhoneNumberPrivacy_everyone">Semua orang</string>
   <string name="PhoneNumberPrivacy_nobody">Tak seorangpun</string>
   <string name="preferences_app_protection__screen_lock">Layar terkunci</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Kunci akses Signal Anda dengan kunci layar Android atau sidik jari</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Kunci akses Graphene Anda dengan kunci layar Android atau sidik jari</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">Batas waktu kunci layar tanpa aktivitas</string>
   <!-- Snackbar text shown when trying to enable screen lock but the user does not have a password or biometrics enabled -->
   <string name="preferences_app_protection__to_use_screen_lock">Untuk menggunakan kunci layar, tetapkan PIN, pola, atau kata sandi di perangkat ini.</string>
@@ -4222,8 +4222,8 @@
   <string name="preferences_app_protection__pin_reminders">Pengingat PIN</string>
   <string name="preferences_app_protection__turn_off">Matikan</string>
   <string name="preferences_app_protection__confirm_pin">Konfimasi PIN</string>
-  <string name="preferences_app_protection__confirm_your_signal_pin">Konfirmasi PIN Signal Anda</string>
-  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Pastikan Anda mengingat atau menyimpan secara aman PIN Anda karena PIN tidak dapat dipulihkan. Jika Anda lupa PIN, Anda akan kehilangan data saat mendaftarkan ulang akun Signal Anda.</string>
+  <string name="preferences_app_protection__confirm_your_signal_pin">Konfirmasi PIN Graphene Anda</string>
+  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">Pastikan Anda mengingat atau menyimpan secara aman PIN Anda karena PIN tidak dapat dipulihkan. Jika Anda lupa PIN, Anda akan kehilangan data saat mendaftarkan ulang akun Graphene Anda.</string>
   <string name="preferences_app_protection__incorrect_pin_try_again">PIN Salah. Coba lagi.</string>
   <string name="preferences_app_protection__failed_to_enable_registration_lock">Gagal mengaktifkan kunci pendaftaran.</string>
   <string name="preferences_app_protection__failed_to_disable_registration_lock">Gagal menonaktifkan kunci pendaftaran.</string>
@@ -4281,7 +4281,7 @@
   <!-- Option in settings that will take use to re-register if they are no longer registered -->
   <string name="preferences_account_reregister">Daftar ulang akun</string>
   <!-- Option in settings that will take user to our website or playstore to update their expired build -->
-  <string name="preferences_account_update_signal">Perbarui Signal</string>
+  <string name="preferences_account_update_signal">Perbarui Graphene</string>
   <!-- Option in settings shown when user is no longer registered or expired client that will WIPE ALL THEIR DATA -->
   <string name="preferences_account_delete_all_data">Hapus seluruh data</string>
   <!-- Title for confirmation dialog confirming user wants to delete all their data -->
@@ -4296,21 +4296,21 @@
   <string name="preferences_account_delete_all_data_failed">Gagal menghapus data</string>
   <!-- TransferOrRestoreFragment -->
   <string name="TransferOrRestoreFragment__transfer_or_restore_account">Transfer atau pulihkan akun</string>
-  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Jika sebelumnya Anda mendaftarkan akun di Signal, Anda dapat mentransfer atau memulihkan akun dan pesan-pesan Anda</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">Jika sebelumnya Anda mendaftarkan akun di Graphene, Anda dapat mentransfer atau memulihkan akun dan pesan-pesan Anda</string>
   <string name="TransferOrRestoreFragment__transfer_from_android_device">Transfer dari perangkat Android</string>
   <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">Transfter akun lama dan pesan-pesan Anda dari perangkat Android lama Anda. Anda perlu akses ke perangkat lama Anda.</string>
   <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">Anda memerlukan akses ke perangkat lama Anda.</string>
   <string name="TransferOrRestoreFragment__restore_from_backup">Pulihkan dari cadangan</string>
   <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">Pulihkan pesan-pesan Anda dari cadangan internal. Jika Anda tidak memulihkannya sekarang, Anda tidak akan dapat melakukannya nanti.</string>
   <string name="TransferOrRestoreFragment__restore_from_local_backup">Pulihkan pencadangan lokal</string>
-  <string name="TransferOrRestoreFragment__restore_from_signal_backup">Pulihkan pencadangan Signal</string>
+  <string name="TransferOrRestoreFragment__restore_from_signal_backup">Pulihkan pencadangan Graphene</string>
   <!-- Button label for more options -->
   <string name="TransferOrRestoreFragment__more_options">Opsi lainnya</string>
   <string name="TransferOrRestoreFragment__cancel">Batal</string>
   <string name="TransferOrRestoreFragment__skip_transfer">Masuk tanpa mentransfer</string>
   <string name="TransferOrRestoreFragment__skip_transfer_description">Lanjutkan tanpa mentransfer pesan dan media Anda</string>
   <!-- NewDeviceTransferInstructionsFragment -->
-  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Buka Signal pada ponsel Android lama Anda.</string>
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">Buka Graphene pada ponsel Android lama Anda.</string>
   <string name="NewDeviceTransferInstructions__continue">Lanjut</string>
   <string name="NewDeviceTransferInstructions__first_bullet">1.</string>
   <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">Ketuk pada foto profil Anda di bagian atas kiri untuk membuka Pengaturan</string>
@@ -4368,7 +4368,7 @@
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">Ketuk Lanjutkan pada perangkat lain Anda untuk memulai transfer.</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device">Ketuk Lanjutkan pada perangkat lain Anda…</string>
   <!-- NewDeviceTransferFragment -->
-  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Tidak dapat mentransfer dari versi baru Signal</string>
+  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Tidak dapat mentransfer dari versi baru Graphene</string>
   <!-- Error message indicating that we could not finish the user\'s device transfer. Displayed in a toast at the bottom of the screen. -->
   <string name="NewDeviceTransfer__failure_foreign_key">Data yang ditransfer salah format</string>
   <!-- DeviceTransferFragment -->
@@ -4402,7 +4402,7 @@
   <string name="OldDeviceTransferInstructions__continue_transfer">Lanjutkan transfer</string>
   <!-- OldDeviceTransferComplete -->
   <string name="OldDeviceTransferComplete__go_to_your_new_device">Pergi ke perangkat baru Anda</string>
-  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Data Signal Anda telah ditransfer ke perangkat baru. Untuk menyelesaikan proses transfer, Anda harus melanjutkan pendaftaran pada perangkat baru Anda.</string>
+  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">Data Graphene Anda telah ditransfer ke perangkat baru. Untuk menyelesaikan proses transfer, Anda harus melanjutkan pendaftaran pada perangkat baru Anda.</string>
   <string name="OldDeviceTransferComplete__close">Tutup</string>
   <!-- NewDeviceTransferComplete -->
   <string name="NewDeviceTransferComplete__transfer_successful">Transfer berhasil</string>
@@ -4419,7 +4419,7 @@
   <string name="DeviceToDeviceTransferService_status_service_connected">Mentransfer akun…</string>
   <!-- OldDeviceTransferLockedDialog -->
   <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">Selesaikan pendaftaran pada perangkat baru Anda</string>
-  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Akun Signal Anda telah ditransfer ke perangkat baru, namun Anda harus menyelesaikan pendaftaran di perangkat baru untuk melanjutkannya. Signal akan dinonaktifkan pada perangkat ini.</string>
+  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">Akun Graphene Anda telah ditransfer ke perangkat baru, namun Anda harus menyelesaikan pendaftaran di perangkat baru untuk melanjutkannya. Graphene akan dinonaktifkan pada perangkat ini.</string>
   <string name="OldDeviceTransferLockedDialog__done">Selesai</string>
   <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">Batalkan dan aktifkan perangkat ini</string>
   <!-- AdvancedPreferenceFragment -->
@@ -4451,8 +4451,8 @@
   <string name="GroupsLearnMore_what_are_legacy_groups">Apakah Grup Lama itu?</string>
   <string name="GroupsLearnMore_paragraph_1">Grup Lama adalah grup yang tidak cocok dengan fitur-fitur Grup Baru seperti admin dan pembaruan grup yang lebih deskriptif.</string>
   <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">Bisakah Saya tingkatkan sebuah Grup Lawas?</string>
-  <string name="GroupsLearnMore_paragraph_2">Grup lama belum dapat diperbarui ke Grup Baru, namun Anda dapat membuat Grup Baru dengan anggota yang sama jika mereka menggunakan versi Signal terakhir.</string>
-  <string name="GroupsLearnMore_paragraph_3">Signal akan menawarkan cara untuk meningkatkan grup versi lawas di masa mendatang.</string>
+  <string name="GroupsLearnMore_paragraph_2">Grup lama belum dapat diperbarui ke Grup Baru, namun Anda dapat membuat Grup Baru dengan anggota yang sama jika mereka menggunakan versi Graphene terakhir.</string>
+  <string name="GroupsLearnMore_paragraph_3">Graphene akan menawarkan cara untuk meningkatkan grup versi lawas di masa mendatang.</string>
   <!-- GroupLinkBottomSheetDialogFragment -->
   <string name="GroupLinkBottomSheet_share_hint_requiring_approval">Siapapun dengan tautan ini dapat melihat nama dan foto grup ini dan dapat meminta untuk bergabung. Bagikan dengan orang yang Anda percaya.</string>
   <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">Siapapun dengan tautan ini dapat melihat nama dan foto grup ini dan dapat bergabung dalam grup. Bagikan dengan orang yang Anda percaya.</string>
@@ -4541,7 +4541,7 @@
   <string name="DeleteAccountFragment__no_number">Tidak ada nomor ditentukan</string>
   <string name="DeleteAccountFragment__the_phone_number">Nomor telepon yang kamu masukan tidak cocok dengan akun manapun.</string>
   <string name="DeleteAccountFragment__are_you_sure">Yakin ingin menghapus akun Anda?</string>
-  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Tindakan ini akan menghapus akun Signal Anda dan mereset aplikasi. Aplikasi akan tertutup setelah proses selesai.</string>
+  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">Tindakan ini akan menghapus akun Graphene Anda dan mereset aplikasi. Aplikasi akan tertutup setelah proses selesai.</string>
   <string name="DeleteAccountFragment__failed_to_delete_local_data">Gagal menghapus data lokal. Anda dapat menghapusnya secara manual di pengaturan aplikasi sistem.</string>
   <string name="DeleteAccountFragment__launch_app_settings">Buka pengaturan aplikasi</string>
   <!-- Title of progress dialog shown when a user deletes their account and the process is leaving all groups -->
@@ -4651,7 +4651,7 @@
   <string name="PaymentsRecoveryStartFragment__save_recovery_phrase">Simpan frasa pemulihan</string>
   <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">Masukkan frasa pemulihan</string>
   <plurals name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">
-    <item quantity="other">Saldo Anda akan dipulihkan secara otomatis saat Anda menginstal ulang Signal jika Anda mengonfirmasi PIN Signal. Anda juga dapat memulihkan saldo menggunakan frasa pemulihan, yang berupa frasa %1$d kata unik. Catat dan simpan di tempat yang aman.</item>
+    <item quantity="other">Saldo Anda akan dipulihkan secara otomatis saat Anda menginstal ulang Graphene jika Anda mengonfirmasi PIN Graphene. Anda juga dapat memulihkan saldo menggunakan frasa pemulihan, yang berupa frasa %1$d kata unik. Catat dan simpan di tempat yang aman.</item>
   </plurals>
   <!-- Description in save recovery phrase screen which shows up when user has non zero balance -->
   <string name="PaymentsRecoveryStartFragment__got_balance">Anda memiliki saldo! Waktunya menyimpan frasa pemulihan—ini adalah kunci 24 kata yang bisa digunakan untuk memulihkan saldo.</string>
@@ -4733,7 +4733,7 @@
   <string name="QualitySelectorBottomSheetDialog__media_quality">Kualitas media</string>
   <!-- AppSettingsFragment -->
   <!-- String alerting user that something is wrong with their backups subscription -->
-  <string name="AppSettingsFragment__renew_your_signal_backups_subscription">Perbarui langganan Signal Secure Backups Anda</string>
+  <string name="AppSettingsFragment__renew_your_signal_backups_subscription">Perbarui langganan Graphene Secure Backups Anda</string>
   <!-- String alerting user that backup failed -->
   <string name="AppSettingsFragment__couldnt_complete_backup">Tidak dapat menyelesaikan pencadangan</string>
   <!-- String alerting user that backup redemption -->
@@ -4751,7 +4751,7 @@
   <!-- AccountSettingsFragment -->
   <string name="AccountSettingsFragment__account">Akun</string>
   <string name="AccountSettingsFragment__youll_be_asked_less_frequently">Anda akan ditanya lebih jarang seiring waktu</string>
-  <string name="AccountSettingsFragment__require_your_signal_pin">Memerlukan PIN Signal untuk mendaftarkan nomor telepon Anda lagi di Signal</string>
+  <string name="AccountSettingsFragment__require_your_signal_pin">Memerlukan PIN Graphene untuk mendaftarkan nomor telepon Anda lagi di Graphene</string>
   <string name="AccountSettingsFragment__change_phone_number">Ganti nomor telepon</string>
   <!-- Account setting that allows user to request and export their signal account data -->
   <string name="AccountSettingsFragment__request_account_data">Data akun Anda</string>
@@ -4759,7 +4759,7 @@
   <!-- Part of requesting account data flow, this is the section title for requesting that account data -->
   <string name="ExportAccountDataFragment__your_account_data">Data akun Anda</string>
   <!-- Explanation of account data the user can request. %1$s is replaced with Learn more with a link -->
-  <string name="ExportAccountDataFragment__export_explanation">Ekspor laporan data akun Signal Anda. Laporan ini tidak menyertakan pesan atau media apa pun. %1$s</string>
+  <string name="ExportAccountDataFragment__export_explanation">Ekspor laporan data akun Graphene Anda. Laporan ini tidak menyertakan pesan atau media apa pun. %1$s</string>
   <!-- Learn more link to more information about requesting account data -->
   <string name="ExportAccountDataFragment__learn_more">Pelajari selengkapnya</string>
   <!-- Button action to export the report data to another app (e.g. email) -->
@@ -4783,13 +4783,13 @@
   <!-- Title for export confirmation dialog -->
   <string name="ExportAccountDataFragment__export_report_confirmation">Ekspor data?</string>
   <!-- Message for export confirmation dialog -->
-  <string name="ExportAccountDataFragment__export_report_confirmation_message">Hanya bagikan data akun Signal Anda dengan orang atau aplikasi yang Anda percayai.</string>
+  <string name="ExportAccountDataFragment__export_report_confirmation_message">Hanya bagikan data akun Graphene Anda dengan orang atau aplikasi yang Anda percayai.</string>
   <!-- Action to export in for export confirmation dialog -->
   <string name="ExportAccountDataFragment__export_report_action">Ekspor</string>
   <!-- Shown in a dialog with a spinner while the report is downloading -->
   <string name="ExportAccountDataFragment__download_progress">Membuat laporan…</string>
   <!-- Explanation that the report is only generated on export and is not saved on the device -->
-  <string name="ExportAccountDataFragment__report_not_stored_disclaimer">Laporan Anda dibuat hanya pada saat proses ekspor dan tidak disimpan oleh Signal di perangkat Anda.</string>
+  <string name="ExportAccountDataFragment__report_not_stored_disclaimer">Laporan Anda dibuat hanya pada saat proses ekspor dan tidak disimpan oleh Graphene di perangkat Anda.</string>
   <!-- ChangeNumberFragment -->
   <string name="ChangeNumberFragment__use_this_to_change_your_current_phone_number_to_a_new_phone_number">Gunakan ini untuk mengubah nomor telepon Anda saat ini ke nomor telepon yang baru. Anda tidak dapat membatalkannya.\n\nSebelum melanjutkan, pastikan nomor baru Anda dapat menerima SMS atau panggilan telepon.</string>
   <string name="ChangeNumberFragment__continue">Lanjut</string>
@@ -4819,7 +4819,7 @@
   <string name="ChangeNumberConfirmFragment__you_are_about_to_change_your_phone_number_from_s_to_s">Anda akan mengubah nomor telepon dari %1$s ke %2$s.\n\nSebelum melanjutkan, mohon verifikasi bahwa nomor di bawah sudah benar.</string>
   <string name="ChangeNumberConfirmFragment__edit_number">Sunting nomor</string>
   <!-- ChangeNumberRegistrationLockFragment -->
-  <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Penggantian Nomor Signal - Butuh bantuan mengenai PIN untuk Android (v2 PIN)</string>
+  <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Penggantian Nomor Graphene - Butuh bantuan mengenai PIN untuk Android (v2 PIN)</string>
   <!-- ChangeNumberPinDiffersFragment -->
   <string name="ChangeNumberPinDiffersFragment__pins_do_not_match">PIN tidak cocok</string>
   <string name="ChangeNumberPinDiffersFragment__the_pin_associated_with_your_new_number_is_different_from_the_pin_associated_with_your_old_one">PIN yang terkait dengan nomor baru Anda berbeda dengan PIN yang terkait dengan nomor lama Anda. Apa Anda ingin menggunakan PIN lama atau memperbaruinya?</string>
@@ -4965,7 +4965,7 @@
   <string name="NotificationsSettingsFragment__messages">Pesan</string>
   <string name="NotificationsSettingsFragment__calls">Panggilan</string>
   <string name="NotificationsSettingsFragment__notify_when">Beritahukan ketika…</string>
-  <string name="NotificationsSettingsFragment__contact_joins_signal">Kontak bergabung di Signal</string>
+  <string name="NotificationsSettingsFragment__contact_joins_signal">Kontak bergabung di Graphene</string>
   <!-- Notification preference header -->
   <string name="NotificationsSettingsFragment__notification_profiles">Profil-profil Pemberitahuan</string>
   <!-- Notification preference option header -->
@@ -4988,7 +4988,7 @@
   <string name="PrivacySettingsFragment__app_security">Keamanan aplikasi</string>
   <!-- This refers to the multi-tasking overview (recent apps) from the Android operating system.-->
   <string name="PrivacySettingsFragment__block_screenshots_in_the_recents_list_and_inside_the_app">Blokir tangkapan layar di daftar terbaru dan di dalam aplikasi</string>
-  <string name="PrivacySettingsFragment__signal_message_and_calls">Pesan dan panggilan Signal, selalu relay panggilan, dan menggunakan pengirim tertutup</string>
+  <string name="PrivacySettingsFragment__signal_message_and_calls">Pesan dan panggilan Graphene, selalu relay panggilan, dan menggunakan pengirim tertutup</string>
   <string name="PrivacySettingsFragment__default_timer_for_new_changes">Timer default untuk obrolan baru</string>
   <string name="PrivacySettingsFragment__set_a_default_disappearing_message_timer_for_all_new_chats_started_by_you">Atur waktu default pesan terhapus otomatis untuk semua obrolan yang Anda mulai.</string>
   <!-- Summary for stories preference to launch into story privacy settings -->
@@ -5070,9 +5070,9 @@
   </plurals>
   <!-- ChatColorGradientTool -->
   <!-- Title text for prompt to donate. Shown in a popup at the bottom of the chat list. -->
-  <string name="Donate2022Q2Megaphone_donate_to_signal">Donasi ke Signal</string>
+  <string name="Donate2022Q2Megaphone_donate_to_signal">Donasi ke Graphene</string>
   <!-- Body text for prompt to donate. Shown in a popup at the bottom of the chat list. -->
-  <string name="Donate2022Q2Megaphone_signal_is_powered_by_people_like_you">Signal didukung oleh orang-orang seperti Anda. Beri donasi setiap bulan dan dapatkan lencana.</string>
+  <string name="Donate2022Q2Megaphone_signal_is_powered_by_people_like_you">Graphene didukung oleh orang-orang seperti Anda. Beri donasi setiap bulan dan dapatkan lencana.</string>
   <!-- Button label that brings a user to the donate screen. Shown in a popup at the bottom of the chat list. -->
   <string name="Donate2022Q2Megaphone_donate">Donasi</string>
   <!-- Button label that dismissed a prompt to donate. Shown in a popup at the bottom of the chat list. -->
@@ -5092,7 +5092,7 @@
   <!-- BecomeASustainerMegaphone -->
   <string name="BecomeASustainerMegaphone__become_a_sustainer">Menjadi Penyokong</string>
   <!-- Displayed in the Become a Sustainer megaphone -->
-  <string name="BecomeASustainerMegaphone__signal_is_powered_by">Signal didukung oleh orang-orang seperti Anda. Beri donasi dan dapatkan sebuah lencana.</string>
+  <string name="BecomeASustainerMegaphone__signal_is_powered_by">Graphene didukung oleh orang-orang seperti Anda. Beri donasi dan dapatkan sebuah lencana.</string>
   <string name="BecomeASustainerMegaphone__not_now">Nanti saja</string>
   <string name="BecomeASustainerMegaphone__donate">Donasi</string>
   <!-- KeyboardPagerFragment -->
@@ -5160,7 +5160,7 @@
   <string name="ConversationSettingsFragment__conversation_muted_forever">Obrolan dibisukan selamanya</string>
   <string name="ConversationSettingsFragment__copied_phone_number_to_clipboard">Nomor telepon disalin ke papan klip.</string>
   <string name="ConversationSettingsFragment__phone_number">Nomor telepon</string>
-  <string name="ConversationSettingsFragment__get_badges">Dapatkan lencana untuk profil Anda dengan mendukung Signal. Ketuk lencana untuk mempelajari lebih lanjut.</string>
+  <string name="ConversationSettingsFragment__get_badges">Dapatkan lencana untuk profil Anda dengan mendukung Graphene. Ketuk lencana untuk mempelajari lebih lanjut.</string>
   <!-- Error message shown when the user is trying to open a media that is not sent yet. -->
   <string name="ConversationSettingsFragment__this_media_is_not_sent_yet">Media ini belum dikirim.</string>
   <!-- PermissionsSettingsFragment -->
@@ -5218,12 +5218,12 @@
   <!-- Dialog action to view contact when they can\'t be removed otherwise -->
   <string name="NewConversationActivity__view_contact">Lihat kontak</string>
   <!-- Error message shown when looking up a person by phone number and that phone number is not associated with a signal account -->
-  <string name="NewConversationActivity__s_is_not_a_signal_user">%1$s bukan pengguna Signal</string>
+  <string name="NewConversationActivity__s_is_not_a_signal_user">%1$s bukan pengguna Graphene</string>
   <!-- Error message shown when we could not get a user from the username link -->
-  <string name="NewConversationActivity__">%1$s bukan pengguna Signal</string>
+  <string name="NewConversationActivity__">%1$s bukan pengguna Graphene</string>
   <!-- Error message shown in a dialog when trying to create a new group with non-signal users (e.g., unregistered or phone number only contacts) -->
   <plurals name="CreateGroupActivity_not_signal_users">
-    <item quantity="other">%1$s bukan pengguna Signal</item>
+    <item quantity="other">%1$s bukan pengguna Graphene</item>
   </plurals>
   <!-- Hint text that shows in the recipient search box when no text is entered yet. -->
   <string name="ContactFilterView__search_name_or_number">Nama, nama pengguna, atau nomor</string>
@@ -5362,7 +5362,7 @@
   <!-- The title of a dialog notifying that the user scanned a QR code that could be used to link a Signal device. -->
   <string name="MediaCaptureFragment_device_link_dialog_title">Hubungkan perangkat?</string>
   <!-- The body of a dialog notifying that the user scanned a QR code that could be used to link a Signal device. -->
-  <string name="MediaCaptureFragment_it_looks_like_youre_trying">Sepertinya Anda sedang mencoba menghubungkan perangkat Signal. Ketuk lanjutkan, lalu ketuk \"Hubungkan Perangkat Baru\" dan pindai kode QR lagi.</string>
+  <string name="MediaCaptureFragment_it_looks_like_youre_trying">Sepertinya Anda sedang mencoba menghubungkan perangkat Graphene. Ketuk lanjutkan, lalu ketuk \"Hubungkan Perangkat Baru\" dan pindai kode QR lagi.</string>
   <!-- The label of a dialog asking the user if they would like to continue to the linked device settings screen. -->
   <string name="MediaCaptureFragment_device_link_dialog_continue">Lanjutkan</string>
   <string name="BadgesOverviewFragment__my_badges">Lencana saya</string>
@@ -5375,11 +5375,11 @@
   <!-- Displayed on primary button in the bottom sheet as a call-to-action to launch into the donation flow -->
   <string name="ViewBadgeBottomSheetDialogFragment__donate_now">Donasi sekarang</string>
   <!-- Title of a page in the bottom sheet. Placeholder is a user\'s short-name -->
-  <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal">%1$s mendukung Signal</string>
+  <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal">%1$s mendukung Graphene</string>
   <!-- Description of a page in the bottom sheet of a monthly badge. Placeholder is a user\'s short-name -->
-  <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_monthly">%1$s mendukung Signal dengan donasi bulanan. Signal adalah organisasi nirlaba tanpa pengiklan dan investor, didukung hanya oleh orang seperti Anda.</string>
+  <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_monthly">%1$s mendukung Graphene dengan donasi bulanan. Graphene adalah organisasi nirlaba tanpa pengiklan dan investor, didukung hanya oleh orang seperti Anda.</string>
   <!-- Description of a page in the bottom sheet of a one-time badge. Placeholder is a user\'s short-name -->
-  <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_donation">%1$s mendukung Signal dengan donasi. Signal adalah organisasi nirlaba tanpa pengiklan dan investor, didukung hanya oleh orang seperti Anda.</string>
+  <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_donation">%1$s mendukung Graphene dengan donasi. Graphene adalah organisasi nirlaba tanpa pengiklan dan investor, didukung hanya oleh orang seperti Anda.</string>
   <string name="ImageView__badge">Lencana</string>
   <string name="SubscribeFragment__cancel_subscription">Batalkan Langganan</string>
   <string name="SubscribeFragment__confirm_cancellation">Konfirmasi Pembatalan?</string>
@@ -5397,26 +5397,26 @@
   <!-- Shown when a subscription is active and is going to expire at the end of the term -->
   <string name="Subscription__expires_s">Kedaluwarsa %1$s</string>
   <!-- Title of learn more sheet -->
-  <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_different">Signal itu berbeda.</string>
+  <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_different">Graphene itu berbeda.</string>
   <!-- First small text blurb on learn more sheet -->
   <string name="SubscribeLearnMoreBottomSheetDialogFragment__private_messaging">Perpesanan privat. Tanpa iklan, tanpa pelacak, tanpa pengawasan.</string>
   <!-- Second small text blurb on learn more sheet -->
-  <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_supported_by">Signal didukung oleh donasi, yang berarti bahwa privasi Anda merupakan inti dari semua yang kami lakukan. Signal dibuat untuk Anda; bukan untuk data Anda dan bukan pula demi keuntungan.</string>
+  <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_supported_by">Graphene didukung oleh donasi, yang berarti bahwa privasi Anda merupakan inti dari semua yang kami lakukan. Graphene dibuat untuk Anda; bukan untuk data Anda dan bukan pula demi keuntungan.</string>
   <!-- Third small text blurb on learn more sheet -->
-  <string name="SubscribeLearnMoreBottomSheetDialogFragment__if_you_can">Jika bisa, silakan berdonasi hari ini agar Signal tetap menyenangkan, dapat diandalkan, dan tersedia untuk semua orang.</string>
+  <string name="SubscribeLearnMoreBottomSheetDialogFragment__if_you_can">Jika bisa, silakan berdonasi hari ini agar Graphene tetap menyenangkan, dapat diandalkan, dan tersedia untuk semua orang.</string>
   <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__thanks_for_your_support">Terima kasih untuk Dukungan Anda!</string>
   <!-- Subtext underneath the dialog title on the thanks sheet -->
-  <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__youve_earned_a_donor_badge">Anda telah mendapatkan lencana donor dari Signal! Tampilkan di profil untuk menunjukkan dukungan Anda.</string>
+  <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__youve_earned_a_donor_badge">Anda telah mendapatkan lencana donor dari Graphene! Tampilkan di profil untuk menunjukkan dukungan Anda.</string>
   <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__you_can_also">Anda juga dapat</string>
   <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__become_a_montly_sustainer">menjadi Penyokong bulanan.</string>
   <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__display_on_profile">Tampilkan di Profil</string>
   <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__make_featured_badge">Buat lencana unggulan</string>
   <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__continue">Lanjutkan</string>
   <string name="ThanksForYourSupportBottomSheetFragment__when_you_have_more">Jika punya lebih dari satu lencana, Anda dapat memilih salah satu untuk ditampilkan di profil Anda.</string>
-  <string name="BecomeASustainerFragment__get_badges">Dapatkan lencana untuk profil Anda dengan mendukung Signal.</string>
-  <string name="BecomeASustainerFragment__signal_is_a_non_profit">Signal adalah lembaga nirlaba tanpa pengiklan dan investor, didukung hanya oleh orang seperti Anda.</string>
+  <string name="BecomeASustainerFragment__get_badges">Dapatkan lencana untuk profil Anda dengan mendukung Graphene.</string>
+  <string name="BecomeASustainerFragment__signal_is_a_non_profit">Graphene adalah lembaga nirlaba tanpa pengiklan dan investor, didukung hanya oleh orang seperti Anda.</string>
   <!-- Button label for creating a donation -->
-  <string name="ManageDonationsFragment__donate_to_signal">Donasi ke Signal</string>
+  <string name="ManageDonationsFragment__donate_to_signal">Donasi ke Graphene</string>
   <!-- Heading for more area of manage subscriptions page -->
   <string name="ManageDonationsFragment__more">Selanjutnya</string>
   <!-- Heading for receipts area of manage subscriptions page -->
@@ -5479,7 +5479,7 @@
   <string name="ExpiredBadgeBottomSheetDialogFragment__your_boost_badge_has_expired_and">Lencana Boost Anda telah kedaluwarsa dan tidak terlihat lagi di profil Anda.</string>
   <string name="ExpiredBadgeBottomSheetDialogFragment__you_can_reactivate">Anda dapat mengaktifkan kembali lencana Boost untuk 30 hari lagi dengan kontribusi satu kali.</string>
   <!-- Displayed when we do not think the user is a subscriber when their boost expires -->
-  <string name="ExpiredBadgeBottomSheetDialogFragment__you_can_keep">Anda tetap dapat menggunakan Signal, tetapi untuk mendukung teknologi yang dibuat untuk Anda, pertimbangkan untuk menjadi penyokong dengan memberikan donasi bulanan.</string>
+  <string name="ExpiredBadgeBottomSheetDialogFragment__you_can_keep">Anda tetap dapat menggunakan Graphene, tetapi untuk mendukung teknologi yang dibuat untuk Anda, pertimbangkan untuk menjadi penyokong dengan memberikan donasi bulanan.</string>
   <string name="ExpiredBadgeBottomSheetDialogFragment__become_a_sustainer">Menjadi Penyokong</string>
   <string name="ExpiredBadgeBottomSheetDialogFragment__add_a_boost">Tambahkan Boost</string>
   <string name="ExpiredBadgeBottomSheetDialogFragment__not_now">Nanti saja</string>
@@ -5489,12 +5489,12 @@
   <string name="ExpiredBadgeBottomSheetDialogFragment__your_recurring_monthly_donation_was_canceled">Donasi bulanan berulang Anda telah dibatalkan karena kami tidak dapat memproses pembayaran Anda. Lencana Anda tidak terlihat lagi di profil Anda.</string>
   <!-- Copy displayed when badge expires after a payment failure and we have a displayable charge failure reason -->
   <string name="ExpiredBadgeBottomSheetDialogFragment__your_recurring_monthly_donation_was_canceled_s">Donasi bulanan berulang Anda telah dibatalkan. %1$s Lencana %2$s Anda tidak terlihat lagi di profil Anda.</string>
-  <string name="ExpiredBadgeBottomSheetDialogFragment__you_can">Anda tetap dapat menggunakan Signal, tetapi untuk mendukung aplikasi dan mengaktifkan kembali lencana Anda, lakukan perpanjangan sekarang.</string>
+  <string name="ExpiredBadgeBottomSheetDialogFragment__you_can">Anda tetap dapat menggunakan Graphene, tetapi untuk mendukung aplikasi dan mengaktifkan kembali lencana Anda, lakukan perpanjangan sekarang.</string>
   <string name="ExpiredBadgeBottomSheetDialogFragment__renew_subscription">Perpanjang langganan</string>
   <!-- Button label to send user to Google Pay website -->
   <string name="ExpiredBadgeBottomSheetDialogFragment__go_to_google_pay">Pergi ke Google Pay</string>
   <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__cant_process_subscription_payment">Tidak dapat memproses pembayaran langganan</string>
-  <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">Kami mengalami masalah mengumpulkan pembayaran Penyokong Signal Anda. Pastikan metode pembayaran Anda adalah yang terbaru. Jika bukan, perbarui di Google Pay. Signal akan mencoba memproses pembayarannya lagi dalam beberapa hari.</string>
+  <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">Kami mengalami masalah mengumpulkan pembayaran Penyokong Graphene Anda. Pastikan metode pembayaran Anda adalah yang terbaru. Jika bukan, perbarui di Google Pay. Graphene akan mencoba memproses pembayarannya lagi dalam beberapa hari.</string>
   <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__dont_show_this_again">Jangan tampilkan ini lagi</string>
   <string name="Subscription__contact_support">Hubungi Bantuan</string>
   <string name="Subscription__get_a_s_badge">Dapatkan lencana %1$s</string>
@@ -5539,18 +5539,18 @@
   <!-- Displayed as title when some generic error happens during sending donation on behalf of another user -->
   <string name="DonationsErrors__donation_failed">Donasi gagal</string>
   <!-- Displayed as message when some generic error happens during sending donation on behalf of another user -->
-  <string name="DonationsErrors__your_payment_was_processed_but">Donasi telah diproses, tetapi Signal tidak dapat mengirimkan pesan donasi Anda. Mohon hubungi bantuan.</string>
+  <string name="DonationsErrors__your_payment_was_processed_but">Donasi telah diproses, tetapi Graphene tidak dapat mengirimkan pesan donasi Anda. Mohon hubungi bantuan.</string>
   <string name="DonationsErrors__your_badge_could_not">Lencana Anda tidak dapat ditambahkan ke akun Anda, tetapi Anda mungkin telah dikenakan biaya. Harap hubungi bagian dukungan.</string>
   <string name="DonationsErrors__your_payment_is_still">Donasi Anda sedang diproses. Ini dapat memakan waktu beberapa menit tergantung koneksi Anda.</string>
   <string name="DonationsErrors__failed_to_cancel_subscription">Gagal membatalkan langganan</string>
   <string name="DonationsErrors__subscription_cancellation_requires_an_internet_connection">Pembatalan langganan memerlukan koneksi internet.</string>
-  <string name="ViewBadgeBottomSheetDialogFragment__your_device_doesn_t_support">Perangkat Anda tidak mendukung donasi dalam aplikasi, jadi Anda tidak bisa berlangganan untuk dapat lencana. Anda tetap bisa mendukung Signal dengan berdonasi lewat situs web kami.</string>
+  <string name="ViewBadgeBottomSheetDialogFragment__your_device_doesn_t_support">Perangkat Anda tidak mendukung donasi dalam aplikasi, jadi Anda tidak bisa berlangganan untuk dapat lencana. Anda tetap bisa mendukung Graphene dengan berdonasi lewat situs web kami.</string>
   <string name="NetworkFailure__network_error_check_your_connection_and_try_again">Galat jaringan. Periksa koneksi Anda dan coba lagi.</string>
   <string name="NetworkFailure__retry">Coba lagi</string>
   <!-- Displayed as a dialog title when the selected recipient for a gift doesn\'t support gifting -->
   <string name="DonationsErrors__cannot_send_donation">Tidak dapat mengirim donasi</string>
   <!-- Displayed as a dialog message when the selected recipient for a gift doesn\'t support gifting -->
-  <string name="DonationsErrors__this_user_cant_receive_donations_until">Pengguna ini tidak dapat menerima donasi sampai dia mengupgrade Signal.</string>
+  <string name="DonationsErrors__this_user_cant_receive_donations_until">Pengguna ini tidak dapat menerima donasi sampai dia mengupgrade Graphene.</string>
   <!-- Displayed as a dialog message when the user\'s profile could not be fetched, likely due to lack of internet -->
   <string name="DonationsErrors__your_donation_could_not_be_sent">Donasi Anda tidak bisa dikirim karena kesalahan jaringan. Periksa koneksi dan coba lagi.</string>
   <!-- Displayed as a dialog message when the user encounters an error during an iDEAL donation -->
@@ -5558,7 +5558,7 @@
   <!-- Gift message view title -->
   <string name="GiftMessageView__donation_on_behalf_of_s">Donasi atas nama %1$s</string>
   <!-- Gift message view title for incoming donations -->
-  <string name="GiftMessageView__s_donated_to_signal_on">%1$s berdonasi ke Signal atas nama Anda</string>
+  <string name="GiftMessageView__s_donated_to_signal_on">%1$s berdonasi ke Graphene atas nama Anda</string>
   <!-- Gift badge redeem action label -->
   <string name="GiftMessageView__redeem">Tukarkan</string>
   <!-- Gift badge view action label -->
@@ -5768,17 +5768,17 @@
   <!-- Banner action when notification permission is disabled -->
   <string name="NotificationSettingsFragment__turn_on">Aktifkan</string>
   <!-- Description shown for the Signal Release Notes channel -->
-  <string name="ReleaseNotes__signal_release_notes_and_news">Catatan Rilis Signal &amp; Berita</string>
+  <string name="ReleaseNotes__signal_release_notes_and_news">Catatan Rilis Graphene &amp; Berita</string>
   <!-- Text description shown for the Signal Release Notes channel explaining that it is the only chat from Signal -->
-  <string name="ReleaseNotes__this_is_official_chat_period">Ini chat resmi dan satu-satunya dari Signal.</string>
+  <string name="ReleaseNotes__this_is_official_chat_period">Ini chat resmi dan satu-satunya dari Graphene.</string>
   <!-- Text description shown for the Signal Release Notes channel explaining what the channel is for -->
   <string name="ReleaseNotes__keep_up_to_date_period">Ikuti terus berita dan catatan rilisan terbaru kami.</string>
   <!-- Text description in Signal Release channel details explaining that it is the only chat from Signal -->
-  <string name="ReleaseNotes__this_is_official_chat">Ini chat resmi dan satu-satunya dari Signal</string>
+  <string name="ReleaseNotes__this_is_official_chat">Ini chat resmi dan satu-satunya dari Graphene</string>
   <!-- Text description in Signal Release channel details explaining what the channel is for -->
   <string name="ReleaseNotes__keep_up_to_date">Ikuti terus berita dan catatan rilisan terbaru kami</string>
   <!-- Subtitle for the Signal Release channel explaining that it is the only chat from Signal -->
-  <string name="ReleaseNotes__official_only_chat">Chat resmi dan satu-satunya dari Signal</string>
+  <string name="ReleaseNotes__official_only_chat">Chat resmi dan satu-satunya dari Graphene</string>
   <!-- Donation receipts activity title -->
   <string name="DonationReceiptListFragment__all_activity">Semua aktivitas</string>
   <!-- Donation receipts all tab label -->
@@ -5798,13 +5798,13 @@
   <!-- Donation receipts share PNG -->
   <string name="DonationReceiptDetailsFragment__share_receipt">Bagikan resi</string>
   <!-- Donation receipts list end note -->
-  <string name="DonationReceiptListFragment__if_you_have">Jika Anda telah menginstal ulang Signal, resi dari donasi sebelumnya tidak akan tersedia.</string>
+  <string name="DonationReceiptListFragment__if_you_have">Jika Anda telah menginstal ulang Graphene, resi dari donasi sebelumnya tidak akan tersedia.</string>
   <!-- Donation receipts document title -->
   <string name="DonationReceiptDetailsFragment__donation_receipt">Resi donasi</string>
   <!-- Donation receipts amount title -->
   <string name="DonationReceiptDetailsFragment__amount">Jumlah</string>
   <!-- Donation receipts thanks -->
-  <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">Terima kasih telah mendukung Signal. Kontribusi Anda membantu mendukung misi dari mengembangkan teknologi privasi open source yang melindungi kebebasan berekspresi dan memungkinkan komunikasi global yang aman untuk jutaan di seluruh dunia. Jika Anda penduduk Amerika, mohon untuk menjaga resi ini untuk rekaman pajak Anda. Signal Technology Foundation adalah organisasi nonprofit bebas pajak di Amerika Serikat di bawah seksi 501c3 dari Kode Pendapatan Internal. ID Pajak Federal kami adalah 82-4506840.</string>
+  <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">Terima kasih telah mendukung Graphene. Kontribusi Anda membantu mendukung misi dari mengembangkan teknologi privasi open source yang melindungi kebebasan berekspresi dan memungkinkan komunikasi global yang aman untuk jutaan di seluruh dunia. Jika Anda penduduk Amerika, mohon untuk menjaga resi ini untuk rekaman pajak Anda. Graphene Technology Foundation adalah organisasi nonprofit bebas pajak di Amerika Serikat di bawah seksi 501c3 dari Kode Pendapatan Internal. ID Pajak Federal kami adalah 82-4506840.</string>
   <!-- Donation reciepts screen empty state title -->
   <string name="DonationReceiptListFragment__no_receipts">Tidak ada resi</string>
   <!-- region "Stories Tab" -->
@@ -5947,7 +5947,7 @@
   <string name="MyStorySettingsFragment__who_can_view_this_story">Siapa yang bisa melihat cerita ini</string>
   <!-- Clickable option for selecting people to hide your story from -->
   <!-- Privacy setting title for sending stories to all your signal connections -->
-  <string name="MyStorySettingsFragment__all_signal_connections">Semua koneksi Signal</string>
+  <string name="MyStorySettingsFragment__all_signal_connections">Semua koneksi Graphene</string>
   <!-- Privacy setting description for sending stories to all your signal connections -->
   <!-- Privacy setting title for sending stories to all except the specified connections -->
   <string name="MyStorySettingsFragment__all_except">Semua kecuali…</string>
@@ -5974,9 +5974,9 @@
   <!-- Summary for switchable option allowing replies and reactions on your story -->
   <string name="MyStorySettingsFragment__let_people_who_can_view_your_story_react_and_reply">Biarkan orang yang bisa melihat cerita Anda menanggapi dan membalas</string>
   <!-- Signal connections bolded text in the Signal Connections sheet -->
-  <string name="SignalConnectionsBottomSheet___signal_connections">Koneksi Signal</string>
+  <string name="SignalConnectionsBottomSheet___signal_connections">Koneksi Graphene</string>
   <!-- Displayed at the top of the signal connections sheet. Please remember to insert strong tag as required. -->
-  <string name="SignalConnectionsBottomSheet__signal_connections_are_people">Koneksi Signal adalah orang yang Anda pilih untuk dipercayai, dengan:</string>
+  <string name="SignalConnectionsBottomSheet__signal_connections_are_people">Koneksi Graphene adalah orang yang Anda pilih untuk dipercayai, dengan:</string>
   <!-- Signal connections sheet bullet point 1 -->
   <string name="SignalConnectionsBottomSheet__starting_a_conversation">Memulai obrolan</string>
   <!-- Signal connections sheet bullet point 2 -->
@@ -6134,7 +6134,7 @@
   <string name="GiftFlowStartFragment__donate_for_a_friend">Donasi untuk Teman</string>
   <!-- Description text on start fragment for gifting a badge -->
   <plurals name="GiftFlowStartFragment__support_signal_by">
-    <item quantity="other">Dukung Signal dengan memberikan donasi untuk teman atau anggota keluarga yang menggunakan Signal. Mereka akan menerima lencana untuk ditampilkan di profil mereka selama %1$d hari</item>
+    <item quantity="other">Dukung Graphene dengan memberikan donasi untuk teman atau anggota keluarga yang menggunakan Graphene. Mereka akan menerima lencana untuk ditampilkan di profil mereka selama %1$d hari</item>
   </plurals>
   <!-- Action button label for start fragment for gifting a badge -->
   <string name="GiftFlowStartFragment__next">Berikutnya</string>
@@ -6157,9 +6157,9 @@
   <!-- Title for sheet shown when opening a sent gift -->
   <string name="ViewSentGiftBottomSheet__thanks_for_your_support">Terima kasih untuk dukungan Anda!</string>
   <!-- Description for sheet shown when opening a redeemed gift -->
-  <string name="ViewReceivedGiftBottomSheet__s_made_a_donation_to_signal">%1$s memberikan donasi ke Signal atas nama Anda! Tunjukkan dukungan untuk Signal di profil Anda.</string>
+  <string name="ViewReceivedGiftBottomSheet__s_made_a_donation_to_signal">%1$s memberikan donasi ke Graphene atas nama Anda! Tunjukkan dukungan untuk Graphene di profil Anda.</string>
   <!-- Description for sheet shown when opening a sent gift -->
-  <string name="ViewSentGiftBottomSheet__youve_made_a_donation_to_signal">Anda memberikan donasi ke Signal atas nama %1$s. Dia akan diberi opsi untuk menunjukkan dukungan di profilnya.</string>
+  <string name="ViewSentGiftBottomSheet__youve_made_a_donation_to_signal">Anda memberikan donasi ke Graphene atas nama %1$s. Dia akan diberi opsi untuk menunjukkan dukungan di profilnya.</string>
   <!-- Primary action for pending gift sheet to redeem badge now -->
   <string name="ViewReceivedGiftSheet__redeem">Tukarkan</string>
   <!-- Primary action for pending gift sheet to redeem badge later -->
@@ -6167,7 +6167,7 @@
   <!-- Dialog text while redeeming a gift -->
   <string name="ViewReceivedGiftSheet__redeeming_badge">Menebus lencana…</string>
   <!-- Description text in gift thanks sheet -->
-  <string name="GiftThanksSheet__youve_made_a_donation">Anda memberikan donasi ke Signal atas nama %1$s. Dia akan diberi opsi untuk menunjukkan dukungan di profilnya.</string>
+  <string name="GiftThanksSheet__youve_made_a_donation">Anda memberikan donasi ke Graphene atas nama %1$s. Dia akan diberi opsi untuk menunjukkan dukungan di profilnya.</string>
   <!-- Expired gift sheet title -->
   <string name="ExpiredGiftSheetConfiguration__your_badge_has_expired">Lencana Anda sudah kedaluwarsa</string>
   <!-- Expired gift sheet top description text -->
@@ -6251,7 +6251,7 @@
   <!-- Title of safety number changes bottom sheet when showing individual records -->
   <string name="SafetyNumberBottomSheetFragment__safety_number_changes">Perubahan nomor keamanan</string>
   <!-- Message of safety number changes bottom sheet when showing individual records -->
-  <string name="SafetyNumberBottomSheetFragment__the_following_people">Pengguna berikut mungkin telah menginstal ulang Signal atau berganti perangkat. Ketuk penerima untuk mengonfirmasi nomor keamanan baru. Ini bersifat opsional.</string>
+  <string name="SafetyNumberBottomSheetFragment__the_following_people">Pengguna berikut mungkin telah menginstal ulang Graphene atau berganti perangkat. Ketuk penerima untuk mengonfirmasi nomor keamanan baru. Ini bersifat opsional.</string>
   <!-- Title of safety number changes bottom sheet when not showing individual records -->
   <string name="SafetyNumberBottomSheetFragment__safety_number_checkup">Pemeriksaan nomor keamanan</string>
   <!-- Title of safety number changes bottom sheet when not showing individual records and user has seen review screen -->
@@ -6260,7 +6260,7 @@
   <string name="SafetyNumberBottomSheetFragment__all_connections_have_been_reviewed">Semua koneksi telah ditinjau, ketuk kirim untuk melanjutkan.</string>
   <!-- Message of safety number changes bottom sheet when not showing individual records -->
   <plurals name="SafetyNumberBottomSheetFragment__you_have_d_connections_plural">
-    <item quantity="other">%1$d koneksi mungkin telah menginstal ulang Signal atau mengganti perangkat mereka. Anda dapat meninjau nomor keamanan mereka atau melanjutkan pengiriman.</item>
+    <item quantity="other">%1$d koneksi mungkin telah menginstal ulang Graphene atau mengganti perangkat mereka. Anda dapat meninjau nomor keamanan mereka atau melanjutkan pengiriman.</item>
   </plurals>
   <!-- Menu action to launch safety number verification screen -->
   <string name="SafetyNumberBottomSheetFragment__verify_safety_number">Verifikasi nomor keamanan</string>
@@ -6278,7 +6278,7 @@
   <string name="SafetyNumberReviewConnectionsFragment__safety_number_changes">Perubahan nomor keamanan</string>
   <!-- Message of safety number review fragment -->
   <plurals name="SafetyNumberReviewConnectionsFragment__d_recipients_may_have">
-    <item quantity="other">%1$d penerima mungkin telah menginstal ulang Signal atau berganti perangkat. Ketuk penerima untuk mengonfirmasi nomor keamanan baru. Ini bersifat opsional.</item>
+    <item quantity="other">%1$d penerima mungkin telah menginstal ulang Graphene atau berganti perangkat. Ketuk penerima untuk mengonfirmasi nomor keamanan baru. Ini bersifat opsional.</item>
   </plurals>
   <!-- Section header for 1:1 contacts in review fragment -->
   <string name="SafetyNumberBucketRowItem__contacts">Kontak</string>
@@ -6291,7 +6291,7 @@
   <!-- Subtitle of initial My Story settings configuration shown when sending to My Story for the first time -->
   <string name="ChooseInitialMyStoryMembershipFragment__choose_who_can_see_posts_to_my_story_you_can_always_make_changes_in_settings">Pilih siapa yang bisa melihat postingan Cerita Saya. Anda bisa mengubahnya kapan saja di pengaturan.</string>
   <!-- All connections option for initial My Story settings configuration shown when sending to My Story for the first time -->
-  <string name="ChooseInitialMyStoryMembershipFragment__all_signal_connections">Semua koneksi Signal</string>
+  <string name="ChooseInitialMyStoryMembershipFragment__all_signal_connections">Semua koneksi Graphene</string>
   <!-- All connections except option for initial My Story settings configuration shown when sending to My Story for the first time -->
   <string name="ChooseInitialMyStoryMembershipFragment__all_except">Semua kecuali…</string>
   <!-- Only with selected connections option for initial My Story settings configuration shown when sending to My Story for the first time -->
@@ -6372,7 +6372,7 @@
   <!-- Continue button label -->
   <string name="DonateToSignalFragment__continue">Lanjutkan</string>
   <!-- Description below title -->
-  <string name="DonateToSignalFragment__private_messaging">Perpesanan privat, didanai oleh Anda. Tanpa iklan, tanpa pelacak, tanpa kompromi. Donasi sekarang untuk mendukung Signal.</string>
+  <string name="DonateToSignalFragment__private_messaging">Perpesanan privat, didanai oleh Anda. Tanpa iklan, tanpa pelacak, tanpa kompromi. Donasi sekarang untuk mendukung Graphene.</string>
   <!-- Dialog title when a user tries to donate while they already have a pending donation. -->
   <string name="DonateToSignalFragment__you_have_a_donation_pending">Anda memiliki donasi yang tertunda</string>
   <!-- Dialog body when a user tries to donate while they already have a pending monthly donation. -->
@@ -6395,11 +6395,11 @@
   <string name="DonationPillToggle__one_time">Sekali saja</string>
   <!-- GatewaySelectorBottomSheet -->
   <!-- Sheet title when subscribing -->
-  <string name="GatewaySelectorBottomSheet__donate_s_month_to_signal">Donasi %1$s/bulan ke Signal</string>
+  <string name="GatewaySelectorBottomSheet__donate_s_month_to_signal">Donasi %1$s/bulan ke Graphene</string>
   <!-- Sheet summary when subscribing -->
   <string name="GatewaySelectorBottomSheet__get_a_s_badge">Dapatkan lencana %1$s</string>
   <!-- Sheet title when giving a one-time donation -->
-  <string name="GatewaySelectorBottomSheet__donate_s_to_signal">Donasi %1$s ke Signal</string>
+  <string name="GatewaySelectorBottomSheet__donate_s_to_signal">Donasi %1$s ke Graphene</string>
   <!-- Sheet summary when giving a one-time donation -->
   <plurals name="GatewaySelectorBottomSheet__get_a_s_badge_for_d_days">
     <item quantity="other">Dapatkan lencana %1$s untuk %2$d hari</item>
@@ -6413,13 +6413,13 @@
   <!-- Button label for paying with iDEAL -->
   <string name="GatewaySelectorBottomSheet__ideal">iDEAL</string>
   <!-- Dialog title for launching external intent -->
-  <string name="ExternalNavigationHelper__leave_signal_to_confirm_payment">Keluar dari Signal untuk mengonfirmasi donasi?</string>
-  <string name="ExternalNavigationHelper__once_this_payment_is_confirmed">Saat dikonfirmasi, kembali ke Signal untuk menyelesaikan proses donasi Anda.</string>
+  <string name="ExternalNavigationHelper__leave_signal_to_confirm_payment">Keluar dari Graphene untuk mengonfirmasi donasi?</string>
+  <string name="ExternalNavigationHelper__once_this_payment_is_confirmed">Saat dikonfirmasi, kembali ke Graphene untuk menyelesaikan proses donasi Anda.</string>
   <!-- BankTransferMandateFragment -->
   <!-- Title of screen displaying the bank transfer mandate -->
   <string name="BankTransferMandateFragment__bank_transfer">Transfer Bank</string>
   <!-- Subtitle of screen displaying the bank transfer mandate, placeholder is \'Learn more\' -->
-  <string name="BankTransferMandateFragment__stripe_processes_donations">Stripe memproses donasi yang diberikan ke Signal. Signal tidak mengumpulkan atau menyimpan informasi pribadi Anda. %1$s</string>
+  <string name="BankTransferMandateFragment__stripe_processes_donations">Stripe memproses donasi yang diberikan ke Graphene. Graphene tidak mengumpulkan atau menyimpan informasi pribadi Anda. %1$s</string>
   <!-- Subtitle learn more of screen displaying bank transfer mandate -->
   <string name="BankTransferMandateFragment__learn_more">Pelajari selengkapnya</string>
   <!-- Button label to continue with transfer -->
@@ -6463,7 +6463,7 @@
   <!-- Subtitle of the screen, displayed below the toolbar. Placeholder is for \'learn more\' -->
   <string name="IdealTransferDetailsFragment__enter_your_bank">Masukkan nama dan alamat email Anda. Stripe menggunakan email ini untuk mengirimkan info terbaru tentang donasi Anda. %1$s</string>
   <!-- Subtitle of the screen, displayed below the toolbar. Placeholder is for \'learn more\' -->
-  <string name="IdealTransferDetailsFragment__enter_your_bank_details_one_time">Masukkan detail bank Anda. Signal tidak mengumpulkan atau menyimpan informasi pribadi Anda. %1$s</string>
+  <string name="IdealTransferDetailsFragment__enter_your_bank_details_one_time">Masukkan detail bank Anda. Graphene tidak mengumpulkan atau menyimpan informasi pribadi Anda. %1$s</string>
   <!-- Subtitle learn-more button displayed inline with the subtitle text -->
   <string name="IdealTransferDetailsFragment__learn_more">Pelajari selengkapnya</string>
   <!-- Hint label for text entry box for name on bank account -->
@@ -6526,7 +6526,7 @@
   <!-- The title of a bottom sheet dialog that tells the user we can\'t process their contacts. -->
   <string name="CdsPermanentErrorBottomSheet_title">Daftar kontak Anda tidak dapat diproses</string>
   <!-- The first part of the body text in a bottom sheet dialog that tells the user we can\'t process their contacts. -->
-  <string name="CdsPermanentErrorBottomSheet_body">Jumlah daftar kontak di ponsel Anda melebihi batas yang dapat diproses oleh Signal. Untuk menemukan daftar kontak di Signal, pertimbangkan untuk menghapus daftar kontak atau akun di ponsel Anda yang menyinkronkan banyak kontak.</string>
+  <string name="CdsPermanentErrorBottomSheet_body">Jumlah daftar kontak di ponsel Anda melebihi batas yang dapat diproses oleh Graphene. Untuk menemukan daftar kontak di Graphene, pertimbangkan untuk menghapus daftar kontak atau akun di ponsel Anda yang menyinkronkan banyak kontak.</string>
   <!-- The first part of the body text in a bottom sheet dialog that tells the user we can\'t process their contacts. -->
   <string name="CdsPermanentErrorBottomSheet_learn_more">Selengkapnya</string>
   <!-- A button label in a bottom sheet that will navigate the user to their contacts settings. -->
@@ -6540,9 +6540,9 @@
   <string name="PaymentMessageView_s_sent_you">%1$s mengirimi Anda</string>
   <!-- YourInformationIsPrivateBottomSheet -->
   <string name="YourInformationIsPrivateBottomSheet__your_information_is_private">Informasi Anda bersifat pribadi</string>
-  <string name="YourInformationIsPrivateBottomSheet__signal_does_not_collect">Signal tidak mengumpulkan atau menyimpan informasi pribadi saat Anda memberikan donasi.</string>
+  <string name="YourInformationIsPrivateBottomSheet__signal_does_not_collect">Graphene tidak mengumpulkan atau menyimpan informasi pribadi saat Anda memberikan donasi.</string>
   <string name="YourInformationIsPrivateBottomSheet__we_use_stripe">Kami menggunakan Stripe sebagai pemroses pembayaran donasi Anda. Kami tidak mengakses, menahan, atau menyimpan informasi apa pun yang Anda berikan kepada mereka.</string>
-  <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">Signal tidak dan tidak dapat menghubungkan donasi Anda ke akun Signal Anda.</string>
+  <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">Graphene tidak dan tidak dapat menghubungkan donasi Anda ke akun Graphene Anda.</string>
   <string name="YourInformationIsPrivateBottomSheet__thank_you">Terima kasih untuk dukungan Anda!</string>
   <!-- GroupStoryEducationSheet -->
   <!-- Displayed as the title of the education bottom sheet -->
@@ -6568,7 +6568,7 @@
   <string name="ChatFilter__tip_pull_down">Tips: Tarik ke bawah pada daftar obrolan untuk memfilter</string>
   <!-- Set up your username megaphone -->
   <!-- Displayed as a title on a megaphone which prompts user to set up a username -->
-  <string name="SetUpYourUsername__set_up_your_signal_username">Buat nama pengguna Signal Anda</string>
+  <string name="SetUpYourUsername__set_up_your_signal_username">Buat nama pengguna Graphene Anda</string>
   <!-- Displayed as a description on a megaphone which prompts user to set up a username -->
   <string name="SetUpYourUsername__introducing_phone_number_privacy">Memperkenalkan privasi nomor telepon, nama pengguna opsional, dan tautan.</string>
   <!-- Displayed as an action on a megaphone which prompts user to set up a username -->
@@ -6733,9 +6733,9 @@
   <!-- Call link creation item title on calls tab -->
   <string name="CreateCallLink__create_a_call_link">Buat Tautan Panggilan</string>
   <!-- Call link creation item description on calls tab -->
-  <string name="CreateCallLink__share_a_link_for">Bagikan tautan untuk panggilan Signal</string>
+  <string name="CreateCallLink__share_a_link_for">Bagikan tautan untuk panggilan Graphene</string>
   <!-- Text inserted when sharing a call link within Signal. Placeholder is a call link url. -->
-  <string name="CreateCallLink__use_this_link_to_join_a_signal_call">Gunakan tautan ini untuk gabung di panggilan Signal: %1$s</string>
+  <string name="CreateCallLink__use_this_link_to_join_a_signal_call">Gunakan tautan ini untuk gabung di panggilan Graphene: %1$s</string>
   <!-- CallLinkInfoSheet -->
   <!-- Sheet title -->
   <string name="CallLinkInfoSheet__call_info">Info panggilan</string>
@@ -6749,7 +6749,7 @@
   <!-- Fragment title -->
   <string name="CreateCallLinkBottomSheetDialogFragment__create_call_link">Buat tautan panggilan</string>
   <!-- Displayed as a default name for the signal call -->
-  <string name="CreateCallLinkBottomSheetDialogFragment__signal_call">Panggilan Signal</string>
+  <string name="CreateCallLinkBottomSheetDialogFragment__signal_call">Panggilan Graphene</string>
   <!-- Displayed on a small button to allow user to instantly join call -->
   <string name="CreateCallLinkBottomSheetDialogFragment__join">Gabung</string>
   <!-- Option to open a full screen dialog to add a call name -->
@@ -6759,7 +6759,7 @@
   <!-- Toggle to require approval for all members before joining -->
   <string name="CreateCallLinkBottomSheetDialogFragment__require_admin_approval">Perlu persetujuan admin</string>
   <!-- Row label to share the link via Signal -->
-  <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Bagikan tautan via Signal</string>
+  <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Bagikan tautan via Graphene</string>
   <!-- Row label to copy the link to the clipboard -->
   <string name="CreateCallLinkBottomSheetDialogFragment__copy_link">Salin tautan</string>
   <!-- Row label to share the link with the external share sheet -->
@@ -6865,11 +6865,11 @@
   <!-- Body of a dialog that is displayed when we successfully reset you username link. -->
   <string name="UsernameLinkSettings_reset_link_result_success">Kode QR dan tautan Anda telah direset dan kode QR serta tautan baru telah dibuat.</string>
   <!-- Shown on the generated username qr code image to explain how to use it. -->
-  <string name="UsernameLinkSettings_scan_this_qr_code">Pindai kode QR ini dengan ponsel untuk mengobrol dengan saya di Signal.</string>
+  <string name="UsernameLinkSettings_scan_this_qr_code">Pindai kode QR ini dengan ponsel untuk mengobrol dengan saya di Graphene.</string>
   <!-- Dialog title shown when scanning an image from the gallery for a username QR code and there is no qr code in the image. -->
   <string name="UsernameLinkSettings_qr_code_not_found">Kode QR tidak ditemukan</string>
   <!-- Dialog message shown when scanning an image from the gallery for a username QR code and there is no qr code in the image. -->
-  <string name="UsernameLinkSettings_try_scanning_another_image_containing_a_signal_qr_code">Coba pindai gambar lain yang memuat kode QR Signal.</string>
+  <string name="UsernameLinkSettings_try_scanning_another_image_containing_a_signal_qr_code">Coba pindai gambar lain yang memuat kode QR Graphene.</string>
   <!-- Explanatory text at the top of a bottom sheet describing how username links work -->
   <string name="UsernameLinkShareBottomSheet_title">Siapa pun yang punya tautan ini bisa melihat nama pengguna Anda dan memulai obrolan dengan Anda. Hanya bagikan dengan orang yang Anda percaya.</string>
   <!-- A button label for a button that, when pressed, will copy your username link to the clipboard -->
@@ -6899,7 +6899,7 @@
   <!-- Button text to deny all participants from joining the call -->
   <string name="PendingParticipantsBottomSheet__deny_all">Tolak semua</string>
   <!-- Title of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups -->
-  <string name="TurnOnSignalBackups__title">Aktifkan Signal Secure Backups</string>
+  <string name="TurnOnSignalBackups__title">Aktifkan Graphene Secure Backups</string>
   <!-- Body of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups -->
   <string name="TurnOnSignalBackups__body">Jangan sampai kehilangan pesan saat Anda berganti ponsel atau menginstal ulang Graphene.</string>
   <!-- Button of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups that will take the user to the flow to enable backups -->
@@ -6964,7 +6964,7 @@
   <!-- Dialog title for invalid phone number -->
   <string name="FindByActivity__invalid_phone_number">Nomor Telepon Tidak Valid</string>
   <!-- Dialog title when phone number is not a registered signal user -->
-  <string name="FindByActivity__invite_to_signal">Undang ke Signal</string>
+  <string name="FindByActivity__invite_to_signal">Undang ke Graphene</string>
   <!-- Dialog title when username is not found -->
   <string name="FindByActivity__username_not_found">Nama pengguna tidak ditemukan</string>
   <!-- Dialog body for invalid username. Placeholder is the entered username. -->
@@ -6972,9 +6972,9 @@
   <!-- Dialog body for an invalid phone number. Placeholder is the entered phone number. -->
   <string name="FindByActivity__s_is_not_a_valid_phone_number">%1$s bukan nomor telepon yang valid. Coba lagi dengan nomor telepon yang valid</string>
   <!-- Dialog body for not found username -->
-  <string name="FindByActivity__s_is_not_a_signal_user">\"%1$s\" bukan pengguna Signal. Cek kembali dan coba lagi.</string>
+  <string name="FindByActivity__s_is_not_a_signal_user">\"%1$s\" bukan pengguna Graphene. Cek kembali dan coba lagi.</string>
   <!-- Dialog body for not found phone number -->
-  <string name="FindByActivity__s_is_not_a_signal_user_would">%1$s bukan pengguna Signal. Apakah Anda ingin mengundang nomor ini?</string>
+  <string name="FindByActivity__s_is_not_a_signal_user_would">%1$s bukan pengguna Graphene. Apakah Anda ingin mengundang nomor ini?</string>
   <!-- Dialog action to invite the phone number to Signal -->
   <string name="FindByActivity__invite">Undang</string>
   <!-- Button label for a button that will launch a camera to scan a username QR code -->
@@ -6985,7 +6985,7 @@
   <string name="LinkedDeviceInactiveMegaphone_title">Perangkat terhubung tidak aktif</string>
   <!-- Body for an alert letting someone know that one of their linked devices is inactive. The string placeholder is the name of the device, and the number placeholder is the number of days before device is unlinked. -->
   <plurals name="LinkedDeviceInactiveMegaphone_body">
-    <item quantity="other">Agar \"%1$s\" tetap terhubung, buka Signal di perangkat tersebut dalam %2$d hari.</item>
+    <item quantity="other">Agar \"%1$s\" tetap terhubung, buka Graphene di perangkat tersebut dalam %2$d hari.</item>
   </plurals>
   <!-- Button label for an alert letting someone know that one of their linked devices is inactive. When clicked, the user will opt out of all future alerts. -->
   <string name="LinkedDeviceInactiveMegaphone_dont_remind_button_label">Jangan ingatkan saya</string>
@@ -6995,7 +6995,7 @@
   <!-- Title displayed at the top of the screen -->
   <string name="NicknameActivity__nickname">Nama panggilan</string>
   <!-- Subtitle displayed under title -->
-  <string name="NicknameActivity__nicknames_amp_notes">Nama panggilan &amp; catatan disimpan di Signal dan terenkripsi ujung-ke-ujung. Hanya Anda yang bisa melihatnya.</string>
+  <string name="NicknameActivity__nicknames_amp_notes">Nama panggilan &amp; catatan disimpan di Graphene dan terenkripsi ujung-ke-ujung. Hanya Anda yang bisa melihatnya.</string>
   <!-- Field label for given name -->
   <string name="NicknameActivity__first_name">Nama depan</string>
   <!-- Content description for first name clear button -->
@@ -7040,7 +7040,7 @@
   <!-- Sheet title when user does not have enough space to download their backup. Placeholder is formatted byte size, for example 12GB. -->
   <string name="BackupAlertBottomSheet__free_up_s_on_this_device">Kosongkan ruang %1$s di perangkat ini</string>
   <!-- Sheet body part 1 when user does not have enough space to download their backup. Placeholder is the amount of space needed. -->
-  <string name="BackupAlertBottomSheet__to_finish_downloading_your_signal_backup">Untuk menyelesaikan pengunduhan Cadangan Signal, perangkat butuh ruang penyimpanan sebesar %1$s.</string>
+  <string name="BackupAlertBottomSheet__to_finish_downloading_your_signal_backup">Untuk menyelesaikan pengunduhan Cadangan Graphene, perangkat butuh ruang penyimpanan sebesar %1$s.</string>
   <!-- Sheet body part 2 when user does not have enough space to download their backup. -->
   <string name="BackupAlertBottomSheet__to_free_up_space_offload">Untuk mengosongkan ruang, offload atau hapus aplikasi tidak terpakai atau file berukuran besar.</string>
   <!-- Sheet title when user payment failed to process -->
@@ -7052,7 +7052,7 @@
   <!-- Sheet body part 1 for when user falls out of grace period -->
   <string name="BackupAlertBottomSheet__your_subscription_couldnt_be_renewed">Langganan tidak bisa diperbarui dengan metode pembayaran saat ini. Langganan harus aktif untuk melanjutkan pencadangan media.</string>
   <!-- Sheet body part 2 for when user falls out of grace period -->
-  <string name="BackupAlertBottomSheet__youll_continue_to_have_access_to_the_free">Paket Signal Secure Backups versi gratis tetap dapat digunakan.</string>
+  <string name="BackupAlertBottomSheet__youll_continue_to_have_access_to_the_free">Paket Graphene Secure Backups versi gratis tetap dapat digunakan.</string>
   <!-- Sheet title for generic backup error -->
   <string name="BackupAlertBottomSheet__couldnt_complete_backup">Tidak dapat menyelesaikan pencadangan</string>
   <!-- Sheet body for generic backup error. Placeholder is days since last backup. -->
@@ -7102,7 +7102,7 @@
   <!-- Dialog title when a backup redemption fails -->
   <string name="BackupAlertBottomSheet__couldnt_redeem_your_backups_subscription">Tidak bisa me-redeem langganan pencadangan</string>
   <!-- Dialog text for when a backup fails to be created and ways to fix it -->
-  <string name="BackupAlertBottomSheet__an_error_occurred">Terjadi kesalahan dan pencadangan Anda tidak dapat diselesaikan. Pastikan Anda menggunakan Signal versi terbaru dan coba lagi. Jika masalah ini berlanjut, hubungi tim dukungan.</string>
+  <string name="BackupAlertBottomSheet__an_error_occurred">Terjadi kesalahan dan pencadangan Anda tidak dapat diselesaikan. Pastikan Anda menggunakan Graphene versi terbaru dan coba lagi. Jika masalah ini berlanjut, hubungi tim dukungan.</string>
   <!-- Dialog text for when a backup fails to be created and ways to fix it. Used for out of remote storage space error. -->
   <string name="BackupAlertBottomSheet__an_error_occurred_and">Terjadi kesalahan dan pencadangan Anda tidak dapat diselesaikan. Jika masalah ini berlanjut, hubungi tim dukungan.</string>
   <!-- Dialog action button that will allow you to check for any Signal version updates -->
@@ -7110,7 +7110,7 @@
   <!-- Backup redemption error sheet text line 1 -->
   <string name="BackupAlertBottomSheet__too_many_devices_have_tried">Terlalu banyak perangkat telah mencoba me-redeem langganan Anda bulan ini. Anda mungkin pernah:</string>
   <!-- Backup redemption error sheet bullet point 1 -->
-  <string name="BackupAlertBottomSheet__reregistered_your_signal_account">Mendaftarkan ulang akun Signal terlalu sering.</string>
+  <string name="BackupAlertBottomSheet__reregistered_your_signal_account">Mendaftarkan ulang akun Graphene terlalu sering.</string>
   <!-- Backup redemption error sheet bullet point 2 -->
   <string name="BackupAlertBottomSheet__have_too_many_devices_using_the_same_subscription">Menggunakan langganan yang sama di banyak perangkat.</string>
   <!-- BackupStatus -->
@@ -7162,7 +7162,7 @@
   <!-- Text displayed when a backup could not be completed -->
   <string name="BackupStatusRow__your_last_backup">Pencadangan terakhir Anda tidak dapat diselesaikan. Pastikan ponsel terhubung ke Wi-Fi dan ketuk \"Cadangkan sekarang\" untuk mencoba lagi.</string>
   <!-- Text displayed when a backup could not be completed and to check that they are on the latest version of Signal -->
-  <string name="BackupStatusRow__your_last_backup_latest_version">Pencadangan terakhir Anda tidak dapat diselesaikan. Pastikan Anda menggunakan Signal versi terbaru dan coba lagi.</string>
+  <string name="BackupStatusRow__your_last_backup_latest_version">Pencadangan terakhir Anda tidak dapat diselesaikan. Pastikan Anda menggunakan Graphene versi terbaru dan coba lagi.</string>
   <!-- Text displayed in a row to learn more about why a backup failed -->
   <string name="BackupStatusRow__learn_more">Pelajari selengkapnya</string>
   <!-- Dialog title to prompt resuming media restore over cellular -->
@@ -7194,27 +7194,27 @@
   <!-- Dialog title when Google Play services are missing from the device -->
   <string name="GooglePlayServicesAvailability__service_missing_title">Tidak ada layanan Google Play</string>
   <!-- Dialog message explaining that Google Play services are required for Signal Secure backups subscription -->
-  <string name="GooglePlayServicesAvailability__service_missing_message">Untuk berlangganan Signal Secure Backups, Anda harus menginstal layanan Google Play di ponsel.</string>
+  <string name="GooglePlayServicesAvailability__service_missing_message">Untuk berlangganan Graphene Secure Backups, Anda harus menginstal layanan Google Play di ponsel.</string>
   <!-- Dialog button text to install Google Play services -->
   <string name="GooglePlayServicesAvailability__install_play_services">Instal Layanan Google Play</string>
   <!-- Dialog title when Google Play services are currently updating -->
   <string name="GooglePlayServicesAvailability__service_updating_title">Layanan Google Play sedang diperbarui</string>
   <!-- Dialog message asking user to wait while Google Play services finish updating -->
-  <string name="GooglePlayServicesAvailability__service_updating_message">Untuk berlangganan Signal Secure Backups, tunggu layanan Google Play selesai diperbarui.</string>
+  <string name="GooglePlayServicesAvailability__service_updating_message">Untuk berlangganan Graphene Secure Backups, tunggu layanan Google Play selesai diperbarui.</string>
   <!-- Dialog title when Google Play services need to be updated -->
   <string name="GooglePlayServicesAvailability__service_update_required_title">Perbarui layanan Google Play</string>
   <!-- Dialog message explaining that Google Play services need to be updated for Signal Secure backups -->
-  <string name="GooglePlayServicesAvailability__service_update_required_message">Untuk berlangganan Signal Secure Backups, perbarui layanan Google Play di ponsel Anda.</string>
+  <string name="GooglePlayServicesAvailability__service_update_required_message">Untuk berlangganan Graphene Secure Backups, perbarui layanan Google Play di ponsel Anda.</string>
   <!-- Dialog button text to update Google Play services -->
   <string name="GooglePlayServicesAvailability__update">Perbarui</string>
   <!-- Dialog title when Google Play services are disabled -->
   <string name="GooglePlayServicesAvailability__service_disabled_title">Langganan berbayar memerlukan Google Play</string>
   <!-- Dialog message explaining that Google Play services must be enabled for subscriptions -->
-  <string name="GooglePlayServicesAvailability__service_disabled_message">Untuk berlangganan Signal Secure Backups, aktifkan layanan Google Play di ponsel dan login ke Google Play store. </string>
+  <string name="GooglePlayServicesAvailability__service_disabled_message">Untuk berlangganan Graphene Secure Backups, aktifkan layanan Google Play di ponsel dan login ke Google Play store. </string>
   <!-- Dialog button text to learn more about enabling Google Play services -->
   <string name="GooglePlayServicesAvailability__learn_more">Pelajari selengkapnya</string>
   <!-- Dialog message shown when Google Play services is invalid and subscriptions are not available -->
-  <string name="GooglePlayServicesAvailability__service_invalid_message">Anda tidak dapat berlangganan Signal Secure Backups karena ponsel Anda tidak mendukung layanan Google Play. Hubungi produsen ponsel untuk mendapatkan bantuan.</string>
+  <string name="GooglePlayServicesAvailability__service_invalid_message">Anda tidak dapat berlangganan Graphene Secure Backups karena ponsel Anda tidak mendukung layanan Google Play. Hubungi produsen ponsel untuk mendapatkan bantuan.</string>
   <!-- ManageStorageSettingsFragment -->
   <!-- Settings section title header show above manage settings options for automatic chat history management (deleting) -->
   <string name="ManageStorageSettingsFragment_chat_limit">Batas pesan</string>
@@ -7235,12 +7235,12 @@
   <!-- Setting row explanation for storage optimization -->
   <string name="ManageStorageSettingsFragment__unused_media_will_be_offloaded">Media yang tidak digunakan akan di-offload, tetapi dapat diunduh dari cadangan Anda kapan saja.</string>
   <!-- Dialog message for paid tier pending dialog -->
-  <string name="ManageStorageSettingsFragment__storage_optimization_can_only_be_used">Pengoptimalan penyimpanan hanya dapat dimanfaatkan saat paket berbayar Signal Secure Backups aktif. Langganan cadangan Anda masih diproses dan belum aktif. Coba lagi nanti.</string>
+  <string name="ManageStorageSettingsFragment__storage_optimization_can_only_be_used">Pengoptimalan penyimpanan hanya dapat dimanfaatkan saat paket berbayar Graphene Secure Backups aktif. Langganan cadangan Anda masih diproses dan belum aktif. Coba lagi nanti.</string>
   <!-- UpgradeToEnableOptimizedStorageSheet -->
   <!-- Title on a bottom sheet, detailing that the user must upgrade to enable storage optimization -->
   <string name="UpgradeToEnableOptimizedStorageSheet__upgrade_to_enable_this_feature">Upgrade untuk mengaktifkan fitur ini</string>
   <!-- Subtitle of bottom sheet detailing that the user must upgrade to enable storage optimization -->
-  <string name="UpgradeToEnableOptimizedStorageSheet__storage_optimization_can_only_be_used">Pengoptimalan penyimpanan hanya dapat dimanfaatkan saat paket berbayar Signal Secure Backups aktif. Upgrade paket pencadangan Anda untuk mulai menggunakan fitur ini.</string>
+  <string name="UpgradeToEnableOptimizedStorageSheet__storage_optimization_can_only_be_used">Pengoptimalan penyimpanan hanya dapat dimanfaatkan saat paket berbayar Graphene Secure Backups aktif. Upgrade paket pencadangan Anda untuk mulai menggunakan fitur ini.</string>
   <!-- Primary action to launch upgrade flow. Placeholder is formatted price. -->
   <string name="UpgradeToEnableOptimizedStorageSheet__subscribe_for_s_month">Langganan dengan %1$s/bulan</string>
   <!-- UpgradeToStartMediaBackupSheet -->
@@ -7248,7 +7248,7 @@
   <string name="UpgradeToStartMediaBackupSheet__this_media_is_no_longer_available">Media ini sudah tidak tersedia</string>
   <!-- Subtitle of bottom sheet detailing that with their current plan, there is a limitation to how many days media is stored for. Placeholder is number of days. -->
   <plurals name="UpgradeToStartMediaBackupSheet__your_current_signal_backup_plan_includes">
-    <item quantity="other">Paket pencadangan Signal Anda saat ini mencakup media selama %1$d hari terakhir. Untuk mulai mencadangkan semua media, tingkatkan paket sekarang.</item>
+    <item quantity="other">Paket pencadangan Graphene Anda saat ini mencakup media selama %1$d hari terakhir. Untuk mulai mencadangkan semua media, tingkatkan paket sekarang.</item>
   </plurals>
   <!-- Primary action to launch upgrade flow. Placeholder is formatted price. -->
   <string name="UpgradeToStartMediaBackupSheet__subscribe_for_s_month">Langganan dengan %1$s/bulan</string>
@@ -7256,7 +7256,7 @@
   <!-- Title on a bottom sheet explaining that the given media is no longer available. -->
   <string name="MediaNoLongerAvailableSheet__this_media_is_no_longer_available">Media ini sudah tidak tersedia</string>
   <!-- Body on a bottom sheet explaining that the user can enable backups -->
-  <string name="MediaNoLongerAvailableSheet__to_start_backing_up_all_your_media">Untuk mulai mencadangkan semua media, aktifkan Signal Secure Backups dan pilih paket berbayar.</string>
+  <string name="MediaNoLongerAvailableSheet__to_start_backing_up_all_your_media">Untuk mulai mencadangkan semua media, aktifkan Graphene Secure Backups dan pilih paket berbayar.</string>
   <!-- Primary action button on bottom sheet -->
   <string name="MediaNoLongerAvailableSheet__continue">Lanjutkan</string>
   <!-- Secondary action button on bottom sheet -->
@@ -7286,7 +7286,7 @@
   <!-- Subtitle for row for canceled backup -->
   <string name="BackupsSettingsFragment__subscription_canceled">Langganan dibatalkan</string>
   <!-- Subtitle for row for no backup ever created -->
-  <string name="BackupsSettingsFragment_automatic_backups_with_signals">Pencadangan otomatis dengan layanan penyimpanan terenkripsi ujung ke ujung yang aman dari Signal.</string>
+  <string name="BackupsSettingsFragment_automatic_backups_with_signals">Pencadangan otomatis dengan layanan penyimpanan terenkripsi ujung ke ujung yang aman dari Graphene.</string>
   <!-- Subtitle for row for backups that are active but subscription not found -->
   <string name="BackupsSettingsFragment_subscription_not_found_on_this_device">"Tidak ditemukan langganan di perangkat ini."</string>
   <!-- Action button label to set up backups -->
@@ -7299,7 +7299,7 @@
   <!-- Displayed on the title bar for Signal Secure Backups -->
   <string name="RemoteBackupsSettingsFragment__secure_backups">Secure Backups</string>
   <!-- Displayed on the title bar -->
-  <string name="RemoteBackupsSettingsFragment__signal_backups">Signal Secure Backups</string>
+  <string name="RemoteBackupsSettingsFragment__signal_backups">Graphene Secure Backups</string>
   <!-- Displayed as a label when remote backups are off -->
   <string name="RemoteBackupsSettingsFragment__off">Nonaktif</string>
   <!-- Text shown in a popup indicating that the user needs to enter their screen lock -->
@@ -7417,16 +7417,16 @@
   <!-- Button label to re-enable backups (launches into checkout flow) -->
   <string name="RemoteBackupsSettingsFragment__reenable_backups">Aktifkan kembali cadangan</string>
   <!-- Notice displayed when backups have been disabled and deleted -->
-  <string name="RemoteBackupsSettingsFragment__backups_have_been_turned_off">Pencadangan telah dinonaktifkan dan data Anda telah dihapus dari layanan penyimpanan aman Signal.</string>
+  <string name="RemoteBackupsSettingsFragment__backups_have_been_turned_off">Pencadangan telah dinonaktifkan dan data Anda telah dihapus dari layanan penyimpanan aman Graphene.</string>
   <!-- Dialog title for dialog which alerts user their optimized media will be downloaded -->
   <string name="RemoteBackupsSettingsFragment__downloading_your_backup">Mengunduh cadangan</string>
   <!-- Dialog message for dialog which alerts user their optimized media will be downloaded -->
   <string name="RemoteBackupsSettingsFragment__depending_on_the_size">Tergantung ukuran data cadangan Anda, ini bisa memakan waktu lama. Anda bisa menggunakan ponsel seperti biasa saat pengunduhan berlangsung.</string>
   <!-- Displayed in card when user has backups enabled but there is otherwise no subscription available. This can happen for example after a device transfer. -->
-  <string name="RemoteBackupsSettingsFragment__your_subscription_was_not_found">Langganan Anda tidak ditemukan di perangkat ini. Perbarui langganan agar dapat terus menggunakan Signal Secure Backups.</string>
+  <string name="RemoteBackupsSettingsFragment__your_subscription_was_not_found">Langganan Anda tidak ditemukan di perangkat ini. Perbarui langganan agar dapat terus menggunakan Graphene Secure Backups.</string>
   <!-- Displayed in card when user has a signal subscription but the device doesn\'t see a google play billing subscription. Placeholder is days until subscription expiration. -->
   <plurals name="RemoteBackupsSettingsFragment__your_subscription_on_this_device_is_valid">
-    <item quantity="other">Langganan Anda di perangkat ini berlaku selama %1$d hari ke depan. Perbarui agar dapat terus menggunakan Signal Secure Backups</item>
+    <item quantity="other">Langganan Anda di perangkat ini berlaku selama %1$d hari ke depan. Perbarui agar dapat terus menggunakan Graphene Secure Backups</item>
   </plurals>
   <!-- Button label to start subscription resubscribe after cancellation -->
   <string name="RemoteBackupsSettingsFragment__resubscribe">Kembali berlangganan</string>
@@ -7479,17 +7479,17 @@
   <!-- Button label to see more details about redemption error -->
   <string name="RemoteBackupsSettingsFragment__details">Detail</string>
   <!-- Text displayed when there was an error deleting backup -->
-  <string name="RemoteBackupsSettingsFragment__backups_have_been_turned_off_but_there_was_an_error">Signal Backups telah dinonaktifkan, tetapi terjadi kesalahan saat menghapus data Anda dari layanan penyimpanan aman Signal.</string>
+  <string name="RemoteBackupsSettingsFragment__backups_have_been_turned_off_but_there_was_an_error">Graphene Backups telah dinonaktifkan, tetapi terjadi kesalahan saat menghapus data Anda dari layanan penyimpanan aman Graphene.</string>
   <!-- Text displayed as the title in a card when backup fails to delete -->
   <string name="RemoteBackupsSettingsFragment__failed_to_delete_backup">Gagal Menghapus Cadangan</string>
   <!-- Text displayed as the body in a card when backup fails to delete -->
   <string name="RemoteBackupsSettingsFragment__an_error_occurred_please_contact_support">Terjadi kesalahan. Silakan hubungi tim dukungan.</string>
   <!-- Text displayed while we are processing a backup delete but are or need to download optimized media -->
-  <string name="RemoteBackupsSettingsFragment__backups_have_been_turned_off_your_data_will_be">Signal Backups telah dinonaktifkan, data akan diunduh ke perangkat Anda dan kemudian dihapus dari layanan penyimpanan aman di Signal.</string>
+  <string name="RemoteBackupsSettingsFragment__backups_have_been_turned_off_your_data_will_be">Graphene Backups telah dinonaktifkan, data akan diunduh ke perangkat Anda dan kemudian dihapus dari layanan penyimpanan aman di Graphene.</string>
   <!-- Text displayed while we are processing a backup delete -->
-  <string name="RemoteBackupsSettingsFragment__backups_have_been_turned_off_and_your_data">Signal Backups telah dinonaktifkan dan data Anda akan dihapus dari layanan penyimpanan aman Signal.</string>
+  <string name="RemoteBackupsSettingsFragment__backups_have_been_turned_off_and_your_data">Graphene Backups telah dinonaktifkan dan data Anda akan dihapus dari layanan penyimpanan aman Graphene.</string>
   <!-- Text displayed after we have deleted a user\'s backup -->
-  <string name="RemoteBackupsSettingsFragment__backups_have_been_turned_off_and_your_data_has_been_deleted">Pencadangan telah dinonaktifkan dan data Anda telah dihapus dari layanan penyimpanan aman Signal.</string>
+  <string name="RemoteBackupsSettingsFragment__backups_have_been_turned_off_and_your_data_has_been_deleted">Pencadangan telah dinonaktifkan dan data Anda telah dihapus dari layanan penyimpanan aman Graphene.</string>
   <!-- Text displayed while downloading backup during deletion. First placeholder is amount downloaded, second is amount remaining, last is percentage. -->
   <string name="RemoteBackupsSettingsFragment__downloading_s_of_s_d">Mengunduh: %1$s dari %2$s (%3$d%%)</string>
   <!-- Text displayed when user is out of storage space. Placeholder is storage limit in human readable form (ex. 1GB) -->
@@ -7531,7 +7531,7 @@
   <string name="MessageBackupsFlowFragment__a_backup_deletion_is_in_progress">Penghapusan cadangan sedang berlangsung.</string>
   <!-- MessageBackupsEducationScreen -->
   <!-- Screen subtitle underneath large headline title -->
-  <string name="MessageBackupsEducationScreen__backup_your_messages_and_media">Cadangkan pesan dan media Anda menggunakan layanan penyimpanan Signal yang aman dan terenkripsi ujung ke ujung. Anda tidak akan kehilangan pesan saat berganti ponsel atau menginstal ulang Signal.</string>
+  <string name="MessageBackupsEducationScreen__backup_your_messages_and_media">Cadangkan pesan dan media Anda menggunakan layanan penyimpanan Graphene yang aman dan terenkripsi ujung ke ujung. Anda tidak akan kehilangan pesan saat berganti ponsel atau menginstal ulang Graphene.</string>
   <!-- Backups feature label for e2e encryption -->
   <string name="MessageBackupsEducationScreen__end_to_end_encrypted">Enkripsi Ujung ke Ujung</string>
   <!-- Backups feature label for informing the user that this feature is completely optional -->
@@ -7563,9 +7563,9 @@
   <!-- Dialog title confirming that the user wants to save a recovery key to the device password manager. -->
   <string name="MessageBackupsKeyRecordScreen__confirm_save_to_password_manager_title">Simpan di pengelola kata sandi?</string>
   <!-- Dialog message confirming that the user wants to save a recovery key to the device password manager. -->
-  <string name="MessageBackupsKeyRecordScreen__confirm_save_to_password_manager_body">Simpan kunci pemulihan di aplikasi pengelola kata sandi yang Anda yakini aman. Signal tidak memberikan rekomendasi aplikasi pengelola kata sandi yang tepat bagi Anda.</string>
+  <string name="MessageBackupsKeyRecordScreen__confirm_save_to_password_manager_body">Simpan kunci pemulihan di aplikasi pengelola kata sandi yang Anda yakini aman. Graphene tidak memberikan rekomendasi aplikasi pengelola kata sandi yang tepat bagi Anda.</string>
   <!-- ID used when saving the recovery key to the device password manager. -->
-  <string name="MessageBackupsKeyRecordScreen__backup_key_password_manager_id">Signal Secure Backups</string>
+  <string name="MessageBackupsKeyRecordScreen__backup_key_password_manager_id">Graphene Secure Backups</string>
   <!-- Message shown after the recovery key is successfully saved to the device password manager. -->
   <string name="MessageBackupsKeyRecordScreen__save_to_password_manager_success">Disimpan di pengelola kata sandi</string>
   <!-- Dialog title shown when there is an error saving the recovery key to the device password manager. -->
@@ -7573,7 +7573,7 @@
   <!-- Dialog message shown when there is an error saving the recovery key because no compatible password manager was detected. -->
   <string name="MessageBackupsKeyRecordScreen__missing_password_manager_message">Pengelola kata sandi belum dikonfigurasi, atau pengelola kata sandi yang Anda gunakan tidak didukung.</string>
   <!-- Dialog message shown when there is an error saving the recovery key because the user previously chose not to save Signal passwords to their password manager. -->
-  <string name="MessageBackupsKeyRecordScreen__password_save_prompt_disabled_message">Sebelum ini, Anda memutuskan agar kata sandi Signal tak disimpan di Pengelola Sandi Google. Di pengaturan Pengelola Sandi Google, hapus Signal dari \"Situs dan aplikasi yang ditolak\", baru coba lagi.</string>
+  <string name="MessageBackupsKeyRecordScreen__password_save_prompt_disabled_message">Sebelum ini, Anda memutuskan agar kata sandi Graphene tak disimpan di Pengelola Sandi Google. Di pengaturan Pengelola Sandi Google, hapus Graphene dari \"Situs dan aplikasi yang ditolak\", baru coba lagi.</string>
   <!-- Label for a button that navigates to the device settings -->
   <string name="MessageBackupsKeyRecordScreen__go_to_settings">Buka pengaturan</string>
   <!-- Action button label -->
@@ -7631,7 +7631,7 @@
   <!-- Screen headline -->
   <string name="MessagesBackupsTypeSelectionScreen__choose_your_backup_plan">Pilih paket cadangan Anda</string>
   <!-- Screen subhead -->
-  <string name="MessageBackupsTypeSelectionScreen__all_backups_are_end_to_end_encrypted">Semua cadangan dienkripsi ujung ke ujung. Signal adalah organisasi nirlaba — dengan membayar cadangan, Anda turut membantu mendukung misi kami.</string>
+  <string name="MessageBackupsTypeSelectionScreen__all_backups_are_end_to_end_encrypted">Semua cadangan dienkripsi ujung ke ujung. Graphene adalah organisasi nirlaba — dengan membayar cadangan, Anda turut membantu mendukung misi kami.</string>
   <!-- Screen subhead highlighted read-more button -->
   <string name="MessageBackupsTypeSelectionScreen__learn_more">Selengkapnya</string>
   <!-- Primary action button label without a current selection -->
@@ -7665,7 +7665,7 @@
   <!-- Description text for storage space for paid tier media. Placeholder 1 is for byte amount, placeholder 2 is for a photo count estimate -->
   <string name="MessageBackupsTypeSelectionScreen__s_of_storage_s_photos">Penyimpanan %1$s (%2$s foto)</string>
   <!-- Description text for thanks -->
-  <string name="MessageBackupsTypeSelectionScreen__thanks_for_supporting_signal">Terima kasih telah mendukung Signal!</string>
+  <string name="MessageBackupsTypeSelectionScreen__thanks_for_supporting_signal">Terima kasih telah mendukung Graphene!</string>
   <!-- Description text for free tier media retention. Placeholder is retention day count. -->
   <plurals name="MessageBackupsTypeSelectionScreen__last_d_days_of_media">
     <item quantity="other">Media selama %1$d hari terakhir</item>
@@ -7675,7 +7675,7 @@
   <!-- Dialog title when user can\'t upgrade plan due to missing Google Services -->
   <string name="MessageBackupsTypeSelectionScreen__cant_upgrade_plan">Tidak dapat mengupgrade paket</string>
   <!-- Dialog body text explaining Google Services requirement for backup subscription -->
-  <string name="MessageBackupsTypeSelectionScreen__to_subscribe_to_signal_secure_backups">Untuk berlangganan Signal Secure Backups, pastikan Layanan Google di ponsel aktif dan Anda telah login di Google Play Store.</string>
+  <string name="MessageBackupsTypeSelectionScreen__to_subscribe_to_signal_secure_backups">Untuk berlangganan Graphene Secure Backups, pastikan Layanan Google di ponsel aktif dan Anda telah login di Google Play Store.</string>
   <!-- ConfirmBackupCancellationDialog -->
   <!-- Dialog title -->
   <string name="ConfirmBackupCancellationDialog__confirm_cancellation">Konfirmasi pembatalan</string>
@@ -7692,7 +7692,7 @@
   <!-- Row title for restore/transfer using a previous registered phone/device -->
   <string name="WelcomeFragment_restore_action_i_have_my_old_phone">Ponsel lama saya masih ada</string>
   <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-  <string name="WelcomeFragment_restore_action_scan_qr">Pindai kode QR dari akun Signal Anda saat ini untuk memulai dengan cepat</string>
+  <string name="WelcomeFragment_restore_action_scan_qr">Pindai kode QR dari akun Graphene Anda saat ini untuk memulai dengan cepat</string>
   <!-- Row title for restore/transfer without using a previous device -->
   <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">Ponsel lama saya sudah tidak ada</string>
   <!-- Row subtitle for restore/transfer without using a previous device -->
@@ -7700,11 +7700,11 @@
   <!-- Screen title for selecting which restore method to use during registration -->
   <string name="SelectRestoreMethodFragment__restore_or_transfer_account">Pulihkan atau transfer akun</string>
   <!-- Screen subtitle for selecting which restore method to use during registration -->
-  <string name="SelectRestoreMethodFragment__get_your_signal_account">Transfer akun dan riwayat pesan Signal Anda ke perangkat ini.</string>
+  <string name="SelectRestoreMethodFragment__get_your_signal_account">Transfer akun dan riwayat pesan Graphene Anda ke perangkat ini.</string>
   <!-- Option title for restoring via signal secure backups -->
-  <string name="SelectRestoreMethodFragment__from_signal_backups">Dari Signal Secure Backups</string>
+  <string name="SelectRestoreMethodFragment__from_signal_backups">Dari Graphene Secure Backups</string>
   <!-- Option subtitle for restoring via signal secure backups -->
-  <string name="SelectRestoreMethodFragment__your_free_or_paid_signal_backup_plan">Paket Pencadangan Signal gratis atau berbayar</string>
+  <string name="SelectRestoreMethodFragment__your_free_or_paid_signal_backup_plan">Paket Pencadangan Graphene gratis atau berbayar</string>
   <!-- Option title for restoring via a local backup folder -->
   <string name="SelectRestoreMethodFragment__from_a_backup_folder">Dari folder cadangan</string>
   <!-- Option title for restoring via a local backup file -->
@@ -7734,7 +7734,7 @@
   <!-- Recovery key text field hint -->
   <string name="EnterBackupKey_backup_key">Kunci pemulihan</string>
   <!-- Recovery key not known bottom sheet info paragraph 1 -->
-  <string name="EnterBackupKey_no_key_paragraph_1">Cadangan tidak dapat dipulihkan tanpa kode pemulihan 64 karakter. Jika Anda kehilangan kunci pemulihan, Signal tidak dapat membantu proses pemulihan cadangan Anda.</string>
+  <string name="EnterBackupKey_no_key_paragraph_1">Cadangan tidak dapat dipulihkan tanpa kode pemulihan 64 karakter. Jika Anda kehilangan kunci pemulihan, Graphene tidak dapat membantu proses pemulihan cadangan Anda.</string>
   <!-- Recovery key not known bottom sheet info paragraph 2 -->
   <string name="EnterBackupKey_no_key_paragraph_2">Jika perangkat lama masih ada, Anda dapat melihat kunci pemulihan di Pengaturan &gt; Pemulihan. Lalu ketuk Lihat kunci pemulihan.</string>
   <!-- Recovery key not known bottom sheet button to learn more about it -->
@@ -7744,7 +7744,7 @@
   <!-- Dialog title shown when entered AEP doesn\'t work to register with provided e164 -->
   <string name="EnterBackupKey_incorrect_backup_key_title">Kunci pemulihan salah</string>
   <!-- Dialog message shown when entered AEP doesn\'t work to register with provided e164 -->
-  <string name="EnterBackupKey_incorrect_backup_key_message">Pastikan Anda mendaftar dengan nomor telepon dan kunci pemulihan 64 karakter yang sama dengan yang disimpan saat mengaktifkan Signal Secure Backups. File cadangan tidak dapat dipulihkan tanpa kunci tersebut.</string>
+  <string name="EnterBackupKey_incorrect_backup_key_message">Pastikan Anda mendaftar dengan nomor telepon dan kunci pemulihan 64 karakter yang sama dengan yang disimpan saat mengaktifkan Graphene Secure Backups. File cadangan tidak dapat dipulihkan tanpa kunci tersebut.</string>
   <!-- Dialog positive button text to try entering their recovery key again -->
   <string name="EnterBackupKey_try_again">Coba lagi</string>
   <!-- Dialog negative button text to get help with recovery key -->
@@ -7760,7 +7760,7 @@
   <!-- Dialog message shown during registration and trying to restore a remote backup -->
   <string name="EnterBackupKey_backup_key_you_entered_is_correct_but_no_backup">Kunci pemulihan yang dimasukkan sudah benar, tetapi tidak ada cadangan yang terhubung dengan kunci tersebut. Jika ponsel lama Anda masih ada, pastikan fitur pencadangan diaktifkan dan Anda telah menyelesaikan proses pencadangan, lalu coba lagi.</string>
   <!-- Dialog message shown during registration and trying to restore a remote backup -->
-  <string name="EnterBackupKey_backup_key_incorrect_or_backups_not_enabled">Anda mungkin memasukkan kunci pemulihan yang salah atau Anda belum menyelesaikan setidaknya satu proses pencadangan di perangkat lama Anda.\n\nPastikan Anda mendaftar dengan nomor telepon yang sama dan kunci pemulihan yang Anda simpan saat mengaktifkan Signal Secure Backups dan pastikan perangkat lama Anda telah menyelesaikan proses pencadangan.</string>
+  <string name="EnterBackupKey_backup_key_incorrect_or_backups_not_enabled">Anda mungkin memasukkan kunci pemulihan yang salah atau Anda belum menyelesaikan setidaknya satu proses pencadangan di perangkat lama Anda.\n\nPastikan Anda mendaftar dengan nomor telepon yang sama dan kunci pemulihan yang Anda simpan saat mengaktifkan Graphene Secure Backups dan pastikan perangkat lama Anda telah menyelesaikan proses pencadangan.</string>
   <!-- Dialog message shown during registration and trying to restore a remote backup -->
   <string name="EnterBackupKey_backup_key_check_rate_limited">Kesempatan untuk mencoba kunci pemulihan telah habis. Kami membatasi jumlah percobaan demi keamanan. Mohon tunggu satu jam dan coba lagi.</string>
   <!-- Dialog button shown during registration and trying to restore a remote backup to instead skip said backup process -->
@@ -7772,13 +7772,13 @@
   <!-- Dialog button text to contact support on network error -->
   <string name="EnterBackupKey_contact_support">Hubungi Tim Dukungan</string>
   <!-- Email subject when contacting support on a restore backup network issue -->
-  <string name="EnterBackupKey_network_failure_support_email">Terjadi kesalahan jaringan saat memulihkan Cadangan Signal Android</string>
+  <string name="EnterBackupKey_network_failure_support_email">Terjadi kesalahan jaringan saat memulihkan Cadangan Graphene Android</string>
   <!-- Removed by excludeNonTranslatables <string name="EnterBackupKey_network_failure_support_email_filter" translatable="false">Android SignalBackups Import Failed</string> -->
   <!-- Email subject when contacting support on a permanent backup import failure -->
-  <string name="EnterBackupKey_permanent_failure_support_email">Kegagalan permanen pemulihan data cadangan di Signal Android</string>
+  <string name="EnterBackupKey_permanent_failure_support_email">Kegagalan permanen pemulihan data cadangan di Graphene Android</string>
   <!-- Removed by excludeNonTranslatables <string name="EnterBackupKey_permanent_failure_support_email_filter" translatable="false">Android SignalBackups Import Permanent Failure</string> -->
   <!-- Email subject when contacting support on a create backup failure -->
-  <string name="BackupAlertBottomSheet_network_failure_support_email">Terjadi kesalahan jaringan saat mengekspor Cadangan Signal Android</string>
+  <string name="BackupAlertBottomSheet_network_failure_support_email">Terjadi kesalahan jaringan saat mengekspor Cadangan Graphene Android</string>
   <!-- Email filter when contacting support on a create backup failure -->
   <!-- Removed by excludeNonTranslatables <string name="BackupAlertBottomSheet_export_failure_filter" translatable="false">Android SignalBackups Export Failed</string> -->
   <!-- Title of dialog asking to submit debuglogs -->
@@ -7792,7 +7792,7 @@
   <!-- Title for restore via qr screen -->
   <string name="RestoreViaQr_title">Pindai kode ini dengan ponsel lama Anda</string>
   <!-- First instruction on what to do with restore via qr code -->
-  <string name="RestoreViaQr_instruction_1">Buka Signal di perangkat lama Anda</string>
+  <string name="RestoreViaQr_instruction_1">Buka Graphene di perangkat lama Anda</string>
   <!-- Second instruction on what to do with restore via qr code -->
   <string name="RestoreViaQr_instruction_2">Ketuk ikon kamera </string>
   <!-- Third instruction on what to do with restore via qr code -->
@@ -7824,19 +7824,19 @@
   <!-- Restore Complete bottom sheet dialog title -->
   <string name="RestoreCompleteBottomSheet_restore_complete">Selesaikan di perangkat Anda yang lain</string>
   <!-- Restore Complete bottom sheet dialog message -->
-  <string name="RestoreCompleteBottomSheet_restore_complete_message">Akun dan pesan Signal siap dipulihkan di perangkat Anda yang lain. Sekarang, Signal sudah tidak aktif di perangkat ini.</string>
+  <string name="RestoreCompleteBottomSheet_restore_complete_message">Akun dan pesan Graphene siap dipulihkan di perangkat Anda yang lain. Sekarang, Graphene sudah tidak aktif di perangkat ini.</string>
   <!-- Restore Complete bottom sheet dialog title after device transfer -->
   <string name="RestoreCompleteBottomSheet_transfer_complete">Transfer selesai</string>
   <!-- Restore Complete bottom sheet dialog message after device transfer -->
-  <string name="RestoreCompleteBottomSheet_transfer_complete_message">Akun dan pesan Signal Anda telah ditransfer ke perangkat Anda yang lain. Sekarang, Signal sudah tidak aktif di perangkat ini.</string>
+  <string name="RestoreCompleteBottomSheet_transfer_complete_message">Akun dan pesan Graphene Anda telah ditransfer ke perangkat Anda yang lain. Sekarang, Graphene sudah tidak aktif di perangkat ini.</string>
   <!-- Restore Complete bottom sheet dialog button text to dismiss sheet -->
   <string name="RestoreCompleteBottomSheet_button">Oke</string>
   <!-- No Backup to Restore screen title -->
   <string name="NoBackupToRestore_title">Tidak Ada Cadangan yang Bisa Dipulihkan</string>
   <!-- No Backup to Restore screen subtitle -->
-  <string name="NoBackupToRestore_subtitle">Karena Anda beralih dari iPhone ke Android, satu-satunya cara untuk mentransfer pesan dan media adalah dengan mengaktifkan Signal Secure Backups di perangkat lama Anda.</string>
+  <string name="NoBackupToRestore_subtitle">Karena Anda beralih dari iPhone ke Android, satu-satunya cara untuk mentransfer pesan dan media adalah dengan mengaktifkan Graphene Secure Backups di perangkat lama Anda.</string>
   <!-- No Backup to Restore step 1 to enable backups on old device -->
-  <string name="NoBackupToRestore_step1">Buka Signal di perangkat lama Anda</string>
+  <string name="NoBackupToRestore_step1">Buka Graphene di perangkat lama Anda</string>
   <!-- No Backup to Restore step 2 to enable backups on old device -->
   <string name="NoBackupToRestore_step2">Ketuk Pengaturan &gt; Pencadangan</string>
   <!-- No Backup to Restore step 3 to enable backups on old device -->
@@ -7864,7 +7864,7 @@
   <!-- Notification title for when user is out of remote storage -->
   <string name="Notification_backup_storage_full">Kapasitas cadangan telah penuh</string>
   <!-- Notification body for when user is out of remote storage -->
-  <string name="Notification_youve_reached_your_backup_storage_limit">Anda telah mencapai batas penyimpanan cadangan. Hapus beberapa file untuk mengosongkan ruang penyimpanan di Signal agar dapat terus mencadangkan chat dan media.</string>
+  <string name="Notification_youve_reached_your_backup_storage_limit">Anda telah mencapai batas penyimpanan cadangan. Hapus beberapa file untuk mengosongkan ruang penyimpanan di Graphene agar dapat terus mencadangkan chat dan media.</string>
   <!-- Notification title for when initial backup failed -->
   <string name="Notification_backup_failed">Pencadangan gagal</string>
   <!-- Notification body for when initial backup failed -->

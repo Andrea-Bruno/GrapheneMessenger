@@ -75,7 +75,7 @@
   <string name="PrivacySettingsFragment__no_biometric_features_available_on_this_device">Δεν υπάρχουν βιομετρικές δυνατότητες σ\' αυτή τη συσκευή</string>
   <string name="PrivacySettingsFragment__please_first_setup_your_biometrics_in_android_settings">Παρακαλούμε ρύθμισε πρώτα τα βιομετρικά σου στις ρυθμίσεις Android</string>
   <string name="EnableAppUpdatesMegaphone_check_for_updates_automatically">Αυτόματος έλεγχος για ενημερώσεις;</string>
-  <string name="NewConversationActivity__s_is_not_registered_with_signal">Ο χρήστης %1$s δεν είναι καταχωρημένος στο Signal</string>
+  <string name="NewConversationActivity__s_is_not_registered_with_signal">Ο χρήστης %1$s δεν είναι καταχωρημένος στο Graphene</string>
   <string name="DeviceListItem_this_device">Αυτή η συσκευή</string>
   <string name="DeviceListItem_registered_s">Κατοχυρώθηκε %s</string>
   <string name="RegistrationActivity_scan_this_qr_using_your_primary_device">Σάρωσε τον κωδικό QR χρησιμοποιώντας την κύρια συσκευή σου</string>
@@ -96,12 +96,12 @@
   <string name="LinkDeviceFragment__graphene_on_another_device">Το Graphene σε άλλη συσκευή</string>
   <string name="LinkDeviceFragment__messaging_is_private_on_all_linked_devices">Τα μηνύματα είναι ιδιωτικά σε όλες τις συνδεδεμένες συσκευές.</string>
   <string name="LinkDeviceFragment__once_linked_new_messages_sync_across_devices">Μόλις συνδεθούν, τα νέα μηνύματα συγχρονίζονται μεταξύ των συσκευών, αλλά προηγούμενο ιστορικό μηνυμάτων δεν θα μεταφερθεί.</string>
-  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Το Graphene υποστηρίζει σύνδεση με άλλες συσκευές Android που χρησιμοποιούν Graphene, καθώς και επιτραπέζιους υπολογιστές και iPad με Signal.</string>
+  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Το Graphene υποστηρίζει σύνδεση με άλλες συσκευές Android που χρησιμοποιούν Graphene, καθώς και επιτραπέζιους υπολογιστές και iPad με Graphene.</string>
   <string name="LinkDeviceFragment__for_android_devices_visit_s_to_install_graphene">Για συσκευές Android: Επισκέψου το %s για να εγκατάσταση του Graphene.</string>
   <string name="DonateMegaphone_graphene_is_free_software">Το Graphene είναι δωρεάν λογισμικό</string>
   <string name="HelpSettingsFragment_for_updates_please_check_your_app_store">Για ενημερώσεις, παρακαλώ έλεγξε το κατάστημα των εφαρμογών σου. Αυτή η έκδοση δεν περιέχει ενσωματωμένο πρόγραμμα ενημέρωσης.</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Το Graphene χρειάζεται τις άδειες επαφών και πολυμέσων για να σε βοηθήσει να βρεις τους φίλους σου και να στείλεις μηνύματα. Οι επαφές σου μεταφορτώνονται χρησιμοποιώντας τον εντοπισμό ιδιωτικών επαφών του Signal, πράγμα που σημαίνει ότι είναι κρυπτογραφημένες από άκρο σε άκρο και δεν είναι ποτέ ορατές στην υπηρεσία Signal.</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Το Graphene χρειάζεται τις άδειες επαφών για να σε βοηθήσει να βρείτε τους φίλους σου. Οι επαφές σου μεταφορτώνονται χρησιμοποιώντας τον εντοπισμό ιδιωτικών επαφών του Signal, πράγμα που σημαίνει ότι είναι κρυπτογραφημένες από άκρο σε άκρο και δεν είναι ποτέ ορατές στην υπηρεσία Signal.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Το Graphene χρειάζεται τις άδειες επαφών και πολυμέσων για να σε βοηθήσει να βρεις τους φίλους σου και να στείλεις μηνύματα. Οι επαφές σου μεταφορτώνονται χρησιμοποιώντας τον εντοπισμό ιδιωτικών επαφών του Graphene, πράγμα που σημαίνει ότι είναι κρυπτογραφημένες από άκρο σε άκρο και δεν είναι ποτέ ορατές στην υπηρεσία Graphene.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Το Graphene χρειάζεται τις άδειες επαφών για να σε βοηθήσει να βρείτε τους φίλους σου. Οι επαφές σου μεταφορτώνονται χρησιμοποιώντας τον εντοπισμό ιδιωτικών επαφών του Graphene, πράγμα που σημαίνει ότι είναι κρυπτογραφημένες από άκρο σε άκρο και δεν είναι ποτέ ορατές στην υπηρεσία Graphene.</string>
   <string name="EnableAppUpdatesMegaphone_graphene_can_periodically_check_for_new_releases_and_ask_you_to_install_them">Το Graphene μπορεί να ελέγχει περιοδικά για νέες εκδόσεις και να σου ζητά να τις εγκαταστήσεις.</string>
   <string name="DeviceListItem_primary">Κύρια</string>
   <string name="RegistrationActivity_link_error">Παρουσιάστηκε σφάλμα κατά την προσπάθεια σύνδεσης της συσκευής. Έλεγξε τη συνδεσιμότητα του δικτύου σου και δοκίμασε ξανά</string>
@@ -151,7 +151,7 @@
   <string name="UnifiedPushNotificationBuilder__graphenesocket_forbidden_password">Η εγγραφή σου στο GrapheneSocket δεν είναι πλέον έγκυρη. Παρακαλώ αφαίρεσε τη συνδεδεμένη συσκευή και δοκίμασε να εγγραφείς ξανά.</string>
   <string name="UnifiedPushNotificationBuilder__graphenesocket_forbidden_uuid">Ο λογαριασμός σου απορρίφθηκε από τον διακομιστή GrapheneSocket. Παρακαλούμε ελέγξτε τα επιτρεπόμενα UUIDs στη ρύθμιση του διακομιστή.</string>
   <string name="UnifiedPushSettingsFragment__status_summary_no_distributor">Δεν έχει εγκατασταθεί διανομέας UnifiedPush</string>
-  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Για να χρησιμοποιήσεις το UnifiedPush, χρειάζεσαι πρόσβαση σε διακομιστή GrapheneSocket για να συνδέσεις τον λογαριασμό σου στο Signal.\n\nΞεκίνα με τη σάρωση του κωδικού QR που παρέχεται από τον διακομιστή σου.</string>
+  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Για να χρησιμοποιήσεις το UnifiedPush, χρειάζεσαι πρόσβαση σε διακομιστή GrapheneSocket για να συνδέσεις τον λογαριασμό σου στο Graphene.\n\nΞεκίνα με τη σάρωση του κωδικού QR που παρέχεται από τον διακομιστή σου.</string>
   <string name="UnifiedPushSettingsFragment__status_summary_air_gapped_pending">Αναμονή επιβεβαίωσης από τον διακομιστή GrapheneSocket</string>
   <string name="UnifiedPushNotificationBuilder__graphenesocket_forbidden_endpoint">Ο διακομιστής push σου απορρίφθηκε από τον διακομιστή GrapheneSocket. Παρακαλούμε έλεγξε τα επιτρεπόμενα τελικά σημεία στη διαμόρφωση διακομιστή.</string>
   <string name="GrapheneSocketLink_scan_the_qr_code">Σάρωσε τον κωδικό QR που εμφανίζεται στην αρχική σελίδα του διακομιστή GrapheneSocket ή στην κονσόλα.</string>

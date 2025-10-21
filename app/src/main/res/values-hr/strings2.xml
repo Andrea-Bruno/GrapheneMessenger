@@ -68,8 +68,8 @@
   <string name="preferences__include_beta_updates">Uključi beta verzije</string>
   <string name="preferences__beta_versions_are_intended_for_testing_purposes_and_may_contain_bugs">Beta verzije su namijenjene za testiranje i mogu sadržavati greške</string>
   <string name="DeviceAddFragment__link_without_scanning">Poveži bez snimanja</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene treba dozvole za pristup kontaktima i medijima kako ti bi pomogao pronaći prijatelje i slati poruke. Kontakti se prenose pomoću Signalovog privatnog otkrivanja kontakata, što znači da su obostrano šifrirani i da ih usluga Signal nikada neće vidjeti.</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene treba dozvole za pristup kontaktima kako bi pomogao pronaći prijatelje. Kontakti se prenose pomoću Signalovog privatnog otkrivanja kontakata, što znači da su obostrano šifrirani i da ih usluga Signal nikada neće vidjeti.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene treba dozvole za pristup kontaktima i medijima kako ti bi pomogao pronaći prijatelje i slati poruke. Kontakti se prenose pomoću Grapheneovog privatnog otkrivanja kontakata, što znači da su obostrano šifrirani i da ih usluga Graphene nikada neće vidjeti.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene treba dozvole za pristup kontaktima kako bi pomogao pronaći prijatelje. Kontakti se prenose pomoću Grapheneovog privatnog otkrivanja kontakata, što znači da su obostrano šifrirani i da ih usluga Graphene nikada neće vidjeti.</string>
   <string name="BiometricDialogFragment__biometric_verification">Biometrijska potvrda</string>
   <string name="BiometricDialogFragment__please_confirm_it_is_really_you_to_access_graphene">Potvrdi da stvarno ti koristiš Graphene</string>
   <string name="PrivacySettingsFragment__no_biometric_features_available_on_this_device">Na ovom uređaju nema biometrijskih funkcija</string>
@@ -86,7 +86,7 @@
   <string name="EnableAppUpdatesMegaphone_graphene_can_periodically_check_for_new_releases_and_ask_you_to_install_them">Graphene može periodično tražiti nova izdanja i zatražiti da ih instaliraš.</string>
   <string name="EnableAppUpdatesMegaphone_check_for_updates">Traži nove verzije</string>
   <string name="EnableAppUpdatesMegaphone_you_will_be_notified_when_updates_are_available">Dobit ćeš obavijest kad postoje nove verzije</string>
-  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s nije registriran sa Signalom</string>
+  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s nije registriran sa Grapheneom</string>
   <string name="TimeDurationPickerDialog_single_letter_second_abbreviation">s</string>
   <string name="RegistrationActivity_device_name_description">Ime uređaja</string>
   <string name="DeviceListItem_primary">Primarni</string>
@@ -116,6 +116,6 @@
   <string name="LinkDeviceFragment__messaging_is_private_on_all_linked_devices">Razmjena poruka je privatna na svim povezanim uređajima.</string>
   <string name="LinkDeviceFragment__graphene_on_another_device">Graphene na jednom drugom uređaju</string>
   <string name="LinkDeviceFragment__once_linked_new_messages_sync_across_devices">Nakon povezivanja se nove poruke sinkroniziraju na svim uređajima, ali se povijest prijašnjih poruka neće prenijeti.</string>
-  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene podržava povezivanje s drugim Android uređajima koji pokreću Graphene, kao i računala i iPad koji pokreću Signal.</string>
+  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene podržava povezivanje s drugim Android uređajima koji pokreću Graphene, kao i računala i iPad koji pokreću Graphene.</string>
   <string name="LinkDeviceFragment__for_android_devices_visit_s_to_install_graphene">Za Android uređaje: Za instaliranje aplikacije Graphene posjeti %s.</string>
 </resources>

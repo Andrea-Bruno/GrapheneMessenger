@@ -148,7 +148,7 @@
   <!-- Title of fragment -->
   <string name="CreditCardFragment__credit_or_debit_card">क्रेडिट किंवा डेबिट कार्ड</string>
   <!-- Explanation of how to fill in the form and a note about pii, displayed above the credit card text fields -->
-  <string name="CreditCardFragment__enter_your_card_details">आपल्या कार्डचा तपशील प्रविष्ट करा. Signal आपली वैयक्तिक माहिती संकलित किंवा संग्रहित करत नाही.</string>
+  <string name="CreditCardFragment__enter_your_card_details">आपल्या कार्डचा तपशील प्रविष्ट करा. Graphene आपली वैयक्तिक माहिती संकलित किंवा संग्रहित करत नाही.</string>
   <!-- Displayed as a hint in the card number text field -->
   <string name="CreditCardFragment__card_number">कार्ड क्रमांक</string>
   <!-- Displayed as a hint in the card expiry text field -->
@@ -197,9 +197,9 @@
   <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_call_you_or_send_you_messages">अवरोधित लोक आपल्याला कॉल करण्यास किंवा संदेश पाठविण्यास सक्षम असणार नाहीत.</string>
   <string name="BlockUnblockDialog_blocked_people_wont_be_able_to_send_you_messages">अवरोधित केलेले लोक आपल्याला संदेश पाठवू शकणार नाहीत.</string>
   <!-- Message shown on block dialog when blocking the Signal release notes recipient -->
-  <string name="BlockUnblockDialog_block_getting_signal_updates_and_news">Signal अद्यतने आणि बातम्या मिळवणे अवरोधित करा.</string>
+  <string name="BlockUnblockDialog_block_getting_signal_updates_and_news">Graphene अद्यतने आणि बातम्या मिळवणे अवरोधित करा.</string>
   <!-- Message shown on unblock dialog when unblocking the Signal release notes recipient -->
-  <string name="BlockUnblockDialog_resume_getting_signal_updates_and_news">Signal अपडेट्स आणि बातम्या मिळवणे पुन्हा सुरू करा.</string>
+  <string name="BlockUnblockDialog_resume_getting_signal_updates_and_news">Graphene अपडेट्स आणि बातम्या मिळवणे पुन्हा सुरू करा.</string>
   <string name="BlockUnblockDialog_unblock_s">%1$s ला अनावरोधित करायचे?</string>
   <string name="BlockUnblockDialog_block">अवरोधित करा</string>
   <string name="BlockUnblockDialog_block_and_leave">अवरोधित करा आणि सोडा</string>
@@ -210,11 +210,11 @@
   <!-- Dialog button to report as spam only -->
   <string name="BlockUnblockDialog_report_spam">स्पॅम रिपोर्ट करा</string>
   <!-- Dialog message when reporting spam of an individual (1:1 conversation) -->
-  <string name="BlockUnblockDialog_report_spam_description">Signal सूचित करेल की कदाचित ही व्यक्ती स्पॅम पाठवत असेल. Signal कोणत्याही चॅट्सचा मजकूर पाहू शकत नाही.</string>
+  <string name="BlockUnblockDialog_report_spam_description">Graphene सूचित करेल की कदाचित ही व्यक्ती स्पॅम पाठवत असेल. Graphene कोणत्याही चॅट्सचा मजकूर पाहू शकत नाही.</string>
   <!-- Dialog message when reporting spam of a group and we can determine the group member that invited you, placeholder is a name -->
-  <string name="BlockUnblockDialog_report_spam_group_named_adder">Signal आपणाला सूचित करेल की %1$s, ज्याने आपणाला या गटामध्ये आमंत्रित केले आहे, तो कदाचित स्पॅम पाठवत आहे. Signal कोणत्याही चॅट्सचा मजकूर पाहू शकत नाही.</string>
+  <string name="BlockUnblockDialog_report_spam_group_named_adder">Graphene आपणाला सूचित करेल की %1$s, ज्याने आपणाला या गटामध्ये आमंत्रित केले आहे, तो कदाचित स्पॅम पाठवत आहे. Graphene कोणत्याही चॅट्सचा मजकूर पाहू शकत नाही.</string>
   <!-- Dialog message when reporting spam of a group and we cannot determine the group member that invited you -->
-  <string name="BlockUnblockDialog_report_spam_group_unknown_adder">Signal आपणाला सूचित करेल की ज्या व्यक्तीने आपणाला या गटात आमंत्रित केले आहे, तो कदाचित स्पॅम पाठवत आहे. Signal कोणत्याही चॅट्सचा मजकूर पाहू शकत नाही.</string>
+  <string name="BlockUnblockDialog_report_spam_group_unknown_adder">Graphene आपणाला सूचित करेल की ज्या व्यक्तीने आपणाला या गटात आमंत्रित केले आहे, तो कदाचित स्पॅम पाठवत आहे. Graphene कोणत्याही चॅट्सचा मजकूर पाहू शकत नाही.</string>
   <!-- BucketedThreadMedia -->
   <string name="BucketedThreadMedia_Today">आज</string>
   <string name="BucketedThreadMedia_Yesterday">काल</string>
@@ -283,16 +283,16 @@
   <string name="CameraXFragment_to_scan_qr_codes">QR कोड्स स्कॅन करण्यासाठी:</string>
   <!-- CameraContacts -->
   <string name="CameraContacts_recent_contacts">अलीकडील संपर्क</string>
-  <string name="CameraContacts_signal_contacts">Signal संपर्क</string>
-  <string name="CameraContacts_signal_groups">Signal गट</string>
+  <string name="CameraContacts_signal_contacts">Graphene संपर्क</string>
+  <string name="CameraContacts_signal_groups">Graphene गट</string>
   <!-- A warning shown in a toast when  -->
   <plurals name="CameraContacts_you_can_share_with_a_maximum_of_n_conversations">
     <item quantity="one">आपण जास्तीत जास्त %1$d चॅट सोबत शेअर करु शकता.</item>
     <item quantity="other">आपण जास्तीत जास्त %1$d चॅट्ससोबत शेअर करु शकता.</item>
   </plurals>
-  <string name="CameraContacts_select_signal_recipients">Signal प्राप्तकर्ते निवडा</string>
-  <string name="CameraContacts_no_signal_contacts">कुठलेही Signal संपर्क नाहीत</string>
-  <string name="CameraContacts_you_can_only_use_the_camera_button">आपण फक्त कॅमेरा बटण वापरून Signal संपर्कांना फोटो पाठवू शकता. </string>
+  <string name="CameraContacts_select_signal_recipients">Graphene प्राप्तकर्ते निवडा</string>
+  <string name="CameraContacts_no_signal_contacts">कुठलेही Graphene संपर्क नाहीत</string>
+  <string name="CameraContacts_you_can_only_use_the_camera_button">आपण फक्त कॅमेरा बटण वापरून Graphene संपर्कांना फोटो पाठवू शकता. </string>
   <string name="CameraContacts_cant_find_who_youre_looking_for">आपण ज्यांना शोधत आहात ते आपणास सापडले?</string>
   <string name="CameraContacts_invite_a_contact_to_join_signal">एका संपर्काला Graphene मध्ये सामील होण्यास आमंत्रित करा</string>
   <string name="CameraContacts__menu_search">शोध</string>
@@ -300,7 +300,7 @@
   <!-- Title for an alert that shows at the bottom of the chat list letting people know that circumvention is no longer needed -->
   <string name="CensorshipCircumventionMegaphone_turn_off_censorship_circumvention">सेंसॉरशिप सर्कंवेंशन बंद करा ?</string>
   <!-- Body for an alert that shows at the bottom of the chat list letting people know that circumvention is no longer needed -->
-  <string name="CensorshipCircumventionMegaphone_you_can_now_connect_to_the_signal_service">चांगल्या अनुभवासाठी आपण आता Signal सेवा शी थेट कनेक्ट होऊ शकता.</string>
+  <string name="CensorshipCircumventionMegaphone_you_can_now_connect_to_the_signal_service">चांगल्या अनुभवासाठी आपण आता Graphene सेवा शी थेट कनेक्ट होऊ शकता.</string>
   <!-- Action to prompt the user to disable circumvention since it is no longer needed -->
   <string name="CensorshipCircumventionMegaphone_turn_off">बंद करा</string>
   <!-- Action to prompt the user to dismiss the alert at the bottom of the chat list -->
@@ -320,7 +320,7 @@
   <string name="CommunicationActions_cancel">रद्द करा</string>
   <string name="CommunicationActions_call">कॉल करा</string>
   <string name="CommunicationActions_insecure_call">असुरक्षित कॉल</string>
-  <string name="CommunicationActions_carrier_charges_may_apply">वाहक शुल्क लागू शकते. आपण कॉल करीत असलेला नंबर Signal सह नोंदणीकृत नाही. हा कॉल इंटरनेटवरून नव्हे तर आपल्या मोबाइल कॅरियरद्वारे दिला जाईल.</string>
+  <string name="CommunicationActions_carrier_charges_may_apply">वाहक शुल्क लागू शकते. आपण कॉल करीत असलेला नंबर Graphene सह नोंदणीकृत नाही. हा कॉल इंटरनेटवरून नव्हे तर आपल्या मोबाइल कॅरियरद्वारे दिला जाईल.</string>
   <string name="CommunicationActions_cant_join_call">कॉलमध्ये सामील होऊ शकत नाही</string>
   <string name="CommunicationActions_this_call_link_is_no_longer_valid">ही कॉल लिंक यापुढे वैध नाही.</string>
   <!-- Title on dialog when call link url cannot be parsed -->
@@ -377,7 +377,7 @@
   <string name="ConversationItem_send_paused">विराम दिलेले पाठवा</string>
   <string name="ConversationItem_click_to_approve_unencrypted_sms_dialog_title">अनएन्क्रिप्टेड SMS वर फॉलबॅक करायचे?</string>
   <string name="ConversationItem_click_to_approve_unencrypted_mms_dialog_title">अनएन्क्रिप्टेड MMS वर फॉलबॅक करायचे?</string>
-  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">हा संदेश एन्क्रिप्ट केला जाणार <b>नाही</b> कारण प्राप्तकर्ता आता Signal वापरकर्ता राहिलेला नाही.\n\nअसुरक्षित संदेश पाठवायचा?</string>
+  <string name="ConversationItem_click_to_approve_unencrypted_dialog_message">हा संदेश एन्क्रिप्ट केला जाणार नाही कारण प्राप्तकर्ता आता Graphene वापरकर्ता राहिलेला नाही.\n\nअसुरक्षित संदेश पाठवायचा?</string>
   <string name="ConversationItem_unable_to_open_media">हे मिडिया उघडण्यास सक्षम असे अॅप सापडू शकले नाही.</string>
   <string name="ConversationItem_copied_text">प्रत बनवली %1$s</string>
   <string name="ConversationItem_from_s">%1$s पासून</string>
@@ -438,7 +438,7 @@
   <string name="ConversationActivity_transport_insecure_sms_with_sim">असुरक्षित SMS (%1$s)</string>
   <string name="ConversationActivity_transport_insecure_mms">असुरक्षित MMS</string>
   <!-- A title for the option to send an SMS with a placeholder to put the name of their SIM card -->
-  <string name="ConversationActivity_transport_signal">Signal संदेश</string>
+  <string name="ConversationActivity_transport_signal">Graphene संदेश</string>
   <!-- The content description for button to send a message in a conversation -->
   <string name="ConversationActivity_send_message_content_description">संदेश पाठवा</string>
   <string name="ConversationActivity_lets_switch_to_signal">Graphene %1$s वर स्विच करूया</string>
@@ -494,9 +494,9 @@
   <string name="ConversationActivity_full">पूर्ण</string>
   <string name="ConversationActivity_error_sending_media">मिडिया पाठवण्यात त्रुटी</string>
   <!-- Message shown when opening an MMS group conversation with SMS disabled and there are no exported messages -->
-  <string name="ConversationActivity__sms_messaging_is_no_longer_supported">SMS संदेशन यापुढे Signal मध्ये समर्थित नाही.</string>
+  <string name="ConversationActivity__sms_messaging_is_no_longer_supported">SMS संदेशन यापुढे Graphene मध्ये समर्थित नाही.</string>
   <!-- Message shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
-  <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">SMS संदेशन यापुढे Signal मध्ये समर्थित नाही. संभाषण येथे ठेवण्यासाठी %1$s ला Signal वर आमंत्रित करा.</string>
+  <string name="ConversationActivity__sms_messaging_is_no_longer_supported_in_signal_invite_s_to_to_signal_to_keep_the_conversation_here">SMS संदेशन यापुढे Graphene मध्ये समर्थित नाही. संभाषण येथे ठेवण्यासाठी %1$s ला Graphene वर आमंत्रित करा.</string>
   <!-- Message shown when opening a conversation with an unregistered user who used to be on Signal -->
   <string name="ConversationActivity__this_person_is_no_longer_using_signal">ही व्यक्ती आता Graphene वापरत नाही. संभाषण येथे ठेवण्यासाठी त्यांना Graphene वर आमंत्रित करा.</string>
   <!-- Action button shown when opening an SMS conversation with SMS disabled and there are no exported messages -->
@@ -534,7 +534,7 @@
   <string name="ConversationFragment_dont_show_again">पुन्हा दाखवू नका</string>
   <string name="ConversationFragment_pending">प्रलंबित…</string>
   <!-- Describes how the message was sent when looking at a message detail. Previously, messages could be through other means like SMS -->
-  <string name="ConversationFragment_push">डेटा (Signal)</string>
+  <string name="ConversationFragment_push">डेटा (Graphene)</string>
   <string name="ConversationFragment_mms">MMS</string>
   <string name="ConversationFragment_sms">SMS</string>
   <string name="ConversationFragment_deleting">हटवत आहे</string>
@@ -547,7 +547,7 @@
   <string name="ConversationFragment_delete">हटवा</string>
   <!-- Dialog button for deleting one or more note-to-self messages on all linked devices. -->
   <string name="ConversationFragment_delete_everywhere">सर्वत्र हटवा</string>
-  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Signal च्या अलिकडील आवृत्तीवर असल्यास हा संदेश चॅटमधील प्रत्येकासाठी हटवला जाईल. आपण संदेश हटवला हे पाहण्यात ते सक्षम असतील.</string>
+  <string name="ConversationFragment_this_message_will_be_deleted_for_everyone_in_the_conversation">Graphene च्या अलिकडील आवृत्तीवर असल्यास हा संदेश चॅटमधील प्रत्येकासाठी हटवला जाईल. आपण संदेश हटवला हे पाहण्यात ते सक्षम असतील.</string>
   <string name="ConversationFragment_quoted_message_not_found">मूळ संदेश आढळला नाही</string>
   <string name="ConversationFragment_quoted_message_no_longer_available">मूळ संदेश आता उपलब्ध नाही</string>
   <string name="ConversationFragment_failed_to_open_message">संदेश उघडण्यात अयशस्वी</string>
@@ -564,7 +564,7 @@
   <string name="ConversationFragment_verify">सत्यापित करा</string>
   <string name="ConversationFragment_not_now">आता नाही</string>
   <string name="ConversationFragment_your_safety_number_with_s_changed">%1$s सोबतचा आपला सुरक्षितता नंबर बदलला आहे.</string>
-  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">आपला %1$s सोबतचा सुरक्षितता नंबर बदलला, कारण कदाचित त्यांनी Signal पुन्हा स्थापित केले किंवा उपकरण बदलले. नवीन सुरक्षितता नंबर पुष्टी करण्यासाठी सत्यापित करा वर टॅप करा. हे पर्यायी आहे.</string>
+  <string name="ConversationFragment_your_safety_number_with_s_changed_likey_because_they_reinstalled_signal">आपला %1$s सोबतचा सुरक्षितता नंबर बदलला, कारण कदाचित त्यांनी Graphene पुन्हा स्थापित केले किंवा उपकरण बदलले. नवीन सुरक्षितता नंबर पुष्टी करण्यासाठी सत्यापित करा वर टॅप करा. हे पर्यायी आहे.</string>
   <!-- Dialog title for block group link join requests -->
   <string name="ConversationFragment__block_request">विनंती अवरोधित करायची?</string>
   <!-- Dialog message for block group link join requests -->
@@ -600,7 +600,7 @@
   <!-- Dialog title shown after reporting spam and tapping the conversation item -->
   <string name="ConversationFragment_reported_spam">स्पॅम कळवा</string>
   <!-- Dialog message shown after reporting spam and tapping the conversation item -->
-  <string name="ConversationFragment_reported_spam_message">Signal ने सूचित केले आहे की कदाचित ही व्यक्ती स्पॅम पाठवत आहे. Signal कोणत्याही चॅट्सचा मजकूर पाहू शकत नाही.</string>
+  <string name="ConversationFragment_reported_spam_message">Graphene ने सूचित केले आहे की कदाचित ही व्यक्ती स्पॅम पाठवत आहे. Graphene कोणत्याही चॅट्सचा मजकूर पाहू शकत नाही.</string>
   <!-- Toast shown after reporting spam and tapping the conversation item -->
   <string name="ConversationFragment_reported_as_spam">स्पॅम म्हणून रिपोर्ट केले</string>
   <!-- Toast shown after reporting and blocking a conversation -->
@@ -650,7 +650,7 @@
   <!-- Message of tip 4 -->
   <string name="SafetyTips_tip4_message">आपणाशी संपर्क साधणाऱ्या व्यवसायाबद्दल किंवा सरकारी एजन्सीज बद्दल सावधगिरी बाळगा. कर एजन्सी, कुरीयर आणि बरेच काही समाविष्ट असलेले संदेश स्पॅम असू शकतात.</string>
   <!-- Bottom sheet text explaining that profile names are chosen by the account holder. Placeholder will be \'Profile names\' -->
-  <string name="ProfileNameBottomSheet__profile_names_on_signal">Signal वरील %1$s त्यांच्या खाते धारकाकडून निवडली जातात.</string>
+  <string name="ProfileNameBottomSheet__profile_names_on_signal">Graphene वरील %1$s त्यांच्या खाते धारकाकडून निवडली जातात.</string>
   <!-- Bottom sheet text explaining that profile names are not verified. -->
   <string name="ProfileNameBottomSheet__profile_names_arent_verified">प्रोफाइल नावे पडताळलेली नाहीत</string>
   <!-- Bottom sheet text explaining that accounts can impersonate other people and to be cautious -->
@@ -926,19 +926,19 @@
   <string name="DecryptionFailedDialog_signal_uses_end_to_end_encryption">Graphene एंड-टू-एंड एन्क्रिप्शन वापरते आणि त्यास काही वेळा आपले चॅट रीफ्रेश करावे लागू शकते. यामुळे आपल्या चॅट्सच्या सुरक्षिततेवर कुठलाही प्रभाव पडत नाही, पण आपल्याकडून या संपर्काचा एखादा संदेश चुकलेला असू शकतो, आणि आपण त्यांना तो पुन्हा पाठविण्यास सांगू शकता.</string>
   <!-- LinkDeviceFragment -->
   <!-- Description for how Signal will work with a linked device (eg desktop, iPad) -->
-  <string name="LinkDeviceFragment__use_signal_on_desktop_ipad">डेस्कटॉपवर किंवा iPad वर हे Signal खाते वापरा.</string>
+  <string name="LinkDeviceFragment__use_signal_on_desktop_ipad">डेस्कटॉपवर किंवा iPad वर हे Graphene खाते वापरा.</string>
   <!-- Button prompting users to link a new device to their account -->
   <string name="LinkDeviceFragment__link_a_new_device">नवीन डिव्हाइस लिंक करा</string>
   <!-- Text explaining that on linked devices, messages will be encrypted where %s will be replaced with an image-->
   <string name="LinkDeviceFragment__messages_and_chat_info_are_protected">%1$s संदेश आणि चॅट माहिती सर्व डिव्हाइसेसवर एन्ड-टू-एन्ड एन्क्रिप्शन द्वारे संरक्षित आहे</string>
   <!-- Bottom sheet title explaining how Signal works on a linked device -->
-  <string name="LinkDeviceFragment__signal_on_desktop_ipad">डेस्कटॉप किंवा iPad वर Signal</string>
+  <string name="LinkDeviceFragment__signal_on_desktop_ipad">डेस्कटॉप किंवा iPad वर Graphene</string>
   <!-- Bottom sheet description explaining that messages on linked devices are private -->
   <string name="LinkDeviceFragment__all_messaging_is_private">लिंंक केलेल्या डिव्हाइसेसवरील सर्व संदेशन गोपनीय आहे</string>
   <!-- Bottom sheet description explaining that future messages on linked devices will be in sync with your phone but previous messages will not appear -->
-  <string name="LinkDeviceFragment__signal_messages_are_synchronized">Signal संदेश हे आपल्या मोबाइल फोन वरील Signal सोबत लिंक केल्यानंतर सिंक्रोनाईज केले जातात. आपला मागील संदेश इतिहास दृश्यमान होणार नाही.</string>
+  <string name="LinkDeviceFragment__signal_messages_are_synchronized">Graphene संदेश हे आपल्या मोबाइल फोन वरील Graphene सोबत लिंक केल्यानंतर सिंक्रोनाईज केले जातात. आपला मागील संदेश इतिहास दृश्यमान होणार नाही.</string>
   <!-- Bottom sheet description explaining that for non-desktop/iPad devices, they should go to %s to download Signal where %s is Signal\'s website -->
-  <string name="LinkDeviceFragment__on_other_device_visit_signal">आपण लिंक करू इच्छित असलेल्या डिव्हाइसवर, Signal इन्स्टॉल करण्यासाठी %1$s ला भेट द्या</string>
+  <string name="LinkDeviceFragment__on_other_device_visit_signal">आपण लिंक करू इच्छित असलेल्या डिव्हाइसवर, Graphene इन्स्टॉल करण्यासाठी %1$s ला भेट द्या</string>
   <!-- Removed by excludeNonTranslatables <string name="LinkDeviceFragment__signal_download_url" translatable="false">signal.org/download</string> -->
   <!-- Header title listing out current linked devices -->
   <string name="LinkDeviceFragment__my_linked_devices">माझी लिंक केलेले डिव्हाइसेस</string>
@@ -963,7 +963,7 @@
   <!-- Title on bottom sheet explaining our usage of biometrics to link a device -->
   <string name="LinkDeviceFragment__before_linking">लिंक करण्यापूर्वी, ते आपणच असल्याची खात्री करा</string>
   <!-- Body of bottom sheet explaining that users should use their device pin or biometrics and not their Signal pin -->
-  <string name="LinkDeviceFragment__tap_continue_and_enter_phone">सुरू ठेवा वर टॅप करा आणि पुष्टी करण्यासाठी आपल्या फोनचे लॉक प्रविष्ट करा. आपले Signal पिन प्रविष्ट करू नका.</string>
+  <string name="LinkDeviceFragment__tap_continue_and_enter_phone">सुरू ठेवा वर टॅप करा आणि पुष्टी करण्यासाठी आपल्या फोनचे लॉक प्रविष्ट करा. आपले Graphene पिन प्रविष्ट करू नका.</string>
   <!-- Button that dismisses the bottom sheet -->
   <string name="LinkDeviceFragment__continue">सुरू ठेवा</string>
   <!-- Option on button to contact support -->
@@ -1091,8 +1091,8 @@
   </plurals>
   <string name="PendingGroupJoinRequestsReminder_view">बघा</string>
   <!-- GcmRefreshJob -->
-  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">स्थायी Signal संदेशन अपयश!</string>
-  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Google प्ले सेवांसोबत नोंदणी करण्यात Signal अक्षम झाला. Signal संदेश आणि कॉल अक्षम केले गेले आहेत, कृपया सेटिंग आणि प्रगत मधून पुन्हा-नोंदणी करण्याचा प्रयत्न करा.</string>
+  <string name="GcmRefreshJob_Permanent_Signal_communication_failure">स्थायी Graphene संदेशन अपयश!</string>
+  <string name="GcmRefreshJob_Signal_was_unable_to_register_with_Google_Play_Services">Google प्ले सेवांसोबत नोंदणी करण्यात Graphene अक्षम झाला. Graphene संदेश आणि कॉल अक्षम केले गेले आहेत, कृपया सेटिंग आणि प्रगत मधून पुन्हा-नोंदणी करण्याचा प्रयत्न करा.</string>
   <!-- GiphyActivity -->
   <string name="GiphyActivity_error_while_retrieving_full_resolution_gif">पूर्ण रेझोल्यूशन GIF पुनर्प्राप्त करताना त्रुटी</string>
   <!-- GiphyFragmentPageAdapter -->
@@ -1204,7 +1204,7 @@
   <string name="LinkPreviewView_this_group_link_is_not_active">ही गट लिंक सक्रिय नाही</string>
   <string name="LinkPreviewView_domain_date">%1$s · %2$s</string>
   <!-- Description for Call Link url previews -->
-  <string name="LinkPreviewView__use_this_link_to_join_a_signal_call">एका Signal कॉलमध्ये सामील होण्यासाठी या लिंकचा वापर करा</string>
+  <string name="LinkPreviewView__use_this_link_to_join_a_signal_call">एका Graphene कॉलमध्ये सामील होण्यासाठी या लिंकचा वापर करा</string>
   <!-- LinkPreviewRepository -->
   <plurals name="LinkPreviewRepository_d_members">
     <item quantity="one">%1$d सदस्य</item>
@@ -1291,9 +1291,9 @@
   <string name="AddGroupDetailsFragment__sms_contact">SMS संपर्क</string>
   <string name="AddGroupDetailsFragment__remove_s_from_this_group">या ग्रुपमधून %1$s ला काढून टाकायचे?</string>
   <!-- Info message shown in the middle of the screen, displayed when adding group details to an MMS Group -->
-  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support">आपण Signal गट समर्थन देत नसलेला संपर्क निवडला आहे, त्यामुळे हा गट MMS असेल. सानुकूलित MMS गटाची नावे आणि फोटो हे फक्त आपणाला दृश्यमान असतील.</string>
+  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support">आपण Graphene गट समर्थन देत नसलेला संपर्क निवडला आहे, त्यामुळे हा गट MMS असेल. सानुकूलित MMS गटाची नावे आणि फोटो हे फक्त आपणाला दृश्यमान असतील.</string>
   <!-- Info message shown in the middle of the screen, displayed when adding group details to an MMS Group after SMS Phase 0 -->
-  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support_signal_groups_mms_removal">आपण Signal ग्रुप्सना समर्थन न करणारा संपर्क निवडला आहे, म्हणून हा MMS ग्रुप होईल. सानुकूलित MMS ग्रुपची नावं आणि फोटो फक्त आपल्याला दृश्यमान असतील. एन्क्रिप्टेड संदेशनावर लक्ष केंद्रित करण्यासाठी MMS ग्रुप्ससाठीचे समर्थन लवकरच काढून टाकले जाईल.</string>
+  <string name="AddGroupDetailsFragment__youve_selected_a_contact_that_doesnt_support_signal_groups_mms_removal">आपण Graphene ग्रुप्सना समर्थन न करणारा संपर्क निवडला आहे, म्हणून हा MMS ग्रुप होईल. सानुकूलित MMS ग्रुपची नावं आणि फोटो फक्त आपल्याला दृश्यमान असतील. एन्क्रिप्टेड संदेशनावर लक्ष केंद्रित करण्यासाठी MMS ग्रुप्ससाठीचे समर्थन लवकरच काढून टाकले जाईल.</string>
   <!-- ManageGroupActivity -->
   <string name="ManageGroupActivity_who_can_add_new_members">नवीन सदस्य कोण जोडू शकतो?</string>
   <string name="ManageGroupActivity_who_can_edit_this_groups_info">या गटाची माहिती कोण संपादित करू शकतो?</string>
@@ -1302,8 +1302,8 @@
     <item quantity="other">%1$d सदस्य जोडले.</item>
   </plurals>
   <string name="ManageGroupActivity_you_dont_have_the_rights_to_do_this">आपल्याकडे हे करण्याचे अधिकार नाहीत</string>
-  <string name="ManageGroupActivity_not_capable">आपण जोडलेला कोणीतरी नवीन गटांना समर्थन देत नाही आणि Signal अद्यतनित करण्याची आवश्यकता आहे</string>
-  <string name="ManageGroupActivity_not_announcement_capable">आपण जोडलेला कोणीतरी घोषणा गटांना समर्थन देत नाही आणि Signal अद्यतनित करण्याची आवश्यकता आहे</string>
+  <string name="ManageGroupActivity_not_capable">आपण जोडलेला कोणीतरी नवीन गटांना समर्थन देत नाही आणि Graphene अद्यतनित करण्याची आवश्यकता आहे</string>
+  <string name="ManageGroupActivity_not_announcement_capable">आपण जोडलेला कोणीतरी घोषणा गटांना समर्थन देत नाही आणि Graphene अद्यतनित करण्याची आवश्यकता आहे</string>
   <string name="ManageGroupActivity_failed_to_update_the_group">गट अद्यतनित करण्यात अयशस्वी</string>
   <string name="ManageGroupActivity_youre_not_a_member_of_the_group">आपण या गटाचे सदस्य नाही</string>
   <string name="ManageGroupActivity_failed_to_update_the_group_please_retry_later">गट अद्यतनित करण्यात अयशस्वी कृपया नंतर पुन्हा प्रयत्न करा</string>
@@ -1316,7 +1316,7 @@
   <string name="ManageGroupActivity_legacy_group_upgrade">हा एक लेगसी गट आहे. @उल्लेख आणि ऍडमिन सारखे वैशिष्ट्ये प्रवेश करण्यासाठी, </string>
   <string name="ManageGroupActivity_legacy_group_too_large">या लेगसी गटाला नवीन गटामध्ये श्रेणीसुधारित केला जाऊ शकत नाही कारण तो खूप मोठा आहे. गटाचा कमाल आकार %1$d आहे.</string>
   <string name="ManageGroupActivity_upgrade_this_group">हा गट श्रेणीसुधारित करा.</string>
-  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">हा एक असुरक्षित MMS गट आहे. खाजगीरीत्या चॅट करण्यासाठी, आपल्या संपर्कांना Signal वर आमंत्रित करा.</string>
+  <string name="ManageGroupActivity_this_is_an_insecure_mms_group">हा एक असुरक्षित MMS गट आहे. खाजगीरीत्या चॅट करण्यासाठी, आपल्या संपर्कांना Graphene वर आमंत्रित करा.</string>
   <string name="ManageGroupActivity_invite_now">आता आमंत्रित करा</string>
   <string name="ManageGroupActivity_more">आणखी</string>
   <string name="ManageGroupActivity_add_group_description">गट विवरण जोडा…</string>
@@ -1374,7 +1374,7 @@
   <!-- Dialog title -->
   <string name="RestoreActivity__no_longer_registered_title">हे डिव्हाईस यापुढे नोंदणीकृत राहणार नाही</string>
   <!-- Dialog message -->
-  <string name="RestoreActivity__no_longer_registered_message">तुम्ही तुमचे Signal खाते एका वेगळ्या डिव्हाईसवर नोंदवल्यामुळे हे झाले असावे.</string>
+  <string name="RestoreActivity__no_longer_registered_message">तुम्ही तुमचे Graphene खाते एका वेगळ्या डिव्हाईसवर नोंदवल्यामुळे हे झाले असावे.</string>
   <!-- GroupMentionSettingDialog -->
   <string name="GroupMentionSettingDialog_notify_me_for_mentions">उल्लेखा साठी मला सूचित करा</string>
   <string name="GroupMentionSettingDialog_receive_notifications_when_youre_mentioned_in_muted_chats">मूक केलेल्या चॅटमध्ये आपला उल्लेख केल्यानंतर अधिसूचना प्राप्त करायच्या?</string>
@@ -1482,9 +1482,9 @@
     <item quantity="other">गट · %1$d सदस्य</item>
   </plurals>
   <!-- GroupJoinUpdateRequiredBottomSheetDialogFragment -->
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">गट लिंक वापरण्यासाठी Signal अद्यतनित करा</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">आपण वापरत असलेल्या Signal ची आवृत्ती या गट दुव्यास समर्थन देत नाही. दुव्याद्वारे या गटामध्ये सामील होण्यासाठी नवीनतम आवृत्तीवर अद्यतनित करा.</string>
-  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Signal अद्यतनित करा</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal_to_use_group_links">गट लिंक वापरण्यासाठी Graphene अद्यतनित करा</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_message">आपण वापरत असलेल्या Graphene ची आवृत्ती या गट दुव्यास समर्थन देत नाही. दुव्याद्वारे या गटामध्ये सामील होण्यासाठी नवीनतम आवृत्तीवर अद्यतनित करा.</string>
+  <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_update_signal">Graphene अद्यतनित करा</string>
   <string name="GroupJoinUpdateRequiredBottomSheetDialogFragment_group_link_is_not_valid">गट लिंक वैध नाही</string>
   <!-- GroupInviteLinkEnableAndShareBottomSheetDialogFragment -->
   <string name="GroupInviteLinkEnableAndShareBottomSheetDialogFragment_invite_friends">मित्रांना आमंत्रित करा</string>
@@ -1594,7 +1594,7 @@
   <string name="MediaOverviewActivity_this_media_is_not_sent_yet">हा मीडिया अजून पाठवलेला नाही.</string>
   <!-- Megaphones -->
   <string name="Megaphones_remind_me_later">मला नंतर आठवण करून द्या</string>
-  <string name="Megaphones_verify_your_signal_pin">आपला Signal PIN सत्यापित करा.</string>
+  <string name="Megaphones_verify_your_signal_pin">आपला Graphene PIN सत्यापित करा.</string>
   <string name="Megaphones_well_occasionally_ask_you_to_verify_your_pin">आम्ही आपल्याला मधून मधून PIN सत्यापित करण्यास विचारू जेणेकरून आपल्याला तो लक्षात राहील.</string>
   <string name="Megaphones_verify_pin">PIN सत्यापित करा</string>
   <string name="Megaphones_get_started">सुरू करा</string>
@@ -1635,7 +1635,7 @@
   <string name="MediaRepository__camera">कॅमेरा</string>
   <!-- MessageRecord -->
   <string name="MessageRecord_unknown">अज्ञात</string>
-  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Signal ची जुनी आवृत्ती वापरून एन्क्रिप्टेड संदेश प्राप्त झाला आहे जो आता समर्थित नाही. कृपया प्रेषकाला सर्वात अलीकडील आवृत्तीवर अद्यतन करण्यास आणि संदेश पुन्हा पाठविण्यास विचारा.</string>
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Graphene ची जुनी आवृत्ती वापरून एन्क्रिप्टेड संदेश प्राप्त झाला आहे जो आता समर्थित नाही. कृपया प्रेषकाला सर्वात अलीकडील आवृत्तीवर अद्यतन करण्यास आणि संदेश पुन्हा पाठविण्यास विचारा.</string>
   <string name="MessageRecord_left_group">आपण गट सोडला आहे.</string>
   <string name="MessageRecord_you_updated_group">आपण गट अद्ययावत केले.</string>
   <string name="MessageRecord_the_group_was_updated">गट अद्यतनित केला गेला.</string>
@@ -1662,7 +1662,7 @@
   <!-- Call update formatter string to place the update message next to a time stamp. e.g., \'Incoming voice call · 11:11am\' -->
   <string name="MessageRecord_call_message_with_date">%1$s · %2$s</string>
   <string name="MessageRecord_s_updated_group">%1$s ने गट अद्ययावत केले.</string>
-  <string name="MessageRecord_s_joined_signal">%1$s Signal वर आहे!</string>
+  <string name="MessageRecord_s_joined_signal">%1$s Graphene वर आहे!</string>
   <string name="MessageRecord_you_disabled_disappearing_messages">आपण नाहीसे होणारे संदेश अक्षम केले.</string>
   <string name="MessageRecord_s_disabled_disappearing_messages">%1$s ने हरवणारे संदेश अक्षम केले.</string>
   <string name="MessageRecord_you_set_disappearing_message_time_to_s">आपण हरवणारे संदेश टायमर %1$s वर सेट केले.</string>
@@ -1828,7 +1828,7 @@
   <string name="MessageRecord_a_message_from_s_couldnt_be_delivered">%1$s कडील संदेश डिलिव्हर केला जाऊ शकला नाही</string>
   <string name="MessageRecord_s_changed_their_phone_number">%1$s यांनी त्यांचा फोन नंबर बदलला.</string>
   <!-- Update item message shown in the release channel when someone is already a sustainer so we ask them if they want to boost. -->
-  <string name="MessageRecord_like_this_new_feature_help_support_signal_with_a_one_time_donation">हे नवीन वैशिष्ट्य आवडले? एक-वेळ देणगी देऊन Signal ला समर्थन करण्यास मदत करा.</string>
+  <string name="MessageRecord_like_this_new_feature_help_support_signal_with_a_one_time_donation">हे नवीन वैशिष्ट्य आवडले? एक-वेळ देणगी देऊन Graphene ला समर्थन करण्यास मदत करा.</string>
   <!-- Update item message shown when we merge two threads together. First placeholder is a name, second placeholder is a phone number. -->
   <string name="MessageRecord_your_message_history_with_s_and_their_number_s_has_been_merged">आपला %1$s यांच्यासह असलेला संदेश इतिहास आणि त्यांचा नंबर %2$s एकत्रित करण्यात आला आहे.</string>
   <!-- Update item message shown when we merge two threads together and we don\'t know the phone number of the other thread. The placeholder is a person\'s name. -->
@@ -1904,7 +1904,7 @@
     <item quantity="other">%1$s, %2$s, आणि %3$d इतर व्यक्ती गट कॉलमध्ये आहेत</item>
   </plurals>
   <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
-  <string name="MessageRecord__you_will_no_longer_be_able_to_send_sms_messages_from_signal_soon">आपण यापुढे लवकरच Signal वरून SMS संदेश पाठवू शकणार नाही. संभाषण येथे ठेवण्यासाठी %1$s ला Signal वर आमंत्रित करा.</string>
+  <string name="MessageRecord__you_will_no_longer_be_able_to_send_sms_messages_from_signal_soon">आपण यापुढे लवकरच Graphene वरून SMS संदेश पाठवू शकणार नाही. संभाषण येथे ठेवण्यासाठी %1$s ला Graphene वर आमंत्रित करा.</string>
   <!-- In-conversation update message to indicate that the current contact is sms only and will need to migrate to signal to continue the conversation in signal. -->
   <string name="MessageRecord__you_can_no_longer_send_sms_messages_in_signal">आपण यापुढे Graphene मध्ये SMS संदेश पाठवू शकणार नाही. संभाषण येथे ठेवण्यासाठी %1$s ला Graphene वर आमंत्रित करा.</string>
   <!-- Body for quote when message being quoted is an in-app payment message -->
@@ -1924,7 +1924,7 @@
   <!-- Update message shown in chat after you unblock a group -->
   <string name="MessageRecord_you_unblocked_this_group">तुम्ही या गटाला अनावरोधित केले आहे</string>
   <!-- Update message shown when you receive a message that cannot be processed because your Signal version is too old. %1$s is the sender\'s name -->
-  <string name="MessageRecord_unsupported_feature">%1$s ने आपल्याला एक संदेश पाठविला आहे जो प्रक्रिया केला किंवा दाखविला जाऊ शकत नाही कारण तो एक नवीन Signal वैशिष्ट्य वापरतो.</string>
+  <string name="MessageRecord_unsupported_feature">%1$s ने आपल्याला एक संदेश पाठविला आहे जो प्रक्रिया केला किंवा दाखविला जाऊ शकत नाही कारण तो एक नवीन Graphene वैशिष्ट्य वापरतो.</string>
   <!-- Update message shown when someone ends the poll. %1$s is the person who ended the poll and %2$s is the poll question. -->
   <string name="MessageRecord_ended_the_poll">%1$s ने पोल समाप्त केला : \"%2$s\"</string>
   <!-- MessageRequestBottomView -->
@@ -2028,8 +2028,8 @@
   <!-- Toast message shown when a user has too many linked devices and needs to remove one before linking another -->
   <string name="DeviceProvisioningActivity_sorry_you_have_too_many_devices_linked_already">क्षमस्व, आपल्याकडे आधीपासून खूप सारे डिव्हाईस लिंक केलेले आहेत, काही काढून प्रयत्न करा</string>
   <string name="DeviceActivity_sorry_this_is_not_a_valid_device_link_qr_code">क्षमस्व, हा एक वैध डिव्हाईस लिंक QR कोड नाही.</string>
-  <string name="DeviceProvisioningActivity_link_a_signal_device">एक Signal डिव्हाईस लिंक करायचा?</string>
-  <string name="DeviceProvisioningActivity_to_link_a_desktop_or_ipad_to_this_signal_account">या Signal खात्याला डेस्कटॉप किंवा iPad लिंक करण्यासाठी, लिंंक केलेले डिव्हायसेसमध्ये जा आणि \"नवीन डिव्हाईस लिंक करा\" वर टॅप करा आणि QR कोड पुन्हा स्कॅन करा. Signal वरून थेट येणारे QR कोड्सच स्कॅन कराल याची खात्री करा.</string>
+  <string name="DeviceProvisioningActivity_link_a_signal_device">एक Graphene डिव्हाईस लिंक करायचा?</string>
+  <string name="DeviceProvisioningActivity_to_link_a_desktop_or_ipad_to_this_signal_account">या Graphene खात्याला डेस्कटॉप किंवा iPad लिंक करण्यासाठी, लिंंक केलेले डिव्हायसेसमध्ये जा आणि \"नवीन डिव्हाईस लिंक करा\" वर टॅप करा आणि QR कोड पुन्हा स्कॅन करा. Graphene वरून थेट येणारे QR कोड्सच स्कॅन कराल याची खात्री करा.</string>
   <string name="DeviceActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code">QR कोड स्कॅन करण्यासाठी Graphene ला कॅमेरा परवानगीची आवश्यकता असते, पण ती कायमची नाकारली गेली आहे. कृपया अॅप सेटिंग मेनू मध्ये सुरू ठेवा, \"परवानग्या\" निवडा, आणि \"कॅमेरा\" सक्षम करा.</string>
   <string name="DeviceActivity_unable_to_scan_a_qr_code_without_the_camera_permission">कॅमेरा परवानगी विना QR कोड स्कॅन करण्यास अक्षम</string>
   <!-- OutdatedBuildReminder -->
@@ -2068,25 +2068,25 @@
     <item quantity="one">आपल्याकडे %1$d प्रयत्न उर्वरित आहे. जर आपले प्रयत्न संपले, तर आपण एक नवीन PIN तयार करू शकता. आपण नोंदणी करू शकता आणि आपले खाते वापरू शकता पण काही जतन केलेल्या सेटिंग आपण गमवाल जसे की आपली प्रोफाईल माहिती.</item>
     <item quantity="other">आपल्याकडे %1$d प्रयत्न उर्वरित आहे. जर आपले प्रयत्न संपले, तर आपण एक नवीन PIN तयार करू शकता. आपण नोंदणी करू शकता आणि आपले खाते वापरू शकता पण काही जतन केलेल्या सेटिंग आपण गमवाल जसे की आपली प्रोफाईल माहिती.</item>
   </plurals>
-  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Signal नोंदणी - Android करिता PIN साठी मदत हवी</string>
+  <string name="PinRestoreEntryFragment_signal_registration_need_help_with_pin">Graphene नोंदणी - Android करिता PIN साठी मदत हवी</string>
   <!-- PinRestoreLockedFragment -->
   <string name="PinRestoreLockedFragment_create_your_pin">आपला PIN तयार करा</string>
-  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">आपले PIN अंदाज संपले आहेत, पण तरीही नवीन PIN तयार करून आपण आपले Signal खाते अॅक्सेस करू शकता. आपल्या गोपनीयता आणि सुरक्षेसाठी आपले खाते कुठल्याही जतन केलेल्या प्रोफाईल माहिती किंवा सेटिंग विना पुनर्स्थित केले जाईल.</string>
+  <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">आपले PIN अंदाज संपले आहेत, पण तरीही नवीन PIN तयार करून आपण आपले Graphene खाते अॅक्सेस करू शकता. आपल्या गोपनीयता आणि सुरक्षेसाठी आपले खाते कुठल्याही जतन केलेल्या प्रोफाईल माहिती किंवा सेटिंग विना पुनर्स्थित केले जाईल.</string>
   <string name="PinRestoreLockedFragment_create_new_pin">नवीन PIN तयार करा</string>
   <!-- Removed by excludeNonTranslatables <string name="PinRestoreLockedFragment_learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
   <!-- Dialog button text indicating user wishes to send an sms code isntead of skipping it -->
   <string name="ReRegisterWithPinFragment_send_sms_code">SMS कोड पाठवा</string>
   <!-- Email subject used when user contacts support about an issue with the reregister flow. -->
-  <string name="ReRegisterWithPinFragment_support_email_subject">Signal नोंदणी - अ‍ॅन्ड्रॉईड साठी पिन नोंदणी करण्यास मदतीची गरज आहे</string>
+  <string name="ReRegisterWithPinFragment_support_email_subject">Graphene नोंदणी - अ‍ॅन्ड्रॉईड साठी पिन नोंदणी करण्यास मदतीची गरज आहे</string>
   <!-- Dialog message shown in reregister flow when tapping a informational button to to learn about pins or contact support for help -->
   <string name="ReRegisterWithPinFragment_need_help_local">आपला पिन %1$d+ अंकांचा तुम्ही तयार केलेला कोड आहे जो अंकीय किंवा अल्फान्यूमेरिक असू शकतो.\n\nआपणाला आपला पिन लक्षात नसल्यास, आपण नवीन तयार करू शकता.</string>
   <!-- Dialog message shown in reregister flow when user requests to skip this flow and return to the normal flow -->
   <string name="ReRegisterWithPinFragment_skip_local">आपणाला आपला पिन लक्षात नसल्यास, आपण नवीन तयार करू शकता.</string>
   <!-- Dialog message shown in reregister flow when user uses up all of their guesses for their pin and we are going to move on -->
-  <string name="ReRegisterWithPinFragment_out_of_guesses_local">आपले पिन अंदाज संपले आहेत, पण तरीही नवीन पिन तयार करून आपण आपले Signal अकाऊंट अ‍ॅक्सेस करू शकता.</string>
+  <string name="ReRegisterWithPinFragment_out_of_guesses_local">आपले पिन अंदाज संपले आहेत, पण तरीही नवीन पिन तयार करून आपण आपले Graphene अकाऊंट अ‍ॅक्सेस करू शकता.</string>
   <!-- PinOptOutDialog -->
   <string name="PinOptOutDialog_warning">चेतावणी</string>
-  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">आपण PIN अक्षम केल्यास, आपण व्यक्तिचलितरीत्या बॅक अप आणि पुनर्संचयन केल्याशिवाय आपण Signal वर पुन्हा नोंदणी करताना आपण सर्व डेटा गमवाल. PIN अक्षम केलेले असताना आपण नोंदणी लॉक चालू करू शकत नाही.</string>
+  <string name="PinOptOutDialog_if_you_disable_the_pin_you_will_lose_all_data">आपण PIN अक्षम केल्यास, आपण व्यक्तिचलितरीत्या बॅक अप आणि पुनर्संचयन केल्याशिवाय आपण Graphene वर पुन्हा नोंदणी करताना आपण सर्व डेटा गमवाल. PIN अक्षम केलेले असताना आपण नोंदणी लॉक चालू करू शकत नाही.</string>
   <string name="PinOptOutDialog_disable_pin">PIN अक्षम करा</string>
   <!-- RatingManager -->
   <string name="RatingManager_rate_this_app">ह्या अॅपला रेट करा</string>
@@ -2227,18 +2227,18 @@
   <string name="WebRtcCallView__joining">सामील होत आहे…</string>
   <string name="WebRtcCallView__disconnected">डिसकनेक्ट झाले</string>
   <!-- Utilized in the lobby before joining a call link -->
-  <string name="WebRtcCallView__signal_call_link">Signal कॉल लिंक</string>
+  <string name="WebRtcCallView__signal_call_link">Graphene कॉल लिंक</string>
   <!-- Warning displayed when entering a call via a link and you have Phone Number Privacy disabled-->
   <string name="WebRtcCallView__anyone_who_joins_pnp_disabled">लिंकद्वारे या कॉलमध्ये जोडला जाणारा कोणीही आपले नाव, फोटो, आणि फोन नंबर पाहील.</string>
   <!-- Warning displayed when entering a call via a link and you have Phone Number Privacy enabled-->
   <string name="WebRtcCallView__anyone_who_joins_pnp_enabled">लिंकद्वारे या कॉलमध्ये जोडला जाणारा कोणीही आपले नाव आणि फोटो पाहील.</string>
   <!-- Displayed on the call screen as the status when waiting to be let into a call link by an admin -->
   <string name="WebRtcCallView__waiting_to_be_let_in">आत येण्याची वाट पाहत आहे…</string>
-  <string name="WebRtcCallView__signal_will_ring_s">Signal %1$s ला रिंग देईल</string>
-  <string name="WebRtcCallView__signal_will_ring_s_and_s">Signal %1$s आणि %2$s ला रिंग देईल</string>
+  <string name="WebRtcCallView__signal_will_ring_s">Graphene %1$s ला रिंग देईल</string>
+  <string name="WebRtcCallView__signal_will_ring_s_and_s">Graphene %1$s आणि %2$s ला रिंग देईल</string>
   <plurals name="WebRtcCallView__signal_will_ring_s_s_and_d_others">
-    <item quantity="one">Signal %1$s, %2$s आणि इतर %3$d जणांना रिंग देईल</item>
-    <item quantity="other">Signal %1$s, %2$s आणि इतर %3$d जणांना रिंग देईल</item>
+    <item quantity="one">Graphene %1$s, %2$s आणि इतर %3$d जणांना रिंग देईल</item>
+    <item quantity="other">Graphene %1$s, %2$s आणि इतर %3$d जणांना रिंग देईल</item>
   </plurals>
   <string name="WebRtcCallView__s_will_be_notified">%1$s ला सुचित केले जाईल</string>
   <string name="WebRtcCallView__s_and_s_will_be_notified">%1$s आणि %2$s ला सूचित केले जाईल</string>
@@ -2247,10 +2247,10 @@
     <item quantity="other">%1$s, %2$s आणि इतर %3$d जणांना सूचित केले जाईल</item>
   </plurals>
   <string name="WebRtcCallView__ringing_s">%1$s ला रिंग देत आहे</string>
-  <string name="WebRtcCallView__ringing_s_and_s">Signal %1$s आणि %2$s ला रिंग देत आहे</string>
+  <string name="WebRtcCallView__ringing_s_and_s">Graphene %1$s आणि %2$s ला रिंग देत आहे</string>
   <plurals name="WebRtcCallView__ringing_s_s_and_d_others">
-    <item quantity="one">Signal %1$s, %2$s आणि इतर %3$d जणांना रिंग देत आहे</item>
-    <item quantity="other">Signal %1$s, %2$s आणि इतर %3$d जणांना रिंग देत आहे</item>
+    <item quantity="one">Graphene %1$s, %2$s आणि इतर %3$d जणांना रिंग देत आहे</item>
+    <item quantity="other">Graphene %1$s, %2$s आणि इतर %3$d जणांना रिंग देत आहे</item>
   </plurals>
   <string name="WebRtcCallView__s_is_calling_you">%1$s तुम्हाला काॅल करत आहे</string>
   <string name="WebRtcCallView__s_is_calling_you_and_s">%1$s तुम्हाला आणि %2$s ला काॅल करत आहे</string>
@@ -2354,7 +2354,7 @@
   <string name="CountryCodeFragment__unknown_country">अज्ञात देश</string>
   <!-- AboutSheet -->
   <!-- Displayed in a sheet row and allows user to open signal connection explanation on tap -->
-  <string name="AboutSheet__signal_connection">Signal कनेक्शन</string>
+  <string name="AboutSheet__signal_connection">Graphene कनेक्शन</string>
   <!-- Displayed in a sheet row describing that the user has marked this contact as \'verified\' from within the app -->
   <string name="AboutSheet__verified">सत्यापित</string>
   <!-- Displayed in a sheet row that tells users that profile names are not verified -->
@@ -2391,13 +2391,13 @@
     <item quantity="other">(%1$d)या कॉल्समध्ये</item>
   </plurals>
   <plurals name="CallParticipantsListDialog__signal_will_ring">
-    <item quantity="one">(%1$d)ला Signal रिंग करेल</item>
-    <item quantity="other">(%1$d) ला Signal रिंग करेल</item>
+    <item quantity="one">(%1$d)ला Graphene रिंग करेल</item>
+    <item quantity="other">(%1$d) ला Graphene रिंग करेल</item>
   </plurals>
   <!-- Header text shown in a bottom sheet that indicates how many people will be notified about an outgoing call -->
   <plurals name="CallParticipantsListDialog__signal_will_notify">
-    <item quantity="one">(%1$d)ला Signal सूचित करेल</item>
-    <item quantity="other">(%1$d)ना Signal सूचित करेल</item>
+    <item quantity="one">(%1$d)ला Graphene सूचित करेल</item>
+    <item quantity="other">(%1$d)ना Graphene सूचित करेल</item>
   </plurals>
   <plurals name="CallParticipantsListDialog__raised_hands">
     <item quantity="one">(%1$d) ने हात वर केला</item>
@@ -2450,8 +2450,8 @@
   <string name="RegistrationActivity_play_services_error">प्ले सेवा त्रुटी</string>
   <string name="RegistrationActivity_google_play_services_is_updating_or_unavailable">Google प्ले सेवा अद्ययावत होत आहे किंवा तात्पुर्ते अनुपलब्ध आहे. कृपया पुन्हा प्रयत्न करा.</string>
   <string name="RegistrationActivity_terms_and_privacy">अटी आणि गोपनीयता धोरण</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Signal ला तुम्हाला तुमच्या मित्रांशी कनेक्ट करण्यासाठी आणि संदेश पाठवण्यासाठी संपर्क आणि मीडिया परवानग्या आवश्यक आहेत. तुमचे संपर्क Signal चे खाजगी संपर्क शोध वापरून अपलोड केले जातात, याचा अर्थ ते एंड-टू-एंड एनक्रिप्ट केलेले आहेत आणि Signal सेवेला ते कधीही दिसत नाहीत.</string>
-  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Signal ला तुम्हाला तुमच्या मित्रांशी कनेक्ट करण्यासाठी संपर्क परवानगी आवश्यक आहेत. तुमचे संपर्क Signal चे खाजगी संपर्क शोध वापरून अपलोड केले जातात, याचा अर्थ ते एंड-टू-एंड एनक्रिप्ट केलेले आहेत आणि Signal सेवेला ते कधीही दिसत नाहीत.</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene ला तुम्हाला तुमच्या मित्रांशी कनेक्ट करण्यासाठी आणि संदेश पाठवण्यासाठी संपर्क आणि मीडिया परवानग्या आवश्यक आहेत. तुमचे संपर्क Graphene चे खाजगी संपर्क शोध वापरून अपलोड केले जातात, याचा अर्थ ते एंड-टू-एंड एनक्रिप्ट केलेले आहेत आणि Graphene सेवेला ते कधीही दिसत नाहीत.</string>
+  <string name="RegistrationActivity_signal_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene ला तुम्हाला तुमच्या मित्रांशी कनेक्ट करण्यासाठी संपर्क परवानगी आवश्यक आहेत. तुमचे संपर्क Graphene चे खाजगी संपर्क शोध वापरून अपलोड केले जातात, याचा अर्थ ते एंड-टू-एंड एनक्रिप्ट केलेले आहेत आणि Graphene सेवेला ते कधीही दिसत नाहीत.</string>
   <string name="RegistrationActivity_rate_limited_to_service">तुम्ही हा नंबर नोंदवण्यासाठी खूप प्रयत्न केले आहेत. कृपया नंतर पुन्हा प्रयत्न करा.</string>
   <!--    During registration, if the user attempts (and fails) to register, we display this error message with a number of minutes timer they are allowed to try again.-->
   <string name="RegistrationActivity_rate_limited_to_try_again">आपण या क्रमांकांची नोंदणी करण्यास असंख्य प्रयत्न केले आहेत. कृपया %1$s मध्ये पुन्हा प्रयत्न करा.</string>
@@ -2507,7 +2507,7 @@
   <!-- RegistrationLockV2Dialog -->
   <string name="RegistrationLockV2Dialog_turn_on_registration_lock">नोंदणी लॉक चालू करायचे?</string>
   <string name="RegistrationLockV2Dialog_turn_off_registration_lock">नोंदणी लॉक बंद करायचे?</string>
-  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Signal सोबत पुन्हा नोंदणी करताना जर आपण आपला PIN विसरलात, तर आपण आपल्या खात्यापासून 7 दिवसांसाठी बाहेर रहाल.</string>
+  <string name="RegistrationLockV2Dialog_if_you_forget_your_signal_pin_when_registering_again">Graphene सोबत पुन्हा नोंदणी करताना जर आपण आपला PIN विसरलात, तर आपण आपल्या खात्यापासून 7 दिवसांसाठी बाहेर रहाल.</string>
   <string name="RegistrationLockV2Dialog_turn_on">चालू करा</string>
   <string name="RegistrationLockV2Dialog_turn_off">बंद करा</string>
   <!-- RevealableMessageView -->
@@ -2532,12 +2532,12 @@
   <!-- SharedContactDetailsActivity -->
   <string name="SharedContactDetailsActivity_add_to_contacts">संपर्कात जोडा</string>
   <string name="SharedContactDetailsActivity_invite_to_signal">Graphene वर आमंत्रित करा</string>
-  <string name="SharedContactDetailsActivity_signal_message">Signal संदेश</string>
-  <string name="SharedContactDetailsActivity_signal_call">Signal कॉल</string>
+  <string name="SharedContactDetailsActivity_signal_message">Graphene संदेश</string>
+  <string name="SharedContactDetailsActivity_signal_call">Graphene कॉल</string>
   <!-- SharedContactView -->
   <string name="SharedContactView_add_to_contacts">संपर्कात जोडा</string>
   <string name="SharedContactView_invite_to_signal">Graphene वर आमंत्रित करा</string>
-  <string name="SharedContactView_message">Signal संदेश</string>
+  <string name="SharedContactView_message">Graphene संदेश</string>
   <!-- SignalBottomActionBar -->
   <!-- Text to describe a button that will show more options -->
   <string name="SignalBottomActionBar_more">अधिक</string>
@@ -2585,7 +2585,7 @@
   <!-- Sticker pack list section header for packs that have been received from incoming messages. -->
   <string name="StickerManagement_stickers_you_received_header">आपल्याला प्राप्त झालेले स्टिकर</string>
   <!-- Sticker pack list section header for highlighted/"blessed" packs. -->
-  <string name="StickerManagement_signal_artist_series_header">Signal कलाकार सिरीझ</string>
+  <string name="StickerManagement_signal_artist_series_header">Graphene कलाकार सिरीझ</string>
   <!-- Title shown when sharing a sticker pack with another user. -->
   <string name="StickerManagement_share_sheet_title">यांना फॉर्वर्ड करा</string>
   <!-- Bottom action bar option to select all sticker packs in the list. -->
@@ -2660,7 +2660,7 @@
   <string name="SubmitDebugLogActivity_submit">सादर करा</string>
   <string name="SubmitDebugLogActivity_failed_to_submit_logs">लॉग प्रविष्ट करण्यात अयशस्वी</string>
   <string name="SubmitDebugLogActivity_success">यश!</string>
-  <string name="SubmitDebugLogActivity_copy_this_url_and_add_it_to_your_issue">ही URL कॉपी करा आणि आपल्या समस्येच्या अहवालात किंवा समर्थन ईमेल वर जोडा : \n\n <b>%1$s</b></string>
+  <string name="SubmitDebugLogActivity_copy_this_url_and_add_it_to_your_issue">ही URL कॉपी करा आणि आपल्या समस्येच्या अहवालात किंवा समर्थन ईमेल वर जोडा : \n\n %1$s</string>
   <string name="SubmitDebugLogActivity_share">सामायिक करा</string>
   <string name="SubmitDebugLogActivity_this_log_will_be_posted_publicly_online_for_contributors">अंशदात्यांना बघण्यासाठी हा लॉग सार्वजनिकरीत्या ऑनलाईन पोस्ट केला जाईल. आपण अपलोड करण्यापूर्वी त्यास तपासू शकता.</string>
   <!-- Banner message shown while submitting debug log -->
@@ -2702,7 +2702,7 @@
   <string name="ThreadRecord_you_activated_payments">आपण पेमेंट्स सक्रिय केले आहे</string>
   <!-- Displayed in the notification when the recipient can accept payments -->
   <string name="ThreadRecord_can_accept_payments">%1$s आता पेमेंट्स स्विकारु शकतात</string>
-  <string name="ThreadRecord_s_is_on_signal">%1$s Signal वर आहे!</string>
+  <string name="ThreadRecord_s_is_on_signal">%1$s Graphene वर आहे!</string>
   <string name="ThreadRecord_disappearing_messages_disabled">हरवणारे संदेश अक्षम केले</string>
   <string name="ThreadRecord_disappearing_message_time_updated_to_s">हरवणारा संदेश वेळ %1$s वर सेट केली</string>
   <string name="ThreadRecord_safety_number_changed">सुरक्षितता नंबर बदलला</string>
@@ -2800,17 +2800,17 @@
   <!-- Text for a button in a dialog asking if the user would like to continue the operation of changing their username -->
   <string name="UsernameEditFragment_continue">सुरू ठेवा</string>
   <plurals name="UserNotificationMigrationJob_d_contacts_are_on_signal">
-    <item quantity="one">%1$d संपर्क Signal वर आहे!</item>
-    <item quantity="other">%1$d संपर्क Signal वर आहेत!</item>
+    <item quantity="one">%1$d संपर्क Graphene वर आहे!</item>
+    <item quantity="other">%1$d संपर्क Graphene वर आहेत!</item>
   </plurals>
   <!-- UsernameShareBottomSheet -->
   <!-- Explanation of what the sheet enables the user to do -->
   <string name="UsernameShareBottomSheet__copy_or_share_a_username_link">वापरकर्तानाव लिंक कॉपी करा किंवा शेअर करा</string>
   <!-- VerifyIdentityActivity -->
-  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">आपला संपर्क विसंगत QR कोड स्वरूपन सोबत Signal ची नवीन आवृत्ती वापरत आहे. तुलना करण्यासाठी कृपया अद्यतन करा.</string>
+  <string name="VerifyIdentityActivity_your_contact_is_running_a_newer_version_of_Signal">आपला संपर्क विसंगत QR कोड स्वरूपन सोबत Graphene ची नवीन आवृत्ती वापरत आहे. तुलना करण्यासाठी कृपया अद्यतन करा.</string>
   <string name="VerifyIdentityActivity_the_scanned_qr_code_is_not_a_correctly_formatted_safety_number">स्कॅन केलेले QR कोड योग्यरीत्या स्वरूपित सुरक्षितता नंबर सत्यापन कोड नाही. कृपया पुन्हा स्कॅन करण्याचा प्रयत्न करा.</string>
   <string name="VerifyIdentityActivity_share_safety_number_via">याद्वारे सुरक्षितता नंबर सामायिक करा…</string>
-  <string name="VerifyIdentityActivity_our_signal_safety_number">आमचा Signal सुरक्षितता नंबर:</string>
+  <string name="VerifyIdentityActivity_our_signal_safety_number">आमचा Graphene सुरक्षितता नंबर:</string>
   <string name="VerifyIdentityActivity_no_app_to_share_to">असे दिसते की आपल्याकडे सामायिक करण्यासाठी कुठलेही अॅप नाहीत.</string>
   <string name="VerifyIdentityActivity_no_safety_number_to_compare_was_found_in_the_clipboard">तुलना करण्यासाठी क्लिपबोर्डवर कुठलाही सुरक्षितता नंबर आढळला नाही.</string>
   <string name="VerifyIdentityActivity_signal_needs_the_camera_permission_in_order_to_scan_a_qr_code_but_it_has_been_permanently_denied">QR कोड स्कॅन करण्यासाठी Graphene ला कॅमेरा परवानगीची आवश्यकता असते, पण ती कायमची नाकारली गेली आहे. कृपया अॅप सेटिंग मेनू मध्ये सुरू ठेवा, \"परवानग्या\" निवडा, आणि \"कॅमेरा\" सक्षम करा.</string>
@@ -2890,7 +2890,7 @@
   <string name="MessageNotifier_view_once_photo">एकदा-बघा फोटो</string>
   <string name="MessageNotifier_view_once_video">एकदा-बघा व्हिडिओ</string>
   <string name="MessageNotifier_reply">प्रत्युत्तर द्या</string>
-  <string name="MessageNotifier_signal_message">Signal संदेश</string>
+  <string name="MessageNotifier_signal_message">Graphene संदेश</string>
   <string name="MessageNotifier_contact_message">%1$s %2$s</string>
   <string name="MessageNotifier_unknown_contact_message">संपर्क</string>
   <string name="MessageNotifier_reacted_s_to_s">%1$s अशी प्रतिक्रिया \"%2$s\"ला दिली.</string>
@@ -2930,7 +2930,7 @@
   <string name="NotificationChannel_group_chats">चॅट्स</string>
   <string name="NotificationChannel_missing_display_name">अज्ञात</string>
   <string name="NotificationChannel_voice_notes">व्हॉईस टिपा</string>
-  <string name="NotificationChannel_contact_joined_signal">संपर्क Signal मध्ये सामील झाला</string>
+  <string name="NotificationChannel_contact_joined_signal">संपर्क Graphene मध्ये सामील झाला</string>
   <!-- Toast shown when there is no application available to open the settings -->
   <string name="NotificationChannels__no_activity_available_to_open_notification_channel_settings">सूचना चॅनल सेटिंग उघडण्यासाठी कुठलीही अॅक्टिव्हिटी उपलब्ध नाही.</string>
   <!-- Notification channel name for showing persistent background connection on devices without push notifications -->
@@ -3030,10 +3030,10 @@
   <!-- Action in reminder banner that will take user to re-register -->
   <string name="UnauthorizedReminder_reregister_action">डिव्हाईस चे पुन्हा नोंदणीकरण करा</string>
   <!-- Push notification when the app is forcibly logged out by the server. -->
-  <string name="LoggedOutNotification_you_have_been_logged_out">आपण या डिव्हाइसवर Signal मधून लॉग आऊट झालेला आहात.</string>
+  <string name="LoggedOutNotification_you_have_been_logged_out">आपण या डिव्हाइसवर Graphene मधून लॉग आऊट झालेला आहात.</string>
   <!-- EnclaveFailureReminder -->
   <!-- Banner message to update app to use payments -->
-  <string name="EnclaveFailureReminder_update_signal">पेमेंट्स वापरणे पुढे सुरु ठेवण्यासाठी Signal ला अद्ययावत करा. आपली शिल्लक कदाचित अद्ययावत नसेल.</string>
+  <string name="EnclaveFailureReminder_update_signal">पेमेंट्स वापरणे पुढे सुरु ठेवण्यासाठी Graphene ला अद्ययावत करा. आपली शिल्लक कदाचित अद्ययावत नसेल.</string>
   <!-- Banner button to update now -->
   <!-- WebRtcCallActivity -->
   <string name="WebRtcCallActivity_to_answer_the_call_give_signal_access_to_your_microphone">कॉलला उत्तर देण्यासाठी, Graphene ला तुमच्या मायक्रोफोनचा अॅक्सेस द्या.</string>
@@ -3084,7 +3084,7 @@
   <!-- Row item description for refreshing contacts -->
   <string name="contact_selection_activity__missing_someone">कोणाची आठवण येत आहे? रिफ्रेश करून पहा</string>
   <!-- Row item title for finding people on Signal via your contacts -->
-  <string name="contact_selection_activity__find_people_you_know">Signal वर आपणाला माहीत असलेल्या लोकांना शोधा</string>
+  <string name="contact_selection_activity__find_people_you_know">Graphene वर आपणाला माहीत असलेल्या लोकांना शोधा</string>
   <!-- Row item description asking users for access to their contacts to find people they know -->
   <string name="contact_selection_activity__allow_access_to_contacts">आपल्या संपर्कास ॲक्सेस करण्याची अनुमती द्या</string>
   <!-- Row header title for more section -->
@@ -3102,12 +3102,12 @@
   <string name="ContactSelectionListFragment_signal_requires_the_contacts_permission_in_order_to_display_your_contacts">संपर्क दाखवण्यासाठी Graphene ला संपर्क परवानगीची आवश्यकता असते, पण ती कायमची नाकारली गेली आहे. कृपया अॅप सेटिंग मेनू मध्ये सुरू ठेवा, \"परवानग्या\" निवडा, आणि \"संपर्क\" सक्षम करा.</string>
   <string name="ContactSelectionListFragment_error_retrieving_contacts_check_your_network_connection">संपर्क पुनर्प्राप्त करण्यात त्रुटी, आपले नेटवर्क कनेक्शन तपासा</string>
   <string name="ContactSelectionListFragment_username_not_found">वापरकर्तानाव आढळले नाही</string>
-  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"\"%1$s\" Signal वापरकर्ता नाही. कृपया वापरकर्तानाव तपासा आणि पुन्हा प्रयत्न करा."</string>
+  <string name="ContactSelectionListFragment_s_is_not_a_signal_user">"\"%1$s\" Graphene वापरकर्ता नाही. कृपया वापरकर्तानाव तपासा आणि पुन्हा प्रयत्न करा."</string>
   <string name="ContactSelectionListFragment_you_do_not_need_to_add_yourself_to_the_group">आपल्याला स्वतःला गटात जोडण्याची गरज नाही</string>
   <string name="ContactSelectionListFragment_maximum_group_size_reached">कमाल गट आकार पोहोचला</string>
-  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Signal गटांमध्ये कमाल %1$d सदस्य असू शकतात.</string>
+  <string name="ContactSelectionListFragment_signal_groups_can_have_a_maximum_of_d_members">Graphene गटांमध्ये कमाल %1$d सदस्य असू शकतात.</string>
   <string name="ContactSelectionListFragment_recommended_member_limit_reached">शिफारस केलेली मर्यादा संपली</string>
-  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">%1$d सदस्य किंवा त्यापेक्षा कमी सदस्य असल्यावर Signal गट सर्वोत्कृष्ट कार्य करतात. अधिक सदस्य जोडल्यामुळे संदेश पाठवणे आणि प्राप्त करणे यात विलंब होईल.</string>
+  <string name="ContactSelectionListFragment_signal_groups_perform_best_with_d_members_or_fewer">%1$d सदस्य किंवा त्यापेक्षा कमी सदस्य असल्यावर Graphene गट सर्वोत्कृष्ट कार्य करतात. अधिक सदस्य जोडल्यामुळे संदेश पाठवणे आणि प्राप्त करणे यात विलंब होईल.</string>
   <plurals name="ContactSelectionListFragment_d_members">
     <item quantity="one">%1$d सदस्य</item>
     <item quantity="other">%1$d सदस्य</item>
@@ -3119,13 +3119,13 @@
   <!-- Dialog title asking users for contact permission -->
   <string name="ContactSelectionListFragment_allow_access_contacts">संपर्कांना ॲक्सेसची अनुमती द्या</string>
   <!-- Dialog description that will explain the steps needed to give contact permissions -->
-  <string name="ContactSelectionListFragment_to_find_people">Signal वर आपणाला माहीत असलेल्या लोकांना शोधण्यासाठी:</string>
+  <string name="ContactSelectionListFragment_to_find_people">Graphene वर आपणाला माहीत असलेल्या लोकांना शोधण्यासाठी:</string>
   <!-- Text on button prompting users to give Signal contact permissions -->
   <string name="ContactSelectionListFragment__allow_access">अॅक्सेस अनुमती द्या</string>
   <!-- Text on button to dismiss Signal\'s request for contact permissions -->
   <string name="ContactSelectionListFragment__no_thanks">नाही धन्यवाद</string>
   <!-- Text asking for user\'s contact permission -->
-  <string name="ContactSelectionListFragment__allow_access_to_your_contacts_encrypted">आपले संपर्क ॲक्सेस करण्यासाठी अनुमती द्या. आपले संपर्क कूटबद्ध केलेले आहेत आणि ते Signal सेवेला दृश्यमान नाहीत.</string>
+  <string name="ContactSelectionListFragment__allow_access_to_your_contacts_encrypted">आपले संपर्क ॲक्सेस करण्यासाठी अनुमती द्या. आपले संपर्क कूटबद्ध केलेले आहेत आणि ते Graphene सेवेला दृश्यमान नाहीत.</string>
   <!-- contact_selection_list_fragment -->
   <string name="contact_selection_list_fragment__signal_needs_access_to_your_contacts_in_order_to_display_them">आपले संपर्क दाखविण्यासाठी Graphene ला त्यांना अॅक्सेस करण्याची गरज आहे.</string>
   <string name="contact_selection_list_fragment__show_contacts">संपर्क दाखवा</string>
@@ -3140,7 +3140,7 @@
     <item quantity="other">%1$d दर्शक</item>
   </plurals>
   <!-- conversation_activity -->
-  <string name="conversation_activity__type_message_push">Signal संदेश</string>
+  <string name="conversation_activity__type_message_push">Graphene संदेश</string>
   <string name="conversation_activity__type_message_sms_insecure">असुरक्षित SMS</string>
   <string name="conversation_activity__type_message_mms_insecure">असुरक्षित MMS</string>
   <!-- Option in send button context menu to schedule the message instead of sending it directly -->
@@ -3298,9 +3298,9 @@
   <string name="IdentityUtil_unverified_banner_one">%1$s सोबतचा आपला सुरक्षितता नंबर बदलला आहे आणि तो यापुढे सत्यापित नाही.</string>
   <string name="IdentityUtil_unverified_banner_two">%1$s आणि %2$sसोबतचा आपला सुरक्षितता नंबर यापुढे सत्यापित नाहीत.</string>
   <string name="IdentityUtil_unverified_banner_many">%1$s, %2$s आणि %3$sसोबतचा आपला सुरक्षितता नंबर यापुढे सत्यापित नाहीत.</string>
-  <string name="IdentityUtil_unverified_dialog_one">%1$s सोबतचा आपला सुरक्षितता नंबर बदलला आहे आणि यापुढे सत्यापित नाही. ह्याचा अर्थ कुणीतरी आपले परस्परसंवादामध्ये अटकाव करण्याचा प्रयत्न करतो आहे किंवा %1$s याने Signal पुनर्स्थापित केले आहे असा होऊ शकतो.</string>
-  <string name="IdentityUtil_unverified_dialog_two">%1$s आणि %2$s सोबतचे आपले सुरक्षितता नंबर यापुढे सत्यापित नाहीत. ह्याचा अर्थ कुणीतरी आपले परस्परसंवादामध्ये अटकाव करण्याचा प्रयत्न करतो आहे किंवा त्यांनी Signal पुनर्स्थापित केले आहे असा होऊ शकतो.</string>
-  <string name="IdentityUtil_unverified_dialog_many">%1$s, %2$sआणि %3$s सोबतचे आपले सुरक्षितता नंबर यापुढे सत्यापित नाहीत. ह्याचा अर्थ कुणीतरी आपल्या परस्परसंवादामध्ये अटकाव करण्याचा प्रयत्न करतो आहे किंवा त्यांनी Signal पुनर्स्थापित केले आहे असा होऊ शकतो.</string>
+  <string name="IdentityUtil_unverified_dialog_one">%1$s सोबतचा आपला सुरक्षितता नंबर बदलला आहे आणि यापुढे सत्यापित नाही. ह्याचा अर्थ कुणीतरी आपले परस्परसंवादामध्ये अटकाव करण्याचा प्रयत्न करतो आहे किंवा %1$s याने Graphene पुनर्स्थापित केले आहे असा होऊ शकतो.</string>
+  <string name="IdentityUtil_unverified_dialog_two">%1$s आणि %2$s सोबतचे आपले सुरक्षितता नंबर यापुढे सत्यापित नाहीत. ह्याचा अर्थ कुणीतरी आपले परस्परसंवादामध्ये अटकाव करण्याचा प्रयत्न करतो आहे किंवा त्यांनी Graphene पुनर्स्थापित केले आहे असा होऊ शकतो.</string>
+  <string name="IdentityUtil_unverified_dialog_many">%1$s, %2$sआणि %3$s सोबतचे आपले सुरक्षितता नंबर यापुढे सत्यापित नाहीत. ह्याचा अर्थ कुणीतरी आपल्या परस्परसंवादामध्ये अटकाव करण्याचा प्रयत्न करतो आहे किंवा त्यांनी Graphene पुनर्स्थापित केले आहे असा होऊ शकतो.</string>
   <string name="IdentityUtil_untrusted_dialog_one">%1$s सोबतचा आपला सुरक्षितता नंबर आताच बदलला आहे.</string>
   <string name="IdentityUtil_untrusted_dialog_two">%1$s आणि %2$s सोबतचे आपला सुरक्षितता नंबर आताच बदलले आहेत.</string>
   <string name="IdentityUtil_untrusted_dialog_many">%1$s, %2$s आणि %3$sसोबतचे आपले सुरक्षितता नंबर आताच बदलले आहेत.</string>
@@ -3332,7 +3332,7 @@
   <!-- prompt_passphrase_activity -->
   <string name="prompt_passphrase_activity__unlock">अनलॉक करा</string>
   <!-- prompt_mms_activity -->
-  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">आपल्या वायरलेस वाहकाद्वारे मिडिया आणि गट संदेश पोहोचविण्यासाठी Signal ला MMS सेटिंगची आवश्यकता असते. आपला डिव्हाईस ही माहिती उपलब्ध करून देत नाही, जे लॉक असलेल्या डिव्हाईस करिता आणि इतर प्रतिबंधक कॉन्फिगरेशन यांकरिता कधी कधी खरे असते.</string>
+  <string name="prompt_mms_activity__signal_requires_mms_settings_to_deliver_media_and_group_messages">आपल्या वायरलेस वाहकाद्वारे मिडिया आणि गट संदेश पोहोचविण्यासाठी Graphene ला MMS सेटिंगची आवश्यकता असते. आपला डिव्हाईस ही माहिती उपलब्ध करून देत नाही, जे लॉक असलेल्या डिव्हाईस करिता आणि इतर प्रतिबंधक कॉन्फिगरेशन यांकरिता कधी कधी खरे असते.</string>
   <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">मिडिया आणि गट संदेश पाठविण्यासाठी, \'ठीक\' टॅप करा आणि विनंती केलेल्या सेटिंग पूर्ण करा. आपल्या वाहकासाठीच्या MMS सेटिंग सामान्यपणे \'आपला वाहक APN\' शोधून सापडू शकते. आपल्याला हे फक्त एकदा करावे लागेल.</string>
   <!-- BadDecryptLearnMoreDialog -->
   <string name="BadDecryptLearnMoreDialog_delivery_issue">डिलिव्हरी समस्या</string>
@@ -3443,7 +3443,7 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
   <!-- Heading used within support email that lists additional information to help with debugging -->
   <string name="HelpFragment__support_info">समर्थन माहिती</string>
-  <string name="HelpFragment__signal_android_support_request">Signal Android सपोर्ट विनंती</string>
+  <string name="HelpFragment__signal_android_support_request">Graphene Android सपोर्ट विनंती</string>
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__debug_log" translatable="false">Debug Log:</string> -->
   <string name="HelpFragment__could_not_upload_logs">लॉग अपलोड करू शकले नाही</string>
   <string name="HelpFragment__please_be_as_descriptive_as_possible">कृपया जास्तीत जास्त विवरण करून आम्हाला समस्या जाणून घेण्यात मदत करा.</string>
@@ -3455,11 +3455,11 @@
     <item>अभिप्राय</item>
     <item>पेमेंट्स (मोबाईलकॉईन)</item>
     <item>देणगी व बॅजेस</item>
-    <item>Signal ॲन्ड्रॉइड बॅकअप</item>
+    <item>Graphene ॲन्ड्रॉइड बॅकअप</item>
     <item>इतर</item>
   </string-array>
   <!-- Subject of email when submitting debug logs to help debug slow notifications -->
-  <string name="DebugLogsPromptDialogFragment__signal_android_support_request">Signal Android डीबग लॉग सबमिशन</string>
+  <string name="DebugLogsPromptDialogFragment__signal_android_support_request">Graphene Android डीबग लॉग सबमिशन</string>
   <!-- Action to submit logs and take user to send an e-mail -->
   <string name="DebugLogsPromptDialogFragment__submit">सादर करा</string>
   <!-- Action to decline to submit logs -->
@@ -3536,7 +3536,7 @@
   <string name="preferences__enable_passphrase">पासफ्रेझ स्क्रीन लॉक सक्षम करा</string>
   <string name="preferences__lock_signal_and_message_notifications_with_a_passphrase">स्क्रीन आणि सूचना पासफ्रेजने लॉक करा</string>
   <string name="preferences__screen_security">स्क्रीन सुरक्षा</string>
-  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">निष्क्रियतेच्या निर्दिष्ट काळानंतर Signal स्वयं-लॉक करा</string>
+  <string name="preferences__auto_lock_signal_after_a_specified_time_interval_of_inactivity">निष्क्रियतेच्या निर्दिष्ट काळानंतर Graphene स्वयं-लॉक करा</string>
   <!-- Legacy preference menu item to enable locking of app after inactivity -->
   <string name="preferences__inactivity_timeout_passphrase">निष्क्रियता टाईमआऊट पासफ्रेझ</string>
   <!-- Legacy preference menu item to choose the interval of inactivity before lockout -->
@@ -3624,15 +3624,15 @@
   <string name="preferences__graphic_illustrating_where_the_replacement_app_icon_will_be_visible">बदली केलेले ॲप चिन्ह कुठे दृश्यमान असेल हे दर्शवणारे ग्राफिक रेखांकन.</string>
   <string name="preferences__disable_pin">PIN अक्षम करा</string>
   <string name="preferences__enable_pin">PIN सक्षम करा</string>
-  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">आपण PIN अक्षम केल्यास, आपण व्यक्तिचलितरीत्या बॅक अप आणि पुनर्स्थापना केल्याशिवाय आपण Signal वर पुन्हा नोंदणी करताना आपण सर्व डेटा गमवाल. PIN अक्षम केलेले असताना आपण नोंदणी लॉक चालू करू शकत नाही.</string>
-  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">Signal सोबत संचयित केलेली माहिती PIN एन्क्रिप्टेड ठेवतात जेणेकरून ती फक्त आपण अॅक्सेस करू शकता. आपण पुन्हा स्थापन केल्यावर आपली प्रोफाईल, सेटिंग, आणि संपर्क पुनर्स्थित होईल. आपल्याला अॅप उघडण्यासाठी PIN ची गरज लागणार नाही.</string>
+  <string name="preferences__if_you_disable_the_pin_you_will_lose_all_data">आपण PIN अक्षम केल्यास, आपण व्यक्तिचलितरीत्या बॅक अप आणि पुनर्स्थापना केल्याशिवाय आपण Graphene वर पुन्हा नोंदणी करताना आपण सर्व डेटा गमवाल. PIN अक्षम केलेले असताना आपण नोंदणी लॉक चालू करू शकत नाही.</string>
+  <string name="preferences__pins_keep_information_stored_with_signal_encrypted_so_only_you_can_access_it">Graphene सोबत संचयित केलेली माहिती PIN एन्क्रिप्टेड ठेवतात जेणेकरून ती फक्त आपण अॅक्सेस करू शकता. आपण पुन्हा स्थापन केल्यावर आपली प्रोफाईल, सेटिंग, आणि संपर्क पुनर्स्थित होईल. आपल्याला अॅप उघडण्यासाठी PIN ची गरज लागणार नाही.</string>
   <string name="preferences__system_default">सिस्टिम पूर्वनिर्धारित</string>
   <string name="preferences__language">भाषा</string>
-  <string name="preferences__signal_messages_and_calls">Signal संदेश आणि कॉल</string>
+  <string name="preferences__signal_messages_and_calls">Graphene संदेश आणि कॉल</string>
   <string name="preferences__advanced_pin_settings">प्रगत PIN सेटिंग</string>
   <!-- Title of toolbar for the advanced pin settings screen -->
   <string name="preferences__advanced_pin_settings_title">प्रगत PIN सेटिंग</string>
-  <string name="preferences__free_private_messages_and_calls">Signal वापरकर्त्यांना विनामुल्य खाजगी संदेश आणि कॉल</string>
+  <string name="preferences__free_private_messages_and_calls">Graphene वापरकर्त्यांना विनामुल्य खाजगी संदेश आणि कॉल</string>
   <string name="preferences__submit_debug_log">डीबग लॉग प्रविष्ट करा</string>
   <string name="preferences__delete_account">अकाऊंट हटवा</string>
   <string name="preferences__support_wifi_calling">\'WiFi कॉलिंग\' सुसंगतता मोड</string>
@@ -3686,7 +3686,7 @@
   </plurals>
   <string name="preferences_storage__custom">सानुकूलित</string>
   <string name="preferences_advanced__use_system_emoji">सिस्टिम ईमोजी वापरा</string>
-  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">आपल्या संपर्काला आपला IP अॅड्रेस कळू न देण्यासाठी सर्व कॉल Signal सर्व्हर वरून रीले करा. सक्षम केल्याने कॉल दर्जा कमी होईल.</string>
+  <string name="preferences_advanced__relay_all_calls_through_the_signal_server_to_avoid_revealing_your_ip_address">आपल्या संपर्काला आपला IP अॅड्रेस कळू न देण्यासाठी सर्व कॉल Graphene सर्व्हर वरून रीले करा. सक्षम केल्याने कॉल दर्जा कमी होईल.</string>
   <string name="preferences_advanced__always_relay_calls">कॉल नेहमी रीले करा</string>
   <!-- Privacy settings payments section title -->
   <string name="preferences_app_protection__payments">पेमेंट</string>
@@ -3716,7 +3716,7 @@
   <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you disabled it even though we believe you\'re in a censored country -->
   <string name="preferences_communication__censorship_circumvention_you_have_manually_disabled">आपण व्यक्तिचलितपणे सेंसॉरशिप सर्कंवेंशन अक्षम केले आहे.</string>
   <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re already connected to the Signal service -->
-  <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">सेंसॉरशिप सर्कंवेंशन गरजेचे नाही, आपण आधीपासून Signal सेवेला कनेक्ट केलेले आहात.</string>
+  <string name="preferences_communication__censorship_circumvention_is_not_necessary_you_are_already_connected">सेंसॉरशिप सर्कंवेंशन गरजेचे नाही, आपण आधीपासून Graphene सेवेला कनेक्ट केलेले आहात.</string>
   <!-- Summary text for \'censorship circumvention\' toggle. Indicates that you cannot use it because you\'re not connected to the internet -->
   <string name="preferences_communication__censorship_circumvention_can_only_be_activated_when_connected_to_the_internet">इंटरनेट सोबत कनेक्ट केल्यावरच सेंसॉरशिप सर्कंवेंशन सक्रिय करता येते.</string>
   <string name="preferences_communication__category_sealed_sender">सीलबंद प्रेषक</string>
@@ -3727,7 +3727,7 @@
   <string name="preferences_off">बंद</string>
   <string name="preferences_on">चालू</string>
   <string name="preferences_proxy_address">प्रॉक्सी पत्ता</string>
-  <string name="preferences_only_use_a_proxy_if">जर आपण मोबाईल किंवा Wi-Fi वरून Signal ला कनेक्ट करू शकत नसाल तरच प्रॉक्सी वापरा.</string>
+  <string name="preferences_only_use_a_proxy_if">जर आपण मोबाईल किंवा Wi-Fi वरून Graphene ला कनेक्ट करू शकत नसाल तरच प्रॉक्सी वापरा.</string>
   <string name="preferences_share">सामायिक करा</string>
   <string name="preferences_save">जतन करा</string>
   <string name="preferences_connecting_to_proxy">प्रॉक्सी शी कनेक्ट करत आहे…</string>
@@ -3829,7 +3829,7 @@
   <!-- Contacts permission row title -->
   <string name="GrantPermissionsFragment__contacts">संपर्क</string>
   <!-- Contacts permission row description -->
-  <string name="GrantPermissionsFragment__find_people_you_know">आपण ओळखत असलेल्या लोकांना शोधा. आपले संपर्क कूटबद्ध केलेले आहेत आणि ते Signal सेवेला दृश्यमान नाहीत.</string>
+  <string name="GrantPermissionsFragment__find_people_you_know">आपण ओळखत असलेल्या लोकांना शोधा. आपले संपर्क कूटबद्ध केलेले आहेत आणि ते Graphene सेवेला दृश्यमान नाहीत.</string>
   <!-- Phone calls permission row title -->
   <string name="GrantPermissionsFragment__phone_calls">फोन कॉल्स</string>
   <!-- Phone calls permission row description -->
@@ -3966,7 +3966,7 @@
   <string name="ConfirmPaymentFragment__unable_to_request_a_network_fee">नेटवर्क फीची विनंती करण्यात अक्षम. हे पेमेंट सुरू ठेवण्यासाठी पुन्हा प्रयत्न करण्यासाठी ठीक आहे वर टॅप करा.</string>
   <!-- BiometricDeviceAuthentication -->
   <!-- Biometric/Device authentication prompt title -->
-  <string name="BiometricDeviceAuthentication__signal">Signal</string>
+  <string name="BiometricDeviceAuthentication__signal">Graphene</string>
   <!-- CurrencyAmountFormatter_s_at_s -->
   <string name="CurrencyAmountFormatter_s_at_s">%2$s ला %1$s</string>
   <!-- SetCurrencyFragment -->
@@ -3984,8 +3984,8 @@
   <!-- conversation_callable_insecure -->
   <string name="conversation_callable_insecure__menu_call">कॉल करा</string>
   <!-- conversation_callable_secure -->
-  <string name="conversation_callable_secure__menu_call">Signal कॉल</string>
-  <string name="conversation_callable_secure__menu_video">Signal व्हिडिओ कॉल</string>
+  <string name="conversation_callable_secure__menu_call">Graphene कॉल</string>
+  <string name="conversation_callable_secure__menu_video">Graphene व्हिडिओ कॉल</string>
   <!-- conversation_context -->
   <!-- Heading which shows how many messages are currently selected -->
   <plurals name="conversation_context__s_selected">
@@ -4096,14 +4096,14 @@
   <string name="verify_display_fragment_context_menu__copy_to_clipboard">क्लिपबोर्ड वर कॉपी करा</string>
   <string name="verify_display_fragment_context_menu__compare_with_clipboard">क्लिपबोर्ड सोबत तुलना करा</string>
   <!-- reminder_header -->
-  <string name="reminder_header_service_outage_text">Signal तांत्रिक समस्या अनुभवत आहे. आम्ही लवकरात लवकर सेवा पुनर्स्थित करण्यासाठी कठोर परिश्रम करत आहोत.</string>
+  <string name="reminder_header_service_outage_text">Graphene तांत्रिक समस्या अनुभवत आहे. आम्ही लवकरात लवकर सेवा पुनर्स्थित करण्यासाठी कठोर परिश्रम करत आहोत.</string>
   <string name="reminder_header_progress">%1$d%%</string>
   <!-- Body text of a banner that will show at the top of the chat list when we temporarily cannot process the user\'s contacts -->
-  <string name="reminder_cds_warning_body">Signal चा खाजगी संपर्क शोध तात्पुरता आपल्या फोनच्या संपर्कांवर प्रक्रिया करु शकत नाही.</string>
+  <string name="reminder_cds_warning_body">Graphene चा खाजगी संपर्क शोध तात्पुरता आपल्या फोनच्या संपर्कांवर प्रक्रिया करु शकत नाही.</string>
   <!-- Label for a button in a banner to learn more about why we temporarily can\'t process the user\'s contacts -->
   <string name="reminder_cds_warning_learn_more">अधिक जाणून घ्या</string>
   <!-- Body text of a banner that will show at the top of the chat list when the user has so many contacts that we cannot ever process them -->
-  <string name="reminder_cds_permanent_error_body">Signal चा खाजगी\' संपर्क शोध आपल्या फोनच्या संपर्कावर प्रक्रिया करु शकत नाही.</string>
+  <string name="reminder_cds_permanent_error_body">Graphene चा खाजगी\' संपर्क शोध आपल्या फोनच्या संपर्कावर प्रक्रिया करु शकत नाही.</string>
   <!-- Label for a button in a banner to learn more about why we cannot process the user\'s contacts -->
   <string name="reminder_cds_permanent_error_learn_more">अधिक जाणून घ्या</string>
   <!-- media_preview -->
@@ -4135,7 +4135,7 @@
   <string name="CreateKbsPinFragment__create_a_new_pin">एक नवीन PIN तयार करा</string>
   <string name="CreateKbsPinFragment__you_can_choose_a_new_pin_as_long_as_this_device_is_registered">जोपर्यंत हा डिव्हाईस नोंदणीकृत आहे आपण आपला PIN बदलू शकता.</string>
   <string name="CreateKbsPinFragment__create_your_pin">आपला PIN तयार करा</string>
-  <string name="CreateKbsPinFragment__pins_can_help_you_restore_your_account">पिन आपणाला आपले अकाऊंट पुर्नस्थित करण्यास आणि Signal सह आपली माहिती कूटबद्ध ठेवण्यास मदत करु शकतात. </string>
+  <string name="CreateKbsPinFragment__pins_can_help_you_restore_your_account">पिन आपणाला आपले अकाऊंट पुर्नस्थित करण्यास आणि Graphene सह आपली माहिती कूटबद्ध ठेवण्यास मदत करु शकतात. </string>
   <string name="CreateKbsPinFragment__choose_a_stronger_pin">एक शक्तिशाली PIN निवडा</string>
   <!-- ConfirmKbsPinFragment -->
   <string name="ConfirmKbsPinFragment__pins_dont_match">PIN जुळत नाहीत. पुन्हा प्रयत्न करा.</string>
@@ -4148,10 +4148,10 @@
   <string name="ConfirmKbsPinFragment__re_enter_your_pin">आपला PIN पुन्हा प्रविष्ट करा</string>
   <string name="ConfirmKbsPinFragment__creating_pin">PIN तयार करत आहे…</string>
   <!-- ID used when saving the PIN to the device password manager. -->
-  <string name="ConfirmKbsPinFragment__pin_password_manager_id">Signal PIN</string>
+  <string name="ConfirmKbsPinFragment__pin_password_manager_id">Graphene PIN</string>
   <!-- KbsSplashFragment -->
   <string name="KbsSplashFragment__introducing_pins">PIN ची ओळख करून देत आहे</string>
-  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">Signal सोबत संचयित केलेली माहिती PIN एन्क्रिप्टेड ठेवतात जेणेकरून ती फक्त आपण अॅक्सेस करू शकता. आपण पुन्हा स्थापन केल्यावर आपली प्रोफाईल, सेटिंग, आणि संपर्क पुनर्स्थित होईल. आपल्याला अॅप उघडण्यासाठी PIN ची गरज लागणार नाही.</string>
+  <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">Graphene सोबत संचयित केलेली माहिती PIN एन्क्रिप्टेड ठेवतात जेणेकरून ती फक्त आपण अॅक्सेस करू शकता. आपण पुन्हा स्थापन केल्यावर आपली प्रोफाईल, सेटिंग, आणि संपर्क पुनर्स्थित होईल. आपल्याला अॅप उघडण्यासाठी PIN ची गरज लागणार नाही.</string>
   <string name="KbsSplashFragment__learn_more">अधिक जाणा</string>
   <!-- Removed by excludeNonTranslatables <string name="KbsSplashFragment__learn_more_link" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
   <string name="KbsSplashFragment__registration_lock_equals_pin">नोंदणी लॉक = PIN</string>
@@ -4161,7 +4161,7 @@
   <string name="KbsSplashFragment__learn_more_about_pins">PIN बद्दल अधिक जाणा</string>
   <string name="KbsSplashFragment__disable_pin">PIN अक्षम करा</string>
   <!-- KBS Reminder Dialog -->
-  <string name="KbsReminderDialog__enter_your_signal_pin">आपला Signal PIN प्रविष्ट करा</string>
+  <string name="KbsReminderDialog__enter_your_signal_pin">आपला Graphene PIN प्रविष्ट करा</string>
   <string name="KbsReminderDialog__to_help_you_memorize_your_pin">आपल्याला PIN लक्षात ठेवण्यासाठी, आम्ही आपल्याला तो वेळोवेळी तो प्रविष्ट करण्यास विचारू. काही काळानंतर आम्ही आपल्याला कमी विचारू.</string>
   <string name="KbsReminderDialog__skip">वगळा</string>
   <string name="KbsReminderDialog__submit">सादर करा</string>
@@ -4185,7 +4185,7 @@
   <string name="RegistrationLockFragment__incorrect_pin">चुकीचा PIN</string>
   <string name="RegistrationLockFragment__forgot_your_pin">आपला PIN विसरलात?</string>
   <string name="RegistrationLockFragment__not_many_tries_left">जास्ती प्रयत्न उरलेले नाहीत!</string>
-  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Signal नोंदणी - Android (v2 PIN) साठी PIN ची मदत पाहिजे</string>
+  <string name="RegistrationLockFragment__signal_registration_need_help_with_pin_for_android_v2_pin">Graphene नोंदणी - Android (v2 PIN) साठी PIN ची मदत पाहिजे</string>
   <plurals name="RegistrationLockFragment__for_your_privacy_and_security_there_is_no_way_to_recover">
     <item quantity="one">आपल्या गोपनीयतेसाठी आणि सुरक्षेसाठी, आपला PIN पुनर्प्राप्त करण्याचा कुठलाही मार्ग नाही. जर आपल्याला आपला PIN आठवत नसेल, तर आपण %1$d दिवसाच्या निष्क्रियतेनंतर आपण पुनःसत्यापित करू शकता. या परिस्थितीमध्ये, आपले अकाऊंट साफ केले जाईल आणि सर्व मजकूर हटवला जाईल.</item>
     <item quantity="other">आपल्या गोपनीयतेसाठी आणि सुरक्षेसाठी, आपला PIN पुनर्प्राप्त करण्याचा कुठलाही मार्ग नाही. जर आपल्याला आपला PIN आठवत नसेल, तर आपण %1$d दिवसांच्या निष्क्रियतेनंतर आपण पुनःसत्यापित करू शकता. या परिस्थितीमध्ये, आपले अकाऊंट साफ केले जाईल आणि सर्व मजकूर हटवला जाईल.</item>
@@ -4210,12 +4210,12 @@
   <string name="CalleeMustAcceptMessageRequestDialogFragment__s_will_get_a_message_request_from_you">%1$s ला तुमच्याकडून एक संदेश विनंती मिळेल. एकदा आपली संदेश विनंती स्वीकारल्यानंतर आपण कॉल करू शकता.</string>
   <!-- KBS Megaphone -->
   <string name="KbsMegaphone__create_a_pin">PIN तयार करा.</string>
-  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">Signal सोबत संचयित केलेली माहिती PIN एन्क्रिप्टेड ठेवतात.</string>
+  <string name="KbsMegaphone__pins_keep_information_thats_stored_with_signal_encrytped">Graphene सोबत संचयित केलेली माहिती PIN एन्क्रिप्टेड ठेवतात.</string>
   <string name="KbsMegaphone__create_pin">PIN तयार करा</string>
   <!-- Title for megaphone shown after registration without a pin but with aep to prompt the user to enter their pin -->
-  <string name="UpdatePinMegaphone__update_signal_pin">Signal पिन अद्यतनित करा</string>
+  <string name="UpdatePinMegaphone__update_signal_pin">Graphene पिन अद्यतनित करा</string>
   <!-- Message for megaphone shown after registration without a pin but with aep to prompt the user to enter their pin -->
-  <string name="UpdatePinMegaphone__message">खाते नोंदणी पूर्ण करण्यासाठी तुमचा Signal पिन अद्यतनित करा.</string>
+  <string name="UpdatePinMegaphone__message">खाते नोंदणी पूर्ण करण्यासाठी तुमचा Graphene पिन अद्यतनित करा.</string>
   <!-- Button text for megaphone shown after registration without a pin but with aep to prompt the user to enter their pin -->
   <string name="UpdatePinMegaphone__update_pin">PIN अद्यतनित करा</string>
   <!-- CallNotificationBuilder -->
@@ -4237,7 +4237,7 @@
   <string name="Permissions_permission_required">परवानगी आवश्यक</string>
   <string name="Permissions_continue">सुरू ठेवा</string>
   <string name="Permissions_not_now">आता नाही</string>
-  <string name="SQLCipherMigrationHelper_migrating_signal_database">Signal डेटाबेस स्थलांतर करत आहे</string>
+  <string name="SQLCipherMigrationHelper_migrating_signal_database">Graphene डेटाबेस स्थलांतर करत आहे</string>
   <string name="enter_backup_passphrase_dialog__backup_passphrase">बॅकअप पासफ्रेझ</string>
   <string name="backup_enable_dialog__backups_will_be_saved_to_external_storage_and_encrypted_with_the_passphrase_below_you_must_have_this_passphrase_in_order_to_restore_a_backup">बॅकअप बाह्य संचयन मध्ये जतन केले जातील आणि खालील पासफ्रेझ सोबत एन्क्रिप्ट केले जातील. बॅकअप पुनर्स्थापना करण्यासाठी आपल्याकडे हे पासफ्रेझ असायलाच हवे.</string>
   <string name="backup_enable_dialog__you_must_have_this_passphrase">बॅकअप पुनर्स्थापना करण्यासाठी आपल्याकडे हे पासफ्रेझ असणे आवश्यक आहे.</string>
@@ -4257,7 +4257,7 @@
   <!-- Title for dialog to enter in the backup passphrase -->
   <string name="RegistrationActivity_enter_backup_passphrase">बॅकअप पासफ्रेझ प्रविष्ट करा</string>
   <string name="RegistrationActivity_restore">पुनर्स्थापना करा</string>
-  <string name="RegistrationActivity_backup_failure_downgrade">Signal च्या नवीन आवृत्त्यांवरून बॅकअप आयात करू शकत नाही</string>
+  <string name="RegistrationActivity_backup_failure_downgrade">Graphene च्या नवीन आवृत्त्यांवरून बॅकअप आयात करू शकत नाही</string>
   <!-- Error message indicating that we could not restore the user\'s backup. Displayed in a toast at the bottom of the screen. -->
   <string name="RegistrationActivity_backup_failure_foreign_key">बॅकअपमध्ये विकृत डेटा आहे</string>
   <string name="RegistrationActivity_incorrect_backup_passphrase">चुकीचे बॅकअप पासफ्रेझ</string>
@@ -4321,32 +4321,32 @@
   <!-- Section title above two radio buttons for enabling and disabling whether users can find me by my phone number  -->
   <string name="PhoneNumberPrivacySettingsFragment_who_can_find_me_by_number_heading">मला फोन नंबरद्वारे कोण शोधू शकते</string>
   <!-- Subtext below radio buttons when who can find me by number is set to everyone -->
-  <string name="PhoneNumberPrivacySettingsFragment_discovery_on_description">आपला फोन नंबर असणारा कोणीही आपण Signal वर असल्याचे पाहू शकतो आणि आपणासह चॅट्स सुरु करू शकतो.</string>
+  <string name="PhoneNumberPrivacySettingsFragment_discovery_on_description">आपला फोन नंबर असणारा कोणीही आपण Graphene वर असल्याचे पाहू शकतो आणि आपणासह चॅट्स सुरु करू शकतो.</string>
   <!-- Subtext below radio buttons when who can find me by number is set to nobody -->
-  <string name="PhoneNumberPrivacySettingsFragment_discovery_off_description">आपण त्यांना संदेश पाठवल्याशिवाय किंवा त्यांच्यासोबत सध्याचे चॅट्स असल्यााशिवाय आपणाला कोणीही Signal वर पाहू शकणार नाही.</string>
+  <string name="PhoneNumberPrivacySettingsFragment_discovery_off_description">आपण त्यांना संदेश पाठवल्याशिवाय किंवा त्यांच्यासोबत सध्याचे चॅट्स असल्यााशिवाय आपणाला कोणीही Graphene वर पाहू शकणार नाही.</string>
   <!-- Snackbar text when pressing invalid radio item -->
   <string name="PhoneNumberPrivacySettingsFragment__to_change_this_setting">"हे सेटिंग्ज बदलण्यासाठी, माझा नंबर कोण पाहू शकतो ते कोणीही नाही ला सेट करा."</string>
   <!-- Dialog title shown when selecting "Nobody" in phone number privacy settings for who can find me by number -->
   <string name="PhoneNumberPrivacySettingsFragment__nobody_can_find_me_warning_title">आपल्याला खात्री आहे?</string>
   <!-- Dialog warning message shown when selecting "Nobody" in phone number privacy settings for who can find me by number -->
-  <string name="PhoneNumberPrivacySettingsFragment__nobody_can_find_me_warning_message">सेटिंग्ज \"नंबरनुसार मला कोण शोधू शकेल\" हे \"कोणीही नाही\" वर सेट करून Signal वर लोकांना आपणांस शोधणे कठीण होईल.</string>
+  <string name="PhoneNumberPrivacySettingsFragment__nobody_can_find_me_warning_message">सेटिंग्ज \"नंबरनुसार मला कोण शोधू शकेल\" हे \"कोणीही नाही\" वर सेट करून Graphene वर लोकांना आपणांस शोधणे कठीण होईल.</string>
   <!-- Dialog button text for canceling change action -->
   <string name="PhoneNumberPrivacySettingsFragment__cancel">रद्द करा</string>
   <string name="PhoneNumberPrivacy_everyone">प्रत्येकजण</string>
   <string name="PhoneNumberPrivacy_nobody">कोणीही नाही</string>
   <string name="preferences_app_protection__screen_lock">स्क्रीन लॉक</string>
-  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Android स्क्रीन लॉक किंवा फिंगरप्रिंटने Signal अॅक्सेस लॉक करा</string>
+  <string name="preferences_app_protection__lock_signal_access_with_android_screen_lock_or_fingerprint">Android स्क्रीन लॉक किंवा फिंगरप्रिंटने Graphene अॅक्सेस लॉक करा</string>
   <string name="preferences_app_protection__screen_lock_inactivity_timeout">स्क्रीन लॉक निष्क्रियता टाईमआऊट</string>
   <!-- Snackbar text shown when trying to enable screen lock but the user does not have a password or biometrics enabled -->
   <string name="preferences_app_protection__to_use_screen_lock">स्क्रिन लॉक सेट करण्यासाठी या डिव्हाइसवर एक पिन, पॅटर्न किंवा पासवर्ड वापरा.</string>
-  <string name="preferences_app_protection__signal_pin">Signal PIN</string>
+  <string name="preferences_app_protection__signal_pin">Graphene PIN</string>
   <string name="preferences_app_protection__create_a_pin">PIN तयार करा.</string>
   <string name="preferences_app_protection__change_your_pin">आपला PIN बदला</string>
   <string name="preferences_app_protection__pin_reminders">PIN स्मरणपत्रे</string>
   <string name="preferences_app_protection__turn_off">बंद करा</string>
   <string name="preferences_app_protection__confirm_pin">PIN ची पुष्टी करा</string>
-  <string name="preferences_app_protection__confirm_your_signal_pin">आपल्या Signal PIN ची पुष्टी करा</string>
-  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">ज्याअर्थी ते पुनर्स्थित केले जाऊ शकत नाही त्यामुळे आपला PIN आपण लक्षात ठेवला किंवा सुरक्षितपणे जतन केले असल्याची खात्री करा. जर आपण आपला PIN विसरलात, तर आपण आपले Signal खाते पुन्हा-नोंदवताना आपला डेटा गमवाल.</string>
+  <string name="preferences_app_protection__confirm_your_signal_pin">आपल्या Graphene PIN ची पुष्टी करा</string>
+  <string name="preferences_app_protection__make_sure_you_memorize_or_securely_store_your_pin">ज्याअर्थी ते पुनर्स्थित केले जाऊ शकत नाही त्यामुळे आपला PIN आपण लक्षात ठेवला किंवा सुरक्षितपणे जतन केले असल्याची खात्री करा. जर आपण आपला PIN विसरलात, तर आपण आपले Graphene खाते पुन्हा-नोंदवताना आपला डेटा गमवाल.</string>
   <string name="preferences_app_protection__incorrect_pin_try_again">चुकीचा PIN.पुन्हा प्रयत्न करा.</string>
   <string name="preferences_app_protection__failed_to_enable_registration_lock">नोंदणी लॉक सक्षम करण्यात अयशस्वी.</string>
   <string name="preferences_app_protection__failed_to_disable_registration_lock">नोंदणी लॉक अक्षम करण्यात अयशस्वी.</string>
@@ -4404,7 +4404,7 @@
   <!-- Option in settings that will take use to re-register if they are no longer registered -->
   <string name="preferences_account_reregister">अकाऊंट पुन्हा नाेंदणी करा</string>
   <!-- Option in settings that will take user to our website or playstore to update their expired build -->
-  <string name="preferences_account_update_signal">Signal अद्यतनित करा</string>
+  <string name="preferences_account_update_signal">Graphene अद्यतनित करा</string>
   <!-- Option in settings shown when user is no longer registered or expired client that will WIPE ALL THEIR DATA -->
   <string name="preferences_account_delete_all_data">सर्व डेटा हटवा</string>
   <!-- Title for confirmation dialog confirming user wants to delete all their data -->
@@ -4419,21 +4419,21 @@
   <string name="preferences_account_delete_all_data_failed">डेटा हटवण्यात अयशस्वी</string>
   <!-- TransferOrRestoreFragment -->
   <string name="TransferOrRestoreFragment__transfer_or_restore_account">स्थानांतरित करा किंवा खाते पुनर्स्थापित करा</string>
-  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">आपण यापूर्वी Signal खात्यासाठी नोंदणी केली असल्यास, आपण आपले खाते आणि संदेश स्थानांतरित किंवा पुनर्स्थापित करू शकता</string>
+  <string name="TransferOrRestoreFragment__if_you_have_previously_registered_a_signal_account">आपण यापूर्वी Graphene खात्यासाठी नोंदणी केली असल्यास, आपण आपले खाते आणि संदेश स्थानांतरित किंवा पुनर्स्थापित करू शकता</string>
   <string name="TransferOrRestoreFragment__transfer_from_android_device">Android डिव्हाइसवरून स्थानांतरित करा</string>
   <string name="TransferOrRestoreFragment__transfer_your_account_and_messages_from_your_old_android_device">आपल्या जुन्या Android डिव्हाइसवरून आपले खाते आणि संदेश स्थानांतरित करा. आपल्याला आपल्या जुन्या डिव्हाइसचा अॅक्सेस आवश्यक आहे.</string>
   <string name="TransferOrRestoreFragment__you_need_access_to_your_old_device">आपल्याला आपल्या जुन्या डिव्हाइसचा अॅक्सेस आवश्यक आहे.</string>
   <string name="TransferOrRestoreFragment__restore_from_backup">बॅकअपवरून पुनर्स्थापित करा</string>
   <string name="TransferOrRestoreFragment__restore_your_messages_from_a_local_backup">स्थानिक बॅकअपवरून आपले संदेश पुनर्स्थापित करा. आपण आता पुनर्स्थापित न केल्यास, आपण नंतर पुनर्स्थापना करू शकणार नाही.</string>
   <string name="TransferOrRestoreFragment__restore_from_local_backup">स्थानिक बॅकअप पुर्नस्थापित करा</string>
-  <string name="TransferOrRestoreFragment__restore_from_signal_backup">Signal बॅकअप पुर्नस्थापित करा</string>
+  <string name="TransferOrRestoreFragment__restore_from_signal_backup">Graphene बॅकअप पुर्नस्थापित करा</string>
   <!-- Button label for more options -->
   <string name="TransferOrRestoreFragment__more_options">अधिक पर्याय</string>
   <string name="TransferOrRestoreFragment__cancel">रद्द करा</string>
   <string name="TransferOrRestoreFragment__skip_transfer">स्थानांतरित न करता लॉग इन करा</string>
   <string name="TransferOrRestoreFragment__skip_transfer_description">आपले संदेश आणि मिडीया स्थानांतरित न करता सुरू ठेवा</string>
   <!-- NewDeviceTransferInstructionsFragment -->
-  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">आपल्या Android फोनवर Signal उघडा</string>
+  <string name="NewDeviceTransferInstructions__open_signal_on_your_old_android_phone">आपल्या Android फोनवर Graphene उघडा</string>
   <string name="NewDeviceTransferInstructions__continue">सुरू ठेवा</string>
   <string name="NewDeviceTransferInstructions__first_bullet">१.</string>
   <string name="NewDeviceTransferInstructions__tap_on_your_profile_photo_in_the_top_left_to_open_settings">सेटिंग उघडण्यासाठी सर्वात वरती डावीकडे आपल्या प्रोफाइल फोटोवर टॅप करा</string>
@@ -4491,7 +4491,7 @@
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device_to_start_the_transfer">स्थानांतरण चालू करण्यासाठी आपल्या इतर डिव्हाइसवर सुरू ठेवावर टॅप करा.</string>
   <string name="DeviceTransferSetup__tap_continue_on_your_other_device">आपल्या इतर डिव्हाइसवर सुरू ठेवावर टॅप करा…</string>
   <!-- NewDeviceTransferFragment -->
-  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Signal च्या नवीन आवृत्त्यांवरून स्थानांतरित करू शकत नाही</string>
+  <string name="NewDeviceTransfer__cannot_transfer_from_a_newer_version_of_signal">Graphene च्या नवीन आवृत्त्यांवरून स्थानांतरित करू शकत नाही</string>
   <!-- Error message indicating that we could not finish the user\'s device transfer. Displayed in a toast at the bottom of the screen. -->
   <string name="NewDeviceTransfer__failure_foreign_key">स्थानांतरित डेटा विकृत होता</string>
   <!-- DeviceTransferFragment -->
@@ -4525,7 +4525,7 @@
   <string name="OldDeviceTransferInstructions__continue_transfer">हस्तांतरण सुरू ठेवा</string>
   <!-- OldDeviceTransferComplete -->
   <string name="OldDeviceTransferComplete__go_to_your_new_device">आपल्या नवीन डिव्हाइसवर जा</string>
-  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">आपला Signal डेटा आपल्या नवीन डिव्हाइसवर स्थानांतरित केला गेला आहे. स्थानांतरण प्रक्रिया पूर्ण करण्यासाठी, आपल्याला आपल्या नवीन डिव्हाइसवर नोंदणी सुरू ठेवणे आवश्यक आहे.</string>
+  <string name="OldDeviceTransferComplete__your_signal_data_has_Been_transferred_to_your_new_device">आपला Graphene डेटा आपल्या नवीन डिव्हाइसवर स्थानांतरित केला गेला आहे. स्थानांतरण प्रक्रिया पूर्ण करण्यासाठी, आपल्याला आपल्या नवीन डिव्हाइसवर नोंदणी सुरू ठेवणे आवश्यक आहे.</string>
   <string name="OldDeviceTransferComplete__close">बंद करा</string>
   <!-- NewDeviceTransferComplete -->
   <string name="NewDeviceTransferComplete__transfer_successful">स्थानांतरण यशस्वी</string>
@@ -4542,7 +4542,7 @@
   <string name="DeviceToDeviceTransferService_status_service_connected">खाते स्थानांतरित करत आहे…</string>
   <!-- OldDeviceTransferLockedDialog -->
   <string name="OldDeviceTransferLockedDialog__complete_registration_on_your_new_device">आपल्या नवीन डिव्हाइसवर नोंदणी पूर्ण करा</string>
-  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">आपले Signal खाते आपल्या नवीन डिव्हाइसवर स्थानांतरित केले गेले आहे, पण ते सुरू ठेवण्यासाठी आपल्याला नोंदणी पूर्ण करणे आवश्यक आहे. या डिव्हाइसवर Signal निष्क्रिय असेल.</string>
+  <string name="OldDeviceTransferLockedDialog__your_signal_account_has_been_transferred_to_your_new_device">आपले Graphene खाते आपल्या नवीन डिव्हाइसवर स्थानांतरित केले गेले आहे, पण ते सुरू ठेवण्यासाठी आपल्याला नोंदणी पूर्ण करणे आवश्यक आहे. या डिव्हाइसवर Graphene निष्क्रिय असेल.</string>
   <string name="OldDeviceTransferLockedDialog__done">ठीक</string>
   <string name="OldDeviceTransferLockedDialog__cancel_and_activate_this_device">रद्द करा आणि हा डिव्हाइस सक्रिय करा</string>
   <!-- AdvancedPreferenceFragment -->
@@ -4574,8 +4574,8 @@
   <string name="GroupsLearnMore_what_are_legacy_groups">लेगसी गट काय आहेत?</string>
   <string name="GroupsLearnMore_paragraph_1">लीगेसी ग्रुप्स असे गट आहेत जे नवीन गट वैशिष्ट्यांमधील अ‍ॅडमिन आणि अधिक वर्णनात्मक गट अद्यतनांसह सुसंगत नाहीत.</string>
   <string name="GroupsLearnMore_can_i_upgrade_a_legacy_group">काय मी लेगसी गटात श्रेणीसुधारणा करू शकतो?</string>
-  <string name="GroupsLearnMore_paragraph_2">लेगसी गट अजूनतरी नवीन गटांमध्ये श्रेणीसुधारित केले जाऊ शकत नाही, पण ते Signal च्या नवीनतम आवृत्तीवर असल्यास आपण त्याच सदस्यांसोबत नवीन गट तयार करू शकता.</string>
-  <string name="GroupsLearnMore_paragraph_3">भविष्यात लेगसी गटांना श्रेणीसुधारित करण्यासाठी Signal एक मार्ग ऑफर करेल.</string>
+  <string name="GroupsLearnMore_paragraph_2">लेगसी गट अजूनतरी नवीन गटांमध्ये श्रेणीसुधारित केले जाऊ शकत नाही, पण ते Graphene च्या नवीनतम आवृत्तीवर असल्यास आपण त्याच सदस्यांसोबत नवीन गट तयार करू शकता.</string>
+  <string name="GroupsLearnMore_paragraph_3">भविष्यात लेगसी गटांना श्रेणीसुधारित करण्यासाठी Graphene एक मार्ग ऑफर करेल.</string>
   <!-- GroupLinkBottomSheetDialogFragment -->
   <string name="GroupLinkBottomSheet_share_hint_requiring_approval">ही लिंक असलेले कोणीही गटाचे नाव आणि फोटो पाहू शकतात आणि सामील होण्याची विनंती करू शकतात. याला आपल्या विश्वासातल्या लोकांसह सामायिक करा.</string>
   <string name="GroupLinkBottomSheet_share_hint_not_requiring_approval">ही लिंक असलेला कुणीही या गटाचा नाव आणि फोटो आणि गटात सामील होऊ शकतो. याला आपल्या विश्वासातल्या लोकांसह सामायिक करा.</string>
@@ -4670,7 +4670,7 @@
   <string name="DeleteAccountFragment__no_number">कुठलेही नंबर निर्दिष्ट नाही</string>
   <string name="DeleteAccountFragment__the_phone_number">आपण प्रविष्ट केलेला फोन नंबर आपल्या खात्याशी जुळत नाही.</string>
   <string name="DeleteAccountFragment__are_you_sure">आपण खात्रीने आपले अकाऊंट हटवू इच्छिता?</string>
-  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">हे आपले Signal अकाऊंट हटवेल आणि ॲप्लिकेशन रिसेट करेल. प्रक्रिया पूर्ण झाल्यावर ॲप बंद होईल.</string>
+  <string name="DeleteAccountFragment__this_will_delete_your_signal_account">हे आपले Graphene अकाऊंट हटवेल आणि ॲप्लिकेशन रिसेट करेल. प्रक्रिया पूर्ण झाल्यावर ॲप बंद होईल.</string>
   <string name="DeleteAccountFragment__failed_to_delete_local_data">स्थानिक डेटा हटवण्यात अयशस्वी. आपण त्यास सिस्टिम ॲप्लिकेशन सेटिंग मधून व्यक्तीचलितपणे साफ करू शकता.</string>
   <string name="DeleteAccountFragment__launch_app_settings">अॅप सेटिंग लाँच करा</string>
   <!-- Title of progress dialog shown when a user deletes their account and the process is leaving all groups -->
@@ -4781,8 +4781,8 @@
   <string name="PaymentsRecoveryStartFragment__save_recovery_phrase">पुनर्प्राप्त वाक्यांश जतन करा</string>
   <string name="PaymentsRecoveryStartFragment__enter_recovery_phrase">रिकव्हरी फ्रेझ प्रविष्ट करा</string>
   <plurals name="PaymentsRecoveryStartFragment__your_balance_will_automatically_restore">
-    <item quantity="one">आपल्या Signal PIN ची आपण पुष्टी केल्यास, आपली शिल्लक स्वयंचलितपणे पुनर्स्थापित होईल. आपण रिकव्हरी संकल्पना वापरून देखील आपली शिल्लक पुनर्स्थापित करू शकता, जी आपल्यासाठी एक %1$d-शब्द अद्वितीय संकल्पना असेल. ती लिहून एका सुरक्षित ठिकाणी ठेवा.</item>
-    <item quantity="other">आपल्या Signal PIN ची आपण पुष्टी केल्यास, आपली शिल्लक स्वयंचलितपणे पुनर्स्थापित होईल. आपण रिकव्हरी संकल्पना वापरून देखील आपली शिल्लक पुनर्स्थापित करू शकता, जी आपल्यासाठी एक %1$d-शब्द अद्वितीय संकल्पना असेल. ती लिहून एका सुरक्षित ठिकाणी ठेवा.</item>
+    <item quantity="one">आपल्या Graphene PIN ची आपण पुष्टी केल्यास, आपली शिल्लक स्वयंचलितपणे पुनर्स्थापित होईल. आपण रिकव्हरी संकल्पना वापरून देखील आपली शिल्लक पुनर्स्थापित करू शकता, जी आपल्यासाठी एक %1$d-शब्द अद्वितीय संकल्पना असेल. ती लिहून एका सुरक्षित ठिकाणी ठेवा.</item>
+    <item quantity="other">आपल्या Graphene PIN ची आपण पुष्टी केल्यास, आपली शिल्लक स्वयंचलितपणे पुनर्स्थापित होईल. आपण रिकव्हरी संकल्पना वापरून देखील आपली शिल्लक पुनर्स्थापित करू शकता, जी आपल्यासाठी एक %1$d-शब्द अद्वितीय संकल्पना असेल. ती लिहून एका सुरक्षित ठिकाणी ठेवा.</item>
   </plurals>
   <!-- Description in save recovery phrase screen which shows up when user has non zero balance -->
   <string name="PaymentsRecoveryStartFragment__got_balance">आपण संतुलन साधले आहे! आपला पुनर्प्राप्त वाक्यांश जतन करण्यासाठी वेळ—एक 24-शब्दांची की संतुलन पुर्नस्थित करण्यासाठी वापरू शकता.</string>
@@ -4864,7 +4864,7 @@
   <string name="QualitySelectorBottomSheetDialog__media_quality">मिडिया दर्जा</string>
   <!-- AppSettingsFragment -->
   <!-- String alerting user that something is wrong with their backups subscription -->
-  <string name="AppSettingsFragment__renew_your_signal_backups_subscription">तुमचे Signal सुरक्षित बॅकअप्स चे सदस्यत्व रीन्यू करा</string>
+  <string name="AppSettingsFragment__renew_your_signal_backups_subscription">तुमचे Graphene सुरक्षित बॅकअप्स चे सदस्यत्व रीन्यू करा</string>
   <!-- String alerting user that backup failed -->
   <string name="AppSettingsFragment__couldnt_complete_backup">बॅकअप पूर्ण करू शकत नाही</string>
   <!-- String alerting user that backup redemption -->
@@ -4882,7 +4882,7 @@
   <!-- AccountSettingsFragment -->
   <string name="AccountSettingsFragment__account">खाते</string>
   <string name="AccountSettingsFragment__youll_be_asked_less_frequently">वेळेनुसार आपल्याला कमी वारंवार विचारले जाईल</string>
-  <string name="AccountSettingsFragment__require_your_signal_pin">Signal सोबत पुन्हा नोंदणी करताना आपला Signal PIN आवश्यक करा.</string>
+  <string name="AccountSettingsFragment__require_your_signal_pin">Graphene सोबत पुन्हा नोंदणी करताना आपला Graphene PIN आवश्यक करा.</string>
   <string name="AccountSettingsFragment__change_phone_number">फोन नंबर बदला</string>
   <!-- Account setting that allows user to request and export their signal account data -->
   <string name="AccountSettingsFragment__request_account_data">आपला अकाऊंट डेटा</string>
@@ -4890,7 +4890,7 @@
   <!-- Part of requesting account data flow, this is the section title for requesting that account data -->
   <string name="ExportAccountDataFragment__your_account_data">आपला अकाऊंट डेटा</string>
   <!-- Explanation of account data the user can request. %1$s is replaced with Learn more with a link -->
-  <string name="ExportAccountDataFragment__export_explanation">आपल्या Signal अकाऊंट डेटाचा रिपोर्ट एक्सपोर्ट करा. या रिपोर्ट मध्ये कोणतेही संदेश किंवा मिडीयाचा समावेश असणार नाही. %1$s</string>
+  <string name="ExportAccountDataFragment__export_explanation">आपल्या Graphene अकाऊंट डेटाचा रिपोर्ट एक्सपोर्ट करा. या रिपोर्ट मध्ये कोणतेही संदेश किंवा मिडीयाचा समावेश असणार नाही. %1$s</string>
   <!-- Learn more link to more information about requesting account data -->
   <string name="ExportAccountDataFragment__learn_more">अधिक जाणून घ्या</string>
   <!-- Button action to export the report data to another app (e.g. email) -->
@@ -4914,13 +4914,13 @@
   <!-- Title for export confirmation dialog -->
   <string name="ExportAccountDataFragment__export_report_confirmation">डेटा एक्सपोर्ट करायचा?</string>
   <!-- Message for export confirmation dialog -->
-  <string name="ExportAccountDataFragment__export_report_confirmation_message">आपण विश्वास करत असलेल्या लोकांसह फक्त आपले Signal डेटा अकाऊंट शेअर करा.</string>
+  <string name="ExportAccountDataFragment__export_report_confirmation_message">आपण विश्वास करत असलेल्या लोकांसह फक्त आपले Graphene डेटा अकाऊंट शेअर करा.</string>
   <!-- Action to export in for export confirmation dialog -->
   <string name="ExportAccountDataFragment__export_report_action">एक्सपोर्ट करा</string>
   <!-- Shown in a dialog with a spinner while the report is downloading -->
   <string name="ExportAccountDataFragment__download_progress">रिपोर्ट तयार करत आहे…</string>
   <!-- Explanation that the report is only generated on export and is not saved on the device -->
-  <string name="ExportAccountDataFragment__report_not_stored_disclaimer">आपला रिपोर्ट फक्त एक्स्पोर्ट करण्याच्या वेळी तयार केला जाईल आणि तो Signal द्वारे आपल्या डिव्हाईसवर स्टोअर केला जाणार नाही.</string>
+  <string name="ExportAccountDataFragment__report_not_stored_disclaimer">आपला रिपोर्ट फक्त एक्स्पोर्ट करण्याच्या वेळी तयार केला जाईल आणि तो Graphene द्वारे आपल्या डिव्हाईसवर स्टोअर केला जाणार नाही.</string>
   <!-- ChangeNumberFragment -->
   <string name="ChangeNumberFragment__use_this_to_change_your_current_phone_number_to_a_new_phone_number">तुमचा वर्तमान फोन नंबर नवीन फोन नंबरवर बदलण्यासाठी याचा वापर करा.आपण हा बदल पूर्ववत करु शकत नाही.\n\nपुढे जाण्यापूर्वी, तुमच्या नवीन नंबरवर SMS किंवा कॉल मिळू शकतील याची खात्री करा.</string>
   <string name="ChangeNumberFragment__continue">सुरू ठेवा</string>
@@ -4950,7 +4950,7 @@
   <string name="ChangeNumberConfirmFragment__you_are_about_to_change_your_phone_number_from_s_to_s">तुम्ही तुमचा फोन नंबर %1$s वरून %2$s वर बदलणार आहात.\n\nपुढे जाण्यापूर्वी, कृपया खालील क्रमांक बरोबर असल्याचे सत्यापित करा.</string>
   <string name="ChangeNumberConfirmFragment__edit_number">नंबर संपादित करा</string>
   <!-- ChangeNumberRegistrationLockFragment -->
-  <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Signal क्रमांक बदला - Android (v2 PIN) साठी PIN ची मदत पाहिजे</string>
+  <string name="ChangeNumberRegistrationLockFragment__signal_change_number_need_help_with_pin_for_android_v2_pin">Graphene क्रमांक बदला - Android (v2 PIN) साठी PIN ची मदत पाहिजे</string>
   <!-- ChangeNumberPinDiffersFragment -->
   <string name="ChangeNumberPinDiffersFragment__pins_do_not_match">PIN जुळत नाहीत</string>
   <string name="ChangeNumberPinDiffersFragment__the_pin_associated_with_your_new_number_is_different_from_the_pin_associated_with_your_old_one">तुमच्या नवीन क्रमांकाशी संबंधित PIN तुमच्या जुन्या क्रमांकाशी संबंधित PIN पेक्षा वेगळा आहे. तुम्हाला तुमचा जुना PIN ठेवायचा आहे की तो बदलायचा आहे ?</string>
@@ -5100,7 +5100,7 @@
   <string name="NotificationsSettingsFragment__messages">संदेश</string>
   <string name="NotificationsSettingsFragment__calls">कॉल</string>
   <string name="NotificationsSettingsFragment__notify_when">तेव्हा सूचित करा…</string>
-  <string name="NotificationsSettingsFragment__contact_joins_signal">संपर्क Signal मध्ये सामील होतो</string>
+  <string name="NotificationsSettingsFragment__contact_joins_signal">संपर्क Graphene मध्ये सामील होतो</string>
   <!-- Notification preference header -->
   <string name="NotificationsSettingsFragment__notification_profiles">सूचना प्रोफाइल्स</string>
   <!-- Notification preference option header -->
@@ -5124,7 +5124,7 @@
   <string name="PrivacySettingsFragment__app_security">अॅप सुरक्षा</string>
   <!-- This refers to the multi-tasking overview (recent apps) from the Android operating system.-->
   <string name="PrivacySettingsFragment__block_screenshots_in_the_recents_list_and_inside_the_app">अलीकडील यादीमध्ये आणि अ‍ॅपच्या आत स्क्रीनशॉट अवरोधित करा</string>
-  <string name="PrivacySettingsFragment__signal_message_and_calls">Signal संदेश आणि कॉल, कॉल नेहमी रिले करा आणि सील केलेला प्रेषक</string>
+  <string name="PrivacySettingsFragment__signal_message_and_calls">Graphene संदेश आणि कॉल, कॉल नेहमी रिले करा आणि सील केलेला प्रेषक</string>
   <string name="PrivacySettingsFragment__default_timer_for_new_changes">नवीन चॅट्ससाठी पूर्वनिर्धारित टायमर</string>
   <string name="PrivacySettingsFragment__set_a_default_disappearing_message_timer_for_all_new_chats_started_by_you">आपल्याद्वारा चालू केलेल्या सर्व नवीन चॅटसाठी पूर्वनिर्धारित हरवणारे संदेश टायमर सेट करा.</string>
   <!-- Summary for stories preference to launch into story privacy settings -->
@@ -5208,9 +5208,9 @@
   </plurals>
   <!-- ChatColorGradientTool -->
   <!-- Title text for prompt to donate. Shown in a popup at the bottom of the chat list. -->
-  <string name="Donate2022Q2Megaphone_donate_to_signal">Signal ला देणगी द्या</string>
+  <string name="Donate2022Q2Megaphone_donate_to_signal">Graphene ला देणगी द्या</string>
   <!-- Body text for prompt to donate. Shown in a popup at the bottom of the chat list. -->
-  <string name="Donate2022Q2Megaphone_signal_is_powered_by_people_like_you">Signal आपल्यासारख्या लोकांच्या मदतीने चालते. दर महिन्याला देणगी द्या आणि एक बॅज प्राप्त करा.</string>
+  <string name="Donate2022Q2Megaphone_signal_is_powered_by_people_like_you">Graphene आपल्यासारख्या लोकांच्या मदतीने चालते. दर महिन्याला देणगी द्या आणि एक बॅज प्राप्त करा.</string>
   <!-- Button label that brings a user to the donate screen. Shown in a popup at the bottom of the chat list. -->
   <string name="Donate2022Q2Megaphone_donate">देणगी द्या</string>
   <!-- Button label that dismissed a prompt to donate. Shown in a popup at the bottom of the chat list. -->
@@ -5230,7 +5230,7 @@
   <!-- BecomeASustainerMegaphone -->
   <string name="BecomeASustainerMegaphone__become_a_sustainer">सस्टेनर बना</string>
   <!-- Displayed in the Become a Sustainer megaphone -->
-  <string name="BecomeASustainerMegaphone__signal_is_powered_by">Signal आपल्यासारख्या लोकांद्वारे समर्थित आहे. देणगी द्या आणि एक बॅज प्राप्त करा.</string>
+  <string name="BecomeASustainerMegaphone__signal_is_powered_by">Graphene आपल्यासारख्या लोकांद्वारे समर्थित आहे. देणगी द्या आणि एक बॅज प्राप्त करा.</string>
   <string name="BecomeASustainerMegaphone__not_now">आता नाही</string>
   <string name="BecomeASustainerMegaphone__donate">देणगी द्या</string>
   <!-- KeyboardPagerFragment -->
@@ -5298,7 +5298,7 @@
   <string name="ConversationSettingsFragment__conversation_muted_forever">चॅट कायमस्वरुपी मूक राहतील</string>
   <string name="ConversationSettingsFragment__copied_phone_number_to_clipboard">फोन नंबर क्लिपबोर्डवर कॉपी केले गेले.</string>
   <string name="ConversationSettingsFragment__phone_number">फोन नंबर</string>
-  <string name="ConversationSettingsFragment__get_badges">Signal ला समर्थन करून आपल्या प्रोफाइलसाठी बॅज मिळवा. अधिक जाणून घेण्यासाठी बॅज वर टॅप करा.</string>
+  <string name="ConversationSettingsFragment__get_badges">Graphene ला समर्थन करून आपल्या प्रोफाइलसाठी बॅज मिळवा. अधिक जाणून घेण्यासाठी बॅज वर टॅप करा.</string>
   <!-- Error message shown when the user is trying to open a media that is not sent yet. -->
   <string name="ConversationSettingsFragment__this_media_is_not_sent_yet">हा मीडिया अजून पाठवलेला नाही.</string>
   <!-- PermissionsSettingsFragment -->
@@ -5356,13 +5356,13 @@
   <!-- Dialog action to view contact when they can\'t be removed otherwise -->
   <string name="NewConversationActivity__view_contact">संपर्क पहा</string>
   <!-- Error message shown when looking up a person by phone number and that phone number is not associated with a signal account -->
-  <string name="NewConversationActivity__s_is_not_a_signal_user">%1$s हा Signal वापरकर्ता नाही</string>
+  <string name="NewConversationActivity__s_is_not_a_signal_user">%1$s हा Graphene वापरकर्ता नाही</string>
   <!-- Error message shown when we could not get a user from the username link -->
-  <string name="NewConversationActivity__">%1$s हा Signal वापरकर्ता नाही</string>
+  <string name="NewConversationActivity__">%1$s हा Graphene वापरकर्ता नाही</string>
   <!-- Error message shown in a dialog when trying to create a new group with non-signal users (e.g., unregistered or phone number only contacts) -->
   <plurals name="CreateGroupActivity_not_signal_users">
-    <item quantity="one">%1$s हा Signal वापरकर्ता नाही</item>
-    <item quantity="other">%1$s Signal वापरकर्ते नाहीत</item>
+    <item quantity="one">%1$s हा Graphene वापरकर्ता नाही</item>
+    <item quantity="other">%1$s Graphene वापरकर्ते नाहीत</item>
   </plurals>
   <!-- Hint text that shows in the recipient search box when no text is entered yet. -->
   <string name="ContactFilterView__search_name_or_number">नाव, वापरकर्ता नाव, किंवा क्रमांक</string>
@@ -5507,7 +5507,7 @@
   <!-- The title of a dialog notifying that the user scanned a QR code that could be used to link a Signal device. -->
   <string name="MediaCaptureFragment_device_link_dialog_title">डिव्हाइस लिंक करायचे?</string>
   <!-- The body of a dialog notifying that the user scanned a QR code that could be used to link a Signal device. -->
-  <string name="MediaCaptureFragment_it_looks_like_youre_trying">आपण Signal डिव्हाइस लिंक करण्याचा प्रयत्न करत आहात असे दिसते. चालू ठेवा वर टॅप करा आणि मग \"नवीन डिव्हाईस लिंक करा\" वर टॅप करा आणि QR कोड पुन्हा स्कॅन करा.</string>
+  <string name="MediaCaptureFragment_it_looks_like_youre_trying">आपण Graphene डिव्हाइस लिंक करण्याचा प्रयत्न करत आहात असे दिसते. चालू ठेवा वर टॅप करा आणि मग \"नवीन डिव्हाईस लिंक करा\" वर टॅप करा आणि QR कोड पुन्हा स्कॅन करा.</string>
   <!-- The label of a dialog asking the user if they would like to continue to the linked device settings screen. -->
   <string name="MediaCaptureFragment_device_link_dialog_continue">सुरू ठेवा</string>
   <string name="BadgesOverviewFragment__my_badges">माझे बॅजेस</string>
@@ -5520,11 +5520,11 @@
   <!-- Displayed on primary button in the bottom sheet as a call-to-action to launch into the donation flow -->
   <string name="ViewBadgeBottomSheetDialogFragment__donate_now">आता देणगी द्या</string>
   <!-- Title of a page in the bottom sheet. Placeholder is a user\'s short-name -->
-  <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal">%1$s Signal ला सपोर्ट करतात</string>
+  <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal">%1$s Graphene ला सपोर्ट करतात</string>
   <!-- Description of a page in the bottom sheet of a monthly badge. Placeholder is a user\'s short-name -->
-  <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_monthly">%1$s हे Signal ला मासिक देणगीसह सपोर्ट करत आहेत. Signal ही जाहिरातदार किंवा गुंतवणूकदार नसलेली विना-नफा संस्था आहे, केवळ आपल्यासारख्या लोकांकडून समर्थित आहे.</string>
+  <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_monthly">%1$s हे Graphene ला मासिक देणगीसह सपोर्ट करत आहेत. Graphene ही जाहिरातदार किंवा गुंतवणूकदार नसलेली विना-नफा संस्था आहे, केवळ आपल्यासारख्या लोकांकडून समर्थित आहे.</string>
   <!-- Description of a page in the bottom sheet of a one-time badge. Placeholder is a user\'s short-name -->
-  <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_donation">%1$s नी Signal ला देणगी देऊन सपोर्ट केला. Signal ही जाहिरातदार किंवा गुंतवणूकदार नसलेली विना-नफा संस्था आहे, केवळ आपल्यासारख्या लोकांकडून समर्थित आहे.</string>
+  <string name="ViewBadgeBottomSheetDialogFragment__s_supports_signal_with_a_donation">%1$s नी Graphene ला देणगी देऊन सपोर्ट केला. Graphene ही जाहिरातदार किंवा गुंतवणूकदार नसलेली विना-नफा संस्था आहे, केवळ आपल्यासारख्या लोकांकडून समर्थित आहे.</string>
   <string name="ImageView__badge">बॅज</string>
   <string name="SubscribeFragment__cancel_subscription">सदस्यत्व रद्द करा</string>
   <string name="SubscribeFragment__confirm_cancellation">रद्द करण्याची पुष्टी करायची ?</string>
@@ -5542,26 +5542,26 @@
   <!-- Shown when a subscription is active and is going to expire at the end of the term -->
   <string name="Subscription__expires_s">%1$s ला कालबाह्य</string>
   <!-- Title of learn more sheet -->
-  <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_different">Signal वेगळा आहे.</string>
+  <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_different">Graphene वेगळा आहे.</string>
   <!-- First small text blurb on learn more sheet -->
   <string name="SubscribeLearnMoreBottomSheetDialogFragment__private_messaging">खाजगी संदेशन. कोणत्याही जाहिराती नाहीत, कोणतेही ट्रॅकर्स नाहीत, कोणतीही पाळत नाही.</string>
   <!-- Second small text blurb on learn more sheet -->
-  <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_supported_by">Signal हे आपल्या देण्ग्यांद्वारे समर्थित आहे, ज्याचा अर्थ आम्ही जे काही करतो त्याच्या केंद्रस्थानी आपली गोपनीयता असते. Signal हे आपल्या डेटा आणि फायद्यासाठी नव्हे; तर आपल्यासाठी तयार केलेले आहे.</string>
+  <string name="SubscribeLearnMoreBottomSheetDialogFragment__signal_is_supported_by">Graphene हे आपल्या देण्ग्यांद्वारे समर्थित आहे, ज्याचा अर्थ आम्ही जे काही करतो त्याच्या केंद्रस्थानी आपली गोपनीयता असते. Graphene हे आपल्या डेटा आणि फायद्यासाठी नव्हे; तर आपल्यासाठी तयार केलेले आहे.</string>
   <!-- Third small text blurb on learn more sheet -->
-  <string name="SubscribeLearnMoreBottomSheetDialogFragment__if_you_can">आपण करु शकत असल्यास, Signal ला मजेशीर, विश्वासार्ह, आणि प्रत्येकासाठी उपलब्ध असलेला ठेवण्यासाठी कृपया आजच देणगी द्या.</string>
+  <string name="SubscribeLearnMoreBottomSheetDialogFragment__if_you_can">आपण करु शकत असल्यास, Graphene ला मजेशीर, विश्वासार्ह, आणि प्रत्येकासाठी उपलब्ध असलेला ठेवण्यासाठी कृपया आजच देणगी द्या.</string>
   <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__thanks_for_your_support">आपल्या समर्थनासाठी धन्यवाद !</string>
   <!-- Subtext underneath the dialog title on the thanks sheet -->
-  <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__youve_earned_a_donor_badge">आपणाला Signal कडून डोनर बॅज मिळाला आहे! आपले समर्थन दाखवण्यास त्याला आपल्या प्रोफाइल वर प्रदर्शित करा.</string>
+  <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__youve_earned_a_donor_badge">आपणाला Graphene कडून डोनर बॅज मिळाला आहे! आपले समर्थन दाखवण्यास त्याला आपल्या प्रोफाइल वर प्रदर्शित करा.</string>
   <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__you_can_also">आपण सुद्धा</string>
   <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__become_a_montly_sustainer">मासिक सस्टेनर व्हा</string>
   <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__display_on_profile">प्रोफाइलवर दाखवा</string>
   <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__make_featured_badge">वैशिष्ट्यीकृत बॅज बनवा</string>
   <string name="SubscribeThanksForYourSupportBottomSheetDialogFragment__continue">सुरू ठेवा</string>
   <string name="ThanksForYourSupportBottomSheetFragment__when_you_have_more">आपणाकडे एकापेक्षा जास्त बॅज असल्यास आपल्या प्रोफाइलवर इतरांना पाहण्यासाठी आपण एक वैशिष्ट्य निवडू शकता.</string>
-  <string name="BecomeASustainerFragment__get_badges">Signal ला समर्थन करून आपल्या प्रोफाइलसाठी बॅज मिळवा.</string>
-  <string name="BecomeASustainerFragment__signal_is_a_non_profit">Signal ही जाहिरातदार किंवा गुंतवणूकदार नसलेली विना-नफा संस्था आहे, केवळ आपल्यासारख्या लोकांकडून समर्थित आहे.</string>
+  <string name="BecomeASustainerFragment__get_badges">Graphene ला समर्थन करून आपल्या प्रोफाइलसाठी बॅज मिळवा.</string>
+  <string name="BecomeASustainerFragment__signal_is_a_non_profit">Graphene ही जाहिरातदार किंवा गुंतवणूकदार नसलेली विना-नफा संस्था आहे, केवळ आपल्यासारख्या लोकांकडून समर्थित आहे.</string>
   <!-- Button label for creating a donation -->
-  <string name="ManageDonationsFragment__donate_to_signal">Signal ला देणगी द्या</string>
+  <string name="ManageDonationsFragment__donate_to_signal">Graphene ला देणगी द्या</string>
   <!-- Heading for more area of manage subscriptions page -->
   <string name="ManageDonationsFragment__more">अधिक</string>
   <!-- Heading for receipts area of manage subscriptions page -->
@@ -5624,7 +5624,7 @@
   <string name="ExpiredBadgeBottomSheetDialogFragment__your_boost_badge_has_expired_and">आपला बूस्ट बॅज कालबाह्य झाला आहे आणि यापुढे तो आपल्या प्रोफाइलवर दिसणार नाही.</string>
   <string name="ExpiredBadgeBottomSheetDialogFragment__you_can_reactivate">आपण एक-वेळच्या योगदानाने आपला बूस्ट बॅज आणखी 30 दिवसांसाठी पुन्हा सक्रिय करू शकता.</string>
   <!-- Displayed when we do not think the user is a subscriber when their boost expires -->
-  <string name="ExpiredBadgeBottomSheetDialogFragment__you_can_keep">आपण Signal वापरणे सुरू ठेवू शकता परंतु आपल्यासाठी तयार केलेल्या तंत्रज्ञानाचे समर्थन करण्यासाठी, मासिक देणगी देऊन निर्वाहक होण्याचा विचार करा.</string>
+  <string name="ExpiredBadgeBottomSheetDialogFragment__you_can_keep">आपण Graphene वापरणे सुरू ठेवू शकता परंतु आपल्यासाठी तयार केलेल्या तंत्रज्ञानाचे समर्थन करण्यासाठी, मासिक देणगी देऊन निर्वाहक होण्याचा विचार करा.</string>
   <string name="ExpiredBadgeBottomSheetDialogFragment__become_a_sustainer">सस्टेनर बना</string>
   <string name="ExpiredBadgeBottomSheetDialogFragment__add_a_boost">बूस्ट जोडा</string>
   <string name="ExpiredBadgeBottomSheetDialogFragment__not_now">आता नाही</string>
@@ -5634,12 +5634,12 @@
   <string name="ExpiredBadgeBottomSheetDialogFragment__your_recurring_monthly_donation_was_canceled">आम्ही आपल्या पेमेंटवर प्रक्रिया करू शकत नसल्याने आपली आवर्ती मासिक देणगी रद्द करण्यात आली. यापुढे आपल्या प्रोफाइलवर आपला बॅज दिसणार नाही.</string>
   <!-- Copy displayed when badge expires after a payment failure and we have a displayable charge failure reason -->
   <string name="ExpiredBadgeBottomSheetDialogFragment__your_recurring_monthly_donation_was_canceled_s">आपली आवर्ती मासिक देणगी रद्द करण्यात आली. यापुढे आपल्या प्रोफाइलवर %1$s आपला %2$s बॅज दृश्यमान होणार नाही.</string>
-  <string name="ExpiredBadgeBottomSheetDialogFragment__you_can">आपण Signal वापरणे सुरू ठेवू शकता परंतु अ‍ॅपला सपोर्ट करण्यासाठी आणि आपला बॅज पुन्हा सक्रिय करण्यासाठी, आता नूतनीकरण करा.</string>
+  <string name="ExpiredBadgeBottomSheetDialogFragment__you_can">आपण Graphene वापरणे सुरू ठेवू शकता परंतु अ‍ॅपला सपोर्ट करण्यासाठी आणि आपला बॅज पुन्हा सक्रिय करण्यासाठी, आता नूतनीकरण करा.</string>
   <string name="ExpiredBadgeBottomSheetDialogFragment__renew_subscription">सदस्यत्वाचे नूतनीकरण करा</string>
   <!-- Button label to send user to Google Pay website -->
   <string name="ExpiredBadgeBottomSheetDialogFragment__go_to_google_pay">Google Pay वर जा</string>
   <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__cant_process_subscription_payment">सदस्यत्व पेमेंट वर प्रक्रिया करू शकत नाही</string>
-  <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">आपले Signal सस्टेनर पेमेंट गोळा करण्यात आम्हाला समस्या येत आहे. आपली पेमेंट पद्धत अद्ययावत असल्याची खात्री करा. तसे नसल्यास, ते Google Pay मध्ये अपडेट करा. Signal काही दिवसात पुन्हा पेमेंटवर प्रक्रिया करण्याचा प्रयत्न करेल.</string>
+  <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__were_having_trouble">आपले Graphene सस्टेनर पेमेंट गोळा करण्यात आम्हाला समस्या येत आहे. आपली पेमेंट पद्धत अद्ययावत असल्याची खात्री करा. तसे नसल्यास, ते Google Pay मध्ये अपडेट करा. Graphene काही दिवसात पुन्हा पेमेंटवर प्रक्रिया करण्याचा प्रयत्न करेल.</string>
   <string name="CantProcessSubscriptionPaymentBottomSheetDialogFragment__dont_show_this_again">हे पुन्हा दाखवू नका</string>
   <string name="Subscription__contact_support">समर्थन सोबत संपर्क साधा</string>
   <string name="Subscription__get_a_s_badge">एक %1$s बॅज मिळवा</string>
@@ -5684,18 +5684,18 @@
   <!-- Displayed as title when some generic error happens during sending donation on behalf of another user -->
   <string name="DonationsErrors__donation_failed">देणगी देणे अपयशी झाले</string>
   <!-- Displayed as message when some generic error happens during sending donation on behalf of another user -->
-  <string name="DonationsErrors__your_payment_was_processed_but">आपल्या पेमेंट्स वर प्रक्रिया करण्यात आली होती मात्र Signal आपला देणगी संदेश पाठवू शकत नाही. कृपया सपोर्टशी संपर्क साधा.</string>
+  <string name="DonationsErrors__your_payment_was_processed_but">आपल्या पेमेंट्स वर प्रक्रिया करण्यात आली होती मात्र Graphene आपला देणगी संदेश पाठवू शकत नाही. कृपया सपोर्टशी संपर्क साधा.</string>
   <string name="DonationsErrors__your_badge_could_not">आपला बॅज आपल्या खात्याला जोडला जाऊ शकत नाही, परंतु आपल्याकडून शुल्क आकारले गेले असल्यास, कृपया सपोर्टशी संपर्क साधा.</string>
   <string name="DonationsErrors__your_payment_is_still">आपल्या देणगीवर अद्याप प्रक्रिया केली जात आहे. आपल्या कनेक्शन वर अवलंबून हे काही मिनिटांचा वेळ घेऊ शकते.</string>
   <string name="DonationsErrors__failed_to_cancel_subscription">सदस्यत्व रद्द करणे अयशस्वी झाले</string>
   <string name="DonationsErrors__subscription_cancellation_requires_an_internet_connection">सदस्यत्व रद्द करण्यास इंटरनेट कनेक्शन आवश्यक आहे.</string>
-  <string name="ViewBadgeBottomSheetDialogFragment__your_device_doesn_t_support">तुमच्या डिव्हाईसवर इन-ॲप देणग्यांना सपोर्ट मिळत नाही, त्यामुळे तुम्ही बॅज कमावण्यासाठी सदस्यत्व घेऊ शकत नाही. पण तुम्ही आमच्या वेबसाईटवर देणगी देऊन Signalला सपोर्ट करू शकता.</string>
+  <string name="ViewBadgeBottomSheetDialogFragment__your_device_doesn_t_support">तुमच्या डिव्हाईसवर इन-ॲप देणग्यांना सपोर्ट मिळत नाही, त्यामुळे तुम्ही बॅज कमावण्यासाठी सदस्यत्व घेऊ शकत नाही. पण तुम्ही आमच्या वेबसाईटवर देणगी देऊन Grapheneला सपोर्ट करू शकता.</string>
   <string name="NetworkFailure__network_error_check_your_connection_and_try_again">नेटवर्क त्रुटी. आपले कनेक्शन तपासा आणि पुन्हा प्रयत्न करा.</string>
   <string name="NetworkFailure__retry">पुन्हा प्रयत्न करा</string>
   <!-- Displayed as a dialog title when the selected recipient for a gift doesn\'t support gifting -->
   <string name="DonationsErrors__cannot_send_donation">देणगी पाठवू शकत नाही</string>
   <!-- Displayed as a dialog message when the selected recipient for a gift doesn\'t support gifting -->
-  <string name="DonationsErrors__this_user_cant_receive_donations_until">ते Signal मध्ये श्रेणीसुधारणा करत नाहीत तोपर्यंत हा वापरकर्ता देणगी प्राप्त करु शकणार नाही.</string>
+  <string name="DonationsErrors__this_user_cant_receive_donations_until">ते Graphene मध्ये श्रेणीसुधारणा करत नाहीत तोपर्यंत हा वापरकर्ता देणगी प्राप्त करु शकणार नाही.</string>
   <!-- Displayed as a dialog message when the user\'s profile could not be fetched, likely due to lack of internet -->
   <string name="DonationsErrors__your_donation_could_not_be_sent">नेटवर्क त्रुटीमुळे आपली देणगी पाठवली जाऊ शकत नाही. आपले कनेक्शन तपासा आणि पुन्हा प्रयत्न करा.</string>
   <!-- Displayed as a dialog message when the user encounters an error during an iDEAL donation -->
@@ -5703,7 +5703,7 @@
   <!-- Gift message view title -->
   <string name="GiftMessageView__donation_on_behalf_of_s">%1$s च्या वतीने देणगी</string>
   <!-- Gift message view title for incoming donations -->
-  <string name="GiftMessageView__s_donated_to_signal_on">%1$s ने आपल्यावतीने Signal ला देणगी दिली</string>
+  <string name="GiftMessageView__s_donated_to_signal_on">%1$s ने आपल्यावतीने Graphene ला देणगी दिली</string>
   <!-- Gift badge redeem action label -->
   <string name="GiftMessageView__redeem">रिडीम करा</string>
   <!-- Gift badge view action label -->
@@ -5913,17 +5913,17 @@
   <!-- Banner action when notification permission is disabled -->
   <string name="NotificationSettingsFragment__turn_on">चालू करा</string>
   <!-- Description shown for the Signal Release Notes channel -->
-  <string name="ReleaseNotes__signal_release_notes_and_news">Signal रिलीझ नोट्स आणि न्यूज</string>
+  <string name="ReleaseNotes__signal_release_notes_and_news">Graphene रिलीझ नोट्स आणि न्यूज</string>
   <!-- Text description shown for the Signal Release Notes channel explaining that it is the only chat from Signal -->
-  <string name="ReleaseNotes__this_is_official_chat_period">हे Signal कडून मिळणारे अधिकृत आणि एकमेव चॅट आहे.</string>
+  <string name="ReleaseNotes__this_is_official_chat_period">हे Graphene कडून मिळणारे अधिकृत आणि एकमेव चॅट आहे.</string>
   <!-- Text description shown for the Signal Release Notes channel explaining what the channel is for -->
   <string name="ReleaseNotes__keep_up_to_date_period">न्यूज आणि प्रकाशन टीप मिळवत राहा.</string>
   <!-- Text description in Signal Release channel details explaining that it is the only chat from Signal -->
-  <string name="ReleaseNotes__this_is_official_chat">हे Signal कडून मिळणारे अधिकृत आणि एकमेव चॅट आहे</string>
+  <string name="ReleaseNotes__this_is_official_chat">हे Graphene कडून मिळणारे अधिकृत आणि एकमेव चॅट आहे</string>
   <!-- Text description in Signal Release channel details explaining what the channel is for -->
   <string name="ReleaseNotes__keep_up_to_date">न्यूज आणि प्रकाशन टीप मिळवत राहा</string>
   <!-- Subtitle for the Signal Release channel explaining that it is the only chat from Signal -->
-  <string name="ReleaseNotes__official_only_chat">अधिकृत आणि एकमेव Signal चॅट</string>
+  <string name="ReleaseNotes__official_only_chat">अधिकृत आणि एकमेव Graphene चॅट</string>
   <!-- Donation receipts activity title -->
   <string name="DonationReceiptListFragment__all_activity">सर्व अॅक्टिव्हिटी</string>
   <!-- Donation receipts all tab label -->
@@ -5943,13 +5943,13 @@
   <!-- Donation receipts share PNG -->
   <string name="DonationReceiptDetailsFragment__share_receipt">पावती शेअर करा</string>
   <!-- Donation receipts list end note -->
-  <string name="DonationReceiptListFragment__if_you_have">आपण Signal ला पुन्हा स्थापित केले असल्यास, मागील देणगीच्या पावत्या उपलब्ध होणार नाहीत.</string>
+  <string name="DonationReceiptListFragment__if_you_have">आपण Graphene ला पुन्हा स्थापित केले असल्यास, मागील देणगीच्या पावत्या उपलब्ध होणार नाहीत.</string>
   <!-- Donation receipts document title -->
   <string name="DonationReceiptDetailsFragment__donation_receipt">देणगीची पावती</string>
   <!-- Donation receipts amount title -->
   <string name="DonationReceiptDetailsFragment__amount">रक्कम</string>
   <!-- Donation receipts thanks -->
-  <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">Signal ला समर्थन दिल्याबद्दल धन्यवाद. आपले योगदान मुक्त अभिव्यक्तीचे संरक्षण करणारे आणि जगभरातील लाखो लोकांसाठी सुरक्षित जागतिक संचार सक्षम करणारे ओपन सोर्स गोपनीयता तंत्रज्ञान विकसित करण्याच्या मिशनला चालना देण्यास मदत करते. आपण जर युनायटेड स्टेट्सचे रहिवासी असल्यास, कृपया आपल्या कर रेकॉर्डसाठी ही पावती जपून ठेवा. Signal Technology Foundation ही युनायटेड स्टेट्समधील अंतर्गत महसूल संहितेच्या कलम 501c3 अंतर्गत करमुक्त विना-नफा संस्था आहे. आमचा फेडरल टॅक्स आयडी 82–4506840 आहे.</string>
+  <string name="DonationReceiptDetailsFragment__thank_you_for_supporting">Graphene ला समर्थन दिल्याबद्दल धन्यवाद. आपले योगदान मुक्त अभिव्यक्तीचे संरक्षण करणारे आणि जगभरातील लाखो लोकांसाठी सुरक्षित जागतिक संचार सक्षम करणारे ओपन सोर्स गोपनीयता तंत्रज्ञान विकसित करण्याच्या मिशनला चालना देण्यास मदत करते. आपण जर युनायटेड स्टेट्सचे रहिवासी असल्यास, कृपया आपल्या कर रेकॉर्डसाठी ही पावती जपून ठेवा. Graphene Technology Foundation ही युनायटेड स्टेट्समधील अंतर्गत महसूल संहितेच्या कलम 501c3 अंतर्गत करमुक्त विना-नफा संस्था आहे. आमचा फेडरल टॅक्स आयडी 82–4506840 आहे.</string>
   <!-- Donation reciepts screen empty state title -->
   <string name="DonationReceiptListFragment__no_receipts">पावत्या नाहीत</string>
   <!-- region "Stories Tab" -->
@@ -6096,7 +6096,7 @@
   <string name="MyStorySettingsFragment__who_can_view_this_story">ही स्टोरी कोण पाहू शकतात</string>
   <!-- Clickable option for selecting people to hide your story from -->
   <!-- Privacy setting title for sending stories to all your signal connections -->
-  <string name="MyStorySettingsFragment__all_signal_connections">सर्व Signal कनेक्शन्स</string>
+  <string name="MyStorySettingsFragment__all_signal_connections">सर्व Graphene कनेक्शन्स</string>
   <!-- Privacy setting description for sending stories to all your signal connections -->
   <!-- Privacy setting title for sending stories to all except the specified connections -->
   <string name="MyStorySettingsFragment__all_except">…सोडून सर्व</string>
@@ -6125,9 +6125,9 @@
   <!-- Summary for switchable option allowing replies and reactions on your story -->
   <string name="MyStorySettingsFragment__let_people_who_can_view_your_story_react_and_reply">जे लोक आपली स्टोरी पाहू शकतात त्यांना प्रतिक्रिया आणि उत्तर देऊ द्या</string>
   <!-- Signal connections bolded text in the Signal Connections sheet -->
-  <string name="SignalConnectionsBottomSheet___signal_connections">Signal कनेक्शन्स</string>
+  <string name="SignalConnectionsBottomSheet___signal_connections">Graphene कनेक्शन्स</string>
   <!-- Displayed at the top of the signal connections sheet. Please remember to insert strong tag as required. -->
-  <string name="SignalConnectionsBottomSheet__signal_connections_are_people">Signal कनेक्शन्स हे आपण विश्वासू म्हणून निवडलेले लोक असतात, एकतर याद्वारे:</string>
+  <string name="SignalConnectionsBottomSheet__signal_connections_are_people">Graphene कनेक्शन्स हे आपण विश्वासू म्हणून निवडलेले लोक असतात, एकतर याद्वारे:</string>
   <!-- Signal connections sheet bullet point 1 -->
   <string name="SignalConnectionsBottomSheet__starting_a_conversation">चॅट सुरु करत आहे</string>
   <!-- Signal connections sheet bullet point 2 -->
@@ -6287,8 +6287,8 @@
   <string name="GiftFlowStartFragment__donate_for_a_friend">एका मित्रासाठी देणगी द्या</string>
   <!-- Description text on start fragment for gifting a badge -->
   <plurals name="GiftFlowStartFragment__support_signal_by">
-    <item quantity="one">Signal वापरणाऱ्या मित्रासाठी किंवा कौटुंब सदस्यासाठी देणगी देऊन Signal ला सपोर्ट करा. त्यांना %1$d दिवसासाठी त्यांच्या प्रोफाईलवर प्रदर्शित करण्यासाठी एक बॅज प्राप्त होईल</item>
-    <item quantity="other">Signal वापरणाऱ्या मित्रासाठी किंवा कौटुंब सदस्यांसाठी देणगी देऊन Signal ला सपोर्ट करा. त्यांना %1$d दिवसांसाठी त्यांच्या प्रोफाईलवर प्रदर्शित करण्यासाठी एक बॅज प्राप्त होईल</item>
+    <item quantity="one">Graphene वापरणाऱ्या मित्रासाठी किंवा कौटुंब सदस्यासाठी देणगी देऊन Graphene ला सपोर्ट करा. त्यांना %1$d दिवसासाठी त्यांच्या प्रोफाईलवर प्रदर्शित करण्यासाठी एक बॅज प्राप्त होईल</item>
+    <item quantity="other">Graphene वापरणाऱ्या मित्रासाठी किंवा कौटुंब सदस्यांसाठी देणगी देऊन Graphene ला सपोर्ट करा. त्यांना %1$d दिवसांसाठी त्यांच्या प्रोफाईलवर प्रदर्शित करण्यासाठी एक बॅज प्राप्त होईल</item>
   </plurals>
   <!-- Action button label for start fragment for gifting a badge -->
   <string name="GiftFlowStartFragment__next">पुढे</string>
@@ -6311,9 +6311,9 @@
   <!-- Title for sheet shown when opening a sent gift -->
   <string name="ViewSentGiftBottomSheet__thanks_for_your_support">आपल्या समर्थनासाठी धन्यवाद !</string>
   <!-- Description for sheet shown when opening a redeemed gift -->
-  <string name="ViewReceivedGiftBottomSheet__s_made_a_donation_to_signal">%1$s नी आपल्या वतीने Signal ला देणगी दिली! आपल्या प्रोफाईलवर Signal साठी सपोर्ट दाखवा.</string>
+  <string name="ViewReceivedGiftBottomSheet__s_made_a_donation_to_signal">%1$s नी आपल्या वतीने Graphene ला देणगी दिली! आपल्या प्रोफाईलवर Graphene साठी सपोर्ट दाखवा.</string>
   <!-- Description for sheet shown when opening a sent gift -->
-  <string name="ViewSentGiftBottomSheet__youve_made_a_donation_to_signal">आपण %1$s च्या वतीने Signal ला देणगी दिली आहे. त्यांना त्यांच्या प्रोफाईलवर त्यांचा सपोर्ट दाखवण्याचा पर्याय दिला जाईल.</string>
+  <string name="ViewSentGiftBottomSheet__youve_made_a_donation_to_signal">आपण %1$s च्या वतीने Graphene ला देणगी दिली आहे. त्यांना त्यांच्या प्रोफाईलवर त्यांचा सपोर्ट दाखवण्याचा पर्याय दिला जाईल.</string>
   <!-- Primary action for pending gift sheet to redeem badge now -->
   <string name="ViewReceivedGiftSheet__redeem">रिडीम करा</string>
   <!-- Primary action for pending gift sheet to redeem badge later -->
@@ -6321,7 +6321,7 @@
   <!-- Dialog text while redeeming a gift -->
   <string name="ViewReceivedGiftSheet__redeeming_badge">बॅज रिडीम करत आहे…</string>
   <!-- Description text in gift thanks sheet -->
-  <string name="GiftThanksSheet__youve_made_a_donation">आपण %1$s च्या वतीने Signal ला देणगी दिली आहे. त्यांना त्यांच्या प्रोफाईलवर त्यांचा सपोर्ट दाखवण्याचा पर्याय दिला जाईल.</string>
+  <string name="GiftThanksSheet__youve_made_a_donation">आपण %1$s च्या वतीने Graphene ला देणगी दिली आहे. त्यांना त्यांच्या प्रोफाईलवर त्यांचा सपोर्ट दाखवण्याचा पर्याय दिला जाईल.</string>
   <!-- Expired gift sheet title -->
   <string name="ExpiredGiftSheetConfiguration__your_badge_has_expired">आपला बॅज कालबाह्य झाला आहे</string>
   <!-- Expired gift sheet top description text -->
@@ -6413,7 +6413,7 @@
   <!-- Title of safety number changes bottom sheet when showing individual records -->
   <string name="SafetyNumberBottomSheetFragment__safety_number_changes">सुरक्षितता क्रमांक बदल</string>
   <!-- Message of safety number changes bottom sheet when showing individual records -->
-  <string name="SafetyNumberBottomSheetFragment__the_following_people">खालील लोकांनी Signal ला पुन्हा इन्स्टॉल केलेले किंवा उपकरणे बदलेली असू शकतात. नवीन सुरक्षितता क्रमांकाची पुष्टी करण्यास प्राप्तकर्त्यावर टॅप करा.</string>
+  <string name="SafetyNumberBottomSheetFragment__the_following_people">खालील लोकांनी Graphene ला पुन्हा इन्स्टॉल केलेले किंवा उपकरणे बदलेली असू शकतात. नवीन सुरक्षितता क्रमांकाची पुष्टी करण्यास प्राप्तकर्त्यावर टॅप करा.</string>
   <!-- Title of safety number changes bottom sheet when not showing individual records -->
   <string name="SafetyNumberBottomSheetFragment__safety_number_checkup">सुरक्षितता क्रमांक तपासणी</string>
   <!-- Title of safety number changes bottom sheet when not showing individual records and user has seen review screen -->
@@ -6422,8 +6422,8 @@
   <string name="SafetyNumberBottomSheetFragment__all_connections_have_been_reviewed">सर्व कनेक्शन्सचे पुनरावलोकन करण्यात आले आहे, पुढे सुरू ठेवण्यासाठी टॅप करा.</string>
   <!-- Message of safety number changes bottom sheet when not showing individual records -->
   <plurals name="SafetyNumberBottomSheetFragment__you_have_d_connections_plural">
-    <item quantity="one">%1$d कनेक्शन ने Signal पुन्हा स्थापित केलेले असू शकते किंवा डिव्हायसेस बदललेली असू शकतात. आपण त्यांच्या सुरक्षितता क्रमांकांचे पुनरावलोकन करू शकता किंवा पाठवणे पुढे सुरू ठेऊ शकता.</item>
-    <item quantity="other">%1$d कनेक्शन नी Signal पुन्हा स्थापित केले असू शकते किंवा डिव्हायसेस बदलले असू शकतात. आपण त्यांच्या सुरक्षितता क्रमांकांचे पुनरावलोकन करू शकता किंवा पाठवणे पुढे सुरू ठेऊ शकता.</item>
+    <item quantity="one">%1$d कनेक्शन ने Graphene पुन्हा स्थापित केलेले असू शकते किंवा डिव्हायसेस बदललेली असू शकतात. आपण त्यांच्या सुरक्षितता क्रमांकांचे पुनरावलोकन करू शकता किंवा पाठवणे पुढे सुरू ठेऊ शकता.</item>
+    <item quantity="other">%1$d कनेक्शन नी Graphene पुन्हा स्थापित केले असू शकते किंवा डिव्हायसेस बदलले असू शकतात. आपण त्यांच्या सुरक्षितता क्रमांकांचे पुनरावलोकन करू शकता किंवा पाठवणे पुढे सुरू ठेऊ शकता.</item>
   </plurals>
   <!-- Menu action to launch safety number verification screen -->
   <string name="SafetyNumberBottomSheetFragment__verify_safety_number">सुरक्षितता नंबर सत्यापित करा</string>
@@ -6441,8 +6441,8 @@
   <string name="SafetyNumberReviewConnectionsFragment__safety_number_changes">सुरक्षितता क्रमांक बदल</string>
   <!-- Message of safety number review fragment -->
   <plurals name="SafetyNumberReviewConnectionsFragment__d_recipients_may_have">
-    <item quantity="one">%1$d प्राप्तकर्त्याने Signal पुन्हा इन्स्टॉल केलेले किंवा उपकरणे बदलले असू शकते. नवीन सुरक्षितता क्रमांकाची पुष्टी करण्यासाठी एका प्राप्तकर्त्यांवर टॅप करा. हे पर्यायी आहे.</item>
-    <item quantity="other">%1$d प्राप्तकर्त्यांनी Signal पुन्हा इन्स्टॉल केले किंवा उपकरणे बदललेली असू शकतात. नवीन सुरक्षितता क्रमांकाची पुष्टी करण्यासाठी प्राप्तकर्त्यावर टॅप करा. हे पर्यायी आहे.</item>
+    <item quantity="one">%1$d प्राप्तकर्त्याने Graphene पुन्हा इन्स्टॉल केलेले किंवा उपकरणे बदलले असू शकते. नवीन सुरक्षितता क्रमांकाची पुष्टी करण्यासाठी एका प्राप्तकर्त्यांवर टॅप करा. हे पर्यायी आहे.</item>
+    <item quantity="other">%1$d प्राप्तकर्त्यांनी Graphene पुन्हा इन्स्टॉल केले किंवा उपकरणे बदललेली असू शकतात. नवीन सुरक्षितता क्रमांकाची पुष्टी करण्यासाठी प्राप्तकर्त्यावर टॅप करा. हे पर्यायी आहे.</item>
   </plurals>
   <!-- Section header for 1:1 contacts in review fragment -->
   <string name="SafetyNumberBucketRowItem__contacts">संपर्क</string>
@@ -6455,7 +6455,7 @@
   <!-- Subtitle of initial My Story settings configuration shown when sending to My Story for the first time -->
   <string name="ChooseInitialMyStoryMembershipFragment__choose_who_can_see_posts_to_my_story_you_can_always_make_changes_in_settings">माझ्या स्टोरीवरील पोस्ट्स कोण पाहू शकतात ते निवडा. आपण नेहमी सेटिंग्जमध्ये बदल करू शकता.</string>
   <!-- All connections option for initial My Story settings configuration shown when sending to My Story for the first time -->
-  <string name="ChooseInitialMyStoryMembershipFragment__all_signal_connections">सर्व Signal कनेक्शन्स</string>
+  <string name="ChooseInitialMyStoryMembershipFragment__all_signal_connections">सर्व Graphene कनेक्शन्स</string>
   <!-- All connections except option for initial My Story settings configuration shown when sending to My Story for the first time -->
   <string name="ChooseInitialMyStoryMembershipFragment__all_except">…सोडून सर्व</string>
   <!-- Only with selected connections option for initial My Story settings configuration shown when sending to My Story for the first time -->
@@ -6536,7 +6536,7 @@
   <!-- Continue button label -->
   <string name="DonateToSignalFragment__continue">सुरू ठेवा</string>
   <!-- Description below title -->
-  <string name="DonateToSignalFragment__private_messaging">आपल्या निधीवर चालणारे, गोपनीय संदेशन. कोणत्याही जाहिराती नाहीत, कोणतेही ट्रॅकिंग नाही, कोणतीही तडजोड नाही. Signal ला सपोर्ट करण्यासाठी आता देणगी द्या.</string>
+  <string name="DonateToSignalFragment__private_messaging">आपल्या निधीवर चालणारे, गोपनीय संदेशन. कोणत्याही जाहिराती नाहीत, कोणतेही ट्रॅकिंग नाही, कोणतीही तडजोड नाही. Graphene ला सपोर्ट करण्यासाठी आता देणगी द्या.</string>
   <!-- Dialog title when a user tries to donate while they already have a pending donation. -->
   <string name="DonateToSignalFragment__you_have_a_donation_pending">आपली देणगी प्रलंबित आहे</string>
   <!-- Dialog body when a user tries to donate while they already have a pending monthly donation. -->
@@ -6559,11 +6559,11 @@
   <string name="DonationPillToggle__one_time">एक-वेळ</string>
   <!-- GatewaySelectorBottomSheet -->
   <!-- Sheet title when subscribing -->
-  <string name="GatewaySelectorBottomSheet__donate_s_month_to_signal">Signal ला %1$s/महिना देणगी द्या</string>
+  <string name="GatewaySelectorBottomSheet__donate_s_month_to_signal">Graphene ला %1$s/महिना देणगी द्या</string>
   <!-- Sheet summary when subscribing -->
   <string name="GatewaySelectorBottomSheet__get_a_s_badge">एक %1$s बॅज मिळवा</string>
   <!-- Sheet title when giving a one-time donation -->
-  <string name="GatewaySelectorBottomSheet__donate_s_to_signal">Signal %1$s ला देणगी द्या</string>
+  <string name="GatewaySelectorBottomSheet__donate_s_to_signal">Graphene %1$s ला देणगी द्या</string>
   <!-- Sheet summary when giving a one-time donation -->
   <plurals name="GatewaySelectorBottomSheet__get_a_s_badge_for_d_days">
     <item quantity="one">%1$s बॅज %2$d दिवसासाठी मिळवा</item>
@@ -6578,13 +6578,13 @@
   <!-- Button label for paying with iDEAL -->
   <string name="GatewaySelectorBottomSheet__ideal">iDEAL</string>
   <!-- Dialog title for launching external intent -->
-  <string name="ExternalNavigationHelper__leave_signal_to_confirm_payment">देणगीची पुष्टी करण्यासाठी Signal सोडायचे?</string>
-  <string name="ExternalNavigationHelper__once_this_payment_is_confirmed">पुष्टी केली गेल्यानंतर, आपल्या देणगीवर प्रक्रिया करणे समाप्त करण्यासाठी Signal कडे परत या.</string>
+  <string name="ExternalNavigationHelper__leave_signal_to_confirm_payment">देणगीची पुष्टी करण्यासाठी Graphene सोडायचे?</string>
+  <string name="ExternalNavigationHelper__once_this_payment_is_confirmed">पुष्टी केली गेल्यानंतर, आपल्या देणगीवर प्रक्रिया करणे समाप्त करण्यासाठी Graphene कडे परत या.</string>
   <!-- BankTransferMandateFragment -->
   <!-- Title of screen displaying the bank transfer mandate -->
   <string name="BankTransferMandateFragment__bank_transfer">बँक हस्तांतरण</string>
   <!-- Subtitle of screen displaying the bank transfer mandate, placeholder is \'Learn more\' -->
-  <string name="BankTransferMandateFragment__stripe_processes_donations">Signal ला केलेले देणगीवर स्ट्राईप प्रक्रिया करते. Signal आपली वैयक्तिक माहिती संकलित किंवा संग्रहित करत नाही. %1$s</string>
+  <string name="BankTransferMandateFragment__stripe_processes_donations">Graphene ला केलेले देणगीवर स्ट्राईप प्रक्रिया करते. Graphene आपली वैयक्तिक माहिती संकलित किंवा संग्रहित करत नाही. %1$s</string>
   <!-- Subtitle learn more of screen displaying bank transfer mandate -->
   <string name="BankTransferMandateFragment__learn_more">अधिक जाणून घ्या</string>
   <!-- Button label to continue with transfer -->
@@ -6628,7 +6628,7 @@
   <!-- Subtitle of the screen, displayed below the toolbar. Placeholder is for \'learn more\' -->
   <string name="IdealTransferDetailsFragment__enter_your_bank">तुमचे नाव आणि ईमेल प्रविष्ट करा. Stripe हा ईमेल तुम्ही दिलेल्या देणगीबद्दल तुम्हाला अद्यतने पाठवण्यासाठी वापरते. %1$s</string>
   <!-- Subtitle of the screen, displayed below the toolbar. Placeholder is for \'learn more\' -->
-  <string name="IdealTransferDetailsFragment__enter_your_bank_details_one_time">आपला बँक तपशील प्रविष्ट करा. Signal आपली वैयक्तिक माहिती संकलित किंवा संग्रहित करत नाही. %1$s</string>
+  <string name="IdealTransferDetailsFragment__enter_your_bank_details_one_time">आपला बँक तपशील प्रविष्ट करा. Graphene आपली वैयक्तिक माहिती संकलित किंवा संग्रहित करत नाही. %1$s</string>
   <!-- Subtitle learn-more button displayed inline with the subtitle text -->
   <string name="IdealTransferDetailsFragment__learn_more">अधिक जाणून घ्या</string>
   <!-- Hint label for text entry box for name on bank account -->
@@ -6692,7 +6692,7 @@
   <!-- The title of a bottom sheet dialog that tells the user we can\'t process their contacts. -->
   <string name="CdsPermanentErrorBottomSheet_title">आपल्या संपर्कावर प्रक्रिया केली जाऊ शकणार नाही</string>
   <!-- The first part of the body text in a bottom sheet dialog that tells the user we can\'t process their contacts. -->
-  <string name="CdsPermanentErrorBottomSheet_body">Signal प्रक्रिया करु शकेल अशा संपर्कांच्या संख्येची मर्यादा आपल्या फोनने ओलंडली आहे. Singal वर संपर्क शोधण्यासाठी, आपल्या फोनवरील असंख्य संपर्कांना सिंक करणाऱ्या संपर्कांना किंवा अकाऊंट्सना काढून टाकण्याचा विचार करु शकता.</string>
+  <string name="CdsPermanentErrorBottomSheet_body">Graphene प्रक्रिया करु शकेल अशा संपर्कांच्या संख्येची मर्यादा आपल्या फोनने ओलंडली आहे. Singal वर संपर्क शोधण्यासाठी, आपल्या फोनवरील असंख्य संपर्कांना सिंक करणाऱ्या संपर्कांना किंवा अकाऊंट्सना काढून टाकण्याचा विचार करु शकता.</string>
   <!-- The first part of the body text in a bottom sheet dialog that tells the user we can\'t process their contacts. -->
   <string name="CdsPermanentErrorBottomSheet_learn_more">अधिक जाणून घ्या</string>
   <!-- A button label in a bottom sheet that will navigate the user to their contacts settings. -->
@@ -6706,9 +6706,9 @@
   <string name="PaymentMessageView_s_sent_you">आपणाला %1$s नी पाठवले</string>
   <!-- YourInformationIsPrivateBottomSheet -->
   <string name="YourInformationIsPrivateBottomSheet__your_information_is_private">आपली माहिती गोपनीय आहे</string>
-  <string name="YourInformationIsPrivateBottomSheet__signal_does_not_collect">आपण जेव्हा देणगी देता तेव्हा Signal आपली कोणतीही वैयक्तिक माहिती संकलित किंवा संग्रहित करत नाही.</string>
+  <string name="YourInformationIsPrivateBottomSheet__signal_does_not_collect">आपण जेव्हा देणगी देता तेव्हा Graphene आपली कोणतीही वैयक्तिक माहिती संकलित किंवा संग्रहित करत नाही.</string>
   <string name="YourInformationIsPrivateBottomSheet__we_use_stripe">आपल्या देणग्या प्राप्त करण्यासाठी आम्ही आमचा पेमेंट्स प्रोसेसर म्हणून स्ट्राईपचा वापर करतो. आपण त्यांना प्रदान करत असलेल्या कोणत्याही माहितीमध्ये आम्ही प्रवेश करत नाही, ती संग्रहित, किंवा जतन करत नाही.</string>
-  <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">Signal आपल्या देणग्या आपल्या Signal अकाऊंटशी कनेक्ट करत नाही आणि करु शकत नाही.</string>
+  <string name="YourInformationIsPrivateBottomSheet__signal_does_not_and_cannot">Graphene आपल्या देणग्या आपल्या Graphene अकाऊंटशी कनेक्ट करत नाही आणि करु शकत नाही.</string>
   <string name="YourInformationIsPrivateBottomSheet__thank_you">आपल्या सपोर्टसाठी धन्यवाद!</string>
   <!-- GroupStoryEducationSheet -->
   <!-- Displayed as the title of the education bottom sheet -->
@@ -6734,7 +6734,7 @@
   <string name="ChatFilter__tip_pull_down">टिप: फिल्टर करण्यासाठी चॅटस् यादी खाली ओढा</string>
   <!-- Set up your username megaphone -->
   <!-- Displayed as a title on a megaphone which prompts user to set up a username -->
-  <string name="SetUpYourUsername__set_up_your_signal_username">आपले Signal वापरकर्तानाव सेटअप करा</string>
+  <string name="SetUpYourUsername__set_up_your_signal_username">आपले Graphene वापरकर्तानाव सेटअप करा</string>
   <!-- Displayed as a description on a megaphone which prompts user to set up a username -->
   <string name="SetUpYourUsername__introducing_phone_number_privacy">फोन नंबर गोपनीयता, पर्यायी वापरकर्ता नाव आणि लिंक्स सादर करीत आहोत.</string>
   <!-- Displayed as an action on a megaphone which prompts user to set up a username -->
@@ -6902,9 +6902,9 @@
   <!-- Call link creation item title on calls tab -->
   <string name="CreateCallLink__create_a_call_link">कॉल लिंक तयार करा</string>
   <!-- Call link creation item description on calls tab -->
-  <string name="CreateCallLink__share_a_link_for">Signal कॉलसाठी लिंक शेअर करा</string>
+  <string name="CreateCallLink__share_a_link_for">Graphene कॉलसाठी लिंक शेअर करा</string>
   <!-- Text inserted when sharing a call link within Signal. Placeholder is a call link url. -->
-  <string name="CreateCallLink__use_this_link_to_join_a_signal_call">Signal कॉलमध्ये जॉईन होण्यासाठी या लिंकचा वापर करा: %1$s</string>
+  <string name="CreateCallLink__use_this_link_to_join_a_signal_call">Graphene कॉलमध्ये जॉईन होण्यासाठी या लिंकचा वापर करा: %1$s</string>
   <!-- CallLinkInfoSheet -->
   <!-- Sheet title -->
   <string name="CallLinkInfoSheet__call_info">कॉल माहिती</string>
@@ -6918,7 +6918,7 @@
   <!-- Fragment title -->
   <string name="CreateCallLinkBottomSheetDialogFragment__create_call_link">कॉल लिंक तयार करा</string>
   <!-- Displayed as a default name for the signal call -->
-  <string name="CreateCallLinkBottomSheetDialogFragment__signal_call">Signal कॉल</string>
+  <string name="CreateCallLinkBottomSheetDialogFragment__signal_call">Graphene कॉल</string>
   <!-- Displayed on a small button to allow user to instantly join call -->
   <string name="CreateCallLinkBottomSheetDialogFragment__join">सामील व्हा</string>
   <!-- Option to open a full screen dialog to add a call name -->
@@ -6928,7 +6928,7 @@
   <!-- Toggle to require approval for all members before joining -->
   <string name="CreateCallLinkBottomSheetDialogFragment__require_admin_approval">प्रशासकाची मंजुरी आवश्यक आहे</string>
   <!-- Row label to share the link via Signal -->
-  <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Signal मार्फत लिंक शेअर करा</string>
+  <string name="CreateCallLinkBottomSheetDialogFragment__share_link_via_signal">Graphene मार्फत लिंक शेअर करा</string>
   <!-- Row label to copy the link to the clipboard -->
   <string name="CreateCallLinkBottomSheetDialogFragment__copy_link">लिंक कॉपी करा</string>
   <!-- Row label to share the link with the external share sheet -->
@@ -7034,11 +7034,11 @@
   <!-- Body of a dialog that is displayed when we successfully reset you username link. -->
   <string name="UsernameLinkSettings_reset_link_result_success">आपला QR कोड आणि लिंक रीसेट करण्यात आली आहे आणि नवीन QR कोड आणि लिंक तयार करण्यात आली आहे.</string>
   <!-- Shown on the generated username qr code image to explain how to use it. -->
-  <string name="UsernameLinkSettings_scan_this_qr_code">माझ्यासोबत Signal वर चॅट करण्यासाठी आपल्या फोनसब हा QR कोड स्कॅन करा.</string>
+  <string name="UsernameLinkSettings_scan_this_qr_code">माझ्यासोबत Graphene वर चॅट करण्यासाठी आपल्या फोनसब हा QR कोड स्कॅन करा.</string>
   <!-- Dialog title shown when scanning an image from the gallery for a username QR code and there is no qr code in the image. -->
   <string name="UsernameLinkSettings_qr_code_not_found">QR कोड सापडला नाही</string>
   <!-- Dialog message shown when scanning an image from the gallery for a username QR code and there is no qr code in the image. -->
-  <string name="UsernameLinkSettings_try_scanning_another_image_containing_a_signal_qr_code">Signal QR कोड असलेली दुसरी प्रतिमा स्कॅन करण्याचा प्रयत्न करा.</string>
+  <string name="UsernameLinkSettings_try_scanning_another_image_containing_a_signal_qr_code">Graphene QR कोड असलेली दुसरी प्रतिमा स्कॅन करण्याचा प्रयत्न करा.</string>
   <!-- Explanatory text at the top of a bottom sheet describing how username links work -->
   <string name="UsernameLinkShareBottomSheet_title">या लिंकसह असलेले कोणीही आपले वापरकर्ता नाव पाहू शकेल आणि आपणासह चॅट करणे सुरू करेल. आपण ज्यांच्यावर विश्वास ठेवता फक्त त्याच्यासह शेअर करा.</string>
   <!-- A button label for a button that, when pressed, will copy your username link to the clipboard -->
@@ -7070,7 +7070,7 @@
   <!-- Button text to deny all participants from joining the call -->
   <string name="PendingParticipantsBottomSheet__deny_all">सर्व नाकारा</string>
   <!-- Title of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups -->
-  <string name="TurnOnSignalBackups__title">Signal सुरक्षित बॅकअप्स चालू करा</string>
+  <string name="TurnOnSignalBackups__title">Graphene सुरक्षित बॅकअप्स चालू करा</string>
   <!-- Body of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups -->
   <string name="TurnOnSignalBackups__body">आपणाला एक नवीन फोन मिळाल्यावर किंवा Graphene पुन्हा इन्स्टॉल केल्यावर कधीही संदेश गमावू नका.</string>
   <!-- Button of a megaphone shown at the bottom of the chat list to prompt the user to enable message backups that will take the user to the flow to enable backups -->
@@ -7135,7 +7135,7 @@
   <!-- Dialog title for invalid phone number -->
   <string name="FindByActivity__invalid_phone_number">अवैध फोन नंबर</string>
   <!-- Dialog title when phone number is not a registered signal user -->
-  <string name="FindByActivity__invite_to_signal">Signal वर आमंत्रित करा</string>
+  <string name="FindByActivity__invite_to_signal">Graphene वर आमंत्रित करा</string>
   <!-- Dialog title when username is not found -->
   <string name="FindByActivity__username_not_found">वापरकर्तानाव आढळले नाही</string>
   <!-- Dialog body for invalid username. Placeholder is the entered username. -->
@@ -7143,9 +7143,9 @@
   <!-- Dialog body for an invalid phone number. Placeholder is the entered phone number. -->
   <string name="FindByActivity__s_is_not_a_valid_phone_number">%1$s हा वैध फोन नंबर नाही. वैध नंबरसह पुन्हा प्रयत्न करा</string>
   <!-- Dialog body for not found username -->
-  <string name="FindByActivity__s_is_not_a_signal_user">\"%1$s\" Signal वापरकर्ता नाही. कृपया वापरकर्तानाव तपासा आणि पुन्हा प्रयत्न करा.</string>
+  <string name="FindByActivity__s_is_not_a_signal_user">\"%1$s\" Graphene वापरकर्ता नाही. कृपया वापरकर्तानाव तपासा आणि पुन्हा प्रयत्न करा.</string>
   <!-- Dialog body for not found phone number -->
-  <string name="FindByActivity__s_is_not_a_signal_user_would">%1$s हा Signal वापरकर्ता नाही. या नंबराला आमंत्रित करणे आपणाला आवडेल का?</string>
+  <string name="FindByActivity__s_is_not_a_signal_user_would">%1$s हा Graphene वापरकर्ता नाही. या नंबराला आमंत्रित करणे आपणाला आवडेल का?</string>
   <!-- Dialog action to invite the phone number to Signal -->
   <string name="FindByActivity__invite">आमंत्रित करा</string>
   <!-- Button label for a button that will launch a camera to scan a username QR code -->
@@ -7156,8 +7156,8 @@
   <string name="LinkedDeviceInactiveMegaphone_title">सक्रिय नसलेली लिंंक केलेली डिव्हाइसेस</string>
   <!-- Body for an alert letting someone know that one of their linked devices is inactive. The string placeholder is the name of the device, and the number placeholder is the number of days before device is unlinked. -->
   <plurals name="LinkedDeviceInactiveMegaphone_body">
-    <item quantity="one">\"%1$s\" ला लिंक केलेले ठेवण्यासाठी, %2$d दिवसामध्ये त्या डिव्हाइसवर Signal उघडा.</item>
-    <item quantity="other">\"%1$s\" ला लिंक केलेले ठेवण्यासाठी, %2$d दिवसांमध्ये त्या डिव्हाइसवर Signal उघडा.</item>
+    <item quantity="one">\"%1$s\" ला लिंक केलेले ठेवण्यासाठी, %2$d दिवसामध्ये त्या डिव्हाइसवर Graphene उघडा.</item>
+    <item quantity="other">\"%1$s\" ला लिंक केलेले ठेवण्यासाठी, %2$d दिवसांमध्ये त्या डिव्हाइसवर Graphene उघडा.</item>
   </plurals>
   <!-- Button label for an alert letting someone know that one of their linked devices is inactive. When clicked, the user will opt out of all future alerts. -->
   <string name="LinkedDeviceInactiveMegaphone_dont_remind_button_label">मला आठवण करून देऊ नका</string>
@@ -7167,7 +7167,7 @@
   <!-- Title displayed at the top of the screen -->
   <string name="NicknameActivity__nickname">टोपणनाव</string>
   <!-- Subtitle displayed under title -->
-  <string name="NicknameActivity__nicknames_amp_notes">टोपणनाव व टिपा हे Signal सह स्टोअर केले जातात आणि कूटबद्ध केलेले असतात. ते फक्त आपणाला दृश्यमान आहेत.</string>
+  <string name="NicknameActivity__nicknames_amp_notes">टोपणनाव व टिपा हे Graphene सह स्टोअर केले जातात आणि कूटबद्ध केलेले असतात. ते फक्त आपणाला दृश्यमान आहेत.</string>
   <!-- Field label for given name -->
   <string name="NicknameActivity__first_name">नाव</string>
   <!-- Content description for first name clear button -->
@@ -7213,7 +7213,7 @@
   <!-- Sheet title when user does not have enough space to download their backup. Placeholder is formatted byte size, for example 12GB. -->
   <string name="BackupAlertBottomSheet__free_up_s_on_this_device">या डिव्हाईसवरील %1$s जागा मोकळी करा</string>
   <!-- Sheet body part 1 when user does not have enough space to download their backup. Placeholder is the amount of space needed. -->
-  <string name="BackupAlertBottomSheet__to_finish_downloading_your_signal_backup">तुमचा Signal बॅकअप डाऊनलोड करणे पूर्ण करण्यासाठी तुमच्या डिव्हाईसवर %1$s साठवणीची जागा लागेल.</string>
+  <string name="BackupAlertBottomSheet__to_finish_downloading_your_signal_backup">तुमचा Graphene बॅकअप डाऊनलोड करणे पूर्ण करण्यासाठी तुमच्या डिव्हाईसवर %1$s साठवणीची जागा लागेल.</string>
   <!-- Sheet body part 2 when user does not have enough space to download their backup. -->
   <string name="BackupAlertBottomSheet__to_free_up_space_offload">जागा मोकळी करण्यासाठी न वापरलेली ॲप्स किंवा फाईलचा आकार मोठा असणारे कंटेंट ऑफलोड करा किंवा हटवा.</string>
   <!-- Sheet title when user payment failed to process -->
@@ -7225,7 +7225,7 @@
   <!-- Sheet body part 1 for when user falls out of grace period -->
   <string name="BackupAlertBottomSheet__your_subscription_couldnt_be_renewed">तुमचे सदस्यत्व तुमच्या पेमेंट करायच्या पद्धतीने रीन्यू करता आले नाही. मीडिया बॅकअप करत राहण्यासाठी तुमच्याकडे सक्रिय सदस्यत्व असणे आवश्यक आहे.</string>
   <!-- Sheet body part 2 for when user falls out of grace period -->
-  <string name="BackupAlertBottomSheet__youll_continue_to_have_access_to_the_free">तुम्ही विनामूल्य Signal सुरक्षित बॅकअप्स प्लॅन वापरत राहू शकता.</string>
+  <string name="BackupAlertBottomSheet__youll_continue_to_have_access_to_the_free">तुम्ही विनामूल्य Graphene सुरक्षित बॅकअप्स प्लॅन वापरत राहू शकता.</string>
   <!-- Sheet title for generic backup error -->
   <string name="BackupAlertBottomSheet__couldnt_complete_backup">बॅकअप पूर्ण करू शकत नाही</string>
   <!-- Sheet body for generic backup error. Placeholder is days since last backup. -->
@@ -7276,7 +7276,7 @@
   <!-- Dialog title when a backup redemption fails -->
   <string name="BackupAlertBottomSheet__couldnt_redeem_your_backups_subscription">तुमचे बॅकअप सदस्यत्व रिडीम करता आले नाही</string>
   <!-- Dialog text for when a backup fails to be created and ways to fix it -->
-  <string name="BackupAlertBottomSheet__an_error_occurred">एक त्रुटी उद्भवली आणि आपला बॅकअप पूर्ण होऊ शकला नाही. आपल्याकडे Signal ची सर्वांत नवी आवृत्ती असल्याची खात्री करा आणि पुन्हा प्रयत्न करा. जर ही समस्या उद्भवत राहिली, तर सपोर्ट शी संंपर्क साधा.</string>
+  <string name="BackupAlertBottomSheet__an_error_occurred">एक त्रुटी उद्भवली आणि आपला बॅकअप पूर्ण होऊ शकला नाही. आपल्याकडे Graphene ची सर्वांत नवी आवृत्ती असल्याची खात्री करा आणि पुन्हा प्रयत्न करा. जर ही समस्या उद्भवत राहिली, तर सपोर्ट शी संंपर्क साधा.</string>
   <!-- Dialog text for when a backup fails to be created and ways to fix it. Used for out of remote storage space error. -->
   <string name="BackupAlertBottomSheet__an_error_occurred_and">एक त्रुटी उद्भवली आणि तुमचा बॅकअप पूर्ण होऊ शकला नाही. जर ही समस्या उद्भवत राहिली, तर सपोर्ट शी संंपर्क साधा.</string>
   <!-- Dialog action button that will allow you to check for any Signal version updates -->
@@ -7284,7 +7284,7 @@
   <!-- Backup redemption error sheet text line 1 -->
   <string name="BackupAlertBottomSheet__too_many_devices_have_tried">या महिन्यात अनेक डिव्हायसेस वरून तुमचे सदस्यत्व रिडीम करण्याचा प्रयत्न झाला आहे. तुम्ही कदाचितः</string>
   <!-- Backup redemption error sheet bullet point 1 -->
-  <string name="BackupAlertBottomSheet__reregistered_your_signal_account">तुमचा Signal अकाऊंट अनेक वेळा पुन्हा नोंदवला असेल.</string>
+  <string name="BackupAlertBottomSheet__reregistered_your_signal_account">तुमचा Graphene अकाऊंट अनेक वेळा पुन्हा नोंदवला असेल.</string>
   <!-- Backup redemption error sheet bullet point 2 -->
   <string name="BackupAlertBottomSheet__have_too_many_devices_using_the_same_subscription">एकच सदस्यत्व अनेक डिव्हायसेस वर वापरले असेल.</string>
   <!-- BackupStatus -->
@@ -7336,7 +7336,7 @@
   <!-- Text displayed when a backup could not be completed -->
   <string name="BackupStatusRow__your_last_backup">आपला शेवटचा बॅकअप पूर्ण होऊ शकला नाही. आपला फोन वाय-फायशी कनेक्टेड असल्याची खात्री करा आणि पुन्हा प्रयत्न करण्यासाठी \"आता बॅकअप घ्या\" वर टॅप करा.</string>
   <!-- Text displayed when a backup could not be completed and to check that they are on the latest version of Signal -->
-  <string name="BackupStatusRow__your_last_backup_latest_version">आपला शेवटचा बॅकअप पूर्ण होऊ शकला नाही. आपल्याकडे Signal ची सर्वांत नवी आवृत्ती असल्याची खात्री करा आणि पुन्हा प्रयत्न करा.</string>
+  <string name="BackupStatusRow__your_last_backup_latest_version">आपला शेवटचा बॅकअप पूर्ण होऊ शकला नाही. आपल्याकडे Graphene ची सर्वांत नवी आवृत्ती असल्याची खात्री करा आणि पुन्हा प्रयत्न करा.</string>
   <!-- Text displayed in a row to learn more about why a backup failed -->
   <string name="BackupStatusRow__learn_more">अधिक जाणून घ्या</string>
   <!-- Dialog title to prompt resuming media restore over cellular -->
@@ -7368,27 +7368,27 @@
   <!-- Dialog title when Google Play services are missing from the device -->
   <string name="GooglePlayServicesAvailability__service_missing_title">Google Play सेवा आढळल्या नाहीत</string>
   <!-- Dialog message explaining that Google Play services are required for Signal Secure backups subscription -->
-  <string name="GooglePlayServicesAvailability__service_missing_message">Signal सिक्युअर बॅकअप्स चे सदस्यत्व घेण्यासाठी, तुम्ही तुमच्या फोनवर Google Play सेवांचे स्थापन करणे आवश्यक आहे.</string>
+  <string name="GooglePlayServicesAvailability__service_missing_message">Graphene सिक्युअर बॅकअप्स चे सदस्यत्व घेण्यासाठी, तुम्ही तुमच्या फोनवर Google Play सेवांचे स्थापन करणे आवश्यक आहे.</string>
   <!-- Dialog button text to install Google Play services -->
   <string name="GooglePlayServicesAvailability__install_play_services">Play सेवा स्थापित करा</string>
   <!-- Dialog title when Google Play services are currently updating -->
   <string name="GooglePlayServicesAvailability__service_updating_title">Google Play सेवांचे अद्यतन होत आहेत</string>
   <!-- Dialog message asking user to wait while Google Play services finish updating -->
-  <string name="GooglePlayServicesAvailability__service_updating_message">Signal सिक्युअर बॅकअप्स चे सदस्यत्व घेण्यासाठी कृपया Google Play सेवांचे अद्यतन पूर्ण होईपर्यंत थांबा.</string>
+  <string name="GooglePlayServicesAvailability__service_updating_message">Graphene सिक्युअर बॅकअप्स चे सदस्यत्व घेण्यासाठी कृपया Google Play सेवांचे अद्यतन पूर्ण होईपर्यंत थांबा.</string>
   <!-- Dialog title when Google Play services need to be updated -->
   <string name="GooglePlayServicesAvailability__service_update_required_title">Google Play सेवांचे अद्यतन करा</string>
   <!-- Dialog message explaining that Google Play services need to be updated for Signal Secure backups -->
-  <string name="GooglePlayServicesAvailability__service_update_required_message">Signal सिक्युअर बॅकअप्स चे सदस्यत्व घेण्यासाठी, तुम्ही तुमच्या फोनवरील Google Play सेवांचे अद्यतन करा.</string>
+  <string name="GooglePlayServicesAvailability__service_update_required_message">Graphene सिक्युअर बॅकअप्स चे सदस्यत्व घेण्यासाठी, तुम्ही तुमच्या फोनवरील Google Play सेवांचे अद्यतन करा.</string>
   <!-- Dialog button text to update Google Play services -->
   <string name="GooglePlayServicesAvailability__update">अद्यतन</string>
   <!-- Dialog title when Google Play services are disabled -->
   <string name="GooglePlayServicesAvailability__service_disabled_title">सशुल्क सदस्यत्वांसाठी Google Play आवश्यक आहे</string>
   <!-- Dialog message explaining that Google Play services must be enabled for subscriptions -->
-  <string name="GooglePlayServicesAvailability__service_disabled_message">Signal सिक्युअर बॅकअप्स चे सदस्यत्व घेण्यासाठी, तुम्ही तुमच्या फोनवर Google Play सेवांना सक्रिय करा आणि तुम्ही Google Play Store मध्ये साईन इन करा. </string>
+  <string name="GooglePlayServicesAvailability__service_disabled_message">Graphene सिक्युअर बॅकअप्स चे सदस्यत्व घेण्यासाठी, तुम्ही तुमच्या फोनवर Google Play सेवांना सक्रिय करा आणि तुम्ही Google Play Store मध्ये साईन इन करा. </string>
   <!-- Dialog button text to learn more about enabling Google Play services -->
   <string name="GooglePlayServicesAvailability__learn_more">अधिक जाणून घ्या</string>
   <!-- Dialog message shown when Google Play services is invalid and subscriptions are not available -->
-  <string name="GooglePlayServicesAvailability__service_invalid_message">तुम्ही Signal सिक्युअर बॅकअप्स चे सदस्यत्व घेऊ शकत नाही कारण तुमचा फोन Google Play सेवांना सपोर्ट देत नाही. साहाय्यासाठी फोन उत्पादकाशी संंपर्क साधा.</string>
+  <string name="GooglePlayServicesAvailability__service_invalid_message">तुम्ही Graphene सिक्युअर बॅकअप्स चे सदस्यत्व घेऊ शकत नाही कारण तुमचा फोन Google Play सेवांना सपोर्ट देत नाही. साहाय्यासाठी फोन उत्पादकाशी संंपर्क साधा.</string>
   <!-- ManageStorageSettingsFragment -->
   <!-- Settings section title header show above manage settings options for automatic chat history management (deleting) -->
   <string name="ManageStorageSettingsFragment_chat_limit">चॅट मर्यादा</string>
@@ -7409,12 +7409,12 @@
   <!-- Setting row explanation for storage optimization -->
   <string name="ManageStorageSettingsFragment__unused_media_will_be_offloaded">न वापरलेला मिडीया ऑफलोड केला जाईल, परंतु त्याला आपल्या बॅकअप मधून कधीही डाउनलोड केले जाऊ शकते.</string>
   <!-- Dialog message for paid tier pending dialog -->
-  <string name="ManageStorageSettingsFragment__storage_optimization_can_only_be_used">साठवण सुधारणा फक्त Signal सुरक्षित बॅकअप्सच्या सशुल्क टीअरसह वापरता येते. तुमचे बॅकअप्स सदस्यत्व अजूनही प्रक्रिये अंतर्गत आहे आणि अद्याप सक्रिय झालेले नाही. कृपया नंतर पुन्हा प्रयत्न करा.</string>
+  <string name="ManageStorageSettingsFragment__storage_optimization_can_only_be_used">साठवण सुधारणा फक्त Graphene सुरक्षित बॅकअप्सच्या सशुल्क टीअरसह वापरता येते. तुमचे बॅकअप्स सदस्यत्व अजूनही प्रक्रिये अंतर्गत आहे आणि अद्याप सक्रिय झालेले नाही. कृपया नंतर पुन्हा प्रयत्न करा.</string>
   <!-- UpgradeToEnableOptimizedStorageSheet -->
   <!-- Title on a bottom sheet, detailing that the user must upgrade to enable storage optimization -->
   <string name="UpgradeToEnableOptimizedStorageSheet__upgrade_to_enable_this_feature">हे वैशिष्टय सक्षम करण्यासाठी अपग्रेड करा</string>
   <!-- Subtitle of bottom sheet detailing that the user must upgrade to enable storage optimization -->
-  <string name="UpgradeToEnableOptimizedStorageSheet__storage_optimization_can_only_be_used">साठवण सुधारणा फक्त Signal सिक्युअर बॅकअप्सच्या सशुल्क टीअरसह वापरता येते. हे वैशिष्ट्य वापरणे सुरू करण्यासाठी तुमचा बॅकअप प्लॅन अपग्रेड करा.</string>
+  <string name="UpgradeToEnableOptimizedStorageSheet__storage_optimization_can_only_be_used">साठवण सुधारणा फक्त Graphene सिक्युअर बॅकअप्सच्या सशुल्क टीअरसह वापरता येते. हे वैशिष्ट्य वापरणे सुरू करण्यासाठी तुमचा बॅकअप प्लॅन अपग्रेड करा.</string>
   <!-- Primary action to launch upgrade flow. Placeholder is formatted price. -->
   <string name="UpgradeToEnableOptimizedStorageSheet__subscribe_for_s_month">%1$s/महिना सदस्यता</string>
   <!-- UpgradeToStartMediaBackupSheet -->
@@ -7422,8 +7422,8 @@
   <string name="UpgradeToStartMediaBackupSheet__this_media_is_no_longer_available">हा मिडीया यापुढे उपलब्ध नाही</string>
   <!-- Subtitle of bottom sheet detailing that with their current plan, there is a limitation to how many days media is stored for. Placeholder is number of days. -->
   <plurals name="UpgradeToStartMediaBackupSheet__your_current_signal_backup_plan_includes">
-    <item quantity="one">आपल्या वर्तमान Signal बॅकअप प्लॅनमध्ये आपल्या सर्वात अलीकडील %1$d दिवसाच्या मिडीयाचा समावेश आहे. आपल्या सर्व मिडीयाचा बॅकअप घेणे सुरू करण्यासाठी, आत्ता अपग्रेड करा.</item>
-    <item quantity="other">आपल्या वर्तमान Signal बॅकअप प्लॅनमध्ये आपल्या सर्वात अलीकडील %1$d दिवसांच्या मिडीयाचा समावेश आहे. आपल्या सर्व मिडीयाचा बॅकअप घेणे सुरू करण्यासाठी, आत्ता अपग्रेड करा.</item>
+    <item quantity="one">आपल्या वर्तमान Graphene बॅकअप प्लॅनमध्ये आपल्या सर्वात अलीकडील %1$d दिवसाच्या मिडीयाचा समावेश आहे. आपल्या सर्व मिडीयाचा बॅकअप घेणे सुरू करण्यासाठी, आत्ता अपग्रेड करा.</item>
+    <item quantity="other">आपल्या वर्तमान Graphene बॅकअप प्लॅनमध्ये आपल्या सर्वात अलीकडील %1$d दिवसांच्या मिडीयाचा समावेश आहे. आपल्या सर्व मिडीयाचा बॅकअप घेणे सुरू करण्यासाठी, आत्ता अपग्रेड करा.</item>
   </plurals>
   <!-- Primary action to launch upgrade flow. Placeholder is formatted price. -->
   <string name="UpgradeToStartMediaBackupSheet__subscribe_for_s_month">%1$s/महिना सदस्यता</string>
@@ -7431,7 +7431,7 @@
   <!-- Title on a bottom sheet explaining that the given media is no longer available. -->
   <string name="MediaNoLongerAvailableSheet__this_media_is_no_longer_available">हा मिडीया यापुढे उपलब्ध नाही</string>
   <!-- Body on a bottom sheet explaining that the user can enable backups -->
-  <string name="MediaNoLongerAvailableSheet__to_start_backing_up_all_your_media">तुमचा सर्व मीडिया बॅकअप करण्यासाठी, Signal सुरक्षित बॅकअप्स सक्रिय करा आणि सशुल्क टिअर निवडा.</string>
+  <string name="MediaNoLongerAvailableSheet__to_start_backing_up_all_your_media">तुमचा सर्व मीडिया बॅकअप करण्यासाठी, Graphene सुरक्षित बॅकअप्स सक्रिय करा आणि सशुल्क टिअर निवडा.</string>
   <!-- Primary action button on bottom sheet -->
   <string name="MediaNoLongerAvailableSheet__continue">सुरू ठेवा</string>
   <!-- Secondary action button on bottom sheet -->
@@ -7463,7 +7463,7 @@
   <!-- Subtitle for row for canceled backup -->
   <string name="BackupsSettingsFragment__subscription_canceled">सदस्यत्व रद्द केले</string>
   <!-- Subtitle for row for no backup ever created -->
-  <string name="BackupsSettingsFragment_automatic_backups_with_signals">Signal च्या सुरक्षित एण्ड-टू-एण्ड कूटबद्ध केलेली संग्रहण सेवेसह ऑटोमॅटिक बॅकअप.</string>
+  <string name="BackupsSettingsFragment_automatic_backups_with_signals">Graphene च्या सुरक्षित एण्ड-टू-एण्ड कूटबद्ध केलेली संग्रहण सेवेसह ऑटोमॅटिक बॅकअप.</string>
   <!-- Subtitle for row for backups that are active but subscription not found -->
   <string name="BackupsSettingsFragment_subscription_not_found_on_this_device">"या डिव्हाईसवर सदस्यत्व सापडले नाही."</string>
   <!-- Action button label to set up backups -->
@@ -7476,7 +7476,7 @@
   <!-- Displayed on the title bar for Signal Secure Backups -->
   <string name="RemoteBackupsSettingsFragment__secure_backups">बॅकअप्स सुरक्षित करा</string>
   <!-- Displayed on the title bar -->
-  <string name="RemoteBackupsSettingsFragment__signal_backups">Signal सुरक्षित बॅकअप्स</string>
+  <string name="RemoteBackupsSettingsFragment__signal_backups">Graphene सुरक्षित बॅकअप्स</string>
   <!-- Displayed as a label when remote backups are off -->
   <string name="RemoteBackupsSettingsFragment__off">बंद</string>
   <!-- Text shown in a popup indicating that the user needs to enter their screen lock -->
@@ -7595,17 +7595,17 @@
   <!-- Button label to re-enable backups (launches into checkout flow) -->
   <string name="RemoteBackupsSettingsFragment__reenable_backups">बॅकअप पुन्हा सक्षम करा</string>
   <!-- Notice displayed when backups have been disabled and deleted -->
-  <string name="RemoteBackupsSettingsFragment__backups_have_been_turned_off">बॅकअप बंद करण्यात आलेले आहेत आणि आपला डेटा Signal च्या सुरक्षित संग्रहण सेवेमधून हटवण्यात आला आहे.</string>
+  <string name="RemoteBackupsSettingsFragment__backups_have_been_turned_off">बॅकअप बंद करण्यात आलेले आहेत आणि आपला डेटा Graphene च्या सुरक्षित संग्रहण सेवेमधून हटवण्यात आला आहे.</string>
   <!-- Dialog title for dialog which alerts user their optimized media will be downloaded -->
   <string name="RemoteBackupsSettingsFragment__downloading_your_backup">आपला बॅकअप डाऊनलोड करत आहे</string>
   <!-- Dialog message for dialog which alerts user their optimized media will be downloaded -->
   <string name="RemoteBackupsSettingsFragment__depending_on_the_size">आपल्या बॅकअपच्या आकारानुसार याला बराच वेळ लागू शकतो. डाऊनलोड होईपर्यंत आपण आपला फोन नेहमीप्रमाणे वापरू शकता.</string>
   <!-- Displayed in card when user has backups enabled but there is otherwise no subscription available. This can happen for example after a device transfer. -->
-  <string name="RemoteBackupsSettingsFragment__your_subscription_was_not_found">तुमचे सदस्यत्व या डिव्हाईसवर सापडले नाही. Signal सुरक्षित बॅकअप्स वापरणे सुरु ठेवण्यासाठी रीन्यू करा.</string>
+  <string name="RemoteBackupsSettingsFragment__your_subscription_was_not_found">तुमचे सदस्यत्व या डिव्हाईसवर सापडले नाही. Graphene सुरक्षित बॅकअप्स वापरणे सुरु ठेवण्यासाठी रीन्यू करा.</string>
   <!-- Displayed in card when user has a signal subscription but the device doesn\'t see a google play billing subscription. Placeholder is days until subscription expiration. -->
   <plurals name="RemoteBackupsSettingsFragment__your_subscription_on_this_device_is_valid">
-    <item quantity="one">या डिव्हाईसवरील तुमचे सदस्यत्व पुढील %1$d दिवसासाठी वैध आहे. Signal सुरक्षित बॅकअप्स वापरत राहण्यासाठी रीन्यू करा</item>
-    <item quantity="other">या डिव्हाईसवरील तुमचे सदस्यत्व पुढील %1$d दिवसांसाठी वैध आहे. Signal सुरक्षित बॅकअप्स वापरत राहण्यासाठी रीन्यू करा</item>
+    <item quantity="one">या डिव्हाईसवरील तुमचे सदस्यत्व पुढील %1$d दिवसासाठी वैध आहे. Graphene सुरक्षित बॅकअप्स वापरत राहण्यासाठी रीन्यू करा</item>
+    <item quantity="other">या डिव्हाईसवरील तुमचे सदस्यत्व पुढील %1$d दिवसांसाठी वैध आहे. Graphene सुरक्षित बॅकअप्स वापरत राहण्यासाठी रीन्यू करा</item>
   </plurals>
   <!-- Button label to start subscription resubscribe after cancellation -->
   <string name="RemoteBackupsSettingsFragment__resubscribe">पुन्हा सदस्यत्व घ्या</string>
@@ -7660,17 +7660,17 @@
   <!-- Button label to see more details about redemption error -->
   <string name="RemoteBackupsSettingsFragment__details">तपशील</string>
   <!-- Text displayed when there was an error deleting backup -->
-  <string name="RemoteBackupsSettingsFragment__backups_have_been_turned_off_but_there_was_an_error">बॅकअप्स बंद केले आहेत, पण Signalच्या सुरक्षित साठवण सेवेतून तुमचा डेटा हटवताना एक त्रुटी उद्भवली.</string>
+  <string name="RemoteBackupsSettingsFragment__backups_have_been_turned_off_but_there_was_an_error">बॅकअप्स बंद केले आहेत, पण Grapheneच्या सुरक्षित साठवण सेवेतून तुमचा डेटा हटवताना एक त्रुटी उद्भवली.</string>
   <!-- Text displayed as the title in a card when backup fails to delete -->
   <string name="RemoteBackupsSettingsFragment__failed_to_delete_backup">बॅकअप हटवता आला नाही</string>
   <!-- Text displayed as the body in a card when backup fails to delete -->
   <string name="RemoteBackupsSettingsFragment__an_error_occurred_please_contact_support">एक त्रुटी उद्भवली. कृपया सपोर्टशी संंपर्क साधा.</string>
   <!-- Text displayed while we are processing a backup delete but are or need to download optimized media -->
-  <string name="RemoteBackupsSettingsFragment__backups_have_been_turned_off_your_data_will_be">बॅकअप्स बंद केले आहेत, तुमचा डेटा तुमच्या डिव्हाईसवर डाऊनलोड होईल आणि मग Signalच्या सुरक्षित साठवण सेवेतून हटवला जाईल.</string>
+  <string name="RemoteBackupsSettingsFragment__backups_have_been_turned_off_your_data_will_be">बॅकअप्स बंद केले आहेत, तुमचा डेटा तुमच्या डिव्हाईसवर डाऊनलोड होईल आणि मग Grapheneच्या सुरक्षित साठवण सेवेतून हटवला जाईल.</string>
   <!-- Text displayed while we are processing a backup delete -->
-  <string name="RemoteBackupsSettingsFragment__backups_have_been_turned_off_and_your_data">बॅकअप्स बंद करण्यात आलेले आहेत आणि आपला डेटा Signal च्या सुरक्षित संग्रहण सेवेमधून हटवण्यात आला आहे.</string>
+  <string name="RemoteBackupsSettingsFragment__backups_have_been_turned_off_and_your_data">बॅकअप्स बंद करण्यात आलेले आहेत आणि आपला डेटा Graphene च्या सुरक्षित संग्रहण सेवेमधून हटवण्यात आला आहे.</string>
   <!-- Text displayed after we have deleted a user\'s backup -->
-  <string name="RemoteBackupsSettingsFragment__backups_have_been_turned_off_and_your_data_has_been_deleted">बॅकअप बंद करण्यात आलेले आहेत आणि आपला डेटा Signal च्या सुरक्षित संग्रहण सेवेमधून हटवण्यात आला आहे.</string>
+  <string name="RemoteBackupsSettingsFragment__backups_have_been_turned_off_and_your_data_has_been_deleted">बॅकअप बंद करण्यात आलेले आहेत आणि आपला डेटा Graphene च्या सुरक्षित संग्रहण सेवेमधून हटवण्यात आला आहे.</string>
   <!-- Text displayed while downloading backup during deletion. First placeholder is amount downloaded, second is amount remaining, last is percentage. -->
   <string name="RemoteBackupsSettingsFragment__downloading_s_of_s_d">डाउनलोड होत आहे: %2$s पैकी %1$s (%3$d%%)</string>
   <!-- Text displayed when user is out of storage space. Placeholder is storage limit in human readable form (ex. 1GB) -->
@@ -7712,7 +7712,7 @@
   <string name="MessageBackupsFlowFragment__a_backup_deletion_is_in_progress">बॅकअप हटवण्याची प्रक्रिया सुरु आहे.</string>
   <!-- MessageBackupsEducationScreen -->
   <!-- Screen subtitle underneath large headline title -->
-  <string name="MessageBackupsEducationScreen__backup_your_messages_and_media">Signal ची सुरक्षित, एंड-टू-एंड कूटबद्ध केलेली संग्रहण सेवा वापरून आपले संदेश आणि मिडीया यांचा बॅकअप घ्या. आपणाला एक नवीन फोन मिळाल्यावर किंवा Signal पुन्हा इन्स्टॉल केल्यावर कधीही संदेश गमावू नका.</string>
+  <string name="MessageBackupsEducationScreen__backup_your_messages_and_media">Graphene ची सुरक्षित, एंड-टू-एंड कूटबद्ध केलेली संग्रहण सेवा वापरून आपले संदेश आणि मिडीया यांचा बॅकअप घ्या. आपणाला एक नवीन फोन मिळाल्यावर किंवा Graphene पुन्हा इन्स्टॉल केल्यावर कधीही संदेश गमावू नका.</string>
   <!-- Backups feature label for e2e encryption -->
   <string name="MessageBackupsEducationScreen__end_to_end_encrypted">एंड-टू-एंड कूटबद्ध केलेले</string>
   <!-- Backups feature label for informing the user that this feature is completely optional -->
@@ -7744,9 +7744,9 @@
   <!-- Dialog title confirming that the user wants to save a recovery key to the device password manager. -->
   <string name="MessageBackupsKeyRecordScreen__confirm_save_to_password_manager_title">पासवर्ड व्यवस्थापकामध्ये जतन करायची?</string>
   <!-- Dialog message confirming that the user wants to save a recovery key to the device password manager. -->
-  <string name="MessageBackupsKeyRecordScreen__confirm_save_to_password_manager_body">तुमची रीकव्हरी की अशा पासवर्ड व्यवस्थापकामध्ये जतन करा ज्याच्या सुरक्षिततेवर तुमचा विश्वास आहे. तुमच्यासाठी कोणता पासवर्ड व्यवस्थापक योग्य आहे याबाबत Signal कोणतीही शिफारस करत नाही.</string>
+  <string name="MessageBackupsKeyRecordScreen__confirm_save_to_password_manager_body">तुमची रीकव्हरी की अशा पासवर्ड व्यवस्थापकामध्ये जतन करा ज्याच्या सुरक्षिततेवर तुमचा विश्वास आहे. तुमच्यासाठी कोणता पासवर्ड व्यवस्थापक योग्य आहे याबाबत Graphene कोणतीही शिफारस करत नाही.</string>
   <!-- ID used when saving the recovery key to the device password manager. -->
-  <string name="MessageBackupsKeyRecordScreen__backup_key_password_manager_id">Signal सुरक्षित बॅकअप्स</string>
+  <string name="MessageBackupsKeyRecordScreen__backup_key_password_manager_id">Graphene सुरक्षित बॅकअप्स</string>
   <!-- Message shown after the recovery key is successfully saved to the device password manager. -->
   <string name="MessageBackupsKeyRecordScreen__save_to_password_manager_success">तुमच्या पासवर्ड व्यवस्थापकामध्ये जतन झाली</string>
   <!-- Dialog title shown when there is an error saving the recovery key to the device password manager. -->
@@ -7754,7 +7754,7 @@
   <!-- Dialog message shown when there is an error saving the recovery key because no compatible password manager was detected. -->
   <string name="MessageBackupsKeyRecordScreen__missing_password_manager_message">तुम्ही पासवर्ड व्यवस्थापक अजून सेट केलेला नाही, किंवा तुम्ही वापरत असलेला पासवर्ड व्यवस्थापक समर्थित नाही.</string>
   <!-- Dialog message shown when there is an error saving the recovery key because the user previously chose not to save Signal passwords to their password manager. -->
-  <string name="MessageBackupsKeyRecordScreen__password_save_prompt_disabled_message">तुम्ही याआधी गूगल पासवर्ड मॅनेजरमध्ये Signalचे पासवर्ड जतन न करण्याचा निर्णय घेतला होतात. तुमच्या गूगल पासवर्ड मॅनेजर सेटिंग्जमध्ये, \"नाकारलेल्या साईट्स आणि ॲप्स\" मधून Signal हटवा आणि पुन्हा प्रयत्न करा.</string>
+  <string name="MessageBackupsKeyRecordScreen__password_save_prompt_disabled_message">तुम्ही याआधी गूगल पासवर्ड मॅनेजरमध्ये Grapheneचे पासवर्ड जतन न करण्याचा निर्णय घेतला होतात. तुमच्या गूगल पासवर्ड मॅनेजर सेटिंग्जमध्ये, \"नाकारलेल्या साईट्स आणि ॲप्स\" मधून Graphene हटवा आणि पुन्हा प्रयत्न करा.</string>
   <!-- Label for a button that navigates to the device settings -->
   <string name="MessageBackupsKeyRecordScreen__go_to_settings">सेटिंग्ज वर जा</string>
   <!-- Action button label -->
@@ -7812,7 +7812,7 @@
   <!-- Screen headline -->
   <string name="MessagesBackupsTypeSelectionScreen__choose_your_backup_plan">आपली बॅकअप प्लॅन योजना</string>
   <!-- Screen subhead -->
-  <string name="MessageBackupsTypeSelectionScreen__all_backups_are_end_to_end_encrypted">सर्व बॅकअप हे एंड-टू-एंड कूटबद्ध केलेले असतात. Signal ही एक ना-नफा आहे—बॅकअप्ससाठी पैसे देणे आमच्या मिशनला मदत करते.</string>
+  <string name="MessageBackupsTypeSelectionScreen__all_backups_are_end_to_end_encrypted">सर्व बॅकअप हे एंड-टू-एंड कूटबद्ध केलेले असतात. Graphene ही एक ना-नफा आहे—बॅकअप्ससाठी पैसे देणे आमच्या मिशनला मदत करते.</string>
   <!-- Screen subhead highlighted read-more button -->
   <string name="MessageBackupsTypeSelectionScreen__learn_more">अधिक जाणून घ्या</string>
   <!-- Primary action button label without a current selection -->
@@ -7847,7 +7847,7 @@
   <!-- Description text for storage space for paid tier media. Placeholder 1 is for byte amount, placeholder 2 is for a photo count estimate -->
   <string name="MessageBackupsTypeSelectionScreen__s_of_storage_s_photos">संचयनापैकी %1$s (%2$s फोटोज)</string>
   <!-- Description text for thanks -->
-  <string name="MessageBackupsTypeSelectionScreen__thanks_for_supporting_signal">Signal ला समर्थन दिल्याबद्दल धन्यवाद!</string>
+  <string name="MessageBackupsTypeSelectionScreen__thanks_for_supporting_signal">Graphene ला समर्थन दिल्याबद्दल धन्यवाद!</string>
   <!-- Description text for free tier media retention. Placeholder is retention day count. -->
   <plurals name="MessageBackupsTypeSelectionScreen__last_d_days_of_media">
     <item quantity="one">मिडीयाचा शेवटचा %1$d दिवस</item>
@@ -7858,7 +7858,7 @@
   <!-- Dialog title when user can\'t upgrade plan due to missing Google Services -->
   <string name="MessageBackupsTypeSelectionScreen__cant_upgrade_plan">प्लॅन अपग्रेड करता येत नाही</string>
   <!-- Dialog body text explaining Google Services requirement for backup subscription -->
-  <string name="MessageBackupsTypeSelectionScreen__to_subscribe_to_signal_secure_backups">Signal सिक्युअर बॅकअप्स चे सदस्यत्व घेण्यासाठी, तुम्ही तुमच्या फोनवर Google सेवांना सक्रिय केलेले असणे गरजेचे आहे आणि तुम्ही Google Play Store मध्ये साईन्ड इन असणे आवश्यक आहे.</string>
+  <string name="MessageBackupsTypeSelectionScreen__to_subscribe_to_signal_secure_backups">Graphene सिक्युअर बॅकअप्स चे सदस्यत्व घेण्यासाठी, तुम्ही तुमच्या फोनवर Google सेवांना सक्रिय केलेले असणे गरजेचे आहे आणि तुम्ही Google Play Store मध्ये साईन्ड इन असणे आवश्यक आहे.</string>
   <!-- ConfirmBackupCancellationDialog -->
   <!-- Dialog title -->
   <string name="ConfirmBackupCancellationDialog__confirm_cancellation">रद्द करण्याची पुष्टी करा</string>
@@ -7875,7 +7875,7 @@
   <!-- Row title for restore/transfer using a previous registered phone/device -->
   <string name="WelcomeFragment_restore_action_i_have_my_old_phone">माझ्याकडे माझा जुना फोन आहे</string>
   <!-- Row subtitle for restore/transfer using a previous registered phone/device -->
-  <string name="WelcomeFragment_restore_action_scan_qr">पटकन सुरु करण्यासाठी आपल्या चालू Signal अकाऊंट मधून QR कोड स्कॅन करा</string>
+  <string name="WelcomeFragment_restore_action_scan_qr">पटकन सुरु करण्यासाठी आपल्या चालू Graphene अकाऊंट मधून QR कोड स्कॅन करा</string>
   <!-- Row title for restore/transfer without using a previous device -->
   <string name="WelcomeFragment_restore_action_i_dont_have_my_old_phone">माझ्याकडे माझा जुना फोन नाही</string>
   <!-- Row subtitle for restore/transfer without using a previous device -->
@@ -7883,11 +7883,11 @@
   <!-- Screen title for selecting which restore method to use during registration -->
   <string name="SelectRestoreMethodFragment__restore_or_transfer_account">अकाऊंट परत मिळवा किंवा हस्तांतरित करा</string>
   <!-- Screen subtitle for selecting which restore method to use during registration -->
-  <string name="SelectRestoreMethodFragment__get_your_signal_account">आपला Signal अकाऊंट आणि संदेश इतिहास या डिव्हाईसवर आणा.</string>
+  <string name="SelectRestoreMethodFragment__get_your_signal_account">आपला Graphene अकाऊंट आणि संदेश इतिहास या डिव्हाईसवर आणा.</string>
   <!-- Option title for restoring via signal secure backups -->
-  <string name="SelectRestoreMethodFragment__from_signal_backups">Signal सुरक्षित बॅकअप्स कडून</string>
+  <string name="SelectRestoreMethodFragment__from_signal_backups">Graphene सुरक्षित बॅकअप्स कडून</string>
   <!-- Option subtitle for restoring via signal secure backups -->
-  <string name="SelectRestoreMethodFragment__your_free_or_paid_signal_backup_plan">आपला विनामूल्य किंवा सशुल्क Signal बॅकअप प्लॅन</string>
+  <string name="SelectRestoreMethodFragment__your_free_or_paid_signal_backup_plan">आपला विनामूल्य किंवा सशुल्क Graphene बॅकअप प्लॅन</string>
   <!-- Option title for restoring via a local backup folder -->
   <string name="SelectRestoreMethodFragment__from_a_backup_folder">बॅकअप फोल्डर मधून</string>
   <!-- Option title for restoring via a local backup file -->
@@ -7917,7 +7917,7 @@
   <!-- Recovery key text field hint -->
   <string name="EnterBackupKey_backup_key">रीकव्हरी की</string>
   <!-- Recovery key not known bottom sheet info paragraph 1 -->
-  <string name="EnterBackupKey_no_key_paragraph_1">बॅकअप्स त्यांच्या 64 अंकी पुनःप्राप्ती कोडशिवाय परत मिळवता येत नाहीत. जर तुमची रीकव्हरी की हरवली असेल तर Signal तुमचा बॅकअप परत मिळवण्यास मदत करू शकत नाही.</string>
+  <string name="EnterBackupKey_no_key_paragraph_1">बॅकअप्स त्यांच्या 64 अंकी पुनःप्राप्ती कोडशिवाय परत मिळवता येत नाहीत. जर तुमची रीकव्हरी की हरवली असेल तर Graphene तुमचा बॅकअप परत मिळवण्यास मदत करू शकत नाही.</string>
   <!-- Recovery key not known bottom sheet info paragraph 2 -->
   <string name="EnterBackupKey_no_key_paragraph_2">जर तुमच्याकडे तुमचा जुना डिव्हाईस असेल तर तुम्ही तुमची रीकव्हरी की सेटिंग्ज &gt; बॅकअप्स मध्ये पाहू शकता. मग रीकव्हरी की पहा वर टॅप करा.</string>
   <!-- Recovery key not known bottom sheet button to learn more about it -->
@@ -7927,7 +7927,7 @@
   <!-- Dialog title shown when entered AEP doesn\'t work to register with provided e164 -->
   <string name="EnterBackupKey_incorrect_backup_key_title">चुकीची रीकव्हरी की</string>
   <!-- Dialog message shown when entered AEP doesn\'t work to register with provided e164 -->
-  <string name="EnterBackupKey_incorrect_backup_key_message">Signal सुरक्षित बॅकअप्स सक्रिय करतेवेळी तुम्ही एकाच फोन नंबर ने आणि तुम्ही जतन केलेल्या 64 अंकी रीकव्हरी की ने नोंदणी करत आहात याची खात्री करा. बॅकअप्स या की शिवाय पुन्हा मिळवता येत नाहीत.</string>
+  <string name="EnterBackupKey_incorrect_backup_key_message">Graphene सुरक्षित बॅकअप्स सक्रिय करतेवेळी तुम्ही एकाच फोन नंबर ने आणि तुम्ही जतन केलेल्या 64 अंकी रीकव्हरी की ने नोंदणी करत आहात याची खात्री करा. बॅकअप्स या की शिवाय पुन्हा मिळवता येत नाहीत.</string>
   <!-- Dialog positive button text to try entering their recovery key again -->
   <string name="EnterBackupKey_try_again">पुन्हा प्रयत्न करा</string>
   <!-- Dialog negative button text to get help with recovery key -->
@@ -7943,7 +7943,7 @@
   <!-- Dialog message shown during registration and trying to restore a remote backup -->
   <string name="EnterBackupKey_backup_key_you_entered_is_correct_but_no_backup">तुम्ही एंटर केलेली रीकव्हरी की बरोबर आहे, पण त्याच्याशी संलग्न कोणताही बॅकअप नाही. जर तुमच्याकडे अजूनही तुमचा जुना फोन असेल, तर बॅकअप्स सक्रिय केलेले असल्याची आणि बॅकअप पूर्ण झालेला असल्याची खात्री करा आणि मग पुन्हा प्रयत्न करा.</string>
   <!-- Dialog message shown during registration and trying to restore a remote backup -->
-  <string name="EnterBackupKey_backup_key_incorrect_or_backups_not_enabled">तुम्ही तुमची रीकव्हरी की चुकीची प्रविष्ट केली असावी, किंवा तुम्ही तुमच्या जुन्या डिव्हाईसवर किमान एक बॅकअपही पूर्ण केलेला नसावा.\n\nतुम्ही Signal सिक्युअर बॅकअप्स सक्रिय केलेत तेव्हा सेव्ह केले होते त्याच फोन नंबरने आणि रीकव्हरी की ने तुम्ही नोंदणी करत असल्याची खात्री करा, आणि तुमच्या जुन्या डिव्हाईसने एक बॅकअप पूर्ण केलेला असल्याची खात्री करा.</string>
+  <string name="EnterBackupKey_backup_key_incorrect_or_backups_not_enabled">तुम्ही तुमची रीकव्हरी की चुकीची प्रविष्ट केली असावी, किंवा तुम्ही तुमच्या जुन्या डिव्हाईसवर किमान एक बॅकअपही पूर्ण केलेला नसावा.\n\nतुम्ही Graphene सिक्युअर बॅकअप्स सक्रिय केलेत तेव्हा सेव्ह केले होते त्याच फोन नंबरने आणि रीकव्हरी की ने तुम्ही नोंदणी करत असल्याची खात्री करा, आणि तुमच्या जुन्या डिव्हाईसने एक बॅकअप पूर्ण केलेला असल्याची खात्री करा.</string>
   <!-- Dialog message shown during registration and trying to restore a remote backup -->
   <string name="EnterBackupKey_backup_key_check_rate_limited">तुमची रीकव्हरी की प्रविष्ट करण्याच्या प्रयत्नांची मर्यादा संपली आहे. तुमच्या सुरक्षिततेसाठी, तुम्ही कितीवेळा प्रयत्न करू शकता यावर मर्यादा आहेत. एक तास थांबा आणि पुन्हा प्रयत्न करा.</string>
   <!-- Dialog button shown during registration and trying to restore a remote backup to instead skip said backup process -->
@@ -7955,13 +7955,13 @@
   <!-- Dialog button text to contact support on network error -->
   <string name="EnterBackupKey_contact_support">सपोर्टशी संपर्क साधा</string>
   <!-- Email subject when contacting support on a restore backup network issue -->
-  <string name="EnterBackupKey_network_failure_support_email">Signal ॲन्ड्राइड बॅकअप पुनर्स्थापित करण्यात त्रुटी आढळली</string>
+  <string name="EnterBackupKey_network_failure_support_email">Graphene ॲन्ड्राइड बॅकअप पुनर्स्थापित करण्यात त्रुटी आढळली</string>
   <!-- Removed by excludeNonTranslatables <string name="EnterBackupKey_network_failure_support_email_filter" translatable="false">Android SignalBackups Import Failed</string> -->
   <!-- Email subject when contacting support on a permanent backup import failure -->
-  <string name="EnterBackupKey_permanent_failure_support_email">Signal ॲन्ड्राइड बॅकअप रीस्टोर कायमस्वरूपी अपयशी</string>
+  <string name="EnterBackupKey_permanent_failure_support_email">Graphene ॲन्ड्राइड बॅकअप रीस्टोर कायमस्वरूपी अपयशी</string>
   <!-- Removed by excludeNonTranslatables <string name="EnterBackupKey_permanent_failure_support_email_filter" translatable="false">Android SignalBackups Import Permanent Failure</string> -->
   <!-- Email subject when contacting support on a create backup failure -->
-  <string name="BackupAlertBottomSheet_network_failure_support_email">Signal ॲन्ड्राइड बॅकअप निर्यात नेटवर्कमध्ये त्रुटी उद्भवली</string>
+  <string name="BackupAlertBottomSheet_network_failure_support_email">Graphene ॲन्ड्राइड बॅकअप निर्यात नेटवर्कमध्ये त्रुटी उद्भवली</string>
   <!-- Email filter when contacting support on a create backup failure -->
   <!-- Removed by excludeNonTranslatables <string name="BackupAlertBottomSheet_export_failure_filter" translatable="false">Android SignalBackups Export Failed</string> -->
   <!-- Title of dialog asking to submit debuglogs -->
@@ -7975,7 +7975,7 @@
   <!-- Title for restore via qr screen -->
   <string name="RestoreViaQr_title">आपल्या जुन्या फोनने हा कोड स्कॅन करा</string>
   <!-- First instruction on what to do with restore via qr code -->
-  <string name="RestoreViaQr_instruction_1">आपल्या जुन्या डिव्हाईसवर Signal उघडा</string>
+  <string name="RestoreViaQr_instruction_1">आपल्या जुन्या डिव्हाईसवर Graphene उघडा</string>
   <!-- Second instruction on what to do with restore via qr code -->
   <string name="RestoreViaQr_instruction_2">कॅमेरा आयकनवर टॅप करा </string>
   <!-- Third instruction on what to do with restore via qr code -->
@@ -8007,19 +8007,19 @@
   <!-- Restore Complete bottom sheet dialog title -->
   <string name="RestoreCompleteBottomSheet_restore_complete">तुमच्या दुसऱ्या डिव्हाईसवर पूर्ण करा</string>
   <!-- Restore Complete bottom sheet dialog message -->
-  <string name="RestoreCompleteBottomSheet_restore_complete_message">तुमचे Signal खाते आणि संदेश तुमच्या दुसऱ्या डिव्हाईसवर रीस्टोर होण्यासाठी सज्ज आहेत. Signal आता या डिव्हाईसवर निष्क्रिय झाले आहे.</string>
+  <string name="RestoreCompleteBottomSheet_restore_complete_message">तुमचे Graphene खाते आणि संदेश तुमच्या दुसऱ्या डिव्हाईसवर रीस्टोर होण्यासाठी सज्ज आहेत. Graphene आता या डिव्हाईसवर निष्क्रिय झाले आहे.</string>
   <!-- Restore Complete bottom sheet dialog title after device transfer -->
   <string name="RestoreCompleteBottomSheet_transfer_complete">स्थानांतरण पूर्ण झाले</string>
   <!-- Restore Complete bottom sheet dialog message after device transfer -->
-  <string name="RestoreCompleteBottomSheet_transfer_complete_message">आपला Signal अकाऊंट आणि संदेश आपल्या दुसऱ्या डिव्हाईसवर हस्तांतर करा. Signal आता या डिव्हाईसवर निष्क्रिय झाले आहे.</string>
+  <string name="RestoreCompleteBottomSheet_transfer_complete_message">आपला Graphene अकाऊंट आणि संदेश आपल्या दुसऱ्या डिव्हाईसवर हस्तांतर करा. Graphene आता या डिव्हाईसवर निष्क्रिय झाले आहे.</string>
   <!-- Restore Complete bottom sheet dialog button text to dismiss sheet -->
   <string name="RestoreCompleteBottomSheet_button">ठीक आहे</string>
   <!-- No Backup to Restore screen title -->
   <string name="NoBackupToRestore_title">परत मिळवता येण्यासाठी बॅकअप उपलब्ध नाही</string>
   <!-- No Backup to Restore screen subtitle -->
-  <string name="NoBackupToRestore_subtitle">तुम्ही iPhone वरून Android वर येत आहात, त्यामुळे तुमच्या जुन्या डिव्हाईसवर Signal सुरक्षित बॅकअप्स सक्रिय करणे हा तुमचे संदेश आणि मीडिया हस्तांतरित करण्याचा एकमेव मार्ग आहे.</string>
+  <string name="NoBackupToRestore_subtitle">तुम्ही iPhone वरून Android वर येत आहात, त्यामुळे तुमच्या जुन्या डिव्हाईसवर Graphene सुरक्षित बॅकअप्स सक्रिय करणे हा तुमचे संदेश आणि मीडिया हस्तांतरित करण्याचा एकमेव मार्ग आहे.</string>
   <!-- No Backup to Restore step 1 to enable backups on old device -->
-  <string name="NoBackupToRestore_step1">आपल्या जुन्या डिव्हाईसवर Signal उघडा</string>
+  <string name="NoBackupToRestore_step1">आपल्या जुन्या डिव्हाईसवर Graphene उघडा</string>
   <!-- No Backup to Restore step 2 to enable backups on old device -->
   <string name="NoBackupToRestore_step2">सेटिंग्ज वर टॅप करा &gt; बॅकअप्स</string>
   <!-- No Backup to Restore step 3 to enable backups on old device -->
@@ -8047,7 +8047,7 @@
   <!-- Notification title for when user is out of remote storage -->
   <string name="Notification_backup_storage_full">बॅकअप साठवण पूर्ण झाली</string>
   <!-- Notification body for when user is out of remote storage -->
-  <string name="Notification_youve_reached_your_backup_storage_limit">तुम्ही तुमची बॅकअप साठवण मर्यादा गाठली आहे. चॅट्स आणि मीडिया बॅकअप करणे सुरु ठेवण्यासाठी Signal मधील जागा मोकळी करा.</string>
+  <string name="Notification_youve_reached_your_backup_storage_limit">तुम्ही तुमची बॅकअप साठवण मर्यादा गाठली आहे. चॅट्स आणि मीडिया बॅकअप करणे सुरु ठेवण्यासाठी Graphene मधील जागा मोकळी करा.</string>
   <!-- Notification title for when initial backup failed -->
   <string name="Notification_backup_failed">बॅकअप अयशस्वी</string>
   <!-- Notification body for when initial backup failed -->

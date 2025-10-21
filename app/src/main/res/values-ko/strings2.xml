@@ -47,7 +47,7 @@
   <string name="enter_device_link_dialog__if_your_phone_cant_scan_the_qr_code_you_can_manually_enter_the_link_encoded_in_the_qr_code">기기가 QR 코드를 스캔할 수 없다면, 수동으로 QR 코드에 삽입된 링크를 입력할 수 있습니다.</string>
   <string name="BiometricDialogFragment__please_confirm_it_is_really_you_to_access_graphene">Graphene를 사용할 사람이 본인인지 확인해 주세요</string>
   <string name="EnableAppUpdatesMegaphone_check_for_updates">업데이트 확인하기</string>
-  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s은(는) Signal에 등록되어있지 않습니다</string>
+  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s은(는) Graphene에 등록되어있지 않습니다</string>
   <plurals name="BioTextPreference_n_linked_devices">
     <item quantity="other">연결된 %d개 기기</item>
   </plurals>
@@ -88,7 +88,7 @@
   <string name="DeviceAddFragment__link_without_scanning">스캔 없이 연결하기</string>
   <string name="HelpSettingsFragment_disable_and_delete_debug_log">디버그 로그를 삭제하고 비활성화 할까요?</string>
   <string name="ConversationSettingsFragment__add_to_your_phones_contacts">기기 연락처에 추가하기</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene는 친구를 찾는걸 돕기 위해 연락처 권한이 필요합니다. 연락처는 Signal의 비공개 연락처 검색을 이용하여 업로드되므로, 종단간 암호화되어 Signal 서비스에서 절대 볼 수 없습니다.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene는 친구를 찾는걸 돕기 위해 연락처 권한이 필요합니다. 연락처는 Graphene의 비공개 연락처 검색을 이용하여 업로드되므로, 종단간 암호화되어 Graphene 서비스에서 절대 볼 수 없습니다.</string>
   <string name="PrivacySettingsFragment__please_first_setup_your_biometrics_in_android_settings">안드로이드 설정에서 생체 인식을 우선 설정해주세요</string>
   <string name="Megaphones_turn_on_stories">스토리 활성화하기</string>
   <string name="EnableAppUpdatesMegaphone_check_for_updates_automatically">업데이트를 자동으로 확인할까요?</string>
@@ -97,7 +97,7 @@
   <string name="BiometricDialogFragment__biometric_verification">생체 인식</string>
   <string name="LinkDeviceFragment__use_graphene_on_another_devices">다른 기기에서 Graphene를 사용하세요. 메시지가 연결된 기기와 동기화됩니다.</string>
   <string name="LinkDeviceFragment__graphene_on_another_device">다른 기기의 Graphene</string>
-  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene는 데스크톱이나 iPad의 Signal 뿐만 아니라, Graphene를 사용하는 다른 안드로이드 기기와의 연결을 지원합니다.</string>
+  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene는 데스크톱이나 iPad의 Graphene 뿐만 아니라, Graphene를 사용하는 다른 안드로이드 기기와의 연결을 지원합니다.</string>
   <string name="LinkDeviceFragment__for_android_devices_visit_s_to_install_graphene">안드로이드 기기라면: Graphene를 설치하기 위해 %s을 방문하세요.</string>
   <string name="preferences__periodically_check_for_new_releases_and_ask_to_install_them">새로운 업데이트를 주기적으로 확인하고 설치를 요청합니다</string>
   <string name="preferences_appearance__toggle_to_show_or_hide_the_icon_on_the_navigation_bar">내비게이션 바에서 아이콘을 표시하거나 숨기도록 변경합니다</string>
@@ -106,7 +106,7 @@
   <string name="BlockUnblockDialog_your_chat_history_with_s_will_be_deleted">%1$s와(과)의 채팅이 삭제됩니다.</string>
   <string name="NetworkPreferenceFragment_a_valid_port_number_is_between_0_and_65535">유효한 포트 번호는 0과 65535 사이입니다</string>
   <string name="HelpSettingsFragment_for_updates_please_check_your_app_store">업데이트를 위해, 앱 스토어를 확인해주세요. 이 버전은 인앱 업데이터를 포함하지 않습니다.</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene는 친구를 찾고 메시지 전송을 돕기 위해 연락처와 미디어 권한이 필요합니다. 연락처는 Signal의 비공개 연락처 검색을 이용하여 업로드되므로, 종단간 암호화 되어 Signal 서비스에서 절대 볼 수 없습니다.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene는 친구를 찾고 메시지 전송을 돕기 위해 연락처와 미디어 권한이 필요합니다. 연락처는 Graphene의 비공개 연락처 검색을 이용하여 업로드되므로, 종단간 암호화 되어 Graphene 서비스에서 절대 볼 수 없습니다.</string>
   <string name="BioTextPreference_no_linked_devices">연결된 기기 없음</string>
   <string name="RegistrationActivity_link_error">기기 연결 중 오류가 발생했습니다. 네트워크 연결을 확인하고 재시도하세요</string>
   <string name="LinkDeviceFragment__messaging_is_private_on_all_linked_devices">모든 연결된 기기의 메시지는 비공개됩니다.</string>

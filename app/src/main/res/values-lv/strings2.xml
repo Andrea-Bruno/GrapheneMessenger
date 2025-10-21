@@ -54,7 +54,7 @@
   <string name="RegistrationActivity_link_timeout">Iestājās noildze, kamēr tika gaidīta galvenā ierīce. Sagatavojiet ierīci kvadrātkoda nolasīšanai, tad mēģiniet vēlreiz</string>
   <string name="RegistrationActivity_link_retry">Mēģināt sasaistīšanu vēlreiz</string>
   <string name="LinkDeviceFragment__graphene_on_another_device">Graphene citā ierīcē</string>
-  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene atbalsta sasaistīšanu ar citām Android ierīcēm, kā arī galddatoriem un iPad, kuros darbojas Signal.</string>
+  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene atbalsta sasaistīšanu ar citām Android ierīcēm, kā arī galddatoriem un iPad, kuros darbojas Graphene.</string>
   <string name="LinkDeviceFragment__once_linked_new_messages_sync_across_devices">Pēc sasaistīšanas jaunie ziņojumi tiek sinhronizēti starp ierīcēm, taču iepriekšējā ziņojumu vēsture netiks pārsūtīta.</string>
   <string name="LinkDeviceFragment__messaging_is_private_on_all_linked_devices">Ziņapmaiņa ir privāta visās sasaistītajās ierīcēs.</string>
   <string name="LinkDeviceFragment__for_android_devices_visit_s_to_install_graphene">Android ierīcēm: jāapmeklē vietne %s, lai uzstādītu Graphene.</string>
@@ -71,9 +71,9 @@
   <string name="NetworkPreferenceFragment_graphene_wont_connect_without_orbot_which_is_not_installed_on_this_device">Graphene nevar izveidot savienojumu bez Orbot, kas nav uzstādīta šajā ierīcē.</string>
   <string name="RegistrationActivity_network_settings">Tīkla iestatījumi</string>
   <string name="arrays__weekly">Iknedēļas</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene ir nepieciešama piekļuve kontaktpersonām, lai palīdzētu atrast savus draugus. Kontaktpersonas tiek augšupielādētas ar Signal privāto kontaktpersonu atklāšanu, kas nozīmē, ka tās ir pilnībā šifrētas un nekad nav redzamas pakalpojumam Signal.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene ir nepieciešama piekļuve kontaktpersonām, lai palīdzētu atrast savus draugus. Kontaktpersonas tiek augšupielādētas ar Graphene privāto kontaktpersonu atklāšanu, kas nozīmē, ka tās ir pilnībā šifrētas un nekad nav redzamas pakalpojumam Graphene.</string>
   <string name="BioTextPreference_no_linked_devices">Nav sasaistīto ierīču</string>
-  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s nav reģistrējies Signal</string>
+  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s nav reģistrējies Graphene</string>
   <string name="DeviceListItem_device_d">Ierīce #%d</string>
   <string name="NotificationsSettingsFragment__sorry_this_feature_requires_push_notifications_delivered_via_fcm_or_unifiedpush">Diemžēl šai iespējai ir nepieciešami pašpiegādes paziņojumi, kas tiek piegādāti ar FCM vai UnifiedPush, kas pašlaik nav pieejami.</string>
   <string name="NotificationsSettingsFragment__new_activity_while_locked">Jauna darbība, kamēr aizslēgta</string>
@@ -97,7 +97,7 @@
   <string name="MessageRetrievalService_ready_to_receive_messages">Gatavs saņemt ziņojumus</string>
   <string name="HelpSettingsFragment__graphene_im_website">Graphene.im tīmekļvietne</string>
   <string name="DeviceAddFragment__link_without_scanning">Sasaistīt bez nolasīšanas</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene ir nepieciešama piekļuve kontaktpersonām un multividei, lai palīdzētu atrast draugus un nosūtīt ziņojumus. Kontaktpersonas tiek augšupielādētas ar Signal privāto kontaktpersonu atklāšanu, kas nozīmē, ka tās ir pilnībā šifrētas un nekad nav redzamas pakalpojumam Signal.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene ir nepieciešama piekļuve kontaktpersonām un multividei, lai palīdzētu atrast draugus un nosūtīt ziņojumus. Kontaktpersonas tiek augšupielādētas ar Graphene privāto kontaktpersonu atklāšanu, kas nozīmē, ka tās ir pilnībā šifrētas un nekad nav redzamas pakalpojumam Graphene.</string>
   <string name="BiometricDialogFragment__biometric_verification">Apliecināšana ar biometriju</string>
   <string name="BiometricDialogFragment__please_confirm_it_is_really_you_to_access_graphene">Lūgums apstiprināt sevi, lai izmantotu Graphene</string>
   <string name="PrivacySettingsFragment__no_biometric_features_available_on_this_device">Šajā ierīcē nav pieejamas biometriskās iespējas</string>
@@ -128,7 +128,7 @@
   <string name="NotificationsSettingsFragment__an_error_occurred_while_registering_for_push_notifications_s">Atgadījās kļūda, kamēr notika reģistrēšanās pašpiegādes paziņojumiem. %s</string>
   <string name="NotificationsSettingsFragment__please_check_if_google_play_services_is_installed_and_enabled">Lūgums pārbaudīt, vai Google Play pakalpojumi ir uzstādīti un iespējoti, vai pārslēgties uz citu pašpiegādes pakalpojumu.</string>
   <string name="NotificationsSettingsFragment__configure_unifiedpush">Konfigurēt UnifiedPush</string>
-  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Lai izmantotu UnifiedPush, nepieciešama piekļuve GrapheneSocket serverim, lai sasaistītu Signal kontu.\n\nJāuzsāk ar kvadrātkoda, kuru sniedz serveris, nolasīšanu.</string>
+  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Lai izmantotu UnifiedPush, nepieciešama piekļuve GrapheneSocket serverim, lai sasaistītu Graphene kontu.\n\nJāuzsāk ar kvadrātkoda, kuru sniedz serveris, nolasīšanu.</string>
   <string name="UnifiedPushSettingsFragment__none_available">Neviens nav pieejams</string>
   <string name="UnifiedPushSettingsFragment__distributor_app">Izplatītāja lietotne</string>
   <string name="UnifiedPushSettingsFragment__status">Stāvoklis</string>

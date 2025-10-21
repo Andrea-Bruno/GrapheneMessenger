@@ -72,11 +72,11 @@
   <string name="BioTextPreference_no_linked_devices">Inga länkade enheter</string>
   <string name="DeviceAddFragment__link_without_scanning">Koppla utan QR-kod</string>
   <string name="BiometricDialogFragment__biometric_verification">Biometrisk verifiering</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene behöver kontaktbehörigheter för att hjälpa dig att hitta dina vänner. Dina kontakter laddas upp med Signals \"private contact discovery\", vilket innebär att de är end-to-end-krypterade och aldrig synliga för Signal-tjänsten.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene behöver kontaktbehörigheter för att hjälpa dig att hitta dina vänner. Dina kontakter laddas upp med Graphenes \"private contact discovery\", vilket innebär att de är end-to-end-krypterade och aldrig synliga för Graphene-tjänsten.</string>
   <string name="BlockUnblockDialog_your_chat_history_with_s_will_be_deleted_and_s_will_be_removed_from_your_phone_contacts">Din chatt med %1$s raderas och %1$s kommer att tas bort från kontaktlistan.</string>
   <string name="preferences__periodically_check_for_new_releases_and_ask_to_install_them">Kolla regelbundet efter uppdateringar och fråga innan installation</string>
   <string name="enter_device_link_dialog__if_your_phone_cant_scan_the_qr_code_you_can_manually_enter_the_link_encoded_in_the_qr_code">Om enheten inte kan skanna QR-koden kan du manuellt ange länken.</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene behöver kontakt- och mediebehörigheter för att hjälpa dig att hitta dina vänner och skicka meddelanden. Dina kontakter laddas upp med Signals \"private contact discovery\", vilket innebär att de är end-to-end-krypterade och aldrig synliga för Signal-tjänsten.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene behöver kontakt- och mediebehörigheter för att hjälpa dig att hitta dina vänner och skicka meddelanden. Dina kontakter laddas upp med Graphenes \"private contact discovery\", vilket innebär att de är end-to-end-krypterade och aldrig synliga för Graphene-tjänsten.</string>
   <string name="PrivacySettingsFragment__no_biometric_features_available_on_this_device">Denna enhet saknar stöd för biometrisk upplåsning</string>
   <string name="ProxyManager_successfully_started_orbot">Orbot har startat</string>
   <string name="NetworkPreferenceFragment_graphene_wont_connect_without_orbot_which_is_not_installed_on_this_device">Graphene ansluter bara genom Orbot, som inte är installerat på den här enheten.</string>
@@ -111,7 +111,7 @@
   </plurals>
   <string name="LinkDeviceFragment__graphene_on_another_device">Graphene på en annan enhet</string>
   <string name="LinkDeviceFragment__use_graphene_on_another_devices">Använd Graphene på en annan enhet. Dina meddelanden synkroniseras till dina länkade enheter.</string>
-  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene stöder länkning till andra Android-enheter som kör Graphene, samt datorer och iPads som kör Signal.</string>
+  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene stöder länkning till andra Android-enheter som kör Graphene, samt datorer och iPads som kör Graphene.</string>
   <string name="LinkDeviceFragment__once_linked_new_messages_sync_across_devices">Nya meddelanden synkroniseras mellan dina länkade enheter, tidigare historik överförs dock inte.</string>
   <string name="GcmRefreshJob_switch_to_an_alternative_push_service_in_settings_notifications">Växla till en alternativ push-tjänst under Inställningar &gt; Meddelanden eller åtgärda problemet med Play tjänster.</string>
   <string name="EnableAppUpdatesMegaphone_check_for_updates_automatically">Kontrollera uppdateringar automatiskt?</string>
@@ -130,13 +130,13 @@
   <string name="preferences_appearance__dynamic_colors">Dynamiska färger</string>
   <string name="preferences_appearance__use_system_colors_for_the_app_theme">Använd systemets temafärger även för denna app</string>
   <string name="PrivacySettingsFragment__lock_graphene_access_with_fingerprint_or_face_recognition">Lås Graphene med hjälp av fingeravtryck eller ansiktsigenkänning</string>
-  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s har inte registrerat något Signal-konto</string>
+  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s har inte registrerat något Graphene-konto</string>
   <string name="NotificationsSettingsFragment__please_check_if_google_play_services_is_installed_and_enabled">Kolla så att Google Play Services har installerats och aktiverats, eller byt till annan notistjänst.</string>
   <string name="NotificationsSettingsFragment__push_notifications">Notistjänst</string>
   <string name="NotificationsSettingsFragment__select_your_preferred_service_for_push_notifications">Välj vilken notistjänst du vill använda. Om den inte fungerar, kommer appen automatiskt att använda WebSocket för att leverera notiser.</string>
   <string name="NotificationsSettingsFragment__delivery_service">Notisleverantör</string>
   <string name="NotificationsSettingsFragment__configure_unifiedpush">Konfigurera UnifiedPush</string>
-  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">För att använda UnifiedPush måste du ha en GrapheneSocket-server att koppla ditt Signalkonto till.\n\nBörja med att skanna den QR-kod din server visar.</string>
+  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">För att använda UnifiedPush måste du ha en GrapheneSocket-server att koppla ditt Graphenekonto till.\n\nBörja med att skanna den QR-kod din server visar.</string>
   <string name="NotificationsSettingsFragment__graphenesocket_server">GrapheneSocket-server</string>
   <string name="NotificationsSettingsFragment__not_selected">Ingen har valts</string>
   <string name="UnifiedPushSettingsFragment__none_available">Ingen är tillgänglig</string>

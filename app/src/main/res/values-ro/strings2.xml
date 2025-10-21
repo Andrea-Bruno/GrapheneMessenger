@@ -67,8 +67,8 @@
   <string name="NetworkPreferenceFragment_missing_orbot_app">Aplicația Orbot lipsește</string>
   <string name="NetworkPreferenceFragment_a_valid_port_number_is_between_0_and_65535">Un număr de port valabil este între 0 și 65535</string>
   <string name="DeviceAddFragment__link_without_scanning">Asociază fără scanare</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene are nevoie de permisiuni pentru contacte și media pentru a te ajuta să îți găsești prietenii și să trimiți mesaje. Contactele tale sunt încărcate folosind descoperirea privată a contactelor de la Signal, ceea ce înseamnă că sunt cifrate de la un capăt la altul și nu sunt niciodată vizibile pentru serviciul Signal.</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene are nevoie de permisiunea pentru contacte pentru a te ajuta să-ți găsești prietenii. Contactele tale sunt încărcate folosind descoperirea privată a contactelor de la Signal, ceea ce înseamnă că sunt cifrate de la un capăt la altul și nu sunt niciodată vizibile pentru serviciul Signal.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene are nevoie de permisiuni pentru contacte și media pentru a te ajuta să îți găsești prietenii și să trimiți mesaje. Contactele tale sunt încărcate folosind descoperirea privată a contactelor de la Graphene, ceea ce înseamnă că sunt cifrate de la un capăt la altul și nu sunt niciodată vizibile pentru serviciul Graphene.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene are nevoie de permisiunea pentru contacte pentru a te ajuta să-ți găsești prietenii. Contactele tale sunt încărcate folosind descoperirea privată a contactelor de la Graphene, ceea ce înseamnă că sunt cifrate de la un capăt la altul și nu sunt niciodată vizibile pentru serviciul Graphene.</string>
   <string name="preferences__beta_versions_are_intended_for_testing_purposes_and_may_contain_bugs">Versiunile beta sunt versiuni de test și pot conține erori</string>
   <string name="preferences__include_beta_updates">Include versiuni beta</string>
   <string name="PrivacySettingsFragment__lock_graphene_access_with_fingerprint_or_face_recognition">Blochează accesul la Graphene cu amprentă sau recunoaștere facială</string>
@@ -89,7 +89,7 @@
   <string name="EnableAppUpdatesMegaphone_graphene_can_periodically_check_for_new_releases_and_ask_you_to_install_them">Graphene poate verifica periodic dacă există versiuni noi și te poate întreba dacă vrei să le instalezi.</string>
   <string name="EnableAppUpdatesMegaphone_you_will_be_notified_when_updates_are_available">Vei fi notificat când sunt disponibile actualizări</string>
   <string name="TimeDurationPickerDialog_single_letter_second_abbreviation">s</string>
-  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s nu este înscris în Signal</string>
+  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s nu este înscris în Graphene</string>
   <string name="RegistrationActivity_device_name_description">Numele aparatului</string>
   <string name="DeviceListItem_primary">Principal</string>
   <string name="RegistrationActivity_link_device">Asociere cu un aparat existent</string>
@@ -118,7 +118,7 @@
   <string name="LinkDeviceFragment__graphene_on_another_device">Graphene în alt aparat</string>
   <string name="LinkDeviceFragment__messaging_is_private_on_all_linked_devices">Mesajele sunt private în toate aparatele asociate.</string>
   <string name="LinkDeviceFragment__once_linked_new_messages_sync_across_devices">Odată asociate, mesajele noi se sincronizează între aparate, dar mesajele anterioare nu vor fi transferate.</string>
-  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene acceptă asocierea cu alte aparate Android care utilizează Graphene, precum și cu iPad-uri și computere care utilizează Signal.</string>
+  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene acceptă asocierea cu alte aparate Android care utilizează Graphene, precum și cu iPad-uri și computere care utilizează Graphene.</string>
   <string name="LinkDeviceFragment__for_android_devices_visit_s_to_install_graphene">Pentru Android: A se vedea %s pentru a instala Graphene.</string>
   <string name="GcmRefreshJob_unable_to_register_with_Google_Play_Services">Nu se poate înregistra la Play Services</string>
   <string name="DozeReminder_allow_graphene_to_deliver_timely_notifications">Permite ca Graphene să transmită rapid notificările, chiar și atunci când aparatul tău nu este utilizat.</string>
@@ -131,7 +131,7 @@
   <string name="NotificationsSettingsFragment__delivery_service">Serviciul de livrare</string>
   <string name="IncomingMessageObserver_websocket_service">Serviciul WebSocket</string>
   <string name="NotificationsSettingsFragment__configure_unifiedpush">Configurează UnifiedPush</string>
-  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Pentru a utiliza UnifiedPush, este nevoie de acces la un server GrapheneSocket pentru a conecta contul tău Signal.\n\nÎncepe prin scanarea codului QR furnizat de serverul tău.</string>
+  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Pentru a utiliza UnifiedPush, este nevoie de acces la un server GrapheneSocket pentru a conecta contul tău Graphene.\n\nÎncepe prin scanarea codului QR furnizat de serverul tău.</string>
   <string name="NotificationsSettingsFragment__graphenesocket_server">Server GrapheneSocket</string>
   <string name="NotificationsSettingsFragment__not_selected">Neselecționat</string>
   <string name="UnifiedPushSettingsFragment__none_available">Niciunul disponibil</string>

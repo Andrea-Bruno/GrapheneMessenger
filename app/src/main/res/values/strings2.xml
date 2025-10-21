@@ -82,8 +82,8 @@
   <string name="enter_device_link_dialog__url" translatable="false">sgnl://linkdevice?uuid=UUID&amp;pub_key=PUBKEY</string>
   <string name="HelpSettingsFragment_disable_and_delete_debug_log">Delete and disable debug log?</string>
   <string name="HelpSettingsFragment_for_updates_please_check_your_app_store">For updates, please check your app store. This version does not include an in-app updater.</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene needs the contacts and media permissions to help you find your friends and send messages. Your contacts are uploaded using Signal\'s private contact discovery, which means they are end-to-end encrypted and never visible to the Signal service.</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene needs the contacts permission to help you find your friends. Your contacts are uploaded using Signal\'s private contact discovery, which means they are end-to-end encrypted and never visible to the Signal service.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene needs the contacts and media permissions to help you find your friends and send messages. Your contacts are uploaded using Graphene\'s private contact discovery, which means they are end-to-end encrypted and never visible to the Graphene service.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene needs the contacts permission to help you find your friends. Your contacts are uploaded using Graphene\'s private contact discovery, which means they are end-to-end encrypted and never visible to the Graphene service.</string>
   <string name="DozeReminder_allow_graphene_to_deliver_timely_notifications">Allow Graphene to deliver timely notifications, even when your device is in standby.</string>
   <string name="DozeReminder_disable_battery_restrictions">Disable battery restrictions</string>
   <string name="BiometricDialogFragment__biometric_verification">Biometric verification</string>
@@ -101,7 +101,7 @@
   <string name="EnableAppUpdatesMegaphone_check_for_updates">Check for updates</string>
   <string name="EnableAppUpdatesMegaphone_graphene_can_periodically_check_for_new_releases_and_ask_you_to_install_them">Graphene can periodically check for new releases and ask you to install them.</string>
   <string name="EnableAppUpdatesMegaphone_you_will_be_notified_when_updates_are_available">You will be notified when updates are available</string>
-  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s is not registered with Signal</string>
+  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s is not registered with Graphene</string>
   <string name="TimeDurationPickerDialog_single_letter_second_abbreviation">s</string>
   <string name="AccountSettingsFragment_pin_settings_cannot_be_changed_from_a_linked_device">PIN settings cannot be changed from a linked device</string>
   <string name="DeviceListItem_device_d">Device #%d</string>
@@ -127,7 +127,7 @@
   <string name="LinkDeviceFragment__graphene_on_another_device">Graphene on another device</string>
   <string name="LinkDeviceFragment__messaging_is_private_on_all_linked_devices">Messaging is private on all linked devices.</string>
   <string name="LinkDeviceFragment__once_linked_new_messages_sync_across_devices">Once linked, new messages sync across devices, but previous message history will not be transferred.</string>
-  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene supports linking to other Android devices running Graphene, as well as desktops and iPads running Signal.</string>
+  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene supports linking to other Android devices running Graphene, as well as desktops and iPads running Graphene.</string>
   <string name="LinkDeviceFragment__for_android_devices_visit_s_to_install_graphene">For Android devices: Visit %s to install Graphene.</string>
   <string name="GcmRefreshJob_unable_to_register_with_Google_Play_Services">"Unable to register with Play Services</string>
   <string name="GcmRefreshJob_switch_to_an_alternative_push_service_in_settings_notifications">Switch to an alternative push service in Settings &gt; Notifications or fix the issue with Play Services.</string>
@@ -137,7 +137,7 @@
   <string name="NotificationsSettingsFragment__select_your_preferred_service_for_push_notifications">Select your preferred service for push notifications. If unavailable, the app will automatically use WebSocket to ensure notifications are delivered.</string>
   <string name="NotificationsSettingsFragment__delivery_service">Delivery service</string>
   <string name="NotificationsSettingsFragment__configure_unifiedpush">Configure UnifiedPush</string>
-  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">To use UnifiedPush, you need access to a GrapheneSocket server to link your Signal account.\n\nStart by scanning the QR code provided by your server.</string>
+  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">To use UnifiedPush, you need access to a GrapheneSocket server to link your Graphene account.\n\nStart by scanning the QR code provided by your server.</string>
   <string name="NotificationsSettingsFragment__graphenesocket_server">GrapheneSocket server</string>
   <string name="NotificationsSettingsFragment__not_selected">Not selected</string>
   <string name="UnifiedPushSettingsFragment__none_available">None available</string>

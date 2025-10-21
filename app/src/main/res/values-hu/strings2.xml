@@ -67,7 +67,7 @@
   <string name="RegistrationActivity_network_settings">Hálózati beállítások</string>
   <string name="preferences__network">Hálózat</string>
   <string name="RegistrationActivity_provider_declined">A szolgáltató megtagadta a hitelesítő kód küldését, feltehetően csalás megelőzési szabályok miatt.</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene számára szükséges a kapcsolatok való hozzáférés az ismerősök megtalálásához. A kapcsolatai a Signal privát keresőjébe kerülnek feltöltésre, ami azt jelenti, hogy mindkét oldalon titkosított adatok melyek a Signal részére sem megfejthetőek.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene számára szükséges a kapcsolatok való hozzáférés az ismerősök megtalálásához. A kapcsolatai a Graphene privát keresőjébe kerülnek feltöltésre, ami azt jelenti, hogy mindkét oldalon titkosított adatok melyek a Graphene részére sem megfejthetőek.</string>
   <string name="DonateMegaphone_graphene_is_free_software">A Graphene egy ingyenes szoftver</string>
   <string name="preferences__periodically_check_for_new_releases_and_ask_to_install_them">Időközönként új verziók keresése és telepítése</string>
   <string name="DeviceAddFragment__link_without_scanning">Link szkennelés nélkül</string>
@@ -96,10 +96,10 @@
   <string name="preferences__block_users_youve_never_been_in_contact_with_and_who_are_not_saved_in_your_contacts">Mindenki blokkolása aki jelenleg nincs a kapcsolatok között, és korábban sem volt.</string>
   <string name="ChangePassphraseDialogFragment_generating_keys_this_may_take_a_while">Kulcsok generálás. Ez eltarthat egy ideig…</string>
   <string name="RegistrationActivity_copied_to_clipboard">Vágólapra másolva</string>
-  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s nem regisztrált még fel Signal-ra</string>
+  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s nem regisztrált még fel Graphene-ra</string>
   <string name="arrays__weekly">Hetente</string>
   <string name="DeviceListItem_this_device">Ez az eszköz</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene számára szükséges a kapcsolatok- és helyi médiához való hozzáférés az ismerősök megtalálásához. A kapcsolatai a Signal privát keresőjébe kerülnek feltöltésre, ami azt jelenti, hogy mindkét oldalon titkosított adatok melyek a Signal részére sem megfejthetőek.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene számára szükséges a kapcsolatok- és helyi médiához való hozzáférés az ismerősök megtalálásához. A kapcsolatai a Graphene privát keresőjébe kerülnek feltöltésre, ami azt jelenti, hogy mindkét oldalon titkosított adatok melyek a Graphene részére sem megfejthetőek.</string>
   <string name="PassphraseCreateActivity_now_you_can_set_a_passphrase_to_encrypt_the_database">Immáron állíthat be jelmondatot az adatbázisa titkosításához. Amíg nem kerül feloldásra, Graphene nem fogad be se értesítéseket, se hívásokat. Ez segít az adatok megőrzéséhez ellopott eszközökön.</string>
   <string name="NotificationsSettingsFragment__receive_notifications_for_messages_or_missed_calls_when_the_app_is_locked">Értesítések üzenetekről és nem fogadott hívásokról, amíg az app le volt zárva.</string>
   <string name="NotificationsSettingsFragment__sorry_this_feature_requires_push_notifications_delivered_via_fcm_or_unifiedpush">Ehhez a funkcióhoz push értesítések kellenek FCM vagy UnifiedPush-on keresztül. Ezek sajnos nem elérhetőek.</string>

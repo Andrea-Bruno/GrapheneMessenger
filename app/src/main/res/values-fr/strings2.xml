@@ -66,8 +66,8 @@
   <string name="enter_device_link_dialog__if_your_phone_cant_scan_the_qr_code_you_can_manually_enter_the_link_encoded_in_the_qr_code">Si votre appareil ne peut pas scanner le code QR, vous pouvez saisir manuellement le lien encodé dans le code QR.</string>
   <string name="HelpSettingsFragment_disable_and_delete_debug_log">Supprimer et désactiver le journal de débogage \?</string>
   <string name="DeviceAddFragment__link_without_scanning">Synchroniser sans scanner</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene a besoin des autorisations relatives aux contacts et aux médias pour vous aider à trouver vos amis et à envoyer des messages. Vos contacts sont téléversés en utilisant la découverte privée de contacts de Signal, ce qui signifie qu\'ils sont chiffrés de bout en bout et ne sont jamais visibles pour le service Signal.</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene a besoin de l\'autorisation des contacts pour vous aider à trouver vos amis. Vos contacts sont téléversés en utilisant la découverte privée de contacts de Signal, ce qui signifie qu\'ils sont chiffrés de bout en bout et ne sont jamais visibles pour le service Signal.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene a besoin des autorisations relatives aux contacts et aux médias pour vous aider à trouver vos amis et à envoyer des messages. Vos contacts sont téléversés en utilisant la découverte privée de contacts de Graphene, ce qui signifie qu\'ils sont chiffrés de bout en bout et ne sont jamais visibles pour le service Graphene.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene a besoin de l\'autorisation des contacts pour vous aider à trouver vos amis. Vos contacts sont téléversés en utilisant la découverte privée de contacts de Graphene, ce qui signifie qu\'ils sont chiffrés de bout en bout et ne sont jamais visibles pour le service Graphene.</string>
   <string name="preferences__beta_versions_are_intended_for_testing_purposes_and_may_contain_bugs">Les versions bêta sont destinées à des fins de test et peuvent contenir des erreurs</string>
   <string name="preferences__include_beta_updates">Inclure les mises à jour bêta</string>
   <string name="BiometricDialogFragment__biometric_verification">Vérification biométrique</string>
@@ -86,7 +86,7 @@
   <string name="EnableAppUpdatesMegaphone_check_for_updates">Rechercher des mises à jour</string>
   <string name="EnableAppUpdatesMegaphone_graphene_can_periodically_check_for_new_releases_and_ask_you_to_install_them">Graphene peut vérifier périodiquement la présence de nouvelles versions et vous proposer de les installer.</string>
   <string name="EnableAppUpdatesMegaphone_you_will_be_notified_when_updates_are_available">Vous serez informé·e quand des mises à jour seront disponibles</string>
-  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s n\'est pas enregistré·e auprès de Signal</string>
+  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s n\'est pas enregistré·e auprès de Graphene</string>
   <string name="TimeDurationPickerDialog_single_letter_second_abbreviation">s</string>
   <string name="RegistrationActivity_device_name_description">Nom de l\'appareil</string>
   <string name="DeviceListItem_primary">Principal</string>
@@ -115,7 +115,7 @@
   <string name="LinkDeviceFragment__graphene_on_another_device">Graphene sur un autre appareil</string>
   <string name="LinkDeviceFragment__messaging_is_private_on_all_linked_devices">Vos conversations sont privées sur tous vos appareils liés.</string>
   <string name="LinkDeviceFragment__once_linked_new_messages_sync_across_devices">Une fois lié, les nouveaux messages seront synchronisés avec tous vos appareils, mais votre historique de conversation ne sera pas transféré.</string>
-  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene peut être lié à d\'autres appareils Android avec Graphene, ainsi qu\'avec des ordinateurs et des iPads avec Signal.</string>
+  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene peut être lié à d\'autres appareils Android avec Graphene, ainsi qu\'avec des ordinateurs et des iPads avec Graphene.</string>
   <string name="LinkDeviceFragment__for_android_devices_visit_s_to_install_graphene">Pour les appareils Android : Visitez %s pour installer Graphene.</string>
   <string name="LinkDeviceFragment__use_graphene_on_another_devices">Utilisez Graphene sur un autre appareil. Vos messages seront synchronisés avec vos appareils liés.</string>
   <string name="DozeReminder_allow_graphene_to_deliver_timely_notifications">Autoriser Graphene à vous notifier ponctuellement, même lorsque votre appareil est en veille.</string>
@@ -160,7 +160,7 @@
   <string name="GrapheneSocketLink_graphenesocket_server_not_found_at_s">Le serveur GrapheneSocket n\'a pas été trouvé sur « %s »</string>
   <string name="GrapheneSocketLink_experienced_a_network_error_please_try_again">Erreur réseau. Veuillez réessayer.</string>
   <string name="UnifiedPushSettingsFragment__graphenesocket_server">Serveur GrapheneSocket</string>
-  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Pour utiliser UnifiedPush, vous devez accéder à un serveur GrapheneSocket pour lier votre compte Signal.\n\nCommencez par scanner le code QR fourni par votre serveur.</string>
+  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Pour utiliser UnifiedPush, vous devez accéder à un serveur GrapheneSocket pour lier votre compte Graphene.\n\nCommencez par scanner le code QR fourni par votre serveur.</string>
   <string name="GrapheneSocketLink_scan_the_qr_code">Scannez le code QR affiché sur la page d\'accueil de votre serveur GrapheneSocket ou sur la console.</string>
   <string name="UnifiedPushNotificationBuilder__graphenesocket_forbidden_password">Votre inscription sur GrapheneSocket n\'est plus valide. Veuillez supprimer l\'appareil lié et essayez de nouveau de l\'enregistrer.</string>
   <string name="UnifiedPushSettingsFragment__graphenesocket_server_air_gapped">Séparé physiquement</string>

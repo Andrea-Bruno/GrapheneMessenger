@@ -67,8 +67,8 @@
   <string name="HelpSettingsFragment_disable_and_delete_debug_log">Debug log uitzetten en verwijderen\?</string>
   <string name="preferences__beta_versions_are_intended_for_testing_purposes_and_may_contain_bugs">Beta versies zijn bedoeld om te testen en kunnen fouten bevatten</string>
   <string name="preferences__include_beta_updates">Inclusief beta updates</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene heeft toestemming nodig om de contacten te benaderen om te helpen je vrienden te vinden. Je contacten worden naar Signal\'s prive contact service geupload, dit houdt in dat ze eind tot eind versleuteld zijn en de service ze zelf niet kan inzien.</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene heeft toestemming nodig om de contacten en media te benaderen om te helpen je vrienden te vinden. Je contacten worden naar Signal\'s prive contact service geupload, dit houdt in dat ze eind tot eind versleuteld zijn en de service ze zelf niet kan inzien.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene heeft toestemming nodig om de contacten te benaderen om te helpen je vrienden te vinden. Je contacten worden naar Graphene\'s prive contact service geupload, dit houdt in dat ze eind tot eind versleuteld zijn en de service ze zelf niet kan inzien.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene heeft toestemming nodig om de contacten en media te benaderen om te helpen je vrienden te vinden. Je contacten worden naar Graphene\'s prive contact service geupload, dit houdt in dat ze eind tot eind versleuteld zijn en de service ze zelf niet kan inzien.</string>
   <string name="DeviceAddFragment__link_without_scanning">Link zonder te scannen</string>
   <string name="BiometricDialogFragment__biometric_verification">Biometrische verificatie</string>
   <string name="BiometricDialogFragment__please_confirm_it_is_really_you_to_access_graphene">Bevestig dat jij het echt bent om Graphene te gebruiken</string>
@@ -85,7 +85,7 @@
   <string name="EnableAppUpdatesMegaphone_check_for_updates">Controleren op updates</string>
   <string name="EnableAppUpdatesMegaphone_graphene_can_periodically_check_for_new_releases_and_ask_you_to_install_them">Graphene kan periodiek controleren op nieuwe versies en je vragen ze te installeren.</string>
   <string name="EnableAppUpdatesMegaphone_you_will_be_notified_when_updates_are_available">Je krijgt een bericht wanneer er updates beschikbaar zijn</string>
-  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s is niet geregistreerd bij Signal</string>
+  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s is niet geregistreerd bij Graphene</string>
   <string name="TimeDurationPickerDialog_single_letter_second_abbreviation">s</string>
   <string name="RegistrationActivity_device_name_description">Apparaat naam</string>
   <string name="DeviceListItem_primary">Primair</string>
@@ -116,7 +116,7 @@
   <string name="LinkDeviceFragment__use_graphene_on_another_devices">Gebruik Graphene op een ander apparaat. Je berichten worden gesynct naar de gelinkte apparaten.</string>
   <string name="LinkDeviceFragment__graphene_on_another_device">Graphene op een ander apparaat</string>
   <string name="LinkDeviceFragment__once_linked_new_messages_sync_across_devices">Na het linken worden nieuwe berichten gesynct naar alle apparaten maar de bestaande berichtengeschiedenis wordt niet overgezet.</string>
-  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene ondersteund linken met andere Android apparaten die Graphene gebruiken, alsmede naar desktops en iPads die Signal gebruiken.</string>
+  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene ondersteund linken met andere Android apparaten die Graphene gebruiken, alsmede naar desktops en iPads die Graphene gebruiken.</string>
   <string name="GcmRefreshJob_unable_to_register_with_Google_Play_Services">Registratie bij Play Services niet gelukt</string>
   <string name="NotificationsSettingsFragment__select_your_preferred_service_for_push_notifications">Selecteer de gewenste service voor pushberichten. Indien niet beschikbaar zal de app automatisch WebSockets gebruiken om te garanderen dat notificaties afgeleverd worden.</string>
   <string name="NotificationsSettingsFragment__delivery_service">Afleverservice</string>
@@ -147,7 +147,7 @@
   <string name="UnifiedPushSettingsFragment__status_summary_missing_endpoint">Aan het wachten op antwoord van de UnifiedPush distributeur</string>
   <string name="UnifiedPushSettingsFragment__status_summary_no_distributor">Geen UnifiedPush distributeur geïnstalleerd</string>
   <string name="NotificationsSettingsFragment__configure_unifiedpush">Configureer UnifiedPush</string>
-  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Om UnifiedPush te gebruiken heb je toegang nodig tot een GrapheneSocket server om je Signal account te linken.\n\nStart door de QR code van de server te scannen.</string>
+  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Om UnifiedPush te gebruiken heb je toegang nodig tot een GrapheneSocket server om je Graphene account te linken.\n\nStart door de QR code van de server te scannen.</string>
   <string name="UnifiedPushSettingsFragment__status_summary_forbidden_endpoint">Het eindpunt is verboden door de server</string>
   <string name="UnifiedPushSettingsFragment__status_summary_distributor_not_selected">Geen distributeur app geselecteerd</string>
   <string name="UnifiedPushNotificationBuilder__graphenesocket_device_limit_hit">Je hebt het maximum aantal van %d gekoppelde apparaten bereikt. Verwijder er een om je GrapheneSocket server te koppene.</string>

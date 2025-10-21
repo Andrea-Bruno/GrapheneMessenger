@@ -66,8 +66,8 @@
   <string name="enter_device_link_dialog__if_your_phone_cant_scan_the_qr_code_you_can_manually_enter_the_link_encoded_in_the_qr_code">Se il tuo dispositivo non può scansionare il codice QR, puoi inserire manualmente il collegamento codificato nel codice QR.</string>
   <string name="HelpSettingsFragment_disable_and_delete_debug_log">Eliminare e disabilitare il registro di debug\?</string>
   <string name="DeviceAddFragment__link_without_scanning">Associa senza scansione</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene ha bisogno delle autorizzazioni per i contatti e i media per aiutarti a trovare i tuoi amici e inviare messaggi. I contatti vengono caricati utilizzando la funzione di scoperta privata dei contatti di Signal, il che significa che sono crittografati dall\'inizio alla fine e non sono mai visibili al servizio Signal.</string>
-  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene ha bisogno dell\'autorizzazione dei contatti per aiutarti a trovare gli amici. I tuoi contatti sono caricati utilizzando Signal\'individuazione dei contatti privati, il che significa che sono crittografati dall\'inizio alla fine e mai visibili al servizio Signal.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_and_media_in_order_to_connect_with_friends">Graphene ha bisogno delle autorizzazioni per i contatti e i media per aiutarti a trovare i tuoi amici e inviare messaggi. I contatti vengono caricati utilizzando la funzione di scoperta privata dei contatti di Graphene, il che significa che sono crittografati dall\'inizio alla fine e non sono mai visibili al servizio Graphene.</string>
+  <string name="RegistrationActivity_graphene_needs_access_to_your_contacts_in_order_to_connect_with_friends">Graphene ha bisogno dell\'autorizzazione dei contatti per aiutarti a trovare gli amici. I tuoi contatti sono caricati utilizzando Graphene\'individuazione dei contatti privati, il che significa che sono crittografati dall\'inizio alla fine e mai visibili al servizio Graphene.</string>
   <string name="preferences__include_beta_updates">Includi gli aggiornamenti beta</string>
   <string name="preferences__beta_versions_are_intended_for_testing_purposes_and_may_contain_bugs">Le versioni beta sono destinate a scopi di test e possono contenere errori</string>
   <string name="BiometricDialogFragment__biometric_verification">Verifica biometrica</string>
@@ -86,7 +86,7 @@
   <string name="EnableAppUpdatesMegaphone_check_for_updates_automatically">Controllare automaticamente gli aggiornamenti\?</string>
   <string name="EnableAppUpdatesMegaphone_graphene_can_periodically_check_for_new_releases_and_ask_you_to_install_them">Graphene può controllare periodicamente la presenza di nuove versioni e chiedere all\'utente di installarle.</string>
   <string name="EnableAppUpdatesMegaphone_you_will_be_notified_when_updates_are_available">Sarai avvisato/avvisata quando saranno disponibili gli aggiornamenti</string>
-  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s non è registrato/a con Signal</string>
+  <string name="NewConversationActivity__s_is_not_registered_with_signal">%1$s non è registrato/a con Graphene</string>
   <string name="TimeDurationPickerDialog_single_letter_second_abbreviation">s</string>
   <string name="RegistrationActivity_device_name_description">Nome del dispositivo</string>
   <string name="DeviceListItem_primary">Principale</string>
@@ -116,7 +116,7 @@
   <string name="LinkDeviceFragment__graphene_on_another_device">Graphene su un altro dispositivo</string>
   <string name="LinkDeviceFragment__messaging_is_private_on_all_linked_devices">La messaggistica è privata su tutti i dispositivi associati.</string>
   <string name="LinkDeviceFragment__once_linked_new_messages_sync_across_devices">Una volta associati, i nuovi messaggi vengono sincronizzati tra i dispositivi, ma la cronologia dei messaggi precedenti non verrà trasferita.</string>
-  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene consente di associare altri dispositivi Android che utilizzano Graphene, oltre a computer e iPad che utilizzano Signal.</string>
+  <string name="LinkDeviceFragment__graphene_supports_linking_to_other_android_devices">Graphene consente di associare altri dispositivi Android che utilizzano Graphene, oltre a computer e iPad che utilizzano Graphene.</string>
   <string name="LinkDeviceFragment__for_android_devices_visit_s_to_install_graphene">Per Android: Visitare %s per installare Graphene.</string>
   <string name="NotificationsSettingsFragment__push_notifications">Notifiche</string>
   <string name="DozeReminder_allow_graphene_to_deliver_timely_notifications">Consentire a Graphene di inviare notifiche tempestive, anche quando il dispositivo è in standby.</string>
@@ -132,7 +132,7 @@
   <string name="UnifiedPushNotificationBuilder__graphenesocket_device_limit_hit">Hai raggiunto il limite dei dispositivi collegati %d. Per collegare il server GrapheneSocket, rimuovi prima un dispositivo.</string>
   <string name="UnifiedPushNotificationBuilder__registration_failed">La registrazione con il tuo distributore UnifiedPush non è riuscita. Questo potrebbe essere dovuto a un problema di rete o un requisito mancante dal tuo distributore.</string>
   <string name="NotificationsSettingsFragment__configure_unifiedpush">Configura UnifiedPush</string>
-  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Per usare UnifiedPush, è necessario accedere a un server GrapheneSocket per collegare il tuo account Signal.\n\nInizia scansionando il codice QR fornito dal server.</string>
+  <string name="NotificationsSettingsFragment__to_use_unifiedpush_you_need_access_to_a_graphenesocket_server">Per usare UnifiedPush, è necessario accedere a un server GrapheneSocket per collegare il tuo account Graphene.\n\nInizia scansionando il codice QR fornito dal server.</string>
   <string name="NotificationsSettingsFragment__graphenesocket_server">Server GrapheneSocket</string>
   <string name="UnifiedPushSettingsFragment__tap_to_copy_to_clipboard">Tocca per copiare negli appunti</string>
   <string name="UnifiedPushSettingsFragment__distributor_app">App del distributore</string>
