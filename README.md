@@ -41,9 +41,6 @@ This file contains:
 - Full texts of all applicable licenses
 - Attribution details for each component
 - Links to original project repositories
-
-## Open Source License Compliance
-
 We are committed to meticulously respecting all terms of the open source licenses for the components we use. If you notice any discrepancies or issues regarding license attributions, we encourage you to report them through the project's issues.
 
 ## Acknowledgments
