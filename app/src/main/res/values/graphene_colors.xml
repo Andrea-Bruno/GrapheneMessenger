@@ -237,13 +237,13 @@
 
     <!-- core_colors.xml -->
 
-    <color name="graphene_core_ultramarine">#6F6F6F</color>
+    <color name="graphene_core_ultramarine">#7152FF</color>
     <color name="stock_core_ultramarine">#2C6BED</color>
 
     <color name="graphene_core_ultramarine_dark">#4924F1</color>
     <color name="stock_core_ultramarine_dark">#1851B4</color>
 
-    <color name="graphene_core_ultramarine_icon">#7051FF</color>   <!-- Variant of #6F6F6F -->
+    <color name="graphene_core_ultramarine_icon">#7051FF</color>   <!-- Variant of #7152FF -->
     <color name="stock_core_ultramarine_icon">#3A76F0</color>
 
     <color name="graphene_core_ultramarine_light">#8F77FF</color>
@@ -269,7 +269,7 @@
 
     <!-- ChatColorsPalette.kt -->
 
-    <color name="graphene_chat_colors_ultramarine">#6448E5</color> <!-- Variant of #6F6F6F -->
+    <color name="graphene_chat_colors_ultramarine">#6448E5</color> <!-- Variant of #7152FF -->
     <color name="stock_chat_colors_ultramarine">#6058CA</color>
 
     <!-- UsernameQrCodeColorScheme.kt -->
