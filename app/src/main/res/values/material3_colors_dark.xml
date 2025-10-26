@@ -13,7 +13,7 @@
   <!-- <color name="signal_dark_colorOnPrimaryContainer">#DDDCFC</color> -->
   <!-- <color name="signal_dark_colorOnSecondary">#2E2A42</color> -->
   <!-- <color name="signal_dark_colorOnSecondaryContainer">#E3DCF9</color> -->
-  <color name="signal_dark_colorOnSurface">#53F9FF</color>
+  <color name="signal_dark_colorOnSurface">#E2E2E2</color>
   <!-- <color name="signal_dark_colorOnSurfaceVariant">#BEBCC4</color> -->
   <!-- <color name="signal_dark_colorOutlineVariant">#6E5DB9</color> -->
   <!-- <color name="signal_dark_colorOnBackground">#E3E1E6</color> -->

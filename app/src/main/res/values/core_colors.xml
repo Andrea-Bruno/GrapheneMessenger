@@ -17,24 +17,24 @@
   <!-- red_400 -->
   <color name="core_red_highlight_50">#802B80D5</color>
   <color name="core_red_shade">#1A4D81</color>
-  <color name="core_white">#ffffff</color>
+  <color name="core_white">#FFFFFF</color>
   <color name="core_black">#000000</color>
   <color name="reminder_background">#59FFFF</color>
-  <color name="core_grey_02">#f6f6f6</color>
-  <color name="core_grey_05">#e9e9e9</color>
-  <color name="core_grey_10">#e2e2e2</color>
-  <color name="core_grey_15">#d4d4d4</color>
-  <color name="core_grey_20">#c6c6c6</color>
-  <color name="core_grey_25">#b9b9b9</color>
+  <color name="core_grey_02">#F6F6F6</color>
+  <color name="core_grey_05">#E9E9E9</color>
+  <color name="core_grey_10">#E2E2E2</color>
+  <color name="core_grey_15">#D4D4D4</color>
+  <color name="core_grey_20">#C6C6C6</color>
+  <color name="core_grey_25">#B9B9B9</color>
   <color name="core_grey_45">#848484</color>
   <color name="core_grey_50">#777777</color>
-  <color name="core_grey_55">#6a6a6a</color>
-  <color name="core_grey_60">#5e5e5e</color>
+  <color name="core_grey_55">#6A6A6A</color>
+  <color name="core_grey_60">#5E5E5E</color>
   <color name="core_grey_65">#525252</color>
   <color name="core_grey_70">#474747</color>
-  <color name="core_grey_75">#3b3b3b</color>
+  <color name="core_grey_75">#3B3B3B</color>
   <color name="core_grey_80">#303030</color>
   <color name="core_grey_85">#262626</color>
-  <color name="core_grey_90">#1b1b1b</color>
+  <color name="core_grey_90">#1B1B1B</color>
   <color name="core_grey_95">#121212</color>
 </resources>

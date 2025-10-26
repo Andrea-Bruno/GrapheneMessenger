@@ -127,7 +127,7 @@ private fun AppUpdatesSettingsScreen(
           )
         }
 
-        item {
+/*        item {
           Rows.ToggleRow(
             checked = state.includeBetaEnabled,
             text = stringResource(R.string.preferences__include_beta_updates),
@@ -135,7 +135,7 @@ private fun AppUpdatesSettingsScreen(
             onCheckChanged = callbacks::onIncludeBetaChanged
           )
         }
-
+*/
         item {
           Rows.TextRow(
             text = stringResource(R.string.EnableAppUpdatesMegaphone_check_for_updates),

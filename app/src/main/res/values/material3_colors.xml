@@ -26,16 +26,16 @@
   <!-- Core color alpha variants -->
   <color name="signal_colorSecondaryContainer_12">#1F52F6FF</color>
   <color name="signal_colorTertiaryContainer_12">#1F4BE1FF</color>
-  <color name="signal_colorSurface_60">#995BFFFF</color>
+  <color name="signal_colorSurface_60">#99F7F7F7</color>
   <color name="signal_colorSurfaceVariant_38">#6155FFFF</color>
   <color name="signal_colorSurfaceVariant_64">#A355FFFF</color>
-  <color name="signal_colorOnSurface_12">#1F08192A</color>
-  <color name="signal_colorOnSurface_50">#8008192A</color>
+  <color name="signal_colorOnSurface_12">#1F171717</color>
+  <color name="signal_colorOnSurface_50">#80171717</color>
   <color name="signal_colorOnSurfaceVariant_60">#992060A0</color>
-  <color name="signal_colorOnBackground_60">#9908192A</color>
-  <color name="signal_colorOutline_38">#612F8EED</color>
+  <color name="signal_colorOnBackground_60">#99171717</color>
+  <color name="signal_colorOutline_38">#61818181</color>
   <color name="signal_colorOutlineVariant_38">#61349DFF</color>
-  <color name="signal_colorBackground_0">#005BFFFF</color>
+  <color name="signal_colorBackground_0">#00F7F7F7</color>
   <!-- Core color alpha variants without alpha channel -->
   <color name="signal_colorSurfaceVariant_16_no_alpha">#4CE5FF</color>
   <color name="signal_colorSurfaceVariant_32_no_alpha">#44CCFF</color>
