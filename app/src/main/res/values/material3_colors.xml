@@ -1,46 +1,42 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Core colors for Material3 -->
-    <!-- GRAPHENE: Colors moved to themes.xml as theme attributes -->
-    <color name="signal_neutralSurface">@color/signal_light_neutralSurface</color>
-    <color name="signal_colorOnCustom">@color/signal_light_colorOnCustom</color>
-    <color name="signal_colorOnCustomVariant">@color/signal_light_colorOnCustomVariant</color>
-
-    <color name="signal_colorTransparent1">@color/signal_light_colorTransparent1</color>
-    <color name="signal_colorTransparent2">@color/signal_light_colorTransparent2</color>
-    <color name="signal_colorTransparent3">@color/signal_light_colorTransparent3</color>
-    <color name="signal_colorTransparent4">@color/signal_light_colorTransparent4</color>
-    <color name="signal_colorTransparent5">@color/signal_light_colorTransparent5</color>
-    <color name="signal_colorNeutral">@color/signal_light_colorNeutral</color>
-    <color name="signal_colorNeutralVariant">@color/signal_light_colorNeutralVariant</color>
-    <color name="signal_colorTransparentInverse1">@color/signal_light_colorTransparentInverse1</color>
-    <color name="signal_colorTransparentInverse2">@color/signal_light_colorTransparentInverse2</color>
-    <color name="signal_colorTransparentInverse3">@color/signal_light_colorTransparentInverse3</color>
-    <color name="signal_colorTransparentInverse4">@color/signal_light_colorTransparentInverse4</color>
-    <color name="signal_colorTransparentInverse5">@color/signal_light_colorTransparentInverse5</color>
-    <color name="signal_colorNeutralInverse">@color/signal_light_colorNeutralInverse</color>
-    <color name="signal_colorNeutralVariantInverse">@color/signal_light_colorNeutralVariantInverse</color>
-
-    <!-- Inverses -->
-    <!-- GRAPHENE: Colors moved to themes.xml as theme attributes -->
-    <color name="signal_colorErrorInverse">@color/graphene_error_dark</color>
-    <color name="signal_colorErrorContainerInverse">@color/graphene_error_container_dark</color>
-
-    <!-- Core color alpha variants -->
-    <color name="signal_colorSecondaryContainer_12">#1FE3DBF9</color>
-    <color name="signal_colorTertiaryContainer_12">#1FD1C6FB</color>
-    <color name="signal_colorSurface_60">#99F6F6FF</color>
-    <color name="signal_colorSurfaceVariant_38">#61E7E6F2</color>
-    <color name="signal_colorSurfaceVariant_64">#A3E7E6F2</color>
-    <color name="signal_colorOnSurface_12">#1F181719</color>
-    <color name="signal_colorOnSurface_50">#80181719</color>
-    <color name="signal_colorOnSurfaceVariant_60">#99585563</color>
-    <color name="signal_colorOnBackground_60">#99171719</color>
-    <color name="signal_colorOutline_38">#6182808A</color>
-    <color name="signal_colorOutlineVariant_38">#619384E2</color>
-    <color name="signal_colorBackground_0">#00F6F6FF</color>
-
-    <!-- Core color alpha variants without alpha channel -->
-    <color name="signal_colorSurfaceVariant_16_no_alpha">#D0CFDB</color>
-    <color name="signal_colorSurfaceVariant_32_no_alpha">#B9B8C4</color>
+  <!-- Core colors for Material3 -->
+  <!-- GRAPHENE: Colors moved to themes.xml as theme attributes -->
+  <color name="signal_neutralSurface">@color/signal_light_neutralSurface</color>
+  <color name="signal_colorOnCustom">@color/signal_light_colorOnCustom</color>
+  <color name="signal_colorOnCustomVariant">@color/signal_light_colorOnCustomVariant</color>
+  <color name="signal_colorTransparent1">@color/signal_light_colorTransparent1</color>
+  <color name="signal_colorTransparent2">@color/signal_light_colorTransparent2</color>
+  <color name="signal_colorTransparent3">@color/signal_light_colorTransparent3</color>
+  <color name="signal_colorTransparent4">@color/signal_light_colorTransparent4</color>
+  <color name="signal_colorTransparent5">@color/signal_light_colorTransparent5</color>
+  <color name="signal_colorNeutral">@color/signal_light_colorNeutral</color>
+  <color name="signal_colorNeutralVariant">@color/signal_light_colorNeutralVariant</color>
+  <color name="signal_colorTransparentInverse1">@color/signal_light_colorTransparentInverse1</color>
+  <color name="signal_colorTransparentInverse2">@color/signal_light_colorTransparentInverse2</color>
+  <color name="signal_colorTransparentInverse3">@color/signal_light_colorTransparentInverse3</color>
+  <color name="signal_colorTransparentInverse4">@color/signal_light_colorTransparentInverse4</color>
+  <color name="signal_colorTransparentInverse5">@color/signal_light_colorTransparentInverse5</color>
+  <color name="signal_colorNeutralInverse">@color/signal_light_colorNeutralInverse</color>
+  <color name="signal_colorNeutralVariantInverse">@color/signal_light_colorNeutralVariantInverse</color>
+  <!-- Inverses -->
+  <!-- GRAPHENE: Colors moved to themes.xml as theme attributes -->
+  <color name="signal_colorErrorInverse">@color/graphene_error_dark</color>
+  <color name="signal_colorErrorContainerInverse">@color/graphene_error_container_dark</color>
+  <!-- Core color alpha variants -->
+  <color name="signal_colorSecondaryContainer_12">#1F52F6FF</color>
+  <color name="signal_colorTertiaryContainer_12">#1F4BE1FF</color>
+  <color name="signal_colorSurface_60">#995BFFFF</color>
+  <color name="signal_colorSurfaceVariant_38">#6155FFFF</color>
+  <color name="signal_colorSurfaceVariant_64">#A355FFFF</color>
+  <color name="signal_colorOnSurface_12">#1F08192A</color>
+  <color name="signal_colorOnSurface_50">#8008192A</color>
+  <color name="signal_colorOnSurfaceVariant_60">#992060A0</color>
+  <color name="signal_colorOnBackground_60">#9908192A</color>
+  <color name="signal_colorOutline_38">#612F8EED</color>
+  <color name="signal_colorOutlineVariant_38">#61349DFF</color>
+  <color name="signal_colorBackground_0">#005BFFFF</color>
+  <!-- Core color alpha variants without alpha channel -->
+  <color name="signal_colorSurfaceVariant_16_no_alpha">#4CE5FF</color>
+  <color name="signal_colorSurfaceVariant_32_no_alpha">#44CCFF</color>
 </resources>
