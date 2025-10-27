@@ -8,19 +8,19 @@
   <!-- Removed by excludeNonTranslatables <string name="app_name" translatable="false">Signal</string> -->
   <!-- Removed by excludeNonTranslatables <string name="install_url" translatable="false">https://%73%69%67%6E%61%6C.%6F%72%67//install</string> -->
   <!-- Removed by excludeNonTranslatables <string name="donate_url" translatable="false">https://%73%69%67%6E%61%6C.%6F%72%67//donate</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="backup_support_url" translatable="false">https://support.signal.org/hc/articles/360007059752</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="backup_failed_support_url" translatable="false">https://support.signal.org/hc/articles/8768161836954</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="transfer_support_url" translatable="false">https://support.signal.org/hc/articles/360007059752</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="support_center_url" translatable="false">https://support.signal.org/</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="backup_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059752</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="backup_failed_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/8768161836954</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="transfer_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059752</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="support_center_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//</string> -->
   <!-- Removed by excludeNonTranslatables <string name="terms_and_privacy_policy_url" translatable="false">https://github.com/Andrea-Bruno/GrapheneMessenger/blob/main/legal.md</string> -->
   <!-- Removed by excludeNonTranslatables <string name="google_pay_url" translatable="false">https://pay.google.com</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="donation_decline_code_error_url" translatable="false">https://support.signal.org/hc/articles/4408365318426#errors</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="sms_export_url" translatable="false">https://support.signal.org/hc/articles/360007321171</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="donation_decline_code_error_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/4408365318426#errors</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="sms_export_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007321171</string> -->
   <!-- Removed by excludeNonTranslatables <string name="signal_me_username_url" translatable="false">https://signal.me/#u/%1$s</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="username_support_url" translatable="false">https://support.signal.org/hc/articles/5389476324250</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="export_account_data_url" translatable="false">https://support.signal.org/hc/articles/5538911756954</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="pending_transfer_url" translatable="false">https://support.signal.org/hc/articles/360031949872#pending</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="donate_faq_url" translatable="false">https://support.signal.org/hc/articles/360031949872#donate</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="username_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/5389476324250</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="export_account_data_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/5538911756954</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="pending_transfer_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360031949872#pending</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="donate_faq_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360031949872#donate</string> -->
   <!-- First placeholder is productId, second placeholder is app package -->
   <string name="backup_subscription_management_url">https://play.google.com/store/account/subscriptions?sku=%1$s&amp;package=%2$s</string>
   <string name="yes">Evet</string>
@@ -989,7 +989,7 @@
   <string name="LinkDeviceFragment__sync_failure_body_unretryable">Cihazın başarıyla bağlandı ancak mesajların aktarılamadı.</string>
   <!-- Text button in a dialog that, when pressed, will redirect to the Signal support page -->
   <string name="LinkDeviceFragment__learn_more">Daha fazlasını öğren</string>
-  <!-- Removed by excludeNonTranslatables <string name="LinkDeviceFragment__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007320551</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="LinkDeviceFragment__learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007320551</string> -->
   <!-- Text button of a button in a dialog that, when pressed, will restart the process of linking a device -->
   <string name="LinkDeviceFragment__sync_failure_retry_button">Tekrar dene</string>
   <!-- Text button of a button in a dialog that, when pressed, will ignore syncing errors and link a new device without syncing message content -->
@@ -1240,7 +1240,7 @@
   <string name="PromptBatterySaverBottomSheet__continue">Devam et</string>
   <!-- Button to dismiss battery saver dialog prompt-->
   <string name="PromptBatterySaverBottomSheet__no_thanks">Hayır teşekkürler</string>
-  <!-- Removed by excludeNonTranslatables <string name="PromptBatterySaverBottomSheet__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007318711#android_notifications_troubleshooting</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PromptBatterySaverBottomSheet__learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007318711#android_notifications_troubleshooting</string> -->
   <!-- PendingMembersActivity -->
   <string name="PendingMembersActivity_pending_group_invites">İstekler ve davetler</string>
   <string name="PendingMembersActivity_requests">İstekler</string>
@@ -1951,7 +1951,7 @@
   <!-- Shown when you are invited to a group and explains that until you accept the invitation to the group, members will not know that you have seen their messages. -->
   <string name="MessageRequestBottomView_join_this_group_they_wont_know_youve_seen_their_messages_until_you_accept">Bu gruba katılınsın mı? Kabul edene kadar iletilerini gördüğünüzü bilmeyecekler.</string>
   <string name="MessageRequestBottomView_unblock_this_group_and_share_your_name_and_photo_with_its_members">Bu grubun engelini kaldırmak ve adınla fotoğrafını grup üyeleri ile paylaşmak istiyor musun? Engeli kaldırana kadar hiçbir ileti almayacaksın.</string>
-  <!-- Removed by excludeNonTranslatables <string name="MessageRequestBottomView_legacy_learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007459591</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="MessageRequestBottomView_legacy_learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007459591</string> -->
   <string name="MessageRequestProfileView_view">Görüntüle</string>
   <string name="MessageRequestProfileView_member_of_one_group">%1$s grubuna üye</string>
   <string name="MessageRequestProfileView_member_of_two_groups">%1$s ve %2$s grubuna üye</string>
@@ -2073,7 +2073,7 @@
   <string name="PinRestoreLockedFragment_create_your_pin">PIN\'inizi oluşturun</string>
   <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">PIN tahminleriniz bitti, fakat yeni bir PIN oluşturarak Graphene hesabınıza erişebilirsiniz. Gizliliğiniz ve güvenliğiniz için hesabınız kaydedilmiş Profil bilgileri ve ayarları olmadan geri yüklenecektir.</string>
   <string name="PinRestoreLockedFragment_create_new_pin">Yeni PIN oluştur</string>
-  <!-- Removed by excludeNonTranslatables <string name="PinRestoreLockedFragment_learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PinRestoreLockedFragment_learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059792</string> -->
   <!-- Dialog button text indicating user wishes to send an sms code isntead of skipping it -->
   <string name="ReRegisterWithPinFragment_send_sms_code">SMS kodu gönder</string>
   <!-- Email subject used when user contacts support about an issue with the reregister flow. -->
@@ -3359,7 +3359,7 @@
   <string name="EditProfileFragment__edit_group">Grubu düzenle</string>
   <string name="EditProfileFragment__group_name">Grup adı</string>
   <string name="EditProfileFragment__group_description">Grup tanımı</string>
-  <!-- Removed by excludeNonTranslatables <string name="EditProfileFragment__support_link" translatable="false">https://support.signal.org/hc/articles/360007459591</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="EditProfileFragment__support_link" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007459591</string> -->
   <!-- The title of a dialog prompting user to update to the latest version of Signal. -->
   <string name="EditProfileFragment_deprecated_dialog_title">Graphene\'i Güncelle</string>
   <!-- The body of a dialog prompting user to update to the latest version of Signal. -->
@@ -3439,8 +3439,8 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__emoji_3" translatable="false">emoji_3</string> -->
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__emoji_2" translatable="false">emoji_2</string> -->
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__emoji_1" translatable="false">emoji_1</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__debug_info" translatable="false">https://support.signal.org/hc/articles/360007318591</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__debug_info" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007318591</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67/</string> -->
   <!-- Heading used within support email that lists additional information to help with debugging -->
   <string name="HelpFragment__support_info">Destek Bilgisi</string>
   <string name="HelpFragment__signal_android_support_request">Graphene Android Destek İsteği</string>
@@ -3644,7 +3644,7 @@
   <string name="preferences__if_typing_indicators_are_disabled_you_wont_be_able_to_see_typing_indicators">Yazma göstergeleri etkin değilse, başkalarının yazma göstergelerini göremeyeceksiniz.</string>
   <string name="preferences__request_keyboard_to_disable">Klavyenin kişiselleştirilmiş öğrenmeyi devre dışı bırakmasını iste.</string>
   <string name="preferences__this_setting_is_not_a_guarantee">Bu ayar garantili değildir ve klavyeniz bu ayarı dikkate almayabilir.</string>
-  <!-- Removed by excludeNonTranslatables <string name="preferences__incognito_keyboard_learn_more" translatable="false">https://support.signal.org/hc/articles/360055276112</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="preferences__incognito_keyboard_learn_more" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360055276112</string> -->
   <string name="preferences_chats__when_using_mobile_data">Mobil veri kullanırken</string>
   <string name="preferences_chats__when_using_wifi">Kablosuz ağ kullanırken</string>
   <string name="preferences_chats__when_roaming">Dolaşımdayken</string>
@@ -3790,7 +3790,7 @@
   <string name="PaymentsHomeFragment__payments_deactivated">Ödemeler devre dışı bırakıldı.</string>
   <string name="PaymentsHomeFragment__payment_failed">Ödeme başarısız oldu</string>
   <string name="PaymentsHomeFragment__details">Detaylar</string>
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_activate</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_activate</string> -->
   <!-- Displayed as a description in a dialog when the user tries to activate payments -->
   <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">MobileCoin göndermek ve almak için Graphene\'i kullanabilirsin. Tüm ödemeler MobileCoin ve MobileCoin Wallet Kullanım Koşullarına tabidir. Bazı sorunlarla karşılaşabilir ve kaybettiğin ödeme veya bakiyeyi geri alamayabilirsin. </string>
   <string name="PaymentsHomeFragment__activate">Etkinleştir</string>
@@ -3874,7 +3874,7 @@
   <string name="PaymentsAddMoneyFragment__copy">Kopyala</string>
   <string name="PaymentsAddMoneyFragment__copied_to_clipboard">Panoya kopyalandı</string>
   <string name="PaymentsAddMoneyFragment__to_add_funds">Para eklemek için, cüzdan adresinize MobileCoin gönderin. MobileCoin destekleyen bir kambiyodaki hesabınızdan bir işlem başlatın, daha sonra Karekodu okutun veya cüzdan adresinizi girin.</string>
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsAddMoneyFragment__learn_more__information" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_transfer_from_exchange</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsAddMoneyFragment__learn_more__information" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_transfer_from_exchange</string> -->
   <!-- PaymentsDetailsFragment -->
   <string name="PaymentsDetailsFragment__details">Detaylar</string>
   <string name="PaymentsDetailsFragment__status">Durum</string>
@@ -3894,8 +3894,8 @@
   <string name="PaymentsDetailsFragment__coin_cleanup_fee">Bozukluk temizleme ücreti</string>
   <string name="PaymentsDetailsFragment__coin_cleanup_information">“Bozukluk temizleme ücreti” sahip olduğunuz paralar, bir işlemi tamamlamaya yetecek şekilde birleştirilemediğinde alınıyor. Temizleme, ödeme göndermeye devam etmenizi sağlıyor.</string>
   <string name="PaymentsDetailsFragment__no_details_available">Bu işlem için daha fazla ayrıntı yok</string>
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsDetailsFragment__learn_more__information" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_details</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsDetailsFragment__learn_more__cleanup_fee" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_details_fees</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsDetailsFragment__learn_more__information" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_details</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsDetailsFragment__learn_more__cleanup_fee" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_details_fees</string> -->
   <string name="PaymentsDetailsFragment__sent_payment">Gönderilen ödeme</string>
   <string name="PaymentsDetailsFragment__received_payment">Ödeme alındı</string>
   <string name="PaymentsDeatilsFragment__payment_completed_s">Ödeme tamamlandı %1$s</string>
@@ -3937,7 +3937,7 @@
   <string name="CreatePaymentFragment__backspace">Geri silme</string>
   <string name="CreatePaymentFragment__add_note">Not ekle</string>
   <string name="CreatePaymentFragment__conversions_are_just_estimates">Dönüşümler sadece tahmindir ve kesin olmayabilir.</string>
-  <!-- Removed by excludeNonTranslatables <string name="CreatePaymentFragment__learn_more__conversions" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_currency_conversion</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="CreatePaymentFragment__learn_more__conversions" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_currency_conversion</string> -->
   <!-- EditNoteFragment -->
   <string name="EditNoteFragment_note">Not</string>
   <!-- Content descriptor explaining the use of the save note FAB for Android accessibility settings-->
@@ -4122,7 +4122,7 @@
   <string name="BaseKbsPinFragment__create_alphanumeric_pin">Alfanumerik PIN oluştur</string>
   <!-- Button label to prompt them to return to creating a numbers-only password ("PIN") -->
   <string name="BaseKbsPinFragment__create_numeric_pin">Sayısal PIN oluştur</string>
-  <!-- Removed by excludeNonTranslatables <string name="BaseKbsPinFragment__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="BaseKbsPinFragment__learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059792</string> -->
   <!-- CreateKbsPinFragment -->
   <plurals name="CreateKbsPinFragment__pin_must_be_at_least_characters">
     <item quantity="one">PIN en az %1$d karakterden oluşmalıdır</item>
@@ -4153,7 +4153,7 @@
   <string name="KbsSplashFragment__introducing_pins">Karşınızda PIN\'ler</string>
   <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN\'ler Graphene\'de saklanan bilgiyi şifreler, böylece sadece siz erişebilirsiniz. Profiliniz, ayarlarınız ve kişileriniz yeniden yüklediğinizde geri yüklenecektir. Uygulamayı açmak için PIN\'e ihtiyaç yoktur.</string>
   <string name="KbsSplashFragment__learn_more">Dahasını Öğrenin</string>
-  <!-- Removed by excludeNonTranslatables <string name="KbsSplashFragment__learn_more_link" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="KbsSplashFragment__learn_more_link" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059792</string> -->
   <string name="KbsSplashFragment__registration_lock_equals_pin">Kayıt Kilidi = PIN</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">Kayıt Kilidi yerine artık PIN kullanılıyor. Şimdi güncelleyin.</string>
   <string name="KbsSplashFragment__update_pin">PIN\'i güncelle</string>
@@ -4172,7 +4172,7 @@
   <string name="AccountLockedFragment__your_account_has_been_locked_to_protect_your_privacy">Gizlilik ve güvenliğin için hesabın kilitlendi. Hesabın %1$d gün boyunca hareketsiz kalırsa PIN olmadan bu telefon numarası ile yeniden kaydolabilirsin. Tüm içerik silinecektir.</string>
   <string name="AccountLockedFragment__next">İleri</string>
   <string name="AccountLockedFragment__learn_more">Dahasını Öğrenin</string>
-  <!-- Removed by excludeNonTranslatables <string name="AccountLockedFragment__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="AccountLockedFragment__learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059792</string> -->
   <!-- KbsLockFragment -->
   <string name="RegistrationLockFragment__enter_your_pin">PIN\'inizi girin</string>
   <string name="RegistrationLockFragment__enter_the_pin_you_created">Bu hesap için oluşturduğunuz PIN kodunu girin. Bu kod, SMS doğrulama kodunuzdan farklıdır.</string>
@@ -4760,9 +4760,9 @@
   <string name="payment_info_card_update_your_pin">PIN\'inizi güncelleyin</string>
   <string name="payment_info_card_with_a_high_balance">Yüksek bakiyeniz varsa, hesabınıza daha iyi bir koruma sağlamak için alfanümerik bir PIN ile güncellemek isteyebilirsiniz.</string>
   <string name="payment_info_card_update_pin">PIN\'i güncelle</string>
-  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__about_mobilecoin" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_which_ones</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__adding_to_your_wallet" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_transfer_from_exchange</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__cashing_out" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_transfer_to_exchange</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__about_mobilecoin" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_which_ones</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__adding_to_your_wallet" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_transfer_from_exchange</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__cashing_out" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_transfer_to_exchange</string> -->
   <!-- DeactivateWalletFragment -->
   <string name="DeactivateWalletFragment__deactivate_wallet">Cüzdanı Devre Dışı Bırak</string>
   <string name="DeactivateWalletFragment__your_balance">Bakiyeniz</string>
@@ -4773,7 +4773,7 @@
   <string name="DeactivateWalletFragment__deactivate_without_transferring_question">Aktarmadan devre dışı bırakılsın mı?</string>
   <string name="DeactivateWalletFragment__your_balance_will_remain">Ödemeleri tekrar etkinleştirmeyi seçersen bakiyen Graphene\'e bağlı cüzdanında kalacaktır.</string>
   <string name="DeactivateWalletFragment__error_deactivating_wallet">Cüzdanı devre dışı bırakırken bir hata oldu.</string>
-  <!-- Removed by excludeNonTranslatables <string name="DeactivateWalletFragment__learn_more__we_recommend_transferring_your_funds" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_deactivate</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="DeactivateWalletFragment__learn_more__we_recommend_transferring_your_funds" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_deactivate</string> -->
   <!-- PaymentsRecoveryStartFragment -->
   <string name="PaymentsRecoveryStartFragment__recovery_phrase">Kurtarma parolası</string>
   <string name="PaymentsRecoveryStartFragment__view_recovery_phrase">Kurtarma parolasını görüntüle</string>
@@ -4806,8 +4806,8 @@
   <string name="PaymentsRecoveryPasteFragment__next">İleri</string>
   <string name="PaymentsRecoveryPasteFragment__invalid_recovery_phrase">Geçersiz kurtarma parolası</string>
   <string name="PaymentsRecoveryPasteFragment__make_sure">%1$d kelime girdiğinizden emin olun ve tekrar deneyin.</string>
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsRecoveryStartFragment__learn_more__view" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_wallet_view_passphrase</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsRecoveryStartFragment__learn_more__restore" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_wallet_restore_passphrase</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsRecoveryStartFragment__learn_more__view" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_wallet_view_passphrase</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsRecoveryStartFragment__learn_more__restore" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_wallet_restore_passphrase</string> -->
   <!-- PaymentsRecoveryPhraseFragment -->
   <string name="PaymentsRecoveryPhraseFragment__next">İleri</string>
   <string name="PaymentsRecoveryPhraseFragment__edit">Düzenle</string>
@@ -4846,7 +4846,7 @@
   <string name="GroupsInCommonMessageRequest__none_of_your_contacts_or_people_you_chat_with_are_in_this_group">Kişilerinin veya sohbet ettiğin kişilerin hiçbiri bu grupta değil. İstenmeyen mesajları önlemek için kabul etmeden önce istekleri dikkatlice gözden geçir.</string>
   <string name="GroupsInCommonMessageRequest__about_message_requests">İleti istekleri hakkında</string>
   <string name="GroupsInCommonMessageRequest__okay">Tamam</string>
-  <!-- Removed by excludeNonTranslatables <string name="GroupsInCommonMessageRequest__support_article" translatable="false">https://support.signal.org/hc/articles/360007459591</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="GroupsInCommonMessageRequest__support_article" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007459591</string> -->
   <string name="ChatColorSelectionFragment__heres_a_preview_of_the_chat_color">İşte sohbet renginin bir önizlemesi.</string>
   <string name="ChatColorSelectionFragment__the_color_is_visible_to_only_you">Renk yalnızca size gözükür.</string>
   <!-- GroupDescriptionDialog -->

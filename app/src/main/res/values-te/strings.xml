@@ -8,19 +8,19 @@
   <!-- Removed by excludeNonTranslatables <string name="app_name" translatable="false">Signal</string> -->
   <!-- Removed by excludeNonTranslatables <string name="install_url" translatable="false">https://%73%69%67%6E%61%6C.%6F%72%67//install</string> -->
   <!-- Removed by excludeNonTranslatables <string name="donate_url" translatable="false">https://%73%69%67%6E%61%6C.%6F%72%67//donate</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="backup_support_url" translatable="false">https://support.signal.org/hc/articles/360007059752</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="backup_failed_support_url" translatable="false">https://support.signal.org/hc/articles/8768161836954</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="transfer_support_url" translatable="false">https://support.signal.org/hc/articles/360007059752</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="support_center_url" translatable="false">https://support.signal.org/</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="backup_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059752</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="backup_failed_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/8768161836954</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="transfer_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059752</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="support_center_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//</string> -->
   <!-- Removed by excludeNonTranslatables <string name="terms_and_privacy_policy_url" translatable="false">https://github.com/Andrea-Bruno/GrapheneMessenger/blob/main/legal.md</string> -->
   <!-- Removed by excludeNonTranslatables <string name="google_pay_url" translatable="false">https://pay.google.com</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="donation_decline_code_error_url" translatable="false">https://support.signal.org/hc/articles/4408365318426#errors</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="sms_export_url" translatable="false">https://support.signal.org/hc/articles/360007321171</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="donation_decline_code_error_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/4408365318426#errors</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="sms_export_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007321171</string> -->
   <!-- Removed by excludeNonTranslatables <string name="signal_me_username_url" translatable="false">https://signal.me/#u/%1$s</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="username_support_url" translatable="false">https://support.signal.org/hc/articles/5389476324250</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="export_account_data_url" translatable="false">https://support.signal.org/hc/articles/5538911756954</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="pending_transfer_url" translatable="false">https://support.signal.org/hc/articles/360031949872#pending</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="donate_faq_url" translatable="false">https://support.signal.org/hc/articles/360031949872#donate</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="username_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/5389476324250</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="export_account_data_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/5538911756954</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="pending_transfer_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360031949872#pending</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="donate_faq_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360031949872#donate</string> -->
   <!-- First placeholder is productId, second placeholder is app package -->
   <string name="backup_subscription_management_url">https://play.google.com/store/account/subscriptions?sku=%1$s&amp;package=%2$s</string>
   <string name="yes">అవును</string>
@@ -989,7 +989,7 @@
   <string name="LinkDeviceFragment__sync_failure_body_unretryable">మీ పరికరం విజయవంతంగా లింక్ చేయబడింది, కానీ మీ సందేశాలు బదిలీ చేయబడలేదు.</string>
   <!-- Text button in a dialog that, when pressed, will redirect to the Signal support page -->
   <string name="LinkDeviceFragment__learn_more">మరింత తెలుసుకోండి</string>
-  <!-- Removed by excludeNonTranslatables <string name="LinkDeviceFragment__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007320551</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="LinkDeviceFragment__learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007320551</string> -->
   <!-- Text button of a button in a dialog that, when pressed, will restart the process of linking a device -->
   <string name="LinkDeviceFragment__sync_failure_retry_button">మళ్ళీ ప్రయత్నించు</string>
   <!-- Text button of a button in a dialog that, when pressed, will ignore syncing errors and link a new device without syncing message content -->
@@ -1240,7 +1240,7 @@
   <string name="PromptBatterySaverBottomSheet__continue">కొనసాగండి</string>
   <!-- Button to dismiss battery saver dialog prompt-->
   <string name="PromptBatterySaverBottomSheet__no_thanks">వద్దు ధన్యవాదాలు</string>
-  <!-- Removed by excludeNonTranslatables <string name="PromptBatterySaverBottomSheet__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007318711#android_notifications_troubleshooting</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PromptBatterySaverBottomSheet__learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007318711#android_notifications_troubleshooting</string> -->
   <!-- PendingMembersActivity -->
   <string name="PendingMembersActivity_pending_group_invites">అభ్యర్థనలు &amp; ఆహ్వానాలు</string>
   <string name="PendingMembersActivity_requests">అభ్యర్థనలు</string>
@@ -1951,7 +1951,7 @@
   <!-- Shown when you are invited to a group and explains that until you accept the invitation to the group, members will not know that you have seen their messages. -->
   <string name="MessageRequestBottomView_join_this_group_they_wont_know_youve_seen_their_messages_until_you_accept">ఈ గుంపులో చేరాలా? మీరు అంగీకరించే వరకు మీరు వారి సందేశాలను చూశారని వారికి తెలియదు.</string>
   <string name="MessageRequestBottomView_unblock_this_group_and_share_your_name_and_photo_with_its_members">ఈ గ్రూప్‌ను అన్‌బ్లాక్ చేసి, మీ పేరు మరియు ఫోటోను దాని సభ్యులతో పంచుకునేదా? మీరు వారిని అన్‌బ్లాక్ చేసేంతవరకు మీరు సందేశాలు అందుకోరు.</string>
-  <!-- Removed by excludeNonTranslatables <string name="MessageRequestBottomView_legacy_learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007459591</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="MessageRequestBottomView_legacy_learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007459591</string> -->
   <string name="MessageRequestProfileView_view">వీక్షణ</string>
   <string name="MessageRequestProfileView_member_of_one_group">%1$s సభ్యుడు</string>
   <string name="MessageRequestProfileView_member_of_two_groups">%1$sమరియు %2$sసభ్యుడు</string>
@@ -2073,7 +2073,7 @@
   <string name="PinRestoreLockedFragment_create_your_pin">మీ పిన్ను సృష్టించండి</string>
   <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">మీరు పిన్ అంచనాలను కోల్పోయారు, కానీ క్రొత్త పిన్‌ను సృష్టించడం ద్వారా మీరు ఇప్పటికీ మీ Graphene ఖాతాను యాక్సెస్ చేయవచ్చు. మీ గోప్యత మరియు భద్రత కోసం మీ ఖాతా సేవ్ చేయబడిన ప్రొఫైల్ సమాచారం లేదా సెట్టింగులు లేకుండా పునరుద్ధరించబడుతుంది.</string>
   <string name="PinRestoreLockedFragment_create_new_pin">క్రొత్త పిన్ సృష్టించండి</string>
-  <!-- Removed by excludeNonTranslatables <string name="PinRestoreLockedFragment_learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PinRestoreLockedFragment_learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059792</string> -->
   <!-- Dialog button text indicating user wishes to send an sms code isntead of skipping it -->
   <string name="ReRegisterWithPinFragment_send_sms_code">SMS కోడ్ పంపండి</string>
   <!-- Email subject used when user contacts support about an issue with the reregister flow. -->
@@ -3359,7 +3359,7 @@
   <string name="EditProfileFragment__edit_group">సమూహాన్ని మార్చు</string>
   <string name="EditProfileFragment__group_name">సమూహం పేరు</string>
   <string name="EditProfileFragment__group_description">గ్రూపు వివరణ</string>
-  <!-- Removed by excludeNonTranslatables <string name="EditProfileFragment__support_link" translatable="false">https://support.signal.org/hc/articles/360007459591</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="EditProfileFragment__support_link" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007459591</string> -->
   <!-- The title of a dialog prompting user to update to the latest version of Signal. -->
   <string name="EditProfileFragment_deprecated_dialog_title">Graphene ను నవీకరించండి</string>
   <!-- The body of a dialog prompting user to update to the latest version of Signal. -->
@@ -3439,8 +3439,8 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__emoji_3" translatable="false">emoji_3</string> -->
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__emoji_2" translatable="false">emoji_2</string> -->
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__emoji_1" translatable="false">emoji_1</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__debug_info" translatable="false">https://support.signal.org/hc/articles/360007318591</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__debug_info" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007318591</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67/</string> -->
   <!-- Heading used within support email that lists additional information to help with debugging -->
   <string name="HelpFragment__support_info">మద్దతు సమాచారం</string>
   <string name="HelpFragment__signal_android_support_request">Graphene Android మద్దతు అభ్యర్థన</string>
@@ -3644,7 +3644,7 @@
   <string name="preferences__if_typing_indicators_are_disabled_you_wont_be_able_to_see_typing_indicators">టైపింగ్ సూచికలు నిలిపివేయబడితే, మీరు ఇతరుల నుండి టైపింగ్ సూచికలను చూడలేరు.</string>
   <string name="preferences__request_keyboard_to_disable">వ్యక్తిగతీకరించిన అభ్యసన నిలిపివేయడానికి కీబోర్డ్‌ని అభ్యర్ధించండి.</string>
   <string name="preferences__this_setting_is_not_a_guarantee">ఈ సెట్టింగ్‌కు గ్యారెంటీ లేదు, మీ కీబోర్డ్ దానిని నిరాకరించవచ్చు.</string>
-  <!-- Removed by excludeNonTranslatables <string name="preferences__incognito_keyboard_learn_more" translatable="false">https://support.signal.org/hc/articles/360055276112</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="preferences__incognito_keyboard_learn_more" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360055276112</string> -->
   <string name="preferences_chats__when_using_mobile_data">మొబైల్ సమాచారం ఉపయోగిస్తున్నప్పుడు</string>
   <string name="preferences_chats__when_using_wifi">వైఫై ఉపయోగించి చేసినప్పుడు</string>
   <string name="preferences_chats__when_roaming">రోమింగ్లో ఉన్నప్పుడు</string>
@@ -3790,7 +3790,7 @@
   <string name="PaymentsHomeFragment__payments_deactivated">చెల్లింపులు నిష్క్రియం చేయబడ్డాయి.</string>
   <string name="PaymentsHomeFragment__payment_failed">పేమెంట్ విఫలమైంది</string>
   <string name="PaymentsHomeFragment__details">వివరాలు</string>
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_activate</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_activate</string> -->
   <!-- Displayed as a description in a dialog when the user tries to activate payments -->
   <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">MobileCoin ను పంపడానికి మరియు అందుకోవడానికి మీరు Graphene ను ఉపయోగించవచ్చు. MobileCoins మరియు MobileCoin వాలెట్ కోసం అన్ని చెల్లింపులు వినియోగ నిబంధనలకు లోబడి ఉంటాయి. మీరు కొన్ని సమస్యలను ఎదుర్కోవచ్చు మరియు మీరు కోల్పోయే చెల్లింపులు లేదా బ్యాలెన్స్‌లను తిరిగి పొందలేరు. </string>
   <string name="PaymentsHomeFragment__activate">సక్రియం చేయండి</string>
@@ -3874,7 +3874,7 @@
   <string name="PaymentsAddMoneyFragment__copy">నకలు</string>
   <string name="PaymentsAddMoneyFragment__copied_to_clipboard">క్లిప్బోర్డ్కు కాపీ చేయబడింది</string>
   <string name="PaymentsAddMoneyFragment__to_add_funds">నిధులను జోడించడానికి, మీ వాలెట్ చిరునామాకు MobileCoin పంపండి. MobileCoin కి మద్దతిచ్చే మార్పిడిలో మీ ఖాతా నుండి లావాదేవీని ప్రారంభించండి, ఆపై QR కోడ్‌ను స్కాన్ చేయండి లేదా మీ వాలెట్ చిరునామాను కాపీ చేయండి.</string>
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsAddMoneyFragment__learn_more__information" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_transfer_from_exchange</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsAddMoneyFragment__learn_more__information" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_transfer_from_exchange</string> -->
   <!-- PaymentsDetailsFragment -->
   <string name="PaymentsDetailsFragment__details">వివరాలు</string>
   <string name="PaymentsDetailsFragment__status">స్థితి</string>
@@ -3894,8 +3894,8 @@
   <string name="PaymentsDetailsFragment__coin_cleanup_fee">కాయిన్ క్లీన్‌అప్ ఫీజు</string>
   <string name="PaymentsDetailsFragment__coin_cleanup_information">లావాదేవీని పూర్తి చేయడానికి మీ వద్ద ఉన్న నాణేలను కలపలేనప్పుడు “కాయిన్ క్లీనప్ ఫీజు” వసూలు చేయబడుతుంది. చెల్లింపులు పంపడం కొనసాగించడానికి క్లీనప్ మిమ్మల్ని అనుమతిస్తుంది.</string>
   <string name="PaymentsDetailsFragment__no_details_available">ఈ లావాదేవీల కొరకు తదుపరి వివరాలు లభ్యం కావడం లేదు</string>
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsDetailsFragment__learn_more__information" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_details</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsDetailsFragment__learn_more__cleanup_fee" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_details_fees</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsDetailsFragment__learn_more__information" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_details</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsDetailsFragment__learn_more__cleanup_fee" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_details_fees</string> -->
   <string name="PaymentsDetailsFragment__sent_payment">చెల్లింపు పంపబడింది</string>
   <string name="PaymentsDetailsFragment__received_payment">పేమెంట్ అందుకోబడింది</string>
   <string name="PaymentsDeatilsFragment__payment_completed_s">పేమెంట్ పూర్తయింది %1$s</string>
@@ -3937,7 +3937,7 @@
   <string name="CreatePaymentFragment__backspace">బ్యాక్‌స్పేస్</string>
   <string name="CreatePaymentFragment__add_note">నోట్‌ని జోడించండి</string>
   <string name="CreatePaymentFragment__conversions_are_just_estimates">మార్పిడులు కేవలం అంచనాలు మరియు ఖచ్చితమైనవి కాకపోవచ్చు.</string>
-  <!-- Removed by excludeNonTranslatables <string name="CreatePaymentFragment__learn_more__conversions" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_currency_conversion</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="CreatePaymentFragment__learn_more__conversions" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_currency_conversion</string> -->
   <!-- EditNoteFragment -->
   <string name="EditNoteFragment_note">గమనిక</string>
   <!-- Content descriptor explaining the use of the save note FAB for Android accessibility settings-->
@@ -4122,7 +4122,7 @@
   <string name="BaseKbsPinFragment__create_alphanumeric_pin">ఆల్ఫాన్యూమరిక్ పిన్ను సృష్టించండి</string>
   <!-- Button label to prompt them to return to creating a numbers-only password ("PIN") -->
   <string name="BaseKbsPinFragment__create_numeric_pin">సంఖ్యా పిన్ను సృష్టించండి</string>
-  <!-- Removed by excludeNonTranslatables <string name="BaseKbsPinFragment__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="BaseKbsPinFragment__learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059792</string> -->
   <!-- CreateKbsPinFragment -->
   <plurals name="CreateKbsPinFragment__pin_must_be_at_least_characters">
     <item quantity="one">పిన్ కనీసం %1$d అక్షరం ఉండాలి</item>
@@ -4153,7 +4153,7 @@
   <string name="KbsSplashFragment__introducing_pins">పిన్‌లను పరిచయం చేస్తోంది</string>
   <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">పిన్‌లు Graphene గుప్తీకరించిన సమాచారాన్ని నిల్వ చేస్తాయి కాబట్టి మీరు మాత్రమే దీన్ని యాక్సెస్ చేయవచ్చు. మీరు మళ్లీ ఇన్‌స్టాల్ చేసినప్పుడు మీ ప్రొఫైల్, సెట్టింగ్‌లు మరియు పరిచయాలు పునరుద్ధరించబడతాయి. యాప్ తెరవడానికి మీకు మీ పిన్ అవసరం లేదు</string>
   <string name="KbsSplashFragment__learn_more">ఇంకా నేర్చుకో</string>
-  <!-- Removed by excludeNonTranslatables <string name="KbsSplashFragment__learn_more_link" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="KbsSplashFragment__learn_more_link" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059792</string> -->
   <string name="KbsSplashFragment__registration_lock_equals_pin">నమోదు లాక్ = పిన్</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">మీ రిజిస్ట్రేషన్ లాక్‌ను ఇప్పుడు పిన్ అని పిలుస్తారు మరియు ఇది మరింత చేస్తుంది. ఇప్పుడే దాన్ని నవీకరించండి.</string>
   <string name="KbsSplashFragment__update_pin">పిన్‌ను నవీకరించండి</string>
@@ -4172,7 +4172,7 @@
   <string name="AccountLockedFragment__your_account_has_been_locked_to_protect_your_privacy">మీ గోప్యత మరియు భద్రతను రక్షించడానికి మీ ఖాతా లాక్ చేయబడింది. మీ ఖాతాలో %1$d రోజుల నిష్క్రియాత్మకత తరువాత మీరు మీ పిన్ అవసరం లేకుండా ఈ ఫోన్ నంబర్‌ను తిరిగి నమోదు చేయగలరు. మొత్తం విషయాలు తొలగించబడతాయి.</string>
   <string name="AccountLockedFragment__next">తరువాత</string>
   <string name="AccountLockedFragment__learn_more">ఇంకా నేర్చుకో</string>
-  <!-- Removed by excludeNonTranslatables <string name="AccountLockedFragment__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="AccountLockedFragment__learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059792</string> -->
   <!-- KbsLockFragment -->
   <string name="RegistrationLockFragment__enter_your_pin">మీ పిన్ను నమోదు చేయండి</string>
   <string name="RegistrationLockFragment__enter_the_pin_you_created">మీ ఖాతా కోసం మీరు సృష్టించిన పిన్‌ను నమోదు చేయండి. ఇది మీ SMS ధృవీకరణ కోడ్‌కు భిన్నంగా ఉంటుంది.</string>
@@ -4760,9 +4760,9 @@
   <string name="payment_info_card_update_your_pin">మీ పిన్‌ను నవీకరించండి</string>
   <string name="payment_info_card_with_a_high_balance">అధిక బ్యాలెన్స్‌తో, మీ ఖాతాకు మరింత రక్షణను జోడించడానికి మీరు ఆల్ఫాన్యూమరిక్ పిన్‌కు నవీకరించాలనుకోవచ్చు.</string>
   <string name="payment_info_card_update_pin">పిన్‌ను నవీకరించండి</string>
-  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__about_mobilecoin" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_which_ones</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__adding_to_your_wallet" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_transfer_from_exchange</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__cashing_out" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_transfer_to_exchange</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__about_mobilecoin" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_which_ones</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__adding_to_your_wallet" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_transfer_from_exchange</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__cashing_out" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_transfer_to_exchange</string> -->
   <!-- DeactivateWalletFragment -->
   <string name="DeactivateWalletFragment__deactivate_wallet">వ్యాలెట్‌ని డీయాక్టివేట్ చేయండి</string>
   <string name="DeactivateWalletFragment__your_balance">మీ బ్యాలెన్స్</string>
@@ -4773,7 +4773,7 @@
   <string name="DeactivateWalletFragment__deactivate_without_transferring_question">బదిలీ చేయకుండానే డీయాక్టివేట్ చేయాలా?</string>
   <string name="DeactivateWalletFragment__your_balance_will_remain">ఒకవేళ మీరు చెల్లింపులను రీయాక్టివేట్ చేయడానికి ఎంచుకుంటే మీ నిలవ Graphene తో లింక్ చేయబడ్డ మీ వాలెట్‌లో ఉంటుంది.</string>
   <string name="DeactivateWalletFragment__error_deactivating_wallet">వ్యాలెట్‌ని డీయాక్టివేట్ చేయడంలో దోషం.</string>
-  <!-- Removed by excludeNonTranslatables <string name="DeactivateWalletFragment__learn_more__we_recommend_transferring_your_funds" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_deactivate</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="DeactivateWalletFragment__learn_more__we_recommend_transferring_your_funds" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_deactivate</string> -->
   <!-- PaymentsRecoveryStartFragment -->
   <string name="PaymentsRecoveryStartFragment__recovery_phrase">రికవరీ పదబంధం</string>
   <string name="PaymentsRecoveryStartFragment__view_recovery_phrase">రికవరీ దశను వీక్షించండి</string>
@@ -4806,8 +4806,8 @@
   <string name="PaymentsRecoveryPasteFragment__next">తరువాత</string>
   <string name="PaymentsRecoveryPasteFragment__invalid_recovery_phrase">చెల్లుబాటు కాని రికవరీ పదబంధం</string>
   <string name="PaymentsRecoveryPasteFragment__make_sure">మీరు %1$dపదాలను నమోదు చేసినట్లుగా ధృవీకరించుకొని, మళ్లీ ప్రయత్నించండి.</string>
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsRecoveryStartFragment__learn_more__view" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_wallet_view_passphrase</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsRecoveryStartFragment__learn_more__restore" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_wallet_restore_passphrase</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsRecoveryStartFragment__learn_more__view" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_wallet_view_passphrase</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsRecoveryStartFragment__learn_more__restore" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_wallet_restore_passphrase</string> -->
   <!-- PaymentsRecoveryPhraseFragment -->
   <string name="PaymentsRecoveryPhraseFragment__next">తరువాత</string>
   <string name="PaymentsRecoveryPhraseFragment__edit">సరిచేయు</string>
@@ -4846,7 +4846,7 @@
   <string name="GroupsInCommonMessageRequest__none_of_your_contacts_or_people_you_chat_with_are_in_this_group">మీరు చాట్ చేసే మీ పరిచయాలు లేదా వ్యక్తులు ఎవరూ ఈ గ్రూపులో లేరు. అవాంఛిత సందేశాలను నివారించేందుకు అంగీకరించడానికి ముందు అభ్యర్ధనలను జాగ్రత్తగా సమీక్షించండి.</string>
   <string name="GroupsInCommonMessageRequest__about_message_requests">సందేశం అభ్యర్ధనల గురించి</string>
   <string name="GroupsInCommonMessageRequest__okay">సరే</string>
-  <!-- Removed by excludeNonTranslatables <string name="GroupsInCommonMessageRequest__support_article" translatable="false">https://support.signal.org/hc/articles/360007459591</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="GroupsInCommonMessageRequest__support_article" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007459591</string> -->
   <string name="ChatColorSelectionFragment__heres_a_preview_of_the_chat_color">చాట్ రంగు యొక్క ప్రివ్యూ ఇక్కడ ఉంది.</string>
   <string name="ChatColorSelectionFragment__the_color_is_visible_to_only_you">రంగు మీకు మాత్రమే కనిపిస్తుంది.</string>
   <!-- GroupDescriptionDialog -->

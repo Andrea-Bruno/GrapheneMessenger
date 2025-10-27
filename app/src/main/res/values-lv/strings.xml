@@ -8,19 +8,19 @@
   <!-- Removed by excludeNonTranslatables <string name="app_name" translatable="false">Signal</string> -->
   <!-- Removed by excludeNonTranslatables <string name="install_url" translatable="false">https://%73%69%67%6E%61%6C.%6F%72%67//install</string> -->
   <!-- Removed by excludeNonTranslatables <string name="donate_url" translatable="false">https://%73%69%67%6E%61%6C.%6F%72%67//donate</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="backup_support_url" translatable="false">https://support.signal.org/hc/articles/360007059752</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="backup_failed_support_url" translatable="false">https://support.signal.org/hc/articles/8768161836954</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="transfer_support_url" translatable="false">https://support.signal.org/hc/articles/360007059752</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="support_center_url" translatable="false">https://support.signal.org/</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="backup_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059752</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="backup_failed_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/8768161836954</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="transfer_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059752</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="support_center_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//</string> -->
   <!-- Removed by excludeNonTranslatables <string name="terms_and_privacy_policy_url" translatable="false">https://github.com/Andrea-Bruno/GrapheneMessenger/blob/main/legal.md</string> -->
   <!-- Removed by excludeNonTranslatables <string name="google_pay_url" translatable="false">https://pay.google.com</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="donation_decline_code_error_url" translatable="false">https://support.signal.org/hc/articles/4408365318426#errors</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="sms_export_url" translatable="false">https://support.signal.org/hc/articles/360007321171</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="donation_decline_code_error_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/4408365318426#errors</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="sms_export_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007321171</string> -->
   <!-- Removed by excludeNonTranslatables <string name="signal_me_username_url" translatable="false">https://signal.me/#u/%1$s</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="username_support_url" translatable="false">https://support.signal.org/hc/articles/5389476324250</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="export_account_data_url" translatable="false">https://support.signal.org/hc/articles/5538911756954</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="pending_transfer_url" translatable="false">https://support.signal.org/hc/articles/360031949872#pending</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="donate_faq_url" translatable="false">https://support.signal.org/hc/articles/360031949872#donate</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="username_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/5389476324250</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="export_account_data_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/5538911756954</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="pending_transfer_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360031949872#pending</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="donate_faq_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360031949872#donate</string> -->
   <!-- First placeholder is productId, second placeholder is app package -->
   <string name="backup_subscription_management_url">https://play.google.com/store/account/subscriptions?sku=%1$s&amp;package=%2$s</string>
   <string name="yes">Jā</string>
@@ -1011,7 +1011,7 @@
   <string name="LinkDeviceFragment__sync_failure_body_unretryable">Ierīce tika sekmīgi saistīta, taču jūsu ziņas pārsūtīt neizdevās.</string>
   <!-- Text button in a dialog that, when pressed, will redirect to the Signal support page -->
   <string name="LinkDeviceFragment__learn_more">Uzzināt vairāk</string>
-  <!-- Removed by excludeNonTranslatables <string name="LinkDeviceFragment__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007320551</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="LinkDeviceFragment__learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007320551</string> -->
   <!-- Text button of a button in a dialog that, when pressed, will restart the process of linking a device -->
   <string name="LinkDeviceFragment__sync_failure_retry_button">Mēģināt vēlreiz</string>
   <!-- Text button of a button in a dialog that, when pressed, will ignore syncing errors and link a new device without syncing message content -->
@@ -1276,7 +1276,7 @@
   <string name="PromptBatterySaverBottomSheet__continue">Turpināt</string>
   <!-- Button to dismiss battery saver dialog prompt-->
   <string name="PromptBatterySaverBottomSheet__no_thanks">Nē, paldies</string>
-  <!-- Removed by excludeNonTranslatables <string name="PromptBatterySaverBottomSheet__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007318711#android_notifications_troubleshooting</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PromptBatterySaverBottomSheet__learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007318711#android_notifications_troubleshooting</string> -->
   <!-- PendingMembersActivity -->
   <string name="PendingMembersActivity_pending_group_invites">Pieprasījumi un uzaicinājumi</string>
   <string name="PendingMembersActivity_requests">Pieprasījumi</string>
@@ -2011,7 +2011,7 @@
   <!-- Shown when you are invited to a group and explains that until you accept the invitation to the group, members will not know that you have seen their messages. -->
   <string name="MessageRequestBottomView_join_this_group_they_wont_know_youve_seen_their_messages_until_you_accept">Vai pievienoties šai grupai? Dalībnieki nezinās, vai jūs izlasījāt ziņas, kamēr jūs neapstiprināsiet uzaicinājumu.</string>
   <string name="MessageRequestBottomView_unblock_this_group_and_share_your_name_and_photo_with_its_members">Vai atbloķēt šo grupu un dalīties ar savu vārdu un attēlu ar šiem dalībniekiem? Jūs nesaņemsiet ziņas, kamēr šo grupu neatbloķēsiet.</string>
-  <!-- Removed by excludeNonTranslatables <string name="MessageRequestBottomView_legacy_learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007459591</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="MessageRequestBottomView_legacy_learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007459591</string> -->
   <string name="MessageRequestProfileView_view">Skatīt</string>
   <string name="MessageRequestProfileView_member_of_one_group">%1$s dalībnieks</string>
   <string name="MessageRequestProfileView_member_of_two_groups">%1$s un %2$s dalībnieks</string>
@@ -2140,7 +2140,7 @@
   <string name="PinRestoreLockedFragment_create_your_pin">Izveidojiet savu PIN</string>
   <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">Jūsu PIN minējumu skaits ir beidzies, bet jums ir iespēja piekļūt jūsu Graphene kontam, izveidojot jaunu PIN. Jūsu konta privātumam un drošībai, jūsu konts tiks atjaunots bez profila informācijas un uzstādījumiem.</string>
   <string name="PinRestoreLockedFragment_create_new_pin">Izveidojiet jaunu PIN</string>
-  <!-- Removed by excludeNonTranslatables <string name="PinRestoreLockedFragment_learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PinRestoreLockedFragment_learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059792</string> -->
   <!-- Dialog button text indicating user wishes to send an sms code isntead of skipping it -->
   <string name="ReRegisterWithPinFragment_send_sms_code">Sūtīt SMS kodu</string>
   <!-- Email subject used when user contacts support about an issue with the reregister flow. -->
@@ -3470,7 +3470,7 @@
   <string name="EditProfileFragment__edit_group">Rediģēt grupu</string>
   <string name="EditProfileFragment__group_name">Grupas nosaukums</string>
   <string name="EditProfileFragment__group_description">Grupas apraksts</string>
-  <!-- Removed by excludeNonTranslatables <string name="EditProfileFragment__support_link" translatable="false">https://support.signal.org/hc/articles/360007459591</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="EditProfileFragment__support_link" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007459591</string> -->
   <!-- The title of a dialog prompting user to update to the latest version of Signal. -->
   <string name="EditProfileFragment_deprecated_dialog_title">Atjaunināt Graphene</string>
   <!-- The body of a dialog prompting user to update to the latest version of Signal. -->
@@ -3550,8 +3550,8 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__emoji_3" translatable="false">emoji_3</string> -->
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__emoji_2" translatable="false">emoji_2</string> -->
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__emoji_1" translatable="false">emoji_1</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__debug_info" translatable="false">https://support.signal.org/hc/articles/360007318591</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__debug_info" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007318591</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67/</string> -->
   <!-- Heading used within support email that lists additional information to help with debugging -->
   <string name="HelpFragment__support_info">Atbalsta info</string>
   <string name="HelpFragment__signal_android_support_request">Graphene Android atbalsta pieprasījums</string>
@@ -3756,7 +3756,7 @@
   <string name="preferences__if_typing_indicators_are_disabled_you_wont_be_able_to_see_typing_indicators">Ja rakstīšanas indikatori ir atspējoti, jūs nevarēsiet redzēt rakstīšanas indikatorus no citiem.</string>
   <string name="preferences__request_keyboard_to_disable">Pieprasīt tastatūrai atspējot personalizētu mācīšanos.</string>
   <string name="preferences__this_setting_is_not_a_guarantee">Šis iestatījums nesniedz nekādas garantijas, un tastatūra to var ignorēt.</string>
-  <!-- Removed by excludeNonTranslatables <string name="preferences__incognito_keyboard_learn_more" translatable="false">https://support.signal.org/hc/articles/360055276112</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="preferences__incognito_keyboard_learn_more" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360055276112</string> -->
   <string name="preferences_chats__when_using_mobile_data">Izmantojot mobilos datus</string>
   <string name="preferences_chats__when_using_wifi">Izmantojot Wi-Fi</string>
   <string name="preferences_chats__when_roaming">Izmantojot viesabonēšanau</string>
@@ -3904,7 +3904,7 @@
   <string name="PaymentsHomeFragment__payments_deactivated">Maksājumi deaktivēti</string>
   <string name="PaymentsHomeFragment__payment_failed">Paksājums neizdevās</string>
   <string name="PaymentsHomeFragment__details">Rekvizīti</string>
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_activate</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_activate</string> -->
   <!-- Displayed as a description in a dialog when the user tries to activate payments -->
   <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">Lietotni Graphene var izmantot, lai nosūtītu un saņemtu MobileCoin. Uz visiem maksājumiem attiecas MobileCoin un MobileCoin Wallet lietošanas noteikumi. Var rasties dažas problēmas, un maksājumus vai atlikumus, kurus iespējams zaudēt, nevar atgūt. </string>
   <string name="PaymentsHomeFragment__activate">Aktivēt</string>
@@ -3988,7 +3988,7 @@
   <string name="PaymentsAddMoneyFragment__copy">Kopēt</string>
   <string name="PaymentsAddMoneyFragment__copied_to_clipboard">Iekopēts starpliktuvē</string>
   <string name="PaymentsAddMoneyFragment__to_add_funds">Lai pievienotu naudas kapitālu, nosūtiet MobileCoin uz sava naudas maka adresi. Sāciet transakciju no sava konta biržā, kas atbalsta MobileCoin, pēc tam skenējiet kvadrātkodu vai kopējiet naudas maka adresi.</string>
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsAddMoneyFragment__learn_more__information" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_transfer_from_exchange</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsAddMoneyFragment__learn_more__information" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_transfer_from_exchange</string> -->
   <!-- PaymentsDetailsFragment -->
   <string name="PaymentsDetailsFragment__details">Rekvizīti</string>
   <string name="PaymentsDetailsFragment__status">Statuss</string>
@@ -4008,8 +4008,8 @@
   <string name="PaymentsDetailsFragment__coin_cleanup_fee">Monētu uztīrīšanas likme</string>
   <string name="PaymentsDetailsFragment__coin_cleanup_information">Naudas līdzekļu tīrīšanas jeb defragmentēšanas maksa tiek ieturēta, ja jūsu rīcībā esošos naudas līdzekļus nevar apvienot, lai pabeigtu transakciju. Veicot tīrīšanu, varēsiet turpināt maksājumu sūtīšanu.</string>
   <string name="PaymentsDetailsFragment__no_details_available">Vairāk datu par šo transakciju nav pieejami</string>
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsDetailsFragment__learn_more__information" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_details</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsDetailsFragment__learn_more__cleanup_fee" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_details_fees</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsDetailsFragment__learn_more__information" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_details</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsDetailsFragment__learn_more__cleanup_fee" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_details_fees</string> -->
   <string name="PaymentsDetailsFragment__sent_payment">Nosūtīts maksājums</string>
   <string name="PaymentsDetailsFragment__received_payment">Saņemts maksājums</string>
   <string name="PaymentsDeatilsFragment__payment_completed_s">Maksājums pabeigts %1$s</string>
@@ -4051,7 +4051,7 @@
   <string name="CreatePaymentFragment__backspace">Dzēst (uz atpakaļu)</string>
   <string name="CreatePaymentFragment__add_note">Pievienot piezīmi</string>
   <string name="CreatePaymentFragment__conversions_are_just_estimates">Konvertācijas vērtības ir aptuvenas, un tās var nebūt precīzas.</string>
-  <!-- Removed by excludeNonTranslatables <string name="CreatePaymentFragment__learn_more__conversions" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_currency_conversion</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="CreatePaymentFragment__learn_more__conversions" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_currency_conversion</string> -->
   <!-- EditNoteFragment -->
   <string name="EditNoteFragment_note">Piezīme</string>
   <!-- Content descriptor explaining the use of the save note FAB for Android accessibility settings-->
@@ -4238,7 +4238,7 @@
   <string name="BaseKbsPinFragment__create_alphanumeric_pin">Izveidojiet burtu/ciparu PIN</string>
   <!-- Button label to prompt them to return to creating a numbers-only password ("PIN") -->
   <string name="BaseKbsPinFragment__create_numeric_pin">Izveido ciparisko PIN</string>
-  <!-- Removed by excludeNonTranslatables <string name="BaseKbsPinFragment__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="BaseKbsPinFragment__learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059792</string> -->
   <!-- CreateKbsPinFragment -->
   <plurals name="CreateKbsPinFragment__pin_must_be_at_least_characters">
     <item quantity="zero">PIN jābūt vismaz %1$d rakstzīmju</item>
@@ -4271,7 +4271,7 @@
   <string name="KbsSplashFragment__introducing_pins">Iepazīstinām ar PINiem</string>
   <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN kodos ir informācija, kas lietotnē Graphene ir šifrēta, lai šai informācijai varētu piekļūt tikai jūs. Veicot atkārtotu instalēšanu, jūsu profils, iestatījumi un kontaktpersonas tiks atjaunotas. Lai atvērtu lietotni, PIN kods nebūs nepieciešams.</string>
   <string name="KbsSplashFragment__learn_more">Uzziniet vairāk.</string>
-  <!-- Removed by excludeNonTranslatables <string name="KbsSplashFragment__learn_more_link" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="KbsSplashFragment__learn_more_link" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059792</string> -->
   <string name="KbsSplashFragment__registration_lock_equals_pin">Reģistrācijas atslēga (Registration Lock) = PIN</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">Jūsu Reģistrācijas atslēga tagad tiek saukta par PIN, un tā kļuvusi funkcionālāka. Aktualizējiet to tūlīt.</string>
   <string name="KbsSplashFragment__update_pin">Aktualizēt PIN</string>
@@ -4290,7 +4290,7 @@
   <string name="AccountLockedFragment__your_account_has_been_locked_to_protect_your_privacy">Lai aizsargātu jūsu privātumu un drošību, jūsu konts tika bloķēts. Pēc %1$d dienu ilga jūsu konta iesaldēšanas perioda varēsiet pārreģistrēt šo tālruņa numuru, neievadot PIN. Tomēr viss tā saturs tiks dzēsts.</string>
   <string name="AccountLockedFragment__next">Tālāk</string>
   <string name="AccountLockedFragment__learn_more">Uzzināt vairāk.</string>
-  <!-- Removed by excludeNonTranslatables <string name="AccountLockedFragment__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="AccountLockedFragment__learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059792</string> -->
   <!-- KbsLockFragment -->
   <string name="RegistrationLockFragment__enter_your_pin">Ievadiet jūsu PIN</string>
   <string name="RegistrationLockFragment__enter_the_pin_you_created">Ievadiet sava konta PIN kodu. Tas atšķiras no jūsu SMS verifikācijas koda.</string>
@@ -4890,9 +4890,9 @@
   <string name="payment_info_card_update_your_pin">Atjaunināt PIN</string>
   <string name="payment_info_card_with_a_high_balance">Ja atlikums ir liels, iespējams, vēlēsieties atjaunināt uz burtciparu PIN kodu, lai savam kontam piešķirtu lielāku aizsardzību.</string>
   <string name="payment_info_card_update_pin">Aktualizēt PIN</string>
-  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__about_mobilecoin" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_which_ones</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__adding_to_your_wallet" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_transfer_from_exchange</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__cashing_out" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_transfer_to_exchange</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__about_mobilecoin" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_which_ones</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__adding_to_your_wallet" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_transfer_from_exchange</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__cashing_out" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_transfer_to_exchange</string> -->
   <!-- DeactivateWalletFragment -->
   <string name="DeactivateWalletFragment__deactivate_wallet">Deaktivizēt naudas maku</string>
   <string name="DeactivateWalletFragment__your_balance">Jūsu atlikums</string>
@@ -4903,7 +4903,7 @@
   <string name="DeactivateWalletFragment__deactivate_without_transferring_question">Vai deaktivizēt, neveicot pārskaitīšanu?</string>
   <string name="DeactivateWalletFragment__your_balance_will_remain">Ja izvēlēsieties atkārtoti aktivizēt maksājumus, atlikums paliks jūsu ar lietotni Graphene saistītajā naudas makā.</string>
   <string name="DeactivateWalletFragment__error_deactivating_wallet">Naudas maka deaktivizēšanas kļūda.</string>
-  <!-- Removed by excludeNonTranslatables <string name="DeactivateWalletFragment__learn_more__we_recommend_transferring_your_funds" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_deactivate</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="DeactivateWalletFragment__learn_more__we_recommend_transferring_your_funds" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_deactivate</string> -->
   <!-- PaymentsRecoveryStartFragment -->
   <string name="PaymentsRecoveryStartFragment__recovery_phrase">Atkopšanas frāze</string>
   <string name="PaymentsRecoveryStartFragment__view_recovery_phrase">Skatīt atkopšanas frāzi</string>
@@ -4937,8 +4937,8 @@
   <string name="PaymentsRecoveryPasteFragment__next">Tālāk</string>
   <string name="PaymentsRecoveryPasteFragment__invalid_recovery_phrase">Nederīga atkopšanas frāze</string>
   <string name="PaymentsRecoveryPasteFragment__make_sure">Pārliecinieties, ka ievadījāt %1$d vārdus, un mēģiniet vēlreiz.</string>
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsRecoveryStartFragment__learn_more__view" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_wallet_view_passphrase</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsRecoveryStartFragment__learn_more__restore" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_wallet_restore_passphrase</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsRecoveryStartFragment__learn_more__view" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_wallet_view_passphrase</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsRecoveryStartFragment__learn_more__restore" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_wallet_restore_passphrase</string> -->
   <!-- PaymentsRecoveryPhraseFragment -->
   <string name="PaymentsRecoveryPhraseFragment__next">Tālāk</string>
   <string name="PaymentsRecoveryPhraseFragment__edit">Rediģēt</string>
@@ -4977,7 +4977,7 @@
   <string name="GroupsInCommonMessageRequest__none_of_your_contacts_or_people_you_chat_with_are_in_this_group">Šajā grupā nav neviena jūsu kontaktpersona vai cilvēka ar kuru jau sarunājaties. Pirms piekrišanas rūpīgi pārskatiet pieprasījumus, lai izvairītos no nevēlamām ziņām.</string>
   <string name="GroupsInCommonMessageRequest__about_message_requests">Par ziņu pieprasījumiem</string>
   <string name="GroupsInCommonMessageRequest__okay">Labi</string>
-  <!-- Removed by excludeNonTranslatables <string name="GroupsInCommonMessageRequest__support_article" translatable="false">https://support.signal.org/hc/articles/360007459591</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="GroupsInCommonMessageRequest__support_article" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007459591</string> -->
   <string name="ChatColorSelectionFragment__heres_a_preview_of_the_chat_color">Lūk, sarunas krāsas priekšskatījums.</string>
   <string name="ChatColorSelectionFragment__the_color_is_visible_to_only_you">Šī krāsa ir redzama tikai jums.</string>
   <!-- GroupDescriptionDialog -->

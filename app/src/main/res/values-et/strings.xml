@@ -8,19 +8,19 @@
   <!-- Removed by excludeNonTranslatables <string name="app_name" translatable="false">Signal</string> -->
   <!-- Removed by excludeNonTranslatables <string name="install_url" translatable="false">https://%73%69%67%6E%61%6C.%6F%72%67//install</string> -->
   <!-- Removed by excludeNonTranslatables <string name="donate_url" translatable="false">https://%73%69%67%6E%61%6C.%6F%72%67//donate</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="backup_support_url" translatable="false">https://support.signal.org/hc/articles/360007059752</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="backup_failed_support_url" translatable="false">https://support.signal.org/hc/articles/8768161836954</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="transfer_support_url" translatable="false">https://support.signal.org/hc/articles/360007059752</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="support_center_url" translatable="false">https://support.signal.org/</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="backup_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059752</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="backup_failed_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/8768161836954</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="transfer_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059752</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="support_center_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//</string> -->
   <!-- Removed by excludeNonTranslatables <string name="terms_and_privacy_policy_url" translatable="false">https://github.com/Andrea-Bruno/GrapheneMessenger/blob/main/legal.md</string> -->
   <!-- Removed by excludeNonTranslatables <string name="google_pay_url" translatable="false">https://pay.google.com</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="donation_decline_code_error_url" translatable="false">https://support.signal.org/hc/articles/4408365318426#errors</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="sms_export_url" translatable="false">https://support.signal.org/hc/articles/360007321171</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="donation_decline_code_error_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/4408365318426#errors</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="sms_export_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007321171</string> -->
   <!-- Removed by excludeNonTranslatables <string name="signal_me_username_url" translatable="false">https://signal.me/#u/%1$s</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="username_support_url" translatable="false">https://support.signal.org/hc/articles/5389476324250</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="export_account_data_url" translatable="false">https://support.signal.org/hc/articles/5538911756954</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="pending_transfer_url" translatable="false">https://support.signal.org/hc/articles/360031949872#pending</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="donate_faq_url" translatable="false">https://support.signal.org/hc/articles/360031949872#donate</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="username_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/5389476324250</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="export_account_data_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/5538911756954</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="pending_transfer_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360031949872#pending</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="donate_faq_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360031949872#donate</string> -->
   <!-- First placeholder is productId, second placeholder is app package -->
   <string name="backup_subscription_management_url">https://play.google.com/store/account/subscriptions?sku=%1$s&amp;package=%2$s</string>
   <string name="yes">Jah</string>
@@ -989,7 +989,7 @@
   <string name="LinkDeviceFragment__sync_failure_body_unretryable">Sinu seade lingiti edukalt, aga su sõnumeid ei saanud edastada.</string>
   <!-- Text button in a dialog that, when pressed, will redirect to the Signal support page -->
   <string name="LinkDeviceFragment__learn_more">Rohkem teavet</string>
-  <!-- Removed by excludeNonTranslatables <string name="LinkDeviceFragment__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007320551</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="LinkDeviceFragment__learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007320551</string> -->
   <!-- Text button of a button in a dialog that, when pressed, will restart the process of linking a device -->
   <string name="LinkDeviceFragment__sync_failure_retry_button">Proovi uuesti</string>
   <!-- Text button of a button in a dialog that, when pressed, will ignore syncing errors and link a new device without syncing message content -->
@@ -1240,7 +1240,7 @@
   <string name="PromptBatterySaverBottomSheet__continue">Jätka</string>
   <!-- Button to dismiss battery saver dialog prompt-->
   <string name="PromptBatterySaverBottomSheet__no_thanks">Tänan, ei</string>
-  <!-- Removed by excludeNonTranslatables <string name="PromptBatterySaverBottomSheet__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007318711#android_notifications_troubleshooting</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PromptBatterySaverBottomSheet__learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007318711#android_notifications_troubleshooting</string> -->
   <!-- PendingMembersActivity -->
   <string name="PendingMembersActivity_pending_group_invites">Taotlused &amp; kutsed</string>
   <string name="PendingMembersActivity_requests">Taotlused</string>
@@ -1951,7 +1951,7 @@
   <!-- Shown when you are invited to a group and explains that until you accept the invitation to the group, members will not know that you have seen their messages. -->
   <string name="MessageRequestBottomView_join_this_group_they_wont_know_youve_seen_their_messages_until_you_accept">Kas liitud grupiga? Nad ei tea, et oled nende sõnumeid näinud, kuni nõustud.</string>
   <string name="MessageRequestBottomView_unblock_this_group_and_share_your_name_and_photo_with_its_members">Kas soovid eemaldada sellelt grupilt blokeering ja jagada selle liikmetega oma nime ja fotot? Sa ei saa sõnumeid enne kui oled blokeeringu eemaldanud.</string>
-  <!-- Removed by excludeNonTranslatables <string name="MessageRequestBottomView_legacy_learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007459591</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="MessageRequestBottomView_legacy_learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007459591</string> -->
   <string name="MessageRequestProfileView_view">Näita</string>
   <string name="MessageRequestProfileView_member_of_one_group">%1$s liige</string>
   <string name="MessageRequestProfileView_member_of_two_groups">%1$s ja %2$s liige</string>
@@ -2073,7 +2073,7 @@
   <string name="PinRestoreLockedFragment_create_your_pin">Loo enda PIN-kood</string>
   <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">PIN-koodi proovimised on otsa saanud, kuid pääsed siiski uue PIN-koodi loomisega oma Graphenei konto juurde. Privaatsuse ja turvalisuse huvides taastatakse sinu konto ilma salvestatud profiiliteabe või säteteta.</string>
   <string name="PinRestoreLockedFragment_create_new_pin">Loo uus PIN-kood</string>
-  <!-- Removed by excludeNonTranslatables <string name="PinRestoreLockedFragment_learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PinRestoreLockedFragment_learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059792</string> -->
   <!-- Dialog button text indicating user wishes to send an sms code isntead of skipping it -->
   <string name="ReRegisterWithPinFragment_send_sms_code">Saada SMS-kood</string>
   <!-- Email subject used when user contacts support about an issue with the reregister flow. -->
@@ -3359,7 +3359,7 @@
   <string name="EditProfileFragment__edit_group">Muuda gruppi</string>
   <string name="EditProfileFragment__group_name">Grupi nimi</string>
   <string name="EditProfileFragment__group_description">Grupi kirjeldus</string>
-  <!-- Removed by excludeNonTranslatables <string name="EditProfileFragment__support_link" translatable="false">https://support.signal.org/hc/articles/360007459591</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="EditProfileFragment__support_link" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007459591</string> -->
   <!-- The title of a dialog prompting user to update to the latest version of Signal. -->
   <string name="EditProfileFragment_deprecated_dialog_title">Uuenda Grapheneit</string>
   <!-- The body of a dialog prompting user to update to the latest version of Signal. -->
@@ -3439,8 +3439,8 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__emoji_3" translatable="false">emoji_3</string> -->
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__emoji_2" translatable="false">emoji_2</string> -->
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__emoji_1" translatable="false">emoji_1</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__debug_info" translatable="false">https://support.signal.org/hc/articles/360007318591</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__debug_info" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007318591</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67/</string> -->
   <!-- Heading used within support email that lists additional information to help with debugging -->
   <string name="HelpFragment__support_info">Kasutajatoe info</string>
   <string name="HelpFragment__signal_android_support_request">Graphenei Androidi kasutajatoetaotlus</string>
@@ -3644,7 +3644,7 @@
   <string name="preferences__if_typing_indicators_are_disabled_you_wont_be_able_to_see_typing_indicators">Kui kirjutamisindikaatorid on keelatud, ei näe sa neid ka teiste puhul.</string>
   <string name="preferences__request_keyboard_to_disable">Palu klaviatuuril keelata isikupärastatud õppimine.</string>
   <string name="preferences__this_setting_is_not_a_guarantee">See säte ei anna garantiid ja su klaviatuur võib seda ignoreerida.</string>
-  <!-- Removed by excludeNonTranslatables <string name="preferences__incognito_keyboard_learn_more" translatable="false">https://support.signal.org/hc/articles/360055276112</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="preferences__incognito_keyboard_learn_more" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360055276112</string> -->
   <string name="preferences_chats__when_using_mobile_data">Kui kasutad mobiilandmesidet</string>
   <string name="preferences_chats__when_using_wifi">Kui kasutad Wi-Fit</string>
   <string name="preferences_chats__when_roaming">Kui oled välismaal</string>
@@ -3790,7 +3790,7 @@
   <string name="PaymentsHomeFragment__payments_deactivated">Maksed deaktiveeritud.</string>
   <string name="PaymentsHomeFragment__payment_failed">Makse ei õnnestunud</string>
   <string name="PaymentsHomeFragment__details">Üksikasjad</string>
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_activate</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_activate</string> -->
   <!-- Displayed as a description in a dialog when the user tries to activate payments -->
   <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">Graphenei kaudu on võimalik saata ja vastu võtta MobileCoine. Kõik maksed toimuvad kooskõlas MobileCoinsi ja MobileCoin Walleti kasutustingimustega. Siin võib ilmneda teatavaid probleeme ning kaotatud makseid või saldosid ei pruugi olla võimalik taastada. </string>
   <string name="PaymentsHomeFragment__activate">Aktiveeri</string>
@@ -3874,7 +3874,7 @@
   <string name="PaymentsAddMoneyFragment__copy">Kopeeri</string>
   <string name="PaymentsAddMoneyFragment__copied_to_clipboard">Lõikelauale kopeeritud</string>
   <string name="PaymentsAddMoneyFragment__to_add_funds">Vahendite lisamiseks saada MobileCoinid enda rahakoti aadressile. Alusta tehingut mõne valuutavahetuse kontolt, mis toetab MobileCoini, siis skanni QR-kood või kopeeri enda rahakoti aadress.</string>
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsAddMoneyFragment__learn_more__information" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_transfer_from_exchange</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsAddMoneyFragment__learn_more__information" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_transfer_from_exchange</string> -->
   <!-- PaymentsDetailsFragment -->
   <string name="PaymentsDetailsFragment__details">Üksikasjad</string>
   <string name="PaymentsDetailsFragment__status">Olek</string>
@@ -3894,8 +3894,8 @@
   <string name="PaymentsDetailsFragment__coin_cleanup_fee">Coin cleanup fee</string>
   <string name="PaymentsDetailsFragment__coin_cleanup_information">Coin cleanup fee on tasu, mis võetakse, kui sinu omandis olevatest coinidest ei saa kokku tervet makset. Cleanup võimaldab sellisel juhul maksete saatmist jätkata.</string>
   <string name="PaymentsDetailsFragment__no_details_available">Selle tehingu kohta ei ole täiendavaid andmeid</string>
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsDetailsFragment__learn_more__information" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_details</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsDetailsFragment__learn_more__cleanup_fee" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_details_fees</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsDetailsFragment__learn_more__information" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_details</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsDetailsFragment__learn_more__cleanup_fee" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_details_fees</string> -->
   <string name="PaymentsDetailsFragment__sent_payment">Makse saadetud</string>
   <string name="PaymentsDetailsFragment__received_payment">Makse saadud</string>
   <string name="PaymentsDeatilsFragment__payment_completed_s">Makse teostatud %1$s</string>
@@ -3937,7 +3937,7 @@
   <string name="CreatePaymentFragment__backspace">Backspace</string>
   <string name="CreatePaymentFragment__add_note">Lisa märkus</string>
   <string name="CreatePaymentFragment__conversions_are_just_estimates">Konverteeritud summad on hinnangulised ja ei pruugi olla täpsed.</string>
-  <!-- Removed by excludeNonTranslatables <string name="CreatePaymentFragment__learn_more__conversions" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_currency_conversion</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="CreatePaymentFragment__learn_more__conversions" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_currency_conversion</string> -->
   <!-- EditNoteFragment -->
   <string name="EditNoteFragment_note">Märkus</string>
   <!-- Content descriptor explaining the use of the save note FAB for Android accessibility settings-->
@@ -4122,7 +4122,7 @@
   <string name="BaseKbsPinFragment__create_alphanumeric_pin">Loo tähtnumbriline PIN-kood</string>
   <!-- Button label to prompt them to return to creating a numbers-only password ("PIN") -->
   <string name="BaseKbsPinFragment__create_numeric_pin">Loo numbriline PIN-kood</string>
-  <!-- Removed by excludeNonTranslatables <string name="BaseKbsPinFragment__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="BaseKbsPinFragment__learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059792</string> -->
   <!-- CreateKbsPinFragment -->
   <plurals name="CreateKbsPinFragment__pin_must_be_at_least_characters">
     <item quantity="one">PIN peab olema vähemalt %1$d tähemärki pikk</item>
@@ -4153,7 +4153,7 @@
   <string name="KbsSplashFragment__introducing_pins">Tutvustame PIN-koode</string>
   <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN-koodid hoiavad Grapheneis salvestatud teabe krüptituna, seega ainult sinul on sellele juurdepääs. Kui paigaldad Graphenei uuesti, siis sinu profiil, sätted ja kontaktid taastatakse. Rakenduse avamiseks pole PIN-koodi vaja.</string>
   <string name="KbsSplashFragment__learn_more">Uuri täpsemalt</string>
-  <!-- Removed by excludeNonTranslatables <string name="KbsSplashFragment__learn_more_link" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="KbsSplashFragment__learn_more_link" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059792</string> -->
   <string name="KbsSplashFragment__registration_lock_equals_pin">Registreerimislukk = PIN-kood</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">Sinu registreerimislukk on nüüd PIN-kood ja see teeb rohkemgi. Uuenda seda nüüd.</string>
   <string name="KbsSplashFragment__update_pin">Uuenda PIN-koodi</string>
@@ -4172,7 +4172,7 @@
   <string name="AccountLockedFragment__your_account_has_been_locked_to_protect_your_privacy">Sinu konto on sinu privaatsuse ja turvalisuse kaitseks lukustatud. Pärast %1$d päeva mitteaktiivsust sinu kontol on sul võimalik see telefoninumber ilma PIN-koodi vajamata uuesti registreerida. Kogu sisu eemaldatakse.</string>
   <string name="AccountLockedFragment__next">Edasi</string>
   <string name="AccountLockedFragment__learn_more">Uuri täpsemalt</string>
-  <!-- Removed by excludeNonTranslatables <string name="AccountLockedFragment__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="AccountLockedFragment__learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059792</string> -->
   <!-- KbsLockFragment -->
   <string name="RegistrationLockFragment__enter_your_pin">Sisesta enda PIN-kood</string>
   <string name="RegistrationLockFragment__enter_the_pin_you_created">Sisesta PIN-kood, mille tegid enda konto jaoks. See erineb SMS-kontrollkoodist.</string>
@@ -4760,9 +4760,9 @@
   <string name="payment_info_card_update_your_pin">Uuenda enda PIN-koodi</string>
   <string name="payment_info_card_with_a_high_balance">Kui su kontojääk on suur, soovitame kasutusele võtta tähtnumbrilise PIN-koodi, et oma kontot paremini kaitsta.</string>
   <string name="payment_info_card_update_pin">Uuenda PIN-koodi</string>
-  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__about_mobilecoin" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_which_ones</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__adding_to_your_wallet" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_transfer_from_exchange</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__cashing_out" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_transfer_to_exchange</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__about_mobilecoin" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_which_ones</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__adding_to_your_wallet" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_transfer_from_exchange</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__cashing_out" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_transfer_to_exchange</string> -->
   <!-- DeactivateWalletFragment -->
   <string name="DeactivateWalletFragment__deactivate_wallet">Deaktiveeri rahakott</string>
   <string name="DeactivateWalletFragment__your_balance">Sinu kontojääk</string>
@@ -4773,7 +4773,7 @@
   <string name="DeactivateWalletFragment__deactivate_without_transferring_question">Kas deaktiveerida ilma ülekandeta?</string>
   <string name="DeactivateWalletFragment__your_balance_will_remain">Sinu saldo jääb sinu Grapheneiga lingitud rahakotti, kuni sa Graphenei maksed uuesti aktiveerid.</string>
   <string name="DeactivateWalletFragment__error_deactivating_wallet">Rahakoti deaktiveerimisel tekkis tõrge.</string>
-  <!-- Removed by excludeNonTranslatables <string name="DeactivateWalletFragment__learn_more__we_recommend_transferring_your_funds" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_deactivate</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="DeactivateWalletFragment__learn_more__we_recommend_transferring_your_funds" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_deactivate</string> -->
   <!-- PaymentsRecoveryStartFragment -->
   <string name="PaymentsRecoveryStartFragment__recovery_phrase">Kontroll-lause</string>
   <string name="PaymentsRecoveryStartFragment__view_recovery_phrase">Vaata kontroll-lauset</string>
@@ -4806,8 +4806,8 @@
   <string name="PaymentsRecoveryPasteFragment__next">Edasi</string>
   <string name="PaymentsRecoveryPasteFragment__invalid_recovery_phrase">Kehtetu kontroll-lause</string>
   <string name="PaymentsRecoveryPasteFragment__make_sure">Veendu, et sisestasid %1$d sõna, ning proovi uuesti.</string>
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsRecoveryStartFragment__learn_more__view" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_wallet_view_passphrase</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsRecoveryStartFragment__learn_more__restore" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_wallet_restore_passphrase</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsRecoveryStartFragment__learn_more__view" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_wallet_view_passphrase</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsRecoveryStartFragment__learn_more__restore" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_wallet_restore_passphrase</string> -->
   <!-- PaymentsRecoveryPhraseFragment -->
   <string name="PaymentsRecoveryPhraseFragment__next">Edasi</string>
   <string name="PaymentsRecoveryPhraseFragment__edit">Muuda</string>
@@ -4846,7 +4846,7 @@
   <string name="GroupsInCommonMessageRequest__none_of_your_contacts_or_people_you_chat_with_are_in_this_group">Ükski sinu kontakt ega vestluskaaslane ei ole selles grupis. Vaata enne kinnitamist taotlused hoolikalt üle, et soovimatutest sõnumitest hoiduda.</string>
   <string name="GroupsInCommonMessageRequest__about_message_requests">Teave sõnumitaotluste kohta</string>
   <string name="GroupsInCommonMessageRequest__okay">Sobib</string>
-  <!-- Removed by excludeNonTranslatables <string name="GroupsInCommonMessageRequest__support_article" translatable="false">https://support.signal.org/hc/articles/360007459591</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="GroupsInCommonMessageRequest__support_article" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007459591</string> -->
   <string name="ChatColorSelectionFragment__heres_a_preview_of_the_chat_color">Siin on vestluse värvide eelvaade.</string>
   <string name="ChatColorSelectionFragment__the_color_is_visible_to_only_you">See värv on nähtav ainult sulle.</string>
   <!-- GroupDescriptionDialog -->

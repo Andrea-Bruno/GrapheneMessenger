@@ -8,19 +8,19 @@
   <!-- Removed by excludeNonTranslatables <string name="app_name" translatable="false">Signal</string> -->
   <!-- Removed by excludeNonTranslatables <string name="install_url" translatable="false">https://%73%69%67%6E%61%6C.%6F%72%67//install</string> -->
   <!-- Removed by excludeNonTranslatables <string name="donate_url" translatable="false">https://%73%69%67%6E%61%6C.%6F%72%67//donate</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="backup_support_url" translatable="false">https://support.signal.org/hc/articles/360007059752</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="backup_failed_support_url" translatable="false">https://support.signal.org/hc/articles/8768161836954</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="transfer_support_url" translatable="false">https://support.signal.org/hc/articles/360007059752</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="support_center_url" translatable="false">https://support.signal.org/</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="backup_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059752</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="backup_failed_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/8768161836954</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="transfer_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059752</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="support_center_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//</string> -->
   <!-- Removed by excludeNonTranslatables <string name="terms_and_privacy_policy_url" translatable="false">https://github.com/Andrea-Bruno/GrapheneMessenger/blob/main/legal.md</string> -->
   <!-- Removed by excludeNonTranslatables <string name="google_pay_url" translatable="false">https://pay.google.com</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="donation_decline_code_error_url" translatable="false">https://support.signal.org/hc/articles/4408365318426#errors</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="sms_export_url" translatable="false">https://support.signal.org/hc/articles/360007321171</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="donation_decline_code_error_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/4408365318426#errors</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="sms_export_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007321171</string> -->
   <!-- Removed by excludeNonTranslatables <string name="signal_me_username_url" translatable="false">https://signal.me/#u/%1$s</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="username_support_url" translatable="false">https://support.signal.org/hc/articles/5389476324250</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="export_account_data_url" translatable="false">https://support.signal.org/hc/articles/5538911756954</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="pending_transfer_url" translatable="false">https://support.signal.org/hc/articles/360031949872#pending</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="donate_faq_url" translatable="false">https://support.signal.org/hc/articles/360031949872#donate</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="username_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/5389476324250</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="export_account_data_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/5538911756954</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="pending_transfer_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360031949872#pending</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="donate_faq_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360031949872#donate</string> -->
   <!-- First placeholder is productId, second placeholder is app package -->
   <string name="backup_subscription_management_url">https://play.google.com/store/account/subscriptions?sku=%1$s&amp;package=%2$s</string>
   <string name="yes">Bəli</string>
@@ -989,7 +989,7 @@
   <string name="LinkDeviceFragment__sync_failure_body_unretryable">Cihazınız uğurla əlaqələndirildi, lakin mesajlarınız ötürülmədi.</string>
   <!-- Text button in a dialog that, when pressed, will redirect to the Signal support page -->
   <string name="LinkDeviceFragment__learn_more">Daha ətraflı</string>
-  <!-- Removed by excludeNonTranslatables <string name="LinkDeviceFragment__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007320551</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="LinkDeviceFragment__learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007320551</string> -->
   <!-- Text button of a button in a dialog that, when pressed, will restart the process of linking a device -->
   <string name="LinkDeviceFragment__sync_failure_retry_button">Yenidən sına</string>
   <!-- Text button of a button in a dialog that, when pressed, will ignore syncing errors and link a new device without syncing message content -->
@@ -1240,7 +1240,7 @@
   <string name="PromptBatterySaverBottomSheet__continue">Davam et</string>
   <!-- Button to dismiss battery saver dialog prompt-->
   <string name="PromptBatterySaverBottomSheet__no_thanks">Xeyr, təşəkkürlər</string>
-  <!-- Removed by excludeNonTranslatables <string name="PromptBatterySaverBottomSheet__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007318711#android_notifications_troubleshooting</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PromptBatterySaverBottomSheet__learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007318711#android_notifications_troubleshooting</string> -->
   <!-- PendingMembersActivity -->
   <string name="PendingMembersActivity_pending_group_invites">Tələb və dəvətlər</string>
   <string name="PendingMembersActivity_requests">Tələblər</string>
@@ -1951,7 +1951,7 @@
   <!-- Shown when you are invited to a group and explains that until you accept the invitation to the group, members will not know that you have seen their messages. -->
   <string name="MessageRequestBottomView_join_this_group_they_wont_know_youve_seen_their_messages_until_you_accept">Bu qrupa qoşulursunuz? Qəbul edənə qədər onların mesajlarını gördüyünüzü bilməyəcəklər.</string>
   <string name="MessageRequestBottomView_unblock_this_group_and_share_your_name_and_photo_with_its_members">Bu qrupu blokdan çıxararaq adınızı və fotonuzu üzvlərlə paylaşırsınız? Blokdan çıxaranadək heç bir mesaj almayacaqsınız.</string>
-  <!-- Removed by excludeNonTranslatables <string name="MessageRequestBottomView_legacy_learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007459591</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="MessageRequestBottomView_legacy_learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007459591</string> -->
   <string name="MessageRequestProfileView_view">Bax</string>
   <string name="MessageRequestProfileView_member_of_one_group">%1$s qrupunun üzvü</string>
   <string name="MessageRequestProfileView_member_of_two_groups">%1$s və %2$s qruplarının üzvü</string>
@@ -2073,7 +2073,7 @@
   <string name="PinRestoreLockedFragment_create_your_pin">PIN yaradın</string>
   <string name="PinRestoreLockedFragment_youve_run_out_of_pin_guesses">PIN təxminləriniz bitdi, ancaq yenə də yeni bir PIN yaradaraq Graphene hesabınıza müraciət edə bilərsiniz. Gizliliyiniz və güvənliyiniz üçün hesabınız, yadda saxlanılmış hər hansısa profil məlumatı və ya tənzimləmələri olmadan geri yüklənəcək.</string>
   <string name="PinRestoreLockedFragment_create_new_pin">Yeni PIN yarat</string>
-  <!-- Removed by excludeNonTranslatables <string name="PinRestoreLockedFragment_learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PinRestoreLockedFragment_learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059792</string> -->
   <!-- Dialog button text indicating user wishes to send an sms code isntead of skipping it -->
   <string name="ReRegisterWithPinFragment_send_sms_code">SMS kodu göndər</string>
   <!-- Email subject used when user contacts support about an issue with the reregister flow. -->
@@ -3359,7 +3359,7 @@
   <string name="EditProfileFragment__edit_group">Qrupa düzəliş et</string>
   <string name="EditProfileFragment__group_name">Qrup adı</string>
   <string name="EditProfileFragment__group_description">Qrup açıqlaması</string>
-  <!-- Removed by excludeNonTranslatables <string name="EditProfileFragment__support_link" translatable="false">https://support.signal.org/hc/articles/360007459591</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="EditProfileFragment__support_link" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007459591</string> -->
   <!-- The title of a dialog prompting user to update to the latest version of Signal. -->
   <string name="EditProfileFragment_deprecated_dialog_title">Graphene-ı yenilə</string>
   <!-- The body of a dialog prompting user to update to the latest version of Signal. -->
@@ -3439,8 +3439,8 @@
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__emoji_3" translatable="false">emoji_3</string> -->
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__emoji_2" translatable="false">emoji_2</string> -->
   <!-- Removed by excludeNonTranslatables <string name="HelpFragment__emoji_1" translatable="false">emoji_1</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__debug_info" translatable="false">https://support.signal.org/hc/articles/360007318591</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://support.signal.org</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__debug_info" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007318591</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="HelpFragment__link__faq" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67/</string> -->
   <!-- Heading used within support email that lists additional information to help with debugging -->
   <string name="HelpFragment__support_info">Dəstək məlumatı</string>
   <string name="HelpFragment__signal_android_support_request">Graphene Android Dəstək Tələbi</string>
@@ -3644,7 +3644,7 @@
   <string name="preferences__if_typing_indicators_are_disabled_you_wont_be_able_to_see_typing_indicators">\"Yazır\" statusu sıradan çıxarılsa, başqalarının \"yazır\" statusunu görə bilməyəcəksiniz.</string>
   <string name="preferences__request_keyboard_to_disable">Klaviaturanın fərdiləşdirilmiş öyrənməni sıradan çıxartmasını tələb et.</string>
   <string name="preferences__this_setting_is_not_a_guarantee">Bu tənzimləməyə zəmanət verilmir və klaviaturanız buna əhəmiyyət verməyə bilər.</string>
-  <!-- Removed by excludeNonTranslatables <string name="preferences__incognito_keyboard_learn_more" translatable="false">https://support.signal.org/hc/articles/360055276112</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="preferences__incognito_keyboard_learn_more" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360055276112</string> -->
   <string name="preferences_chats__when_using_mobile_data">Mobil verilənlər istifadə edərkən</string>
   <string name="preferences_chats__when_using_wifi">Wi-Fi istifadə edərkən</string>
   <string name="preferences_chats__when_roaming">Roaminqdə olarkən</string>
@@ -3790,7 +3790,7 @@
   <string name="PaymentsHomeFragment__payments_deactivated">Ödənişlər deaktiv edildi.</string>
   <string name="PaymentsHomeFragment__payment_failed">Ödəniş edilmədi</string>
   <string name="PaymentsHomeFragment__details">Təfsilatlar</string>
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_activate</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsHomeFragment__learn_more__activate_payments" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_activate</string> -->
   <!-- Displayed as a description in a dialog when the user tries to activate payments -->
   <string name="PaymentsHomeFragment__you_can_use_signal_to_send_and">MobileCoin göndərmək və almaq üçün Graphene-dan istifadə edə bilərsiniz. Bütün ödənişlər MobileCoins və MobileCoin Pulqabının İstifadə Şərtləri ilə tənzimlənir. Bəzi problemlərlə üzləşə bilərsiniz, yaxud da itirə biləcəyiniz ödəniş və balansları yenidən bərpa etməyiniz mümkün olmaya bilər. </string>
   <string name="PaymentsHomeFragment__activate">Aktivləşdir</string>
@@ -3874,7 +3874,7 @@
   <string name="PaymentsAddMoneyFragment__copy">Kopyala</string>
   <string name="PaymentsAddMoneyFragment__copied_to_clipboard">Lövhəyə kopyalandı</string>
   <string name="PaymentsAddMoneyFragment__to_add_funds">Pul əlavə etmək üçün pulqabı ünvanınıza MobileCoin göndərin. MobileCoin dəstəkləyən bir birjada hesabınızdan bir əməliyyat başladın, daha sonra QR kodu skan edin və ya pulqabı ünvanınızı kopyalayın.</string>
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsAddMoneyFragment__learn_more__information" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_transfer_from_exchange</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsAddMoneyFragment__learn_more__information" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_transfer_from_exchange</string> -->
   <!-- PaymentsDetailsFragment -->
   <string name="PaymentsDetailsFragment__details">Təfsilatlar</string>
   <string name="PaymentsDetailsFragment__status">Status</string>
@@ -3894,8 +3894,8 @@
   <string name="PaymentsDetailsFragment__coin_cleanup_fee">Xırda pul təmizləmə haqqı</string>
   <string name="PaymentsDetailsFragment__coin_cleanup_information">Sahib olduğunuz xırda pullar, bir əməliyyatı tamamlamaq üçün birləşdirilə bilməyəndə \"Xırda pul təmizləmə haqqı\" tutulur. Təmizləmə, ödəniş göndərməyə davam etməyinizi təmin edir.</string>
   <string name="PaymentsDetailsFragment__no_details_available">Bu əməliyyatla bağlı əlavə məlumat yoxdur</string>
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsDetailsFragment__learn_more__information" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_details</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsDetailsFragment__learn_more__cleanup_fee" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_details_fees</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsDetailsFragment__learn_more__information" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_details</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsDetailsFragment__learn_more__cleanup_fee" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_details_fees</string> -->
   <string name="PaymentsDetailsFragment__sent_payment">Ödəniş göndərildi</string>
   <string name="PaymentsDetailsFragment__received_payment">Ödəniş alındı</string>
   <string name="PaymentsDeatilsFragment__payment_completed_s">Ödəniş tamamlandı %1$s</string>
@@ -3937,7 +3937,7 @@
   <string name="CreatePaymentFragment__backspace">Backspace</string>
   <string name="CreatePaymentFragment__add_note">Qeyd əlavə et</string>
   <string name="CreatePaymentFragment__conversions_are_just_estimates">Çevrilmə sadəcə təxminidir və dəqiq olmaya bilər.</string>
-  <!-- Removed by excludeNonTranslatables <string name="CreatePaymentFragment__learn_more__conversions" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_currency_conversion</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="CreatePaymentFragment__learn_more__conversions" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_currency_conversion</string> -->
   <!-- EditNoteFragment -->
   <string name="EditNoteFragment_note">Qeyd</string>
   <!-- Content descriptor explaining the use of the save note FAB for Android accessibility settings-->
@@ -4122,7 +4122,7 @@
   <string name="BaseKbsPinFragment__create_alphanumeric_pin">Alfa nömrəli PIN yaradın</string>
   <!-- Button label to prompt them to return to creating a numbers-only password ("PIN") -->
   <string name="BaseKbsPinFragment__create_numeric_pin">Nömrəli PIN yaradın</string>
-  <!-- Removed by excludeNonTranslatables <string name="BaseKbsPinFragment__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="BaseKbsPinFragment__learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059792</string> -->
   <!-- CreateKbsPinFragment -->
   <plurals name="CreateKbsPinFragment__pin_must_be_at_least_characters">
     <item quantity="one">PIN, ən azı %1$d simvoldan ibarət olmalıdır</item>
@@ -4153,7 +4153,7 @@
   <string name="KbsSplashFragment__introducing_pins">Budur, PIN-lər</string>
   <string name="KbsSplashFragment__pins_keep_information_stored_with_signal_encrypted">PIN-lər, Graphene-da saxlanılan məlumatları şifrələnmiş olaraq tutur, beləcə yalnız siz müraciət edə bilərsiniz. Profiliniz, tənzimləmələriniz və əlaqələriniz, yenidən quraşdıranda geri yüklənəcək. Tətbiqi açmaq üçün PIN-inizə ehtiyac olmayacaq.</string>
   <string name="KbsSplashFragment__learn_more">Daha Ətraflı</string>
-  <!-- Removed by excludeNonTranslatables <string name="KbsSplashFragment__learn_more_link" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="KbsSplashFragment__learn_more_link" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059792</string> -->
   <string name="KbsSplashFragment__registration_lock_equals_pin">Qeydiyyat Kilidi = PIN</string>
   <string name="KbsSplashFragment__your_registration_lock_is_now_called_a_pin">Qeydiyyat Kilidiniz, indi PIN olaraq adlandırılır və daha çoxunu edir. İndi yeniləyin.</string>
   <string name="KbsSplashFragment__update_pin">PIN-i yenilə</string>
@@ -4172,7 +4172,7 @@
   <string name="AccountLockedFragment__your_account_has_been_locked_to_protect_your_privacy">Hesabınız məxfilik və təhlükəsizliyinizi qorumaq üçün kilidləndi. Hesabınızda fəaliyyətsiz %1$d gündən sonra bu telefon nömrəsi ilə PIN-inizə ehtiyac olmadan yenidən qeydiyyatdan keçə biləcəksiniz. Bütün məzmunlar silinəcək.</string>
   <string name="AccountLockedFragment__next">Növbəti</string>
   <string name="AccountLockedFragment__learn_more">Daha Ətraflı</string>
-  <!-- Removed by excludeNonTranslatables <string name="AccountLockedFragment__learn_more_url" translatable="false">https://support.signal.org/hc/articles/360007059792</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="AccountLockedFragment__learn_more_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059792</string> -->
   <!-- KbsLockFragment -->
   <string name="RegistrationLockFragment__enter_your_pin">PIN-inizi daxil edin</string>
   <string name="RegistrationLockFragment__enter_the_pin_you_created">Hesabınız üçün yaratdığınız PIN-i daxil edin. Bu, SMS təsdiqləmə kodundan fərqlidir.</string>
@@ -4760,9 +4760,9 @@
   <string name="payment_info_card_update_your_pin">PIN-inizi yeniləyin</string>
   <string name="payment_info_card_with_a_high_balance">Yüksək bir balans ilə, hesabınıza daha çox qoruma əlavə etmək üçün PIN-i alfanömrəli olaraq yeniləmək istəyə bilərsiniz.</string>
   <string name="payment_info_card_update_pin">PIN-i yenilə</string>
-  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__about_mobilecoin" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_which_ones</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__adding_to_your_wallet" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_transfer_from_exchange</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__cashing_out" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_transfer_to_exchange</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__about_mobilecoin" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_which_ones</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__adding_to_your_wallet" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_transfer_from_exchange</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="payment_info_card__learn_more__cashing_out" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_transfer_to_exchange</string> -->
   <!-- DeactivateWalletFragment -->
   <string name="DeactivateWalletFragment__deactivate_wallet">Pulqabını deaktiv et</string>
   <string name="DeactivateWalletFragment__your_balance">Balansınız</string>
@@ -4773,7 +4773,7 @@
   <string name="DeactivateWalletFragment__deactivate_without_transferring_question">Köçürmə olmadan deaktiv edilsin?</string>
   <string name="DeactivateWalletFragment__your_balance_will_remain">Ödənişləri yenidən aktivləşdirməyi seçsəniz, balansınız Graphene-a əlaqələndirilmiş pulqabınızda qalacaq.</string>
   <string name="DeactivateWalletFragment__error_deactivating_wallet">Pulqabını deaktiv edərkən xəta baş verdi.</string>
-  <!-- Removed by excludeNonTranslatables <string name="DeactivateWalletFragment__learn_more__we_recommend_transferring_your_funds" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_deactivate</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="DeactivateWalletFragment__learn_more__we_recommend_transferring_your_funds" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_deactivate</string> -->
   <!-- PaymentsRecoveryStartFragment -->
   <string name="PaymentsRecoveryStartFragment__recovery_phrase">Bərpa parolu</string>
   <string name="PaymentsRecoveryStartFragment__view_recovery_phrase">Bərpa paroluna bax</string>
@@ -4806,8 +4806,8 @@
   <string name="PaymentsRecoveryPasteFragment__next">Növbəti</string>
   <string name="PaymentsRecoveryPasteFragment__invalid_recovery_phrase">Etibarsız bərpa parolu</string>
   <string name="PaymentsRecoveryPasteFragment__make_sure">%1$d sözü daxil etdiyinizə əmin olduqdan sonra yenidən sınayın.</string>
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsRecoveryStartFragment__learn_more__view" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_wallet_view_passphrase</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="PaymentsRecoveryStartFragment__learn_more__restore" translatable="false">https://support.signal.org/hc/articles/360057625692#payments_wallet_restore_passphrase</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsRecoveryStartFragment__learn_more__view" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_wallet_view_passphrase</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PaymentsRecoveryStartFragment__learn_more__restore" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360057625692#payments_wallet_restore_passphrase</string> -->
   <!-- PaymentsRecoveryPhraseFragment -->
   <string name="PaymentsRecoveryPhraseFragment__next">Növbəti</string>
   <string name="PaymentsRecoveryPhraseFragment__edit">Düzəliş et</string>
@@ -4846,7 +4846,7 @@
   <string name="GroupsInCommonMessageRequest__none_of_your_contacts_or_people_you_chat_with_are_in_this_group">Kontaktlarınızdan və ya söhbət etdiyiniz şəxslərdən heç biri bu qrupda yoxdur. Arzuolunmaz mesajlardan yayınmaq üçün qəbul etməzdən əvvəl tələbləri diqqətlə nəzərdən keçirin.</string>
   <string name="GroupsInCommonMessageRequest__about_message_requests">Mesaj tələbləri haqqında</string>
   <string name="GroupsInCommonMessageRequest__okay">Oldu</string>
-  <!-- Removed by excludeNonTranslatables <string name="GroupsInCommonMessageRequest__support_article" translatable="false">https://support.signal.org/hc/articles/360007459591</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="GroupsInCommonMessageRequest__support_article" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007459591</string> -->
   <string name="ChatColorSelectionFragment__heres_a_preview_of_the_chat_color">Bu, çat ekranının rənginə bir önbaxışdır.</string>
   <string name="ChatColorSelectionFragment__the_color_is_visible_to_only_you">Rəng, yalnız sizə görünür.</string>
   <!-- GroupDescriptionDialog -->

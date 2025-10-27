@@ -14,7 +14,7 @@ import java.io.IOException
 object DeviceSpecificNotificationConfig {
 
   private val TAG = Log.tag(DeviceSpecificNotificationConfig::class.java)
-  private const val GENERAL_SUPPORT_URL = "https://support.signal.org/hc/articles/360007318711#android_notifications_troubleshooting"
+  private const val GENERAL_SUPPORT_URL = "https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007318711#android_notifications_troubleshooting"
 
   @JvmStatic
   val currentConfig: Config by lazy { computeConfig() }

@@ -292,7 +292,7 @@ class RemoteBackupsSettingsFragment : ComposeFragment() {
     }
 
     override fun onFreeTierBackupSizeLearnMore() {
-      CommunicationActions.openBrowserLink(requireContext(), "https://support.signal.org/hc/articles/9708267671322")
+      CommunicationActions.openBrowserLink(requireContext(), "https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/9708267671322")
     }
   }
 

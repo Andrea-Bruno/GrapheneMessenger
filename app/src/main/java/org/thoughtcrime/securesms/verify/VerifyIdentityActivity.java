@@ -68,7 +68,7 @@ public class VerifyIdentityActivity extends PassphraseRequiredActivity {
         .setMessage(R.string.VerifyIdentityActivity_dialog_exchange_messages_to_create_safety_number_message)
         .setPositiveButton(R.string.VerifyIdentityActivity_dialog_exchange_messages_to_create_safety_number_ok, null)
         .setNeutralButton(R.string.VerifyIdentityActivity_dialog_exchange_messages_to_create_safety_number_learn_more, (dialog, which) -> {
-          CommunicationActions.openBrowserLink(context, "https://support.signal.org/hc/en-us/articles/360007060632");
+          CommunicationActions.openBrowserLink(context, "https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/en-us/articles/360007060632");
         })
         .show();
   }
