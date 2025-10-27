@@ -14,7 +14,7 @@
   <!-- <color name="signal_light_colorOnSecondary">#FFFFFF</color> -->
   <color name="signal_light_colorOnSecondaryContainer">#0A1E32</color>
   <color name="signal_light_colorOnSurface">#171717</color>
-  <color name="signal_light_colorOnSurfaceVariant">#2060A0</color>
+  <color name="signal_light_colorOnSurfaceVariant">#575757</color>
   <!-- <color name="signal_light_colorOutlineVariant">#9384E2</color> -->
   <!-- <color name="signal_light_colorOnBackground">#171719</color> -->
   <color name="signal_light_colorOutline">#818181</color>

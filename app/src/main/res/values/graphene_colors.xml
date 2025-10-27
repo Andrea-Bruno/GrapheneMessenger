@@ -18,9 +18,9 @@
   <color name="graphene_on_primary_fixed">#071625</color>
   <color name="stock_on_primary_fixed">#08192A</color>
   <color name="graphene_on_primary_fixed_variant">#184878</color>
-  <color name="stock_on_primary_fixed_variant">#1C538A</color>
+  <color name="stock_on_primary_fixed_variant">#4B4B4B</color>
   <color name="graphene_secondary_light">#48D8FF</color>
-  <color name="stock_secondary_light">#236AB1</color>
+  <color name="stock_secondary_light">#606060</color>
   <color name="graphene_on_secondary_light">#FFFFFF</color>
   <color name="stock_on_secondary_light">#FFFFFF</color>
   <color name="graphene_secondary_container_light">#52F6FF</color>
@@ -28,37 +28,37 @@
   <color name="stock_secondary_container_light">#54FDFF</color>
   <!-- Variant of #DCE1F9 -->
   <color name="graphene_on_secondary_container_light">#0A1E32</color>
-  <color name="stock_on_secondary_container_light">#0A1F33</color>
+  <color name="stock_on_secondary_container_light">#1C1C1C</color>
   <color name="graphene_secondary_fixed">#52F7FF</color>
   <color name="stock_secondary_fixed">#53F9FF</color>
   <color name="graphene_secondary_fixed_dim">#48D8FF</color>
   <!-- <color name="stock_secondary_fixed_dim">#C1C6DD</color> -->
   <!-- Conflicts with stock_secondary_dark -->
   <color name="graphene_on_secondary_fixed">#0A1E32</color>
-  <color name="stock_on_secondary_fixed">#0A1F33</color>
+  <color name="stock_on_secondary_fixed">#1C1C1C</color>
   <color name="graphene_on_secondary_fixed_variant">#194A7B</color>
-  <color name="stock_on_secondary_fixed_variant">#1A4D81</color>
+  <color name="stock_on_secondary_fixed_variant">#464646</color>
   <color name="graphene_surface_inverse_light">#113355</color>
-  <color name="stock_surface_inverse_light">#133960</color>
-  <color name="graphene_surface_variant_light">#55FFFF</color>
-  <color name="stock_surface_variant_light">#56FFFF</color>
+  <color name="stock_surface_inverse_light">#343434</color>
+  <color name="graphene_surface_variant_light">#E7E7E7</color>
+  <color name="stock_surface_variant_light">#EBEBEB</color>
   <color name="graphene_surface_light">#F7F7F7</color>
   <color name="stock_surface_light">#FCFCFC</color>
   <color name="graphene_background_light">#F7F7F7</color>
   <color name="stock_background_light">#FCFCFC</color>
   <color name="graphene_surface_dim_light">#51F2FF</color>
-  <color name="stock_surface_dim_light">#55FFFF</color>
+  <color name="stock_surface_dim_light">#E7E7E7</color>
   <!-- Previously signal_light_colorSurface5 -->
   <color name="graphene_surface_container_highest_light">#53FAFF</color>
-  <color name="stock_surface_container_highest_light">#56FFFF</color>
+  <color name="stock_surface_container_highest_light">#EAEAEA</color>
   <!-- Previously signal_light_colorSurface4 -->
   <color name="graphene_surface_container_high_light">#55FFFF</color>
-  <color name="stock_surface_container_high_light">#57FFFF</color>
+  <color name="stock_surface_container_high_light">#ECECEC</color>
   <!-- Previously signal_light_colorSurface3 -->
-  <color name="graphene_surface_container_light">#57FFFF</color>
+  <color name="graphene_surface_container_light">#ECECEC</color>
   <color name="stock_surface_container_light">#F0F0F0</color>
   <!-- Previously signal_light_colorSurface2 -->
-  <color name="graphene_surface_container_low_light">#59FFFF</color>
+  <color name="graphene_surface_container_low_light">#F2F2F2</color>
   <color name="stock_surface_container_low_light">#F5F5F5</color>
   <!-- Previously signal_light_colorSurface1 -->
   <color name="graphene_surface_bright_light">#F7F7F7</color>
@@ -73,12 +73,12 @@
   <!-- Different from stock_on_background_light #1B1D1D but it should be the same -->
   <color name="graphene_on_background_light">#171717</color>
   <color name="stock_on_background_light">#1D1D1D</color>
-  <color name="graphene_on_surface_variant_light">#2060A0</color>
-  <color name="stock_on_surface_variant_light">#2061A2</color>
+  <color name="graphene_on_surface_variant_light">#575757</color>
+  <color name="stock_on_surface_variant_light">#585858</color>
   <color name="graphene_outline_light">#818181</color>
   <color name="stock_outline_light">#838383</color>
   <color name="graphene_outline_variant_light">#349DFF</color>
-  <color name="stock_outline_variant_light">#46D3FF</color>
+  <color name="stock_outline_variant_light">#BFBFBF</color>
   <!-- Previously signal_light_colorOnSurfaceVariant1 -->
   <color name="graphene_error_light">#143C63</color>
   <color name="stock_error_light">#164370</color>
@@ -102,33 +102,33 @@
   <color name="graphene_on_primary_dark">#0B2137</color>
   <color name="stock_on_primary_dark">#0D2842</color>
   <color name="graphene_primary_container_dark">#184878</color>
-  <color name="stock_primary_container_dark">#1C538A</color>
+  <color name="stock_primary_container_dark">#4B4B4B</color>
   <color name="graphene_on_primary_container_dark">#52F6FF</color>
   <color name="stock_on_primary_container_dark">#53F9FF</color>
-  <color name="graphene_secondary_dark">#49DCFF</color>
+  <color name="graphene_secondary_dark">#C7C7C7</color>
   <color name="stock_secondary_dark">#49DCFF</color>
-  <color name="graphene_on_secondary_dark">#113253</color>
-  <color name="stock_on_secondary_dark">#123558</color>
+  <color name="graphene_on_secondary_dark">#2D2D2D</color>
+  <color name="stock_on_secondary_dark">#303030</color>
   <color name="graphene_secondary_container_dark">#194A7B</color>
-  <color name="stock_secondary_container_dark">#1A4D81</color>
+  <color name="stock_secondary_container_dark">#464646</color>
   <color name="graphene_on_secondary_container_dark">#52F7FF</color>
   <color name="stock_on_secondary_container_dark">#53F9FF</color>
   <color name="graphene_surface_inverse_dark">#53FAFF</color>
-  <color name="stock_surface_inverse_dark">#56FFFF</color>
+  <color name="stock_surface_inverse_dark">#EAEAEA</color>
   <color name="graphene_surface_variant_dark">#303030</color>
   <color name="stock_surface_variant_dark">#313131</color>
-  <color name="graphene_surface_dark">#06121D</color>
+  <color name="graphene_surface_dark">#101010</color>
   <color name="stock_surface_dark">#1C1C1C</color>
-  <color name="graphene_background_dark">#06121D</color>
+  <color name="graphene_background_dark">#101010</color>
   <color name="stock_background_dark">#1C1C1C</color>
   <color name="graphene_surface_bright_dark">#113355</color>
-  <color name="stock_surface_bright_dark">#133960</color>
+  <color name="stock_surface_bright_dark">#343434</color>
   <!-- Previously signal_dark_colorSurface5 -->
   <color name="graphene_surface_container_highest_dark">#0D2842</color>
-  <color name="stock_surface_container_highest_dark">#123558</color>
+  <color name="stock_surface_container_highest_dark">#303030</color>
   <!-- Previously signal_dark_colorSurface4 -->
   <color name="graphene_surface_container_high_dark">#0C233B</color>
-  <color name="stock_surface_container_high_dark">#113456</color>
+  <color name="stock_surface_container_high_dark">#2F2F2F</color>
   <!-- Previously signal_dark_colorSurface3 -->
   <color name="graphene_surface_container_dark">#0A1E32</color>
   <color name="stock_surface_container_dark">#2A2A2A</color>
@@ -136,10 +136,10 @@
   <color name="graphene_surface_container_low_dark">#081727</color>
   <color name="stock_surface_container_low_dark">#242424</color>
   <!-- Previously signal_dark_colorSurface1 -->
-  <color name="graphene_surface_dim_dark">#06121D</color>
+  <color name="graphene_surface_dim_dark">#101010</color>
   <color name="stock_surface_dim_dark">#1C1C1C</color>
-  <color name="graphene_surface_container_lowest_dark">#040C14</color>
-  <color name="graphene_on_surface_inverse_dark">#12365A</color>
+  <color name="graphene_surface_container_lowest_dark">#0B0B0B</color>
+  <color name="graphene_on_surface_inverse_dark">#313131</color>
   <!-- <color name="stock_on_surface_inverse_dark">#31343E</color> -->
   <!-- Conflicts with stock_surface_bright_dark -->
   <color name="graphene_on_surface_dark">#E2E2E2</color>
@@ -151,7 +151,7 @@
   <color name="graphene_outline_dark">#5E5E5E</color>
   <color name="stock_outline_dark">#5E5E5E</color>
   <color name="graphene_outline_variant_dark">#2672BD</color>
-  <color name="stock_outline_variant_dark">#1D5893</color>
+  <color name="stock_outline_variant_dark">#505050</color>
   <!-- Previously signal_dark_colorOnSurfaceVariant1 -->
   <color name="graphene_error_dark">#174472</color>
   <color name="stock_error_dark">#48D7FF</color>
@@ -164,10 +164,10 @@
   <color name="graphene_tertiary_container_dark">#16426E</color>
   <color name="graphene_on_tertiary_container_dark">#55FFFF</color>
   <!-- material3_colors.xml -->
-  <color name="graphene_surface_variant_16_no_alpha_light">#4CE5FF</color>
+  <color name="graphene_surface_variant_16_no_alpha_light">#D0D0D0</color>
   <color name="stock_surface_variant_16_no_alpha_light">#D8D8D8</color>
-  <color name="graphene_surface_variant_32_no_alpha_light">#44CCFF</color>
-  <color name="stock_surface_variant_32_no_alpha_light">#45CFFF</color>
+  <color name="graphene_surface_variant_32_no_alpha_light">#B9B9B9</color>
+  <color name="stock_surface_variant_32_no_alpha_light">#BCBCBC</color>
   <!-- core_colors.xml -->
   <color name="graphene_core_ultramarine">#256FBA</color>
   <color name="stock_core_ultramarine">#2672BD</color>
@@ -199,15 +199,15 @@
   <color name="stock_username_qr_code_blue_border">#2879CA</color>
   <color name="graphene_username_qr_code_blue_foreground">#1B5288</color>
   <color name="stock_username_qr_code_blue_foreground">#1B5288</color>
-  <color name="graphene_username_qr_code_blue_background">#58FFFF</color>
-  <color name="stock_username_qr_code_blue_background">#58FFFF</color>
+  <color name="graphene_username_qr_code_blue_background">#F0F0F0</color>
+  <color name="stock_username_qr_code_blue_background">#F0F0F0</color>
   <!-- drawables/* -->
   <color name="graphene_gradient_A_1">#4FEDFF</color>
   <color name="stock_gradient_A_1">#50EFFF</color>
   <color name="graphene_gradient_A_2">#44CDFF</color>
   <color name="stock_gradient_A_2">#46D2FF</color>
-  <color name="graphene_gradient_B_1">#56FFFF</color>
-  <color name="stock_gradient_B_1">#59FFFF</color>
+  <color name="graphene_gradient_B_1">#EAEAEA</color>
+  <color name="stock_gradient_B_1">#F3F3F3</color>
   <color name="graphene_gradient_B_2">#51F2FF</color>
   <color name="stock_gradient_B_2">#55FFFF</color>
   <color name="graphene_gradient_C_1">#205F9E</color>
