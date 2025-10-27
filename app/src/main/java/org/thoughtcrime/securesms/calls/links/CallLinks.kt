@@ -24,9 +24,9 @@ import java.net.URLDecoder
 object CallLinks {
   private const val ROOT_KEY = "key"
   private const val EPOCH = "epoch"
-  private const val LEGACY_HTTPS_LINK_PREFIX = "https://signal.link/call#key="
+  private const val LEGACY_HTTPS_LINK_PREFIX = "https://%73%69%67%6E%61%6C.%6C%69%6E%6B//call#key="
   private const val LEGACY_SGNL_LINK_PREFIX = "sgnl://signal.link/call#key="
-  private const val HTTPS_LINK_PREFIX = "https://signal.link/call/#key="
+  private const val HTTPS_LINK_PREFIX = "https://%73%69%67%6E%61%6C.%6C%69%6E%6B//call/#key="
   private const val SNGL_LINK_PREFIX = "sgnl://signal.link/call/#key="
 
   private val TAG = Log.tag(CallLinks::class.java)
