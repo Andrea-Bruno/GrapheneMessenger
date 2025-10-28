@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="AppProtectionPreferenceFragment_instant">తక్షణ</string>
-  <string name="BlockUnblockDialog_block_and_delete">అడ్డగించు మరియు తొలగించు</string>
-  <string name="prompt_passphrase_activity__graphene_is_locked">Graphene లాక్ చేయబడిం</string>
+    <string name="AppProtectionPreferenceFragment_instant">తక్షణ</string>
+    <string name="BlockUnblockDialog_block_and_delete">అడ్డగించు మరియు తొలగించు</string>
+    <string name="prompt_passphrase_activity__graphene_is_locked">Graphene లాక్ చేయబడిం</string>
 </resources>

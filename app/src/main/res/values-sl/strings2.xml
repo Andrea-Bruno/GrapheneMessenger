@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="preferences__enable_debug_log">Omogoči beleženje za razhroščevanje</string>
-  <string name="AppProtectionPreferenceFragment_instant">Nemudoma</string>
-  <string name="BlockUnblockDialog_block_and_delete">Blokiraj in izbriši</string>
-  <string name="prompt_passphrase_activity__graphene_is_locked">Graphene je zaklenjen</string>
+    <string name="preferences__enable_debug_log">Omogoči beleženje za razhroščevanje</string>
+    <string name="AppProtectionPreferenceFragment_instant">Nemudoma</string>
+    <string name="BlockUnblockDialog_block_and_delete">Blokiraj in izbriši</string>
+    <string name="prompt_passphrase_activity__graphene_is_locked">Graphene je zaklenjen</string>
 </resources>
