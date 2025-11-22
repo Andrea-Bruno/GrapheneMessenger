@@ -1,0 +1,20 @@
+services:
+  assemble:
+    image: reproducible-graphene
+    build:
+      context: ..
+    command: :app:assembleRelease :app:bundleRelease --no-daemon
+    volumes:
+      - ./certs:/graphene/app/certs:ro
+      - ./outputs:/graphene/app/build/outputs
+    environment:
+      - GRADLE_OPTS
+      - CI_APP_TITLE
+      - CI_APP_FILENAME
+      - CI_PACKAGE_ID
+      - CI_BUILD_VARIANTS
+      - CI_FORCE_INTERNAL_USER_FLAG
+      - CI_MAPS_API_KEY
+      - CI_KEYSTORE_PATH
+      - CI_KEYSTORE_PASSWORD
+      - CI_KEYSTORE_ALIAS
