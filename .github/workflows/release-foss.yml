@@ -94,13 +94,19 @@ jobs:
                   APK_FILENAME=$(basename "${{ steps.signed_apk.outputs.apk_path }}")
                   cat <<EOF > index-v1.json
                   {
+                      "apps": [
+                          {
+                              "packageName": "${{ steps.apk_info.outputs.package_name }}",
+                              "suggestedVersionCode": ${{ steps.apk_info.outputs.version_code }}
+                          }
+                      ],
                       "packages": {
                           "${{ steps.apk_info.outputs.package_name }}": [
                               {
                                   "versionName": "${{ steps.apk_info.outputs.version_name }}",
                                   "versionCode": ${{ steps.apk_info.outputs.version_code }},
                                   "apkName": "$APK_FILENAME",
-                                  "apkSha256": "${{ steps.apkhash.outputs.apk_hash }}"
+                                  "hash": "${{ steps.apkhash.outputs.apk_hash }}"
                               }
                           ]
                       }
