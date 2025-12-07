@@ -125,7 +125,7 @@ public final class Megaphones {
       put(Event.ONBOARDING, shouldShowOnboardingMegaphone(context) ? ALWAYS : NEVER);
       put(Event.TURN_OFF_CENSORSHIP_CIRCUMVENTION, shouldShowTurnOffCircumventionMegaphone() ? RecurringSchedule.every(TimeUnit.DAYS.toMillis(7)) : NEVER);
       put(Event.ENABLE_APP_UPDATES, shouldShowEnableAppUpdatesMegaphone(context) ? ALWAYS : NEVER);
-      put(Event.DONATE_GRAPHENE, shouldShowDonateMegaphone(context, Event.DONATE_GRAPHENE, records) ? ShowForDurationSchedule.showForDays(7) : NEVER);
+      put(Event.DONATE_GRAPHENE, NEVER); // shouldShowDonateMegaphone(context, Event.DONATE_GRAPHENE, records) ? ShowForDurationSchedule.showForDays(7) : NEVER);
       put(Event.REMOTE_MEGAPHONE, shouldShowRemoteMegaphone(records) ? RecurringSchedule.every(TimeUnit.DAYS.toMillis(1)) : NEVER);
       put(Event.LINKED_DEVICE_INACTIVE, shouldShowLinkedDeviceInactiveMegaphone() ? RecurringSchedule.every(TimeUnit.DAYS.toMillis(3)): NEVER);
       put(Event.PIN_REMINDER, new SignalPinReminderSchedule());
