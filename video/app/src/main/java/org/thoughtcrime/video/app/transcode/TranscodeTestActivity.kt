@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Graphene Messenger, LLC
  * 2SPDX-License-Identifier: AGPL-3.0-only
  */
 

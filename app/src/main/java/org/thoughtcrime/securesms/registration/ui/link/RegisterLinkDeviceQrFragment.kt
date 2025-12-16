@@ -1,5 +1,5 @@
 /*
- * Copyright 2024 Signal Messenger, LLC
+ * Copyright 2024 Graphene Messenger, LLC
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
@@ -236,7 +236,7 @@ private fun RegisterLinkDeviceQrScreen(
       ) {
         InstructionRow(
           icon = painterResource(R.drawable.symbol_settings_android_24),
-          instruction = "Open Signal Settings on your device"
+          instruction = "Open Graphene Settings on your device"
         )
 
         InstructionRow(
