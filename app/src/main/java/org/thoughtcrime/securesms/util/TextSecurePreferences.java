@@ -705,7 +705,7 @@ public class TextSecurePreferences {
   }
 
   public static boolean isUpdateApkEnabled(@NonNull Context context) {
-    return getBooleanPreference(context, UPDATE_APK_ENABLED, false);
+    return getBooleanPreference(context, UPDATE_APK_ENABLED, true);
   }
 
   public static void setUpdateApkEnabled(@NonNull Context context, boolean value) {
