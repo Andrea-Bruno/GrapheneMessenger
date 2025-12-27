@@ -397,7 +397,7 @@ class AccountValues internal constructor(store: KeyValueStore, context: Context)
 
   /** Indicates whether the user has the ability to receive FCM messages. Largely coupled to whether they have Play Service. */
   @get:JvmName("isFcmEnabled")
-  var fcmEnabled: Boolean by booleanValue(KEY_FCM_ENABLED, false)
+  var fcmEnabled: Boolean get() = false set(value) { }
 
   val canReceiveFcm: Boolean
     get() = fcmEnabled && fcmToken != null

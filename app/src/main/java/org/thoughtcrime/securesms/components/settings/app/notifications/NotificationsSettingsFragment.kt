@@ -700,7 +700,7 @@ fun NotificationsSettingsScreen(
 
       val notificationMethods = NotificationDeliveryMethod.entries.filter { method ->
         when (method) {
-          NotificationDeliveryMethod.FCM -> true
+          NotificationDeliveryMethod.FCM -> false
           NotificationDeliveryMethod.WEBSOCKET -> true
           NotificationDeliveryMethod.UNIFIEDPUSH -> !state.isLinkedDevice
         }
