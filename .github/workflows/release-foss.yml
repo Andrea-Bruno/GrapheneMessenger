@@ -34,7 +34,7 @@ jobs:
               run: chmod +x ./gradlew
 
             - name: Build APK with Gradle
-              run: ./gradlew :app:assembleProdFossWebsiteRelease
+              run: ./gradlew :app:assembleProdWebsiteRelease
 
             - name: List merged manifest files
               run: find app/build/intermediates/merged_manifests/ -name "AndroidManifest.xml"
