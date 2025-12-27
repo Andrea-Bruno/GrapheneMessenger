@@ -439,7 +439,7 @@ public final class Megaphones {
   }
 
   private static boolean shouldShowEnableAppUpdatesMegaphone(@NonNull Context context) {
-    return BuildConfig.MANAGES_GRAPHENE_UPDATES &&
+    return BuildConfig.MANAGE_GRAPHENE_UPDATES &&
            !TextSecurePreferences.isUpdateApkEnabled(context) &&
            VersionTracker.getDaysSinceFirstInstalled(context) > 0;
   }

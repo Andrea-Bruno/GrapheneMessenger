@@ -90,22 +90,19 @@ The built APKs will be available in the `output/apk` directory. Make sure to [si
 
 ## Build Customization
 
-| Environment Variable  | Default Value       | Description                                      |
-|-----------------------|---------------------|--------------------------------------------------|
-| `CI_APP_TITLE`        | Graphene               | App title as shown in the UI                     |
-| `CI_APP_FILENAME`     | Graphene               | Base filename for APKs and backups               |
-| `CI_PACKAGE_ID`       | im.molly.app        | Application ID (change as needed)                |
-| `CI_BUILD_VARIANTS`   | prod(Gms\|Foss)     | Regex pattern for building different flavors (must match one of the build flavors) |
-| `CI_FORCE_INTERNAL_USER_FLAG` | false       | Enable internal testing extensions               |
-| `CI_MAPS_API_KEY`     | AIza...ftB4         | Google Maps API key (use your own)               |
+| Environment Variable  | Default Value | Description                                      |
+|-----------------------|---------------|--------------------------------------------------|
+| `CI_APP_TITLE`        | Graphene         | App title as shown in the UI                     |
+| `CI_APP_FILENAME`     | Graphene         | Base filename for APKs and backups               |
+| `CI_PACKAGE_ID`       | im.molly.app  | Application ID (change as needed)                |
+| `CI_BUILD_VARIANTS`   | prod          | Regex pattern for building different flavors (must match one of the build flavors) |
+| `CI_FORCE_INTERNAL_USER_FLAG` | false | Enable internal testing extensions               |
 
 ## Build Flavors
 
-- `prodGmsWebsiteRelease`: Production version of Graphene
-- `prodFossWebsiteRelease`: Production version of Graphene-FOSS
-- `prodFossStoreRelease`: Production version of Graphene-FOSS but without in-app updater
-- `stagingGmsWebsiteRelease`: Testing version of Graphene for Signal staging network
-- `stagingFossWebsiteRelease`: Testing version of Graphene-FOSS for Signal staging network
+- `prodWebsiteRelease`: Production version of Graphene
+- `prodStoreRelease`: Production version of Graphene but without in-app updater
+- `stagingWebsiteRelease`: Testing version of Graphene for Signal staging network
 
 ## Signing the APKs
 

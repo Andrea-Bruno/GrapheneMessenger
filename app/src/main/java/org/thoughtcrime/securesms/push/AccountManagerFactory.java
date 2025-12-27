@@ -5,16 +5,11 @@ import android.content.Context;
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
 
-import com.google.android.gms.security.ProviderInstaller;
-
-import org.signal.core.util.concurrent.SignalExecutors;
 import org.signal.core.util.logging.Log;
 import org.thoughtcrime.securesms.BuildConfig;
 import org.thoughtcrime.securesms.dependencies.AppDependencies;
 import org.thoughtcrime.securesms.util.RemoteConfig;
 import org.whispersystems.signalservice.api.SignalServiceAccountManager;
-import org.whispersystems.signalservice.api.push.ServiceId.ACI;
-import org.whispersystems.signalservice.api.push.ServiceId.PNI;
 import org.whispersystems.signalservice.api.push.SignalServiceAddress;
 
 public class AccountManagerFactory {
@@ -47,16 +42,6 @@ public class AccountManagerFactory {
                                                                     int deviceId,
                                                                     @NonNull String password)
   {
-    if (new SignalServiceNetworkAccess(context).isCensored(e164)) {
-      SignalExecutors.BOUNDED.execute(() -> {
-        try {
-          ProviderInstaller.installIfNeeded(context);
-        } catch (Throwable t) {
-          Log.w(TAG, t);
-        }
-      });
-    }
-
     return SignalServiceAccountManager.createWithStaticCredentials(
         AppDependencies.getSignalServiceNetworkAccess().getConfiguration(e164),
         null,

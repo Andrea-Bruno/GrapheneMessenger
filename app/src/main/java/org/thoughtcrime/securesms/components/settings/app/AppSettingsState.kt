@@ -12,7 +12,7 @@ data class AppSettingsState(
   val isLinkedDevice: Boolean = false,
   val clientDeprecated: Boolean,
   val showInternalPreferences: Boolean = RemoteConfig.internalUser,
-  val showAppUpdates: Boolean = BuildConfig.MANAGES_GRAPHENE_UPDATES,
+  val showAppUpdates: Boolean = BuildConfig.MANAGE_GRAPHENE_UPDATES,
   val backupFailureState: BackupFailureState = BackupFailureState.NONE
 ) {
   fun isRegisteredAndUpToDate(): Boolean {

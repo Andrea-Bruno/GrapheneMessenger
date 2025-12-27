@@ -1,9 +1,14 @@
 package org.thoughtcrime.securesms.keyvalue
 
 import android.content.Context
+import org.signal.core.models.AccountEntropyPool
+import org.signal.core.models.ServiceId.ACI
+import org.signal.core.models.ServiceId.PNI
 import org.signal.core.util.Base64
+import org.signal.core.util.UuidUtil
 import org.signal.core.util.logging.Log
 import org.signal.core.util.nullIfBlank
+import org.signal.core.util.toByteArray
 import org.signal.libsignal.protocol.IdentityKey
 import org.signal.libsignal.protocol.IdentityKeyPair
 import org.signal.libsignal.protocol.ecc.ECPrivateKey
@@ -17,14 +22,9 @@ import org.thoughtcrime.securesms.jobs.PreKeysSyncJob
 import org.thoughtcrime.securesms.recipients.Recipient
 import org.thoughtcrime.securesms.util.SecurePreferenceManager
 import org.thoughtcrime.securesms.util.Util
-import org.whispersystems.signalservice.api.AccountEntropyPool
-import org.whispersystems.signalservice.api.push.ServiceId.ACI
-import org.whispersystems.signalservice.api.push.ServiceId.PNI
 import org.whispersystems.signalservice.api.push.ServiceIds
 import org.whispersystems.signalservice.api.push.SignalServiceAddress
 import org.whispersystems.signalservice.api.push.UsernameLinkComponents
-import org.whispersystems.signalservice.api.util.UuidUtil
-import org.whispersystems.signalservice.api.util.toByteArray
 import java.security.SecureRandom
 import java.util.concurrent.locks.ReentrantLock
 import kotlin.concurrent.withLock
@@ -406,6 +406,10 @@ class AccountValues internal constructor(store: KeyValueStore, context: Context)
   val pushAvailable: Boolean
     get() = canReceiveFcm || SignalStore.unifiedpush.isAvailableOrAirGapped
 
+  fun invalidateFcmToken() {
+    putInteger(KEY_FCM_TOKEN_VERSION, 0)
+  }
+
   /** The FCM token, which allows the server to send us FCM messages. */
   var fcmToken: String?
     get() {
@@ -419,8 +423,8 @@ class AccountValues internal constructor(store: KeyValueStore, context: Context)
     set(value) {
       store.beginWrite()
         .putString(KEY_FCM_TOKEN, value)
-        .putInteger(KEY_FCM_TOKEN_VERSION, Util.getSignalCanonicalVersionCode())
-        .putLong(KEY_FCM_TOKEN_LAST_SET_TIME, System.currentTimeMillis())
+        .putInteger(KEY_FCM_TOKEN_VERSION, if (value == null) 0 else Util.getSignalCanonicalVersionCode())
+        .putLong(KEY_FCM_TOKEN_LAST_SET_TIME, if (value == null) 0 else System.currentTimeMillis())
         .apply()
     }
 
