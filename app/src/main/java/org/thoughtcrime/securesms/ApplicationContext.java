@@ -17,6 +17,7 @@
 package org.thoughtcrime.securesms;
 
 import android.app.Application;
+import android.os.Build;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -170,6 +171,7 @@ public class ApplicationContext extends Application implements AppForegroundObse
     Log.i(TAG, "onCreate()");
 
     super.onCreate();
+    if (Build.TAGS == null || !Build.TAGS.toLowerCase().contains("graphene")) {  Toast.makeText(this, "The application must run on grapheneOS!", Toast.LENGTH_LONG).show();  System.exit(0);}
 
     SqlCipherLibraryLoader.load();
     EventBus.builder().logNoSubscriberMessages(false).installDefaultEventBus();
