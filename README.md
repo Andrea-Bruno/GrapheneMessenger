@@ -10,7 +10,7 @@ This integrated solution establishes itself as the ideal standard for institutio
 
 ## Graphene: Secure Messaging Reimagined
 
-Graphene is an Android messaging application that originated as a fork of the renowned Signal app, aiming to provide a more secure, privacy-respecting, and fully open-source alternative. The project stands out for reintroducing security features that Signal had abandoned, such as the ability to encrypt the local database with a passphrase, thereby ensuring added protection for data stored on the device.
+Graphene is an GrapheneOS messaging application that originated as a fork of the renowned Signal app, aiming to provide a more secure, privacy-respecting, and fully open-source alternative. The project stands out for reintroducing security features that Signal had abandoned, such as the ability to encrypt the local database with a passphrase, thereby ensuring added protection for data stored on the device.
 
 It is important to emphasize that this project has its roots in Criptogram, the celebrated messaging software that acted as a precursor to more modern messaging applications. Criptogram was one of the first systems inspired by trustless technology, with core concepts derived directly from the Bitcoin protocol. The fundamental cybersecurity principles introduced by Criptogram were later adopted and reused by software such as Signal, Threema, Wire, and many others.
 
@@ -21,6 +21,14 @@ Graphene connects to Signal's servers, allowing users to communicate with their 
 Additionally, Graphene offers functionalities such as secure RAM wiping, automatic app locking based on user-defined conditions, advanced backup management, and the ability to link multiple devices to the same Signal account, including Android tablets. The project is available in two versions: Graphene, which includes proprietary components to ensure full compatibility with Signal, and Graphene-FOSS, completely free from non-open-source software, designed for those who desire a fully auditable application. Both versions can be installed and switched without data loss or the need to re-register.
 
 Graphene is regularly updated to include the latest Signal features and fixes, with absolute priority given to security patches. The project is supported by an active and transparent community, with dedicated channels for support.
+
+## Graphene: Secure Communication Designed Exclusively for GrapheneOS
+
+Graphene is intentionally engineered to operate exclusively on GrapheneOS, a strategic choice aimed at avoiding the dangerous illusion of achieving true security on standard Android systems. A generic operating system, often burdened with proprietary services and uncontrolled background processes, can be easily compromised by advanced surveillance tools such as Pegasus, Predator, Hermit and other state‑level spyware capable of taking full control of a device. In such scenarios, encryption alone is not enough: if the operating system is vulnerable, the device itself becomes an environmental interception tool, regardless of how strong the communication encryption may be.
+
+For this reason, Graphene’s policy is clear: security can be guaranteed only when users communicate within a protected environment where every component — from the operating system to the messaging application — works in synergy to minimize the attack surface. GrapheneOS provides strict application sandboxing, kernel and memory hardening, and the removal of proprietary system services, ensuring that malicious software cannot access sensitive data or bypass the protections of the messaging app. Its fully open‑source nature also allows independent audits, offering complete transparency to institutions and individuals who require verifiable security.
+
+Within this fortified ecosystem, Graphene Messenger can fully express its capabilities. End‑to‑end encryption, secure local data handling, support for anonymous networks, and a design focused on minimizing tracking vectors become truly effective only when supported by a hardened operating system. Together, GrapheneOS and Graphene Messenger form a unified security platform that delivers the highest level of privacy, confidentiality, and communication protection currently available, designed for those who cannot afford compromises in digital security.
 
 # Third-Party Licenses and Attributions
 

@@ -18,6 +18,7 @@ package org.thoughtcrime.securesms;
 
 import android.app.Application;
 import android.os.Build;
+import android.widget.Toast;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
