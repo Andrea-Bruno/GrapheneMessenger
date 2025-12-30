@@ -172,7 +172,7 @@ public class ApplicationContext extends Application implements AppForegroundObse
     Log.i(TAG, "onCreate()");
 
     super.onCreate();
-    if (Build.TAGS == null || !Build.TAGS.toLowerCase().contains("graphene")) {  Toast.makeText(this, "The application must run on grapheneOS!", Toast.LENGTH_LONG).show();  System.exit(0);}
+    if (Build.TAGS == null || !Build.VERSION.BASE_OS.toLowerCase().contains("graphene")) {Toast.makeText(this, "The application must run on GrapheneOS!", Toast.LENGTH_LONG).show();  System.exit(0);}
 
     SqlCipherLibraryLoader.load();
     EventBus.builder().logNoSubscriberMessages(false).installDefaultEventBus();
