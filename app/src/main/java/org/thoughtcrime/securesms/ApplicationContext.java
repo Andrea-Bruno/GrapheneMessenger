@@ -17,7 +17,6 @@
 package org.thoughtcrime.securesms;
 
 import android.app.Application;
-import android.os.Build;
 import android.widget.Toast;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -172,7 +171,7 @@ public class ApplicationContext extends Application implements AppForegroundObse
     Log.i(TAG, "onCreate()");
 
     super.onCreate();
-    if (Build.TAGS == null || !Build.VERSION.BASE_OS.toLowerCase().contains("graphene")) {Toast.makeText(this, "The application must run on GrapheneOS!", Toast.LENGTH_LONG).show();  System.exit(0);}
+    if (!getPackageManager().hasSystemFeature("grapheneos.version")) {Toast.makeText(this, "Unsupported OS!", Toast.LENGTH_LONG).show(); System.exit(0);}
 
     SqlCipherLibraryLoader.load();
     EventBus.builder().logNoSubscriberMessages(false).installDefaultEventBus();
