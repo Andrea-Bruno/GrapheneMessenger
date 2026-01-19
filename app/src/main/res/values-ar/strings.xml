@@ -5734,7 +5734,7 @@
   <!-- Alert dialog button to go to phone settings -->
   <!-- Alert dialog button to cancel the dialog -->
   <!-- AdvancedPrivacySettingsFragment -->
-  <!-- Removed by excludeNonTranslatables <string name="AdvancedPrivacySettingsFragment__sealed_sender_link" translatable="false">https://%73%69%67%6E%61%6C.%6F%72%67//blog/sealed-sender</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="AdvancedPrivacySettingsFragment__sealed_sender_link" translatable="false">https://github.com/Andrea-Bruno/GrapheneMessenger/wiki/Graphene:-Sealed-Privacy,-Unbroken-Freedom</string> -->
   <string name="AdvancedPrivacySettingsFragment__show_status_icon">إظهار أيقونة الحالة</string>
   <string name="AdvancedPrivacySettingsFragment__show_an_icon">عرض أيقونة في تفاصيل الرسالة للرسائل التي تمَّ إيصالها باستخدام المُرسِل المُشفَّر.</string>
   <!-- ExpireTimerSettingsFragment -->

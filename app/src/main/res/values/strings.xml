@@ -5193,7 +5193,7 @@
   <!-- Alert dialog button to go to phone settings -->
   <!-- Alert dialog button to cancel the dialog -->
   <!-- AdvancedPrivacySettingsFragment -->
-  <string name="AdvancedPrivacySettingsFragment__sealed_sender_link" translatable="false">https://%73%69%67%6E%61%6C.%6F%72%67//blog/sealed-sender</string>
+  <string name="AdvancedPrivacySettingsFragment__sealed_sender_link" translatable="false">https://github.com/Andrea-Bruno/GrapheneMessenger/wiki/Graphene:-Sealed-Privacy,-Unbroken-Freedom</string>
   <string name="AdvancedPrivacySettingsFragment__show_status_icon">Show status icon</string>
   <string name="AdvancedPrivacySettingsFragment__show_an_icon">Show an icon in message details when they were delivered using sealed sender.</string>
   <!-- ExpireTimerSettingsFragment -->
