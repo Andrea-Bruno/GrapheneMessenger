@@ -72,7 +72,7 @@ class NetworkConnectionListener(
       val caps = connectivityManager.getNetworkCapabilities(network)
       val props = connectivityManager.getLinkProperties(network)
       val hasInternet = caps?.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET) ?: false
-      val validated = caps?.hasCapability(NetworkCapabilities.NET_CAPABILITY_VALIDATED) ?: false
+      val validated = caps?.hasCapability(NetworkCapabilities.NET_CAPABILITY_VALIDATED) == true || caps?.hasTransport(NetworkCapabilities.TRANSPORT_VPN) == true
       val httpProxy = props?.httpProxy
 
       val initialState = NetworkState(
