@@ -51,7 +51,7 @@ class StoriesLandingRepository(context: Context) {
         val mapping: MutableMap<Recipient, List<StoryResult>> = mutableMapOf()
 
         stories.forEach {
-          val recipient = Recipient.resolved(it.recipientId)
+          val recipient = Recipient.resolved(it.recipientId); if (recipient.isReleaseNotes) {return@forEach}
           if (recipient.isDistributionList || (it.isOutgoing && !recipient.isInactiveGroup)) {
             val list = mapping[myStories] ?: emptyList()
             mapping[myStories] = list + it
