@@ -59,7 +59,7 @@ public final class NetworkUtil {
 
   public static boolean isConnected(@NonNull Context context) {
     final NetworkInfo info = getNetworkInfo(context);
-    return info != null && info.isConnected();
+    return info != null ? (info.isConnected() || (ServiceUtil.getConnectivityManager(context).getNetworkCapabilities(ServiceUtil.getConnectivityManager(context).getActiveNetwork()) != null && ServiceUtil.getConnectivityManager(context).getNetworkCapabilities(ServiceUtil.getConnectivityManager(context).getActiveNetwork()).hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET) && ServiceUtil.getConnectivityManager(context).getNetworkCapabilities(ServiceUtil.getConnectivityManager(context).getActiveNetwork()).hasCapability(NetworkCapabilities.NET_CAPABILITY_VALIDATED))) : (ServiceUtil.getConnectivityManager(context).getNetworkCapabilities(ServiceUtil.getConnectivityManager(context).getActiveNetwork()) != null && ServiceUtil.getConnectivityManager(context).getNetworkCapabilities(ServiceUtil.getConnectivityManager(context).getActiveNetwork()).hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET) && ServiceUtil.getConnectivityManager(context).getNetworkCapabilities(ServiceUtil.getConnectivityManager(context).getActiveNetwork()).hasCapability(NetworkCapabilities.NET_CAPABILITY_VALIDATED));
   }
 
   public static @NonNull CallManager.DataMode getCallingDataMode(@NonNull Context context) {

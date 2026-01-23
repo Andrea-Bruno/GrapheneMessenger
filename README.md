@@ -30,6 +30,35 @@ For this reason, Graphene’s policy is clear: security can be guaranteed only w
 
 Within this fortified ecosystem, Graphene Messenger can fully express its capabilities. End‑to‑end encryption, secure local data handling, support for anonymous networks, and a design focused on minimizing tracking vectors become truly effective only when supported by a hardened operating system. Together, GrapheneOS and Graphene Messenger form a unified security platform that delivers the highest level of privacy, confidentiality, and communication protection currently available, designed for those who cannot afford compromises in digital security.
 
+
+## VPN Support in Graphene Messenger: advancing privacy protection
+
+We have clarified an important point: a VPN has not been directly integrated into the application’s code, but support has been added for using the native VPN of GrapheneOS. Unlike Signal, which does not allow the application to function when the connection passes through a VPN, our implementation enables messaging without restrictions even when the system VPN is active. This means that users can force all network connections to go through the GrapheneOS native VPN, thereby gaining additional protection against geolocation via IP address and strengthening their privacy.
+
+It is essential to emphasize that the real effectiveness of this protection depends on how the VPN is managed. When the VPN is self-hosted, the user retains full control and minimizes the risk that third parties could monitor or log online activities. In contrast, using third-party VPNs can create a false sense of security, since providers may track IP addresses and store connection logs. For this reason, VPN support should be understood as a powerful tool that, when used correctly and consciously, ensures genuine rather than illusory protection.
+
+Our decision to make the application compatible with the GrapheneOS native VPN represents a concrete step toward stronger privacy safeguards. This is not a superficial integration, but rather support that allows users to fully leverage the capabilities of an operating system designed for security, with the ability to force all connections through an encrypted and controlled channel. In this way, the VPN support feature becomes a distinctive element that reinforces trust in the application and provides users with a truly useful tool to protect their digital identity.
+
+
+# Activating Tor for Maximum Privacy in Graphene Messenger
+
+This guide explains how to route your Graphene Messenger traffic through the Tor network. Using Tor enhances your privacy and cybersecurity by anonymizing your connection. It prevents network observers, internet service providers, and even the messaging servers from seeing your real IP address and geographical location. This makes it significantly harder to track your online activity or determine who you are communicating with.
+
+It is crucial to understand that this setup does not make your messages themselves more encrypted. Graphene (and Signal) already use strong end-to-end encryption, which secures the content of your messages. Activating Tor adds a separate, powerful layer of network anonymity, protecting the metadata of *how* and *from where* you connect.
+
+To activate Tor in Graphene, you must use the Orbot app. Graphene does not have a built-in Tor function; instead, it relies on Orbot to create the secure Tor connection on your Android device. Graphene then routes all its traffic through this connection.
+
+Start by installing both Graphene and Orbot. Get Graphene from its official website and Orbot from the Google Play Store or the Tor Project website.
+
+Once both apps are installed, open Orbot first. Tap the large onion icon to start the service. Wait for the connection to establish, indicated by a "Your device is Tor-enabled" notification and the icon turning green. For reliability, you can enable the "Start on Boot" option in Orbot's settings.
+
+After Orbot is running, open the Graphene app. Tap your profile icon, go to **Settings > Advanced > Proxy**. Select the **SOCKS** option. In the **Host** field, enter `127.0.0.1`. In the **Port** field, enter `9050`. These settings direct Graphene to use the local proxy created by Orbot. Save the settings.
+
+To verify it's working, try sending a message. You can also check Orbot's connection log or visit `check.torproject.org` from your device's browser to confirm your traffic is routed through Tor.
+
+Important considerations: Using Tor will increase latency, slowing down message sending and delivery. Graphene is only available for Android. For this to work, Orbot must remain running in the background. This configuration provides robust network anonymity for your communications in Graphene.
+
+
 # Third-Party Licenses and Attributions
 
 Graphene is an open source project that builds upon the work and contributions of multiple projects and libraries. We believe it is essential to acknowledge and respect the intellectual property rights of all contributors.
