@@ -137,7 +137,7 @@ class ContactSearchViewModel(
       configurationStore.update { state ->
         state.copy(
           groupStories = state.groupStories + groupStories.map {
-            val recipient = Recipient.resolved(it.recipientId); if (recipient.isReleaseNotes) {return@forEach}
+            val recipient = Recipient.resolved(it.recipientId)
             ContactSearchData.Story(recipient, recipient.participantIds.size, DistributionListPrivacyMode.ALL)
           }
         )

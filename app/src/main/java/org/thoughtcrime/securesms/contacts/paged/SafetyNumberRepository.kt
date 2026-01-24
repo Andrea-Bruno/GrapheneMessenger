@@ -79,7 +79,7 @@ class SafetyNumberRepository(
       .map {
         when {
           it is ContactSearchKey.RecipientSearchKey && !it.isStory -> {
-            val recipient = Recipient.resolved(it.recipientId); if (recipient.isReleaseNotes) {return@forEach}
+            val recipient = Recipient.resolved(it.recipientId)
             if (recipient.isGroup) {
               recipient.participantIds
             } else {
