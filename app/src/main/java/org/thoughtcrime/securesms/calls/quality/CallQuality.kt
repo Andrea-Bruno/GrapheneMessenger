@@ -135,7 +135,7 @@ object CallQuality {
   }
 
   private fun isFeatureEnabled(): Boolean {
-    return RemoteConfig.callQualitySurvey && SignalStore.callQuality.isQualitySurveyEnabled
+    return false // Inhibits the request to send diagnostic data
   }
 
   private enum class CallType(val code: String) {
