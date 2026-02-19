@@ -83,15 +83,16 @@ class IncomingMessageObserver(
   private val decryptionDrainedListeners: MutableList<Runnable> = CopyOnWriteArrayList()
 
   @Volatile
-  private var networkIsActive = true
+  private var networkIsActive: Boolean? = null
 
   private val connectionDecisionSemaphore = Semaphore(0)
-  private val networkConnectionListener = NetworkConnectionListener(
+  private val internetConnectivityMonitor = InternetConnectivityMonitor(
     connectivityManager = ServiceUtil.getConnectivityManager(context),
-    onNetworkChange = { state ->
-      // GRAPHENE: Accessing libsignalNetwork applies proxy configuration on access
-      AppDependencies.libsignalNetwork.onNetworkChange()
-      if (state.isReady) {
+    onReachabilityChanged = { connectivityState ->
+      if (networkIsActive != null) {
+        AppDependencies.libsignalNetwork.onNetworkChange()
+      }
+      if (connectivityState.hasInternet) {
         networkIsActive = true
       } else {
         Log.w(TAG, "Lost network connection. Resetting the drained state.")
@@ -103,6 +104,7 @@ class IncomingMessageObserver(
       }
       releaseConnectionDecisionSemaphore()
     },
+    // GRAPHENE: Accessing libsignalNetwork applies proxy configuration on access
   )
 
   private val messageContentProcessor = MessageContentProcessor(context)
@@ -142,7 +144,7 @@ class IncomingMessageObserver(
       }
     })
 
-    networkConnectionListener.register()
+    internetConnectivityMonitor.register()
 
     webSocketStateDisposable = authWebSocket
       .state
@@ -181,7 +183,7 @@ class IncomingMessageObserver(
   }
 
   private fun onAppForegrounded() {
-    BackgroundService.start(context)
+    ProcessLifetimeHintService.start(context)
     appState = appState.copy(isForeground = true)
     releaseConnectionDecisionSemaphore()
   }
@@ -200,7 +202,7 @@ class IncomingMessageObserver(
 
     val registered = SignalStore.account.isRegistered
     val pushAvailable = SignalStore.account.pushAvailable
-    val hasNetwork = networkIsActive
+    val hasNetwork = networkIsActive ?: false
     val hasProxy = AppDependencies.networkManager.isProxyEnabled
     val forceWebsocket = SignalStore.internal.isWebsocketModeForced
     val websocketAlreadyOpen = isConnectionAvailable()
@@ -217,7 +219,7 @@ class IncomingMessageObserver(
   }
 
   private fun isConnectionAvailable(): Boolean {
-    return SignalStore.account.isRegistered && (authWebSocket.stateSnapshot == WebSocketConnectionState.CONNECTED || (authWebSocket.shouldSendKeepAlives() && networkIsActive))
+    return SignalStore.account.isRegistered && (authWebSocket.stateSnapshot == WebSocketConnectionState.CONNECTED || (authWebSocket.shouldSendKeepAlives() && networkIsActive ?: true))
   }
 
   private fun releaseConnectionDecisionSemaphore() {
@@ -235,7 +237,7 @@ class IncomingMessageObserver(
 
   fun terminate() {
     Log.w(TAG, "Termination! ${this.hashCode()}", Throwable())
-    networkConnectionListener.unregister()
+    internetConnectivityMonitor.unregister()
     webSocketStateDisposable.dispose()
     terminated = true
     authWebSocket.disconnect()
@@ -441,7 +443,7 @@ class IncomingMessageObserver(
           }
 
           if (!appState.isForeground) {
-            BackgroundService.stop(context)
+            ProcessLifetimeHintService.stop(context)
           }
         } catch (e: Throwable) {
           attempts++
@@ -509,7 +511,7 @@ class IncomingMessageObserver(
   /**
    * A service that exists just to encourage the system to keep our process alive a little longer.
    */
-  class BackgroundService : Service() {
+  class ProcessLifetimeHintService : Service() {
     override fun onBind(intent: Intent?): IBinder? = null
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
@@ -524,14 +526,14 @@ class IncomingMessageObserver(
     companion object {
       fun start(context: Context) {
         try {
-          context.startService(Intent(context, BackgroundService::class.java))
+          context.startService(Intent(context, ProcessLifetimeHintService::class.java))
         } catch (e: Exception) {
           Log.w(TAG, "Failed to start background service.", e)
         }
       }
 
       fun stop(context: Context) {
-        context.stopService(Intent(context, BackgroundService::class.java))
+        context.stopService(Intent(context, ProcessLifetimeHintService::class.java))
       }
     }
   }
