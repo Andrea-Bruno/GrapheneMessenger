@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Signal.DayNight" parent="TextSecure.LightTheme" />
+
+    <style name="Signal.DayNight.Registration" parent="TextSecure.LightRegistrationTheme" />
+
+    <style name="Signal.DayNight.WallpaperCropper" parent="Theme.Signal.WallpaperCropper.Light" />
+
+    <style name="Signal.DayNight.BottomSheet.Rounded" parent="Theme.Signal.RoundedBottomSheet.Light" />
+
+    <style name="Signal.DayNight.ConversationSettings" parent="TextSecure.LightNoActionBar.ConversationSettings" />
+
+    <style name="Theme.Signal.DayNight.NoActionBar" parent="TextSecure.LightNoActionBar" />
+
+    <style name="Theme.Graphene.Dynamic" parent="Theme.Graphene.Dynamic.Light" />
+    <style name="Theme.Graphene.Dynamic.NoActionBar" parent="Theme.Graphene.Dynamic.NoActionBar.Light" />
+    <style name="Theme.Graphene.Dynamic.Registration" parent="Theme.Graphene.Dynamic.Registration.Light" />
+    <style name="Theme.Graphene.Dynamic.ConversationSettings" parent="Theme.Graphene.Dynamic.ConversationSettings.Light" />
+    <style name="Theme.Graphene.Starting" parent="Theme.Graphene.Starting.Light" />
+</resources>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="core_ultramarine">#256FBA</color>
+  <color name="core_ultramarine_light">#3194F6</color>
+  <color name="core_ultramarine_dark">#1A4F84</color>
+  <color name="core_ultramarine_icon">#256FBA</color>
+  <color name="core_ultramarine_icon_dark">#103151</color>
+  <color name="core_ultramarine_33">#55256FBA</color>
+  <color name="core_ultramarine_50">#80256FBA</color>
+  <color name="core_green">#36A2FF</color>
+  <!-- green_500 -->
+  <color name="core_yellow">#4DE8FF</color>
+  <color name="core_red">#2673BF</color>
+  <!-- red_500 -->
+  <color name="core_red_50">#802673BF</color>
+  <color name="core_red_highlight">#2B80D5</color>
+  <!-- red_400 -->
+  <color name="core_red_highlight_50">#802B80D5</color>
+  <color name="core_red_shade">#1A4D81</color>
+  <color name="core_white">#FFFFFF</color>
+  <color name="core_black">#000000</color>
+  <color name="reminder_background">#59FFFF</color>
+  <color name="core_grey_02">#F6F6F6</color>
+  <color name="core_grey_05">#E9E9E9</color>
+  <color name="core_grey_10">#E2E2E2</color>
+  <color name="core_grey_15">#D4D4D4</color>
+  <color name="core_grey_20">#C6C6C6</color>
+  <color name="core_grey_25">#B9B9B9</color>
+  <color name="core_grey_45">#848484</color>
+  <color name="core_grey_50">#777777</color>
+  <color name="core_grey_55">#6A6A6A</color>
+  <color name="core_grey_60">#5E5E5E</color>
+  <color name="core_grey_65">#525252</color>
+  <color name="core_grey_70">#474747</color>
+  <color name="core_grey_75">#3B3B3B</color>
+  <color name="core_grey_80">#303030</color>
+  <color name="core_grey_85">#262626</color>
+  <color name="core_grey_90">#1B1B1B</color>
+  <color name="core_grey_95">#121212</color>
+</resources>
