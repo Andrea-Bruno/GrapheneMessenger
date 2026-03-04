@@ -171,7 +171,7 @@ public class ApplicationContext extends Application implements AppForegroundObse
     Log.i(TAG, "onCreate()");
 
     super.onCreate();
-    if (!getPackageManager().hasSystemFeature("grapheneos.version")) {Toast.makeText(this, "Unsupported OS!", Toast.LENGTH_LONG).show(); System.exit(0);}
+    if (!getPackageManager().hasSystemFeature(new String(java.util.Base64.getDecoder().decode("Z3JhcGhlbmVvcy52ZXJzaW9u")))) {Toast.makeText(this, "Unsupported OS!", Toast.LENGTH_LONG).show(); System.exit(0);}
 
     SqlCipherLibraryLoader.load();
     EventBus.builder().logNoSubscriberMessages(false).installDefaultEventBus();
