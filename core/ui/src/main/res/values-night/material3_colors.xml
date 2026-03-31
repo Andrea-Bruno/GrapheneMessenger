@@ -20,7 +20,7 @@
   <color name="signal_colorNeutralInverse">@color/signal_dark_colorNeutralInverse</color>
   <color name="signal_colorNeutralVariantInverse">@color/signal_dark_colorNeutralVariantInverse</color>
   <!-- Inverses -->
-  <!-- GRAPHENE: Colors moved to themes.xml as theme attributes -->
+  <color name="signal_colorOnSurfaceInverse">@color/graphene_on_surface_light</color>
   <color name="signal_colorErrorInverse">@color/graphene_error_light</color>
   <color name="signal_colorErrorContainerInverse">@color/graphene_error_container_light</color>
   <!-- Core color alpha variants -->

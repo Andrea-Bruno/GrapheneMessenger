@@ -15,14 +15,15 @@ class UnifiedPushValues(store: KeyValueStore) : SignalStoreValues(store) {
     private const val GRAPHENESOCKET_AIR_GAPPED = "graphenesocket.airGapped"
     private const val GRAPHENESOCKET_URL = "graphenesocket.url"
     private const val GRAPHENESOCKET_VAPID = "graphenesocket.vapid"
+    private const val GRAPHENESOCKET_VAPID_SYNCED = "graphenesocket.vapid.synced"
     private const val UNIFIEDPUSH_ENABLED = "up.enabled"
     private const val UNIFIEDPUSH_ENDPOINT = "up.endpoint"
     private const val UNIFIEDPUSH_LAST_RECEIVED_TIME = "up.lastRecvTime"
   }
 
-  override fun onFirstEverAppLaunch() = Unit
+  public override fun onFirstEverAppLaunch() = Unit
 
-  override fun getKeysToIncludeInBackup() = emptyList<String>()
+  public override fun getKeysToIncludeInBackup() = emptyList<String>()
 
   @get:JvmName("isEnabled")
   var enabled: Boolean by booleanValue(UNIFIEDPUSH_ENABLED, false)
@@ -56,7 +57,9 @@ class UnifiedPushValues(store: KeyValueStore) : SignalStoreValues(store) {
 
   var grapheneSocketUrl: String? by stringValue(GRAPHENESOCKET_URL, null)
 
-  var grapheneSocketVapid: String? by stringValue(GRAPHENESOCKET_VAPID, null)
+  var vapidPublicKey:  String? by stringValue(GRAPHENESOCKET_VAPID, null)
+
+  var vapidKeySynced: Boolean by booleanValue(GRAPHENESOCKET_VAPID_SYNCED, true)
 
   var lastReceivedTime: Long by longValue(UNIFIEDPUSH_LAST_RECEIVED_TIME, 0)
 

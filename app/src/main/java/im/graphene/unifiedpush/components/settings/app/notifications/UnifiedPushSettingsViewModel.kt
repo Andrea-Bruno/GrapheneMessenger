@@ -1,18 +1,18 @@
 package im.molly.unifiedpush.components.settings.app.notifications
 
 import android.app.Application
+import android.content.Context
 import android.content.pm.PackageManager
 import android.os.Build
-import android.widget.Toast
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import im.molly.unifiedpush.model.GrapheneSocket
-import org.signal.core.util.ThreadUtil
-import org.thoughtcrime.securesms.R
+import org.signal.core.util.Util.writeTextToClipboard
 import org.thoughtcrime.securesms.dependencies.AppDependencies
 import org.thoughtcrime.securesms.jobs.UnifiedPushRefreshJob
 import org.thoughtcrime.securesms.keyvalue.SignalStore
+import org.thoughtcrime.securesms.keyvalue.UnifiedPushValues
 import org.thoughtcrime.securesms.util.livedata.Store
 import org.unifiedpush.android.connector.UnifiedPush
 
@@ -80,12 +80,7 @@ class UnifiedPushSettingsViewModel(private val application: Application) : ViewM
   }
 
   fun setGrapheneSocket(grapheneSocket: GrapheneSocket) {
-    SignalStore.unifiedpush.apply {
-      airGapped = grapheneSocket is GrapheneSocket.AirGapped
-      lastReceivedTime = 0
-      grapheneSocketUrl = (grapheneSocket as? GrapheneSocket.WebServer)?.url
-      grapheneSocketVapid = grapheneSocket.vapid
-    }
+    SignalStore.unifiedpush.updateGrapheneSocket(grapheneSocket)
     refresh()
     updateRegistration()
   }
@@ -95,9 +90,34 @@ class UnifiedPushSettingsViewModel(private val application: Application) : ViewM
     updateRegistration(pingOnRegister = true)
   }
 
+  fun copyParamsToClipboard(context: Context) {
+    val parameters = state.value?.serverParameters ?: ""
+    writeTextToClipboard(context, "Server parameters", parameters)
+  }
+
+  fun copyAciToClipboard(context: Context) {
+    val aci = state.value?.aci ?: ""
+    writeTextToClipboard(context, "Account ID", aci)
+  }
+
   class Factory(private val application: Application) : ViewModelProvider.Factory {
     override fun <T : ViewModel> create(modelClass: Class<T>): T {
       return requireNotNull(modelClass.cast(UnifiedPushSettingsViewModel(application)))
     }
   }
+}
+
+fun UnifiedPushValues.updateGrapheneSocket(grapheneSocket: GrapheneSocket) {
+  airGapped = grapheneSocket is GrapheneSocket.AirGapped
+  grapheneSocketUrl = (grapheneSocket as? GrapheneSocket.WebServer)?.url
+
+  val changed = vapidPublicKey != grapheneSocket.vapid
+  vapidPublicKey = grapheneSocket.vapid
+
+  if (changed) {
+    vapidKeySynced = false
+    endpoint = null
+  }
+
+  lastReceivedTime = 0
 }

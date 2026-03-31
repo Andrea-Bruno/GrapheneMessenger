@@ -5,6 +5,7 @@ import com.fasterxml.jackson.core.JsonProcessingException
 import com.fasterxml.jackson.databind.JsonMappingException
 import im.molly.unifiedpush.model.ConnectionRequest
 import im.molly.unifiedpush.model.ConnectionResult
+import im.molly.unifiedpush.model.LinkStatus
 import im.molly.unifiedpush.model.GrapheneSocketDevice
 import im.molly.unifiedpush.model.Response
 import okhttp3.HttpUrl
@@ -12,6 +13,7 @@ import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.Request
 import okhttp3.RequestBody.Companion.toRequestBody
 import org.signal.core.util.Base64
+import org.signal.core.util.Util
 import org.signal.core.util.logging.Log
 import org.signal.libsignal.protocol.util.KeyHelper
 import org.thoughtcrime.securesms.AppCapabilities
@@ -19,13 +21,10 @@ import org.thoughtcrime.securesms.dependencies.AppDependencies
 import org.thoughtcrime.securesms.keyvalue.PhoneNumberPrivacyValues.PhoneNumberDiscoverabilityMode
 import org.thoughtcrime.securesms.keyvalue.SignalStore
 import org.thoughtcrime.securesms.linkdevice.LinkDeviceRepository
-import org.thoughtcrime.securesms.net.SignalNetwork
 import org.thoughtcrime.securesms.push.AccountManagerFactory
 import org.thoughtcrime.securesms.registration.data.RegistrationRepository
 import org.thoughtcrime.securesms.registration.secondary.DeviceNameCipher
 import org.thoughtcrime.securesms.util.JsonUtils
-import org.thoughtcrime.securesms.util.Util
-import org.whispersystems.signalservice.api.NetworkResult
 import org.whispersystems.signalservice.api.account.AccountAttributes
 import org.whispersystems.signalservice.internal.push.DeviceLimitExceededException
 import java.io.IOException
@@ -54,18 +53,8 @@ object GrapheneSocketRepository {
 
   @Throws(IOException::class, DeviceLimitExceededException::class)
   private fun verifyNewDevice(password: String): Int {
-    val verificationCode = when (val result = SignalNetwork.linkDevice.getDeviceVerificationCode()) {
-      is NetworkResult.Success -> result.result
-      is NetworkResult.ApplicationError -> throw result.throwable
-      is NetworkResult.NetworkError -> {
-        Log.i(TAG, "Network failure", result.getCause())
-        throw result.exception
-      }
-      is NetworkResult.StatusCodeError -> {
-        Log.i(TAG, "Status code failure", result.getCause())
-        throw result.exception
-      }
-    }
+    val fetchResult = AppDependencies.linkDeviceApi.getDeviceVerificationCode()
+    val verificationCode = fetchResult.successOrThrow()
 
     val registrationId = KeyHelper.generateRegistrationId(false)
     val encryptedDeviceName = DeviceNameCipher.encryptDeviceName(
@@ -103,11 +92,23 @@ object GrapheneSocketRepository {
     }
   }
 
-  // If loadDevices() fails, optimistically assume the device is linked
-  fun GrapheneSocketDevice.isLinked(): Boolean {
+  @Throws(IOException::class)
+  fun removeDevice(device: GrapheneSocketDevice) {
+    AppDependencies.linkDeviceApi.removeDevice(device.deviceId).successOrThrow()
+  }
+
+  fun getDeviceStatus(device: GrapheneSocketDevice): LinkStatus {
+    return when (device.isLinked()) {
+      true -> LinkStatus.LINKED
+      false -> LinkStatus.NOT_LINKED
+      else -> LinkStatus.UNKNOWN
+    }
+  }
+
+  private fun GrapheneSocketDevice.isLinked(): Boolean? {
     return LinkDeviceRepository.loadDevices()?.any {
       it.id == deviceId && it.name == DEVICE_NAME
-    } ?: true
+    }
   }
 
   fun discoverGrapheneSocketServer(url: HttpUrl): Boolean {
@@ -119,10 +120,7 @@ object GrapheneSocketRepository {
           Log.d(TAG, "Unexpected code: $response")
           return false
         }
-        val body = response.body ?: run {
-          Log.d(TAG, "No response body")
-          return false
-        }
+        val body = response.body
         JsonUtils.fromJson(body.byteStream(), Response::class.java)
       }
       Log.d(TAG, "URL is OK")
@@ -164,11 +162,7 @@ object GrapheneSocketRepository {
         Log.d(TAG, "Unexpected code: $response")
         return null
       }
-      val body = response.body ?: run {
-        Log.d(TAG, "No response body")
-        return null
-      }
-
+      val body = response.body
       val resp = JsonUtils.fromJson(body.byteStream(), Response::class.java)
 
       val status = resp.grapheneSocket.status
