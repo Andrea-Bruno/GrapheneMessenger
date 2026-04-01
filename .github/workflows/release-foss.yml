@@ -29,12 +29,22 @@ jobs:
               with:
                   java-version: '17'
                   distribution: 'temurin'
+                  cache: gradle
 
             - name: Make Gradle wrapper executable
               run: chmod +x ./gradlew
 
+            - name: Add swap (reduce OOM risk)
+              run: |
+                sudo fallocate -l 6G /swapfile
+                sudo chmod 600 /swapfile
+                sudo mkswap /swapfile
+                sudo swapon /swapfile
+                free -h
+
             - name: Build APK with Gradle
-              run: ./gradlew :app:assembleProdWebsiteRelease
+              run: ./gradlew :app:assembleProdWebsiteRelease --no-daemon --max-workers=2
+              # run: ./gradlew :app:assembleProdWebsiteRelease
 
             - name: List merged manifest files
               run: find app/build/intermediates/merged_manifests/ -name "AndroidManifest.xml"
