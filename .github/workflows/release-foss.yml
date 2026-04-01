@@ -16,13 +16,13 @@ jobs:
 
             - name: Verify GitHub token (GH_PAT) is set
               run: |
-                  if [ -z "${{ secrets.GH_PAT }}" ]; then
-                      echo "❌ GitHub token 'GH_PAT' is missing."
-                      echo "Please set the 'GH_PAT' secret in your repository settings. Must be a token classic with Permissions read:org, repo, workflow"
-                      exit 1
-                  else
-                      echo "✅ GitHub token 'GH_PAT' is set."
-                  fi
+                if [ -z "${{ secrets.GH_PAT }}" ]; then
+                    echo "❌ GitHub token 'GH_PAT' is missing."
+                    echo "Please set the 'GH_PAT' secret in your repository settings. Must be a token classic with Permissions read:org, repo, workflow"
+                    exit 1
+                else
+                    echo "✅ GitHub token 'GH_PAT' is set."
+                fi
 
             - name: Set up JDK 17
               uses: actions/setup-java@v3
@@ -36,6 +36,14 @@ jobs:
 
             - name: Add swap (reduce OOM risk)
               run: |
+                # If a swapfile already exists / is enabled, disable and remove it
+                if sudo swapon --show | grep -qE '^/swapfile\b'; then
+                  sudo swapoff /swapfile
+                fi
+                if [ -f /swapfile ]; then
+                  sudo rm -f /swapfile
+                fi
+
                 sudo fallocate -l 6G /swapfile
                 sudo chmod 600 /swapfile
                 sudo mkswap /swapfile
