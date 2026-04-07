@@ -11,8 +11,8 @@ plugins {
   id("signal-locales")
 }
 
-val canonicalVersionCode = 260405 // alias: 1670
-val canonicalVersionName = "26.04.05" // alias: "8.4.1"
+val canonicalVersionCode = 260407 // alias: 1670
+val canonicalVersionName = "26.04.07" // alias: "8.4.1"
 val currentHotfixVersion = 0
 val maxHotfixVersions = 100
 val grapheneRevision = 3
@@ -177,7 +177,7 @@ android {
     buildConfigField("String", "SIGNAL_CANONICAL_VERSION_NAME", "\"$canonicalVersionName\"")
     buildConfigField("String", "BACKUP_BASE_NAME", "\"$baseAppFileName\"")
     buildConfigField("boolean", "FORCE_INTERNAL_USER_FLAG", forceInternalUserFlag)
-    buildConfigField("String", "FDROID_UPDATE_URL", "\"https://github.com/Andrea-Bruno/GrapheneMessenger/releases/latest/download\"")
+    buildConfigField("String", "FDROID_UPDATE_URL", "\"https://github.com/Graphene-Lab/GrapheneMessenger/releases/latest/download\"")
 
     vectorDrawables.useSupportLibrary = true
 

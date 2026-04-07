@@ -12,7 +12,7 @@
   <!-- Removed by excludeNonTranslatables <string name="backup_failed_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/9708267671322</string> -->
   <!-- Removed by excludeNonTranslatables <string name="transfer_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059752</string> -->
   <!-- Removed by excludeNonTranslatables <string name="support_center_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//</string> -->
-  <!-- Removed by excludeNonTranslatables <string name="terms_and_privacy_policy_url" translatable="false">https://github.com/Andrea-Bruno/GrapheneMessenger/blob/main/legal.md</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="terms_and_privacy_policy_url" translatable="false">https://github.com/Graphene-Lab/GrapheneMessenger/blob/main/legal.md</string> -->
   <!-- Removed by excludeNonTranslatables <string name="google_pay_url" translatable="false">https://pay.google.com</string> -->
   <!-- Removed by excludeNonTranslatables <string name="donation_decline_code_error_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/4408365318426#errors</string> -->
   <!-- Removed by excludeNonTranslatables <string name="sms_export_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007321171</string> -->
@@ -1273,7 +1273,7 @@
   <string name="PromptBatterySaverBottomSheet__continue">Lanjutkan</string>
   <!-- Button to dismiss battery saver dialog prompt-->
   <string name="PromptBatterySaverBottomSheet__no_thanks">Tidak, terima kasih</string>
-  <!-- Removed by excludeNonTranslatables <string name="PromptBatterySaverBottomSheet__learn_more_url" translatable="false">https://github.com/Andrea-Bruno/GrapheneMessenger/wiki/Fixing-Notification-Issues-on-Graphene-Messenger</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="PromptBatterySaverBottomSheet__learn_more_url" translatable="false">https://github.com/Graphene-Lab/GrapheneMessenger/wiki/Fixing-Notification-Issues-on-Graphene-Messenger</string> -->
   <!-- PendingMembersActivity -->
   <string name="PendingMembersActivity_pending_group_invites">Permintaan &amp; undangan</string>
   <string name="PendingMembersActivity_requests">Permintaan</string>
@@ -5157,7 +5157,7 @@
   <!-- Alert dialog button to go to phone settings -->
   <!-- Alert dialog button to cancel the dialog -->
   <!-- AdvancedPrivacySettingsFragment -->
-  <!-- Removed by excludeNonTranslatables <string name="AdvancedPrivacySettingsFragment__sealed_sender_link" translatable="false">https://github.com/Andrea-Bruno/GrapheneMessenger/wiki/Graphene:-Sealed-Privacy,-Unbroken-Freedom</string> -->
+  <!-- Removed by excludeNonTranslatables <string name="AdvancedPrivacySettingsFragment__sealed_sender_link" translatable="false">https://github.com/Graphene-Lab/GrapheneMessenger/wiki/Graphene:-Sealed-Privacy,-Unbroken-Freedom</string> -->
   <string name="AdvancedPrivacySettingsFragment__show_status_icon">Tampilkan ikon status</string>
   <string name="AdvancedPrivacySettingsFragment__show_an_icon">Tampilkan ikon pada detail pesan saat terkirim menggunakan pengirim tertutup.</string>
   <!-- ExpireTimerSettingsFragment -->

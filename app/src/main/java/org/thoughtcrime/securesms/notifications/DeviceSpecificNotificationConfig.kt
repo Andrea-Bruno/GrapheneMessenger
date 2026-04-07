@@ -14,7 +14,7 @@ import java.io.IOException
 object DeviceSpecificNotificationConfig {
 
   private val TAG = Log.tag(DeviceSpecificNotificationConfig::class.java)
-  private const val GENERAL_SUPPORT_URL = "https://github.com/Andrea-Bruno/GrapheneMessenger/wiki/Fixing-Notification-Issues-on-Graphene-Messenger"
+  private const val GENERAL_SUPPORT_URL = "https://github.com/Graphene-Lab/GrapheneMessenger/wiki/Fixing-Notification-Issues-on-Graphene-Messenger"
 
   @JvmStatic
   val currentConfig: Config by lazy { computeConfig() }

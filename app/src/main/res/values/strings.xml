@@ -6,13 +6,13 @@
 <!-- smartling.instruction_comments_enabled = on -->
 <resources>
   <!-- <string name="app_name" translatable="false">Signal</string> -->
-  <string name="install_url" translatable="false">https://github.com/Andrea-Bruno/GrapheneMessenger</string>
-  <string name="donate_url" translatable="false">https://github.com/sponsors/Andrea-Bruno</string>
+  <string name="install_url" translatable="false">https://github.com/Graphene-Lab/GrapheneMessenger</string>
+  <string name="donate_url" translatable="false">https://github.com/sponsors/Graphene-Lab</string>
   <string name="backup_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059752</string>
   <string name="backup_failed_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/9708267671322</string>
   <string name="transfer_support_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007059752</string>
   <string name="support_center_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//</string>
-  <string name="terms_and_privacy_policy_url" translatable="false">https://github.com/Andrea-Bruno/GrapheneMessenger/blob/main/legal.md</string>
+  <string name="terms_and_privacy_policy_url" translatable="false">https://github.com/Graphene-Lab/GrapheneMessenger/blob/main/legal.md</string>
   <string name="google_pay_url" translatable="false">https://pay.google.com</string>
   <string name="donation_decline_code_error_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/4408365318426#errors</string>
   <string name="sms_export_url" translatable="false">https://%73%75%70%70%6F%72%74.%73%69%67%6E%61%6C.%6F%72%67//hc/articles/360007321171</string>
@@ -1313,7 +1313,7 @@
   <string name="PromptBatterySaverBottomSheet__continue">Continue</string>
   <!-- Button to dismiss battery saver dialog prompt-->
   <string name="PromptBatterySaverBottomSheet__no_thanks">No thanks</string>
-  <string name="PromptBatterySaverBottomSheet__learn_more_url" translatable="false">https://github.com/Andrea-Bruno/GrapheneMessenger/wiki/Fixing-Notification-Issues-on-Graphene-Messenger</string>
+  <string name="PromptBatterySaverBottomSheet__learn_more_url" translatable="false">https://github.com/Graphene-Lab/GrapheneMessenger/wiki/Fixing-Notification-Issues-on-Graphene-Messenger</string>
   <!-- PendingMembersActivity -->
   <string name="PendingMembersActivity_pending_group_invites">Requests &amp; invites</string>
   <string name="PendingMembersActivity_requests">Requests</string>
@@ -5300,7 +5300,7 @@
   <!-- Alert dialog button to go to phone settings -->
   <!-- Alert dialog button to cancel the dialog -->
   <!-- AdvancedPrivacySettingsFragment -->
-  <string name="AdvancedPrivacySettingsFragment__sealed_sender_link" translatable="false">https://github.com/Andrea-Bruno/GrapheneMessenger/wiki/Graphene:-Sealed-Privacy,-Unbroken-Freedom</string>
+  <string name="AdvancedPrivacySettingsFragment__sealed_sender_link" translatable="false">https://github.com/Graphene-Lab/GrapheneMessenger/wiki/Graphene:-Sealed-Privacy,-Unbroken-Freedom</string>
   <string name="AdvancedPrivacySettingsFragment__show_status_icon">Show status icon</string>
   <string name="AdvancedPrivacySettingsFragment__show_an_icon">Show an icon in message details when they were delivered using sealed sender.</string>
   <!-- ExpireTimerSettingsFragment -->
