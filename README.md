@@ -24,7 +24,7 @@ This design choice significantly enhances Graphene's robustness for several reas
 
 This telemetry-free approach is particularly valuable for diplomatic, intelligence, and high-security corporate communications where even the knowledge that certain communication patterns exist (regardless of content) could have significant operational consequences. While Signal's telemetry may be benign for general users, Graphene's complete elimination of these channels provides a fundamentally more robust security model for environments where any data leakage is unacceptable.
 
-![Graphene](app/src/main/res/drawable-mdpi/welcome.webp)
+![Graphene](feature/registration/src/main/res/drawable-mdpi/welcome.webp)
 
 ## Graphene: Secure Messaging Reimagined
 
