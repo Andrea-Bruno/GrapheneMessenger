@@ -153,7 +153,7 @@ class ApkUpdateJob private constructor(parameters: Parameters) : BaseJob(paramet
     }
 
     val query = DownloadManager.Query().apply {
-      setFilterByStatus(DownloadManager.STATUS_PAUSED or DownloadManager.STATUS_PENDING or DownloadManager.STATUS_RUNNING or DownloadManager.STATUS_SUCCESSFUL)
+      setFilterByStatus(DownloadManager.STATUS_RUNNING or DownloadManager.STATUS_SUCCESSFUL)
       setFilterById(pendingDownloadId)
     }
 
