@@ -170,13 +170,13 @@ private fun PreviewWithCodeShort() {
     Surface {
       Column {
         QrCodeBadge(
-          data = QrCodeState.Present(QrCodeData.forData("https://%73%69%67%6E%61%6C.%6F%72%67/")),
+          data = QrCodeState.Present(QrCodeData.forData("https://%73%69%67%6E%61%6C.%6F%72%67")),
           colorScheme = UsernameQrCodeColorScheme.Blue,
           username = "parker.42",
           usernameCopyable = false
         )
         QrCodeBadge(
-          data = QrCodeState.Present(QrCodeData.forData("https://%73%69%67%6E%61%6C.%6F%72%67/")),
+          data = QrCodeState.Present(QrCodeData.forData("https://%73%69%67%6E%61%6C.%6F%72%67")),
           colorScheme = UsernameQrCodeColorScheme.Blue,
           username = "parker.42",
           usernameCopyable = true
@@ -193,14 +193,14 @@ private fun PreviewWithCodeLong() {
     Surface {
       Column {
         QrCodeBadge(
-          data = QrCodeState.Present(QrCodeData.forData("https://%73%69%67%6E%61%6C.%6F%72%67/")),
+          data = QrCodeState.Present(QrCodeData.forData("https://%73%69%67%6E%61%6C.%6F%72%67")),
           colorScheme = UsernameQrCodeColorScheme.Blue,
           username = "TheAmazingSpiderMan.42",
           usernameCopyable = false
         )
         Spacer(modifier = Modifier.height(8.dp))
         QrCodeBadge(
-          data = QrCodeState.Present(QrCodeData.forData("https://%73%69%67%6E%61%6C.%6F%72%67/")),
+          data = QrCodeState.Present(QrCodeData.forData("https://%73%69%67%6E%61%6C.%6F%72%67")),
           colorScheme = UsernameQrCodeColorScheme.Blue,
           username = "TheAmazingSpiderMan.42",
           usernameCopyable = true
@@ -249,7 +249,7 @@ private fun PreviewAllColorsP2() {
 @Composable
 private fun SampleCode(colorScheme: UsernameQrCodeColorScheme) {
   QrCodeBadge(
-    data = QrCodeState.Present(QrCodeData.forData("https://%73%69%67%6E%61%6C.%6D%65//#eu/asdfasdfasdfasdfasdfasdfasdfasdfasdf")),
+    data = QrCodeState.Present(QrCodeData.forData("https://%73%69%67%6E%61%6C.%6D%65/#eu/asdfasdfasdfasdfasdfasdfasdfasdfasdf")),
     colorScheme = colorScheme,
     username = "parker.42"
   )

@@ -151,7 +151,7 @@ private fun ContentPreview() {
   Previews.Preview {
     Surface {
       Content(
-        usernameLink = "https://%73%69%67%6E%61%6C.%6D%65/#eufzLWmFFUYAOqnVJ4Zlt0KqXf87r59FC1hZ3r7WipjKvgzMBg7DBlY5DB5hQTjsw0"
+        usernameLink = "https://%73%69%67%6E%61%6C.%6D%65#eufzLWmFFUYAOqnVJ4Zlt0KqXf87r59FC1hZ3r7WipjKvgzMBg7DBlY5DB5hQTjsw0"
       )
     }
   }

@@ -146,7 +146,7 @@ fun DrawScope.drawQr(
 private fun Preview() {
   Surface {
     QrCode(
-      data = QrCodeData.forData("https://%73%69%67%6E%61%6C.%6F%72%67/"),
+      data = QrCodeData.forData("https://%73%69%67%6E%61%6C.%6F%72%67"),
       modifier = Modifier.size(350.dp)
     )
   }

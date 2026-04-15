@@ -384,7 +384,7 @@ private fun StickerImage(
     )
   } else {
     Image(
-      painter = painterResource(id = R.drawable.ic_avatar_tucan),
+      painter = painterResource(id = R.drawable.12avatar),
       contentDescription = null,
       modifier = modifier
     )

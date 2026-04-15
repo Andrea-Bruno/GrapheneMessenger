@@ -320,7 +320,7 @@ private fun LinkRowPreview() {
     Surface {
       Column(modifier = Modifier.padding(8.dp)) {
         LinkRow(
-          linkState = UsernameLinkState.Present("https://%73%69%67%6E%61%6C.%6D%65//#eu/asdfasdfasdfasdfasdfasdfasdfasdfasdfasdf")
+          linkState = UsernameLinkState.Present("https://%73%69%67%6E%61%6C.%6D%65/#eu/asdfasdfasdfasdfasdfasdfasdfasdfasdfasdf")
         )
         LinkRow(
           linkState = UsernameLinkState.NotSet
@@ -334,11 +334,11 @@ private fun LinkRowPreview() {
 }
 
 private fun previewState(): UsernameLinkSettingsState {
-  val link = "https://%73%69%67%6E%61%6C.%6D%65//#eu/asdfasdfasdfasdfasdfasdfasdfasdfasdfasdf"
+  val link = "https://%73%69%67%6E%61%6C.%6D%65/#eu/asdfasdfasdfasdfasdfasdfasdfasdfasdfasdf"
   return UsernameLinkSettingsState(
     activeTab = ActiveTab.Code,
     username = "parker.42",
-    usernameLinkState = UsernameLinkState.Present("https://%73%69%67%6E%61%6C.%6D%65//#eu/asdfasdfasdfasdfasdfasdfasdfasdfasdfasdf"),
+    usernameLinkState = UsernameLinkState.Present("https://%73%69%67%6E%61%6C.%6D%65/#eu/asdfasdfasdfasdfasdfasdfasdfasdfasdfasdf"),
     qrCodeState = QrCodeState.Present(QrCodeData.forData(link)),
     qrCodeColorScheme = UsernameQrCodeColorScheme.Blue
   )

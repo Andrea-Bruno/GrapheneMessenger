@@ -69,7 +69,7 @@ import java.util.UUID
  * and then decrypt it with the entropy. Simple enough.
  *
  * How are those pieces shared? Well, the link looks like this:
- * https://%73%69%67%6E%61%6C.%6D%65//#eu/<32 bytes of entropy><16 bytes of serverId uuid>
+ * https://%73%69%67%6E%61%6C.%6D%65/#eu/<32 bytes of entropy><16 bytes of serverId uuid>
  *
  * So, when we get a link, we parse out the entropy and serverId. We then use the serverId to get the encrypted username, and then decrypt it with the entropy.
  *
@@ -83,7 +83,7 @@ object UsernameRepository {
 
   private val URL_REGEX = """(https://)?signal.me/?#eu/([a-zA-Z0-9+\-_/]+)""".toRegex()
 
-  private const val BASE_URL = "https://%73%69%67%6E%61%6C.%6D%65//#eu/"
+  private const val BASE_URL = "https://%73%69%67%6E%61%6C.%6D%65/#eu/"
   private const val USERNAME_SYNC_ERROR_THRESHOLD = 3
 
   private val accountManager: SignalServiceAccountManager get() = AppDependencies.signalServiceAccountManager

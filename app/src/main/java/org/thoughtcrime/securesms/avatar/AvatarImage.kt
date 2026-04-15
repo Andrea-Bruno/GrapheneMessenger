@@ -50,7 +50,7 @@ fun AvatarImage(
 ) {
   if (LocalInspectionMode.current) {
     Image(
-      painter = painterResource(R.drawable.ic_avatar_abstract_02),
+      painter = painterResource(R.drawable.02avatar),
       contentDescription = null,
       modifier = modifier
         .background(color = Color(AvatarColor.random().colorInt()), CircleShape)
