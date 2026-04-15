@@ -48,18 +48,18 @@ object Avatars {
   val colors: List<ColorPair> = colorMap.values.toList()
 
   val defaultAvatarsForSelf = linkedMapOf(
-    "avatar_abstract_01" to DefaultAvatar(R.drawable.01avatar, "A130"),
-    "avatar_abstract_02" to DefaultAvatar(R.drawable.02avatar, "A120"),
-    "avatar_abstract_03" to DefaultAvatar(R.drawable.03avatar, "A170"),
-    "avatar_cat" to DefaultAvatar(R.drawable.04avatar, "A190"),
-    "avatar_dog" to DefaultAvatar(R.drawable.06avatar, "A140"),
-    "avatar_fox" to DefaultAvatar(R.drawable.07avatar, "A190"),
-    "avatar_tucan" to DefaultAvatar(R.drawable.12avatar, "A120"),
-    "avatar_sloth" to DefaultAvatar(R.drawable.11avatar, "A160"),
-    "avatar_dinosaur" to DefaultAvatar(R.drawable.05avatar, "A130"),
-    "avatar_pig" to DefaultAvatar(R.drawable.10avatar, "A180"),
-    "avatar_incognito" to DefaultAvatar(R.drawable.09avatar, "A220"),
-    "avatar_ghost" to DefaultAvatar(R.drawable.08avatar, "A100")
+    "avatar_abstract_01" to DefaultAvatar(R.drawable.avatar01, "A130"),
+    "avatar_abstract_02" to DefaultAvatar(R.drawable.avatar02, "A120"),
+    "avatar_abstract_03" to DefaultAvatar(R.drawable.avatar03, "A170"),
+    "avatar_cat" to DefaultAvatar(R.drawable.avatar04, "A190"),
+    "avatar_dog" to DefaultAvatar(R.drawable.avatar06, "A140"),
+    "avatar_fox" to DefaultAvatar(R.drawable.avatar07, "A190"),
+    "avatar_tucan" to DefaultAvatar(R.drawable.avatar12, "A120"),
+    "avatar_sloth" to DefaultAvatar(R.drawable.avatar11, "A160"),
+    "avatar_dinosaur" to DefaultAvatar(R.drawable.avatar05, "A130"),
+    "avatar_pig" to DefaultAvatar(R.drawable.avatar10, "A180"),
+    "avatar_incognito" to DefaultAvatar(R.drawable.avatar09, "A220"),
+    "avatar_ghost" to DefaultAvatar(R.drawable.avatar08, "A100")
   )
 
   val defaultAvatarsForGroup = linkedMapOf(
