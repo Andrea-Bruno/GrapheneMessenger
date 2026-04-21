@@ -121,7 +121,7 @@ class RegisterLinkDeviceQrViewModel : ViewModel() {
       val result = socket.getProvisioningMessageDecryptResult()
 
       if (result is SecondaryProvisioningCipher.ProvisioningDecryptResult.Success) {
-        store.update { it.copy(isRegistering = true, provisionMessage = result.message, qrState = QrState.Scanned) }
+        store.update { it.copy(isRegistering = false, provisionMessage = result.message, qrState = QrState.Scanned) }
         shutdown()
       } else {
         store.update {
