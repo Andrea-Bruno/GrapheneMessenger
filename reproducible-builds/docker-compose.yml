@@ -3,7 +3,7 @@ services:
     image: reproducible-graphene
     build:
       context: ..
-    command: :app:assembleRelease :app:bundleRelease
+    command: assemble
     volumes:
       - ./certs:/graphene/app/certs:ro
       - ./outputs:/graphene/app/build/outputs

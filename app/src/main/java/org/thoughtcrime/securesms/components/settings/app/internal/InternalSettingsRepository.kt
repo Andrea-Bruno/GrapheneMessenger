@@ -8,6 +8,7 @@ import org.thoughtcrime.securesms.database.MessageTable
 import org.thoughtcrime.securesms.database.SignalDatabase
 import org.thoughtcrime.securesms.database.model.RemoteMegaphoneRecord
 import org.thoughtcrime.securesms.database.model.addButton
+import org.thoughtcrime.securesms.database.model.addLink
 import org.thoughtcrime.securesms.database.model.addStyle
 import org.thoughtcrime.securesms.database.model.databaseprotos.BodyRangeList
 import org.thoughtcrime.securesms.dependencies.AppDependencies
@@ -48,9 +49,12 @@ class InternalSettingsRepository(context: Context) {
 
       val title = "Release Note Title"
       val bodyText = "Release note body. Aren't I awesome?"
-      val body = "$title\n\n$bodyText"
+      val linkUrl = "https://%73%69%67%6E%61%6C.%6F%72%67"
+      val body = "$title\n\n$bodyText\n\n$linkUrl"
+      val linkStart = body.length - linkUrl.length
       val bodyRangeList = BodyRangeList.Builder()
         .addStyle(BodyRangeList.BodyRange.Style.BOLD, 0, title.length)
+        .addLink(linkUrl, linkStart, linkUrl.length)
 
       bodyRangeList.addButton("Call to Action Text", callToAction, body.lastIndex, 0)
 
